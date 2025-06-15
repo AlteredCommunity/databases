@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_51_U_3426",
     "@type": "Card",
     "allImagePath": {
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/af760694637dbf63e616c7cae54fbf81.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/c8092dd1fcd1b0588d5c74b870a9fb2e.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/d27ee781828158adc1919a60c86d1cc4.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/de_DE/c9d81836eacd58d639668992ee2d5b18.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/44ed9f0ad2fe8908b916882c3156a547.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/44ed9f0ad2fe8908b916882c3156a547.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/af760694637dbf63e616c7cae54fbf81.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/d27ee781828158adc1919a60c86d1cc4.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/c8092dd1fcd1b0588d5c74b870a9fb2e.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/cebaaad6ee0d7cb728b4",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/730ad6933fae20bbfe3c",
-            "reference": "ROBOT",
+            "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-            "name": "Robot"
+            "name": "Robot",
+            "reference": "ROBOT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{R} If your Reserve is empty: Create a [Brassbug 2/2/2] Robot token in my Expedition.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} If your Reserve is empty: Create a [Brassbug 2/2/2] Robot token in my Expedition.",
-        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3."
+        "RECALL_COST": "4"
     },
     "id": "24KDX44PKE95BRYCF5AWJD53S7",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/en_EN/0030c6eefd1f01853ea819b46cf7e1b7.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Designer Drone",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_3426",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_51_U_3426",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_AX_51_U_3426",
             "@type": "Card",
             "allImagePath": {
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/af760694637dbf63e616c7cae54fbf81.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/c8092dd1fcd1b0588d5c74b870a9fb2e.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/d27ee781828158adc1919a60c86d1cc4.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/de_DE/c9d81836eacd58d639668992ee2d5b18.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/44ed9f0ad2fe8908b916882c3156a547.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/44ed9f0ad2fe8908b916882c3156a547.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/af760694637dbf63e616c7cae54fbf81.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/d27ee781828158adc1919a60c86d1cc4.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/c8092dd1fcd1b0588d5c74b870a9fb2e.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/924d5c5cec7b04683753",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/aecdf006f6f5d1109604",
-                    "reference": "ROBOT",
+                    "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-                    "name": "Robot"
+                    "name": "Robot",
+                    "reference": "ROBOT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{R} Si votre Réserve est vide : Créez un jeton Robot [2/2/2 Scarabot] dans mon Expédition.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} Si votre Réserve est vide : Créez un jeton Robot [2/2/2 Scarabot] dans mon Expédition.",
-                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3."
+                "RECALL_COST": "4"
             },
             "id": "24KDX44PKE95BRYCF5AWJD53S7",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/d27ee781828158adc1919a60c86d1cc4.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Drone Designer",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_3426",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_51_U_3426"
         }

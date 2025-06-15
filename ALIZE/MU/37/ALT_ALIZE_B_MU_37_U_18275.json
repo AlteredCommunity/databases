@@ -4,10 +4,10 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/de_DE/c6b4807eeda03b0a0364f6e0baa66cd3.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/es_ES/4fc83321a76bba4fc2e109878b636761.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/it_IT/12ca3bd3f1ba1f53e4e9501faf1f9aff.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/en_US/6f1fa6a1f4a6389e3ee1adf590e3640b.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/fr_FR/005ab6f116a8fafae28d63911699c8a1.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/es_ES/4fc83321a76bba4fc2e109878b636761.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/fr_FR/005ab6f116a8fafae28d63911699c8a1.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/it_IT/12ca3bd3f1ba1f53e4e9501faf1f9aff.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/01c16a9448ecc6baa3e5",
-            "reference": "ELEMENTAL",
+            "@type": "CardSubType",
             "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
-            "name": "Elemental"
+            "name": "Elemental",
+            "reference": "ELEMENTAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d6b4b64594b1b111bb4e",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Each player draws a card.",
+        "FOREST_POWER": "4",
         "MAIN_COST": "4",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "When my Expedition moves forward due to {V} — []Each player draws a card.  When you play another Character in {V} — []Target Character in your other Expedition (the one I'm not in) gains 2 boosts.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "When my Expedition moves forward due to\u00a0{V}\u00a0\u2014 []Each player draws a card.  When you play another Character in\u00a0{V}\u00a0\u2014 []Target Character in your other Expedition (the one I'm not in) gains 2 boosts.",
-        "ECHO_EFFECT": "{D} : []Each player draws a card."
+        "RECALL_COST": "3"
     },
     "id": "5VS1RXH66N8STVRZYC8Q2GG1VD",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/en_EN/08a28d9ead3b0d955dd255f5eaba708c.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Mighty Simbi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_37_U_18275",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_MU_37_U_18275",
     "translations": {
@@ -86,10 +86,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/de_DE/c6b4807eeda03b0a0364f6e0baa66cd3.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/es_ES/4fc83321a76bba4fc2e109878b636761.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/it_IT/12ca3bd3f1ba1f53e4e9501faf1f9aff.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/en_US/6f1fa6a1f4a6389e3ee1adf590e3640b.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/fr_FR/005ab6f116a8fafae28d63911699c8a1.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/es_ES/4fc83321a76bba4fc2e109878b636761.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/fr_FR/005ab6f116a8fafae28d63911699c8a1.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/JPG/it_IT/12ca3bd3f1ba1f53e4e9501faf1f9aff.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/0296647d504fe70ad1cc",
-                    "reference": "ELEMENTAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
-                    "name": "\u00c9l\u00e9mentaire"
+                    "name": "Élémentaire",
+                    "reference": "ELEMENTAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4294238d14f58711e03e",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Chaque joueur pioche une carte.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "4",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "Lorsque mon Expédition avance grâce à {V} — []Chaque joueur pioche une carte.  Lorsque vous jouez un autre Personnage en {V} — []Un Personnage ciblé dans votre autre Expédition (celle où je ne suis pas) gagne 2 boosts.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "Lorsque mon Exp\u00e9dition avance gr\u00e2ce \u00e0\u00a0{V}\u00a0\u2014 []Chaque joueur pioche une carte.  Lorsque vous jouez un autre Personnage en\u00a0{V}\u00a0\u2014 []Un Personnage cibl\u00e9 dans votre autre Exp\u00e9dition (celle o\u00f9 je ne suis pas) gagne 2\u00a0boosts.",
-                "ECHO_EFFECT": "{D}\u00a0: []Chaque joueur pioche une carte."
+                "RECALL_COST": "3"
             },
             "id": "5VS1RXH66N8STVRZYC8Q2GG1VD",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_37/UNIQUE/JPG/fr_FR/005ab6f116a8fafae28d63911699c8a1.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Puissant Simbi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_37_U_18275",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_MU_37_U_18275"
         }

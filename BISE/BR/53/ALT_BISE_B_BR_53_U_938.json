@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_53_U_938",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/de_DE/3344ba7aa8a4103887186cf091195b5b.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/it_IT/17c4e3276b70e3bec8e86c44cf8e5c9e.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/fr_FR/10a843e0c9c3fa535fb959d3e7ff521d.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/en_US/7113a330c03eb854084e62991476cab0.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/es_ES/a16d27b4e1f53344f9e231cf3d4b337c.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/es_ES/a16d27b4e1f53344f9e231cf3d4b337c.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/fr_FR/10a843e0c9c3fa535fb959d3e7ff521d.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/it_IT/17c4e3276b70e3bec8e86c44cf8e5c9e.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/55451e9d8d2878e852c8",
-            "reference": "CITIZEN",
+            "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-            "name": "Citizen"
+            "name": "Citizen",
+            "reference": "CITIZEN"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3.",
+        "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} If you control two or more Landmarks: Target Character in play or in Reserve other than me gains 1 boost.  When I leave the Expedition zone, if I was [[Boosted]] — []Create a [Brassbug 2/2/2] Robot token in your Hero Expedition.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} If you control two or more Landmarks: Target Character in play or in Reserve other than me gains 1 boost.  When I leave the Expedition zone, if I was [[Boosted]] — []Create a [Brassbug 2/2/2] Robot token in your Hero Expedition.",
-        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3."
+        "RECALL_COST": "3"
     },
     "id": "3WVXT563YZ909SBYFT42QFEW7D",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/en_EN/06b03442b577fbe1f4d0295f5c234e32.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Bravos Excavator",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_53_U_938",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_53_U_938",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/de_DE/3344ba7aa8a4103887186cf091195b5b.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/it_IT/17c4e3276b70e3bec8e86c44cf8e5c9e.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/fr_FR/10a843e0c9c3fa535fb959d3e7ff521d.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/en_US/7113a330c03eb854084e62991476cab0.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/es_ES/a16d27b4e1f53344f9e231cf3d4b337c.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/es_ES/a16d27b4e1f53344f9e231cf3d4b337c.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/fr_FR/10a843e0c9c3fa535fb959d3e7ff521d.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/JPG/it_IT/17c4e3276b70e3bec8e86c44cf8e5c9e.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/9a3c7b6b6f885d97e4cf",
-                    "reference": "CITIZEN",
+                    "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-                    "name": "Citoyen"
+                    "name": "Citoyen",
+                    "reference": "CITIZEN"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Si vous contrôlez au moins deux Repères : Un Personnage ciblé autre que moi en jeu ou en Réserve gagne 1 boost.  Lorsque je quitte la zone d'Expédition, si j'étais [[Boosté]] — []Créez un jeton Robot [2/2/2 Scarabot] dans votre Expédition Héros.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Si vous contrôlez au moins deux Repères : Un Personnage ciblé autre que moi en jeu ou en Réserve gagne 1 boost.  Lorsque je quitte la zone d'Expédition, si j'étais [[Boosté]] — []Créez un jeton Robot [2/2/2 Scarabot] dans votre Expédition Héros.",
-                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3."
+                "RECALL_COST": "3"
             },
             "id": "3WVXT563YZ909SBYFT42QFEW7D",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_53/UNIQUE/JPG/fr_FR/10a843e0c9c3fa535fb959d3e7ff521d.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Excavateur Bravos",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_53_U_938",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_53_U_938"
         }

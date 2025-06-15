@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_07_U_2048",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/e957b8b4d15ac9b6e8998ddafd2f3802.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/36a3bd63702b1bd6c00f5f4203caff58.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/48f56ce0f5c50933c4b9e259aae3efa1.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/de_DE/905759f2a6c58be627ecf84bcadcd9aa.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/25fdf8f433aae08f732415f587623b25.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/25fdf8f433aae08f732415f587623b25.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/36a3bd63702b1bd6c00f5f4203caff58.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/e957b8b4d15ac9b6e8998ddafd2f3802.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/48f56ce0f5c50933c4b9e259aae3efa1.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/227fefe714d26ce21f85",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/42277cc94c67962c5ee2",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "3",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: The next card you play this Afternoon costs {1} less.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: The next card you play this Afternoon costs\u00a0{1} less.",
-        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand."
+        "RECALL_COST": "2"
     },
     "id": "2KBTBMH57Z968VMQQE5KBC9TCC",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/JPG/en_EN/8b70cbc3cfa21e51d402e11b4615df34.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Hathor",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_07_U_2048",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_07_U_2048",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_07_U_2048",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/e957b8b4d15ac9b6e8998ddafd2f3802.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/36a3bd63702b1bd6c00f5f4203caff58.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/48f56ce0f5c50933c4b9e259aae3efa1.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/de_DE/905759f2a6c58be627ecf84bcadcd9aa.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/25fdf8f433aae08f732415f587623b25.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/25fdf8f433aae08f732415f587623b25.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/36a3bd63702b1bd6c00f5f4203caff58.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/e957b8b4d15ac9b6e8998ddafd2f3802.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/48f56ce0f5c50933c4b9e259aae3efa1.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/679cca6ba11fa41637e8",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b57e5167fdb0bd2b63a8",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer une carte de votre Réserve dans votre main.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "3",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : La prochaine carte que vous jouez cet Après-midi coûte {1} de moins.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{J} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: La prochaine carte que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez renvoyer une carte de votre R\u00e9serve dans votre main."
+                "RECALL_COST": "2"
             },
             "id": "2KBTBMH57Z968VMQQE5KBC9TCC",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/e957b8b4d15ac9b6e8998ddafd2f3802.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Hathor",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_07_U_2048",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_07_U_2048"
         }

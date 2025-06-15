@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_53_U_963",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/de_DE/c7d1cc2e8cbb4841f91b4e5acdd2298a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/it_IT/afdb6b254c4ede1549f49ffa0f9e1207.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/es_ES/6a740deb7d2b57eca2bd9f0a4b7b213b.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/en_US/6cc16bd9abebece8b889b772d506f0b3.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/fr_FR/c201d3c520564ace142010bc0e830278.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/es_ES/6a740deb7d2b57eca2bd9f0a4b7b213b.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/fr_FR/c201d3c520564ace142010bc0e830278.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/it_IT/afdb6b254c4ede1549f49ffa0f9e1207.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a8d7159f921efbd075dc",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]].",
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: I gain 2 boosts, otherwise I gain 1 boost.  When I leave the Expedition zone, if I was [[Fleeting]] — []You may discard target Permanent with Hand Cost {4} or more.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: I gain 2 boosts, otherwise I gain 1 boost.  When I leave the Expedition zone, if I was [[Fleeting]] — []You may discard target Permanent with Hand Cost {4} or more.",
-        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]]."
+        "RECALL_COST": "3"
     },
     "id": "6QM5CDB71K8P1T104QRWH5JPJP",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/en_EN/228d8e3a94105267b39cb966bbc67052.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "The Grems",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_53_U_963",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_53_U_963",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/de_DE/c7d1cc2e8cbb4841f91b4e5acdd2298a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/it_IT/afdb6b254c4ede1549f49ffa0f9e1207.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/es_ES/6a740deb7d2b57eca2bd9f0a4b7b213b.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/en_US/6cc16bd9abebece8b889b772d506f0b3.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/fr_FR/c201d3c520564ace142010bc0e830278.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/es_ES/6a740deb7d2b57eca2bd9f0a4b7b213b.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/fr_FR/c201d3c520564ace142010bc0e830278.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/JPG/it_IT/afdb6b254c4ede1549f49ffa0f9e1207.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/33ae0398fc1777017478",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Je gagne 2 boosts. Sinon, je gagne 1 boost.  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Vous pouvez défausser un Permanent ciblé de Coût de Main {4} ou plus.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Je gagne 2 boosts. Sinon, je gagne 1 boost.  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Vous pouvez défausser un Permanent ciblé de Coût de Main {4} ou plus.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé."
+                "RECALL_COST": "3"
             },
             "id": "6QM5CDB71K8P1T104QRWH5JPJP",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_53/UNIQUE/JPG/fr_FR/c201d3c520564ace142010bc0e830278.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Les Grems",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_53_U_963",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_53_U_963"
         }

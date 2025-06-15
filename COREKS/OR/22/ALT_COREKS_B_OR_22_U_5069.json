@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_OR_22_U_5069",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/1c1f1c28c64a6d1a3d56b46b76eac709.jpg",
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/de_DE/4368960cc68f41d65042ce1fbfb2aee2.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/en_US/05855afbac2beb897d22530c09b17e20.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/es_ES/444c85a7d33fc07c7c84126ab579ffd3.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/6451d6fda4d76a0f6668eef8aa150856.jpg",
-        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/de_DE/4368960cc68f41d65042ce1fbfb2aee2.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/1c1f1c28c64a6d1a3d56b46b76eac709.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/6451d6fda4d76a0f6668eef8aa150856.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d6ac70beeae2b7f664b1",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/535bc52e0980a87e1f53",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next card you play this Afternoon costs {1} less.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "When my Expedition fails to move forward during Dusk — After Rest: []Create an [Ordis Recruit 1/1/1] Soldier token in my Expedition.  When an opponent draws one or more cards or does [Resupply] — You may pay {1}. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "When my Expedition fails to move forward during Dusk\u00a0\u2014 After Rest: []Create an [Ordis Recruit 1/1/1] Soldier token in my Expedition.  When an opponent draws one or more cards or does [Resupply]\u00a0\u2014 You may pay\u00a0{1}. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
-        "ECHO_EFFECT": "{D} : []The next card you play this Afternoon costs\u00a0{1} less."
+        "RECALL_COST": "2"
     },
     "id": "18VDWN6AQ49WX87G4ZPRWKMS8X",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/JPG/en_EN/90c6790db36286bc59ad74c9aae6e5c7.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Thoth",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_22_U_5069",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_OR_22_U_5069",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_OR_22_U_5069",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/1c1f1c28c64a6d1a3d56b46b76eac709.jpg",
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/de_DE/4368960cc68f41d65042ce1fbfb2aee2.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/en_US/05855afbac2beb897d22530c09b17e20.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/es_ES/444c85a7d33fc07c7c84126ab579ffd3.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/6451d6fda4d76a0f6668eef8aa150856.jpg",
-                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/de_DE/4368960cc68f41d65042ce1fbfb2aee2.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/1c1f1c28c64a6d1a3d56b46b76eac709.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/6451d6fda4d76a0f6668eef8aa150856.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/bd311843b50836c689eb",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b1ac30fd5f419e89d084",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []La prochaine carte que vous jouez cet Après-midi coûte {1} de moins.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "Lorsque mon Expédition n'avance pas pendant le Crépuscule — Au Repos : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans mon Expédition.  Lorsqu'un adversaire pioche au moins une carte ou [Ravitaille] — Vous pouvez payer {1}. Si vous le faites : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "Lorsque mon Exp\u00e9dition n'avance pas pendant le Cr\u00e9puscule\u00a0\u2014 Au Repos\u00a0: []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans mon Exp\u00e9dition.  Lorsqu'un adversaire pioche au moins une carte ou [Ravitaille]\u00a0\u2014 Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition Compagnon.",
-                "ECHO_EFFECT": "{D}\u00a0: []La prochaine carte que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "2"
             },
             "id": "18VDWN6AQ49WX87G4ZPRWKMS8X",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/1c1f1c28c64a6d1a3d56b46b76eac709.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Thot",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_22_U_5069",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_OR_22_U_5069"
         }

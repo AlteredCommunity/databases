@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/de_DE/0f2c4b3a269f07d51e36f5f4a0eab4b0.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/es_ES/4334634676fbcf08873dddf75d656f24.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/en_US/8a0760cd94c823bf0939543e4026f0e6.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/es_ES/4334634676fbcf08873dddf75d656f24.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/fr_FR/9a69da9b32411c17bde2d479675fad4b.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/it_IT/6161baa04cd7b833b1d324407e6a62be.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/85c43929d6e629e69237",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{J} []Target Character in your other Expedition (the one I'm not in) gains 2 boosts.  {J} If you control two or more Plants other than me: Up to two target Characters each gain 1 boost.  {R} []Target Character gains [[Anchored]].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} []Target Character in your other Expedition (the one I'm not in) gains 2 boosts.  {J} If you control two or more Plants other than me: Up to two target Characters each gain 1 boost.  {R} []Target Character gains [[Anchored]]."
+        "RECALL_COST": "4"
     },
     "id": "0YC8GQ8KEZ8G89GCJB2DCTP4MC",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/JPG/en_EN/46a5c4d2c235eb7b20d82f9b7f2a4c49.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Ordis Gatekeeper",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_13_U_6597",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_OR_13_U_6597",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/de_DE/0f2c4b3a269f07d51e36f5f4a0eab4b0.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/es_ES/4334634676fbcf08873dddf75d656f24.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/en_US/8a0760cd94c823bf0939543e4026f0e6.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/es_ES/4334634676fbcf08873dddf75d656f24.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/fr_FR/9a69da9b32411c17bde2d479675fad4b.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/it_IT/6161baa04cd7b833b1d324407e6a62be.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/fb8db141fda4d4f85fd3",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{J} []Un Personnage ciblé dans votre autre Expédition (celle où je ne suis pas) gagne 2 boosts.  {J} Si vous contrôlez au moins deux Plantes autres que moi : Jusqu'à deux Personnages ciblés gagnent chacun 1 boost.  {R} []Un Personnage ciblé gagne [[Ancré]].",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} []Un Personnage cibl\u00e9 dans votre autre Exp\u00e9dition (celle o\u00f9 je ne suis pas) gagne 2\u00a0boosts.  {J} Si vous contr\u00f4lez au moins deux Plantes autres que moi\u00a0: Jusqu'\u00e0 deux Personnages cibl\u00e9s gagnent chacun 1\u00a0boost.  {R} []Un Personnage cibl\u00e9 gagne [[Ancr\u00e9]]."
+                "RECALL_COST": "4"
             },
             "id": "0YC8GQ8KEZ8G89GCJB2DCTP4MC",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/UNIQUE/JPG/fr_FR/9a69da9b32411c17bde2d479675fad4b.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Gardienne Ordis",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_13_U_6597",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_OR_13_U_6597"
         }

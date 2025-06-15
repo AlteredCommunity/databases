@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_13_U_3536",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/505079426e7102ca3abe6ce4108f0f82.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/992e31923770bda54d365e03ec041157.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/6db17c0f76eb3816093c8714e65aff8f.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/ab1b0bedc8f356a4d73decc7d20427f2.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/0138b3c7d3625b236a9b75a5e7a011f4.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/0138b3c7d3625b236a9b75a5e7a011f4.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/992e31923770bda54d365e03ec041157.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/505079426e7102ca3abe6ce4108f0f82.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/6db17c0f76eb3816093c8714e65aff8f.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/4b555fd770688675f159",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e273826a1e2673f5b8e9",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may have target Character other than me lose [[Fleeting]].",
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} You may put a card from your hand in Reserve. If you do: I gain 1 boost per card in your Reserve.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{H} You may put a card from your hand in Reserve. If you do: I gain 1 boost per card in your Reserve.",
-        "ECHO_EFFECT": "{D} : []You may have target Character other than me lose [[Fleeting]]."
+        "RECALL_COST": "2"
     },
     "id": "6VDSJT94TH85PSVT79QBP5WZNR",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/JPG/en_EN/84b9d61d81d0981db2a7a6230b3fcbc7.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Anansi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_3536",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_13_U_3536",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_13_U_3536",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/505079426e7102ca3abe6ce4108f0f82.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/992e31923770bda54d365e03ec041157.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/6db17c0f76eb3816093c8714e65aff8f.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/ab1b0bedc8f356a4d73decc7d20427f2.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/0138b3c7d3625b236a9b75a5e7a011f4.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/0138b3c7d3625b236a9b75a5e7a011f4.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/992e31923770bda54d365e03ec041157.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/505079426e7102ca3abe6ce4108f0f82.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/6db17c0f76eb3816093c8714e65aff8f.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ead247d07bfe8c159ff1",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/f9dcd43cc7680eb348af",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez faire perdre [[Fugace]] à un Personnage ciblé autre que moi.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Je gagne 1 boost par carte dans votre Réserve.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{H} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Je gagne 1\u00a0boost par carte dans votre R\u00e9serve.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez faire perdre [[Fugace]] \u00e0 un Personnage cibl\u00e9 autre que moi."
+                "RECALL_COST": "2"
             },
             "id": "6VDSJT94TH85PSVT79QBP5WZNR",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/505079426e7102ca3abe6ce4108f0f82.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Anansi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_3536",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_13_U_3536"
         }

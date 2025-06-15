@@ -4,10 +4,10 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/de_DE/3dc9508e74bb5d496efa9ddfc721ed16.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/098773a35460881b0d3ca11838b26fc0.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/af6acb471134939d5c1a60d7d172bcad.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/en_US/af4fb6019985194e8c8fcd9416073a0d.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/f727030ed6511c7e2fb993a7f2a6859f.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/f727030ed6511c7e2fb993a7f2a6859f.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/af6acb471134939d5c1a60d7d172bcad.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/098773a35460881b0d3ca11838b26fc0.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0b9ec8141384ee749444",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ad1a7f65831df5578c12",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{R} []Up to two target Characters each gain 2 boosts.  When I leave the Expedition zone — If you control one or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in your other Expedition (the one I'm not in).",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} []Up to two target Characters each gain 2 boosts.  When I leave the Expedition zone\u00a0\u2014 If you control one or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in your other Expedition (the one I'm not in)."
+        "RECALL_COST": "3"
     },
     "id": "75JVJCNQBB8X8BSKH4KJ86PSAP",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/JPG/en_EN/49951a8984c86e710ebbf042afb874d8.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Ordis Cadets",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_06_U_7030",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_OR_06_U_7030",
     "translations": {
@@ -85,10 +85,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/de_DE/3dc9508e74bb5d496efa9ddfc721ed16.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/098773a35460881b0d3ca11838b26fc0.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/af6acb471134939d5c1a60d7d172bcad.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/en_US/af4fb6019985194e8c8fcd9416073a0d.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/f727030ed6511c7e2fb993a7f2a6859f.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/f727030ed6511c7e2fb993a7f2a6859f.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/af6acb471134939d5c1a60d7d172bcad.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/098773a35460881b0d3ca11838b26fc0.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c87f9c48731b73221997",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ce2c28158fc9b82c8d92",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{R} []Jusqu'à deux Personnages ciblés gagnent chacun 2 boosts.  Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins un Repère : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre autre Expédition (celle où je ne suis pas).",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} []Jusqu'\u00e0 deux Personnages cibl\u00e9s gagnent chacun 2\u00a0boosts.  Lorsque je quitte la zone d'Exp\u00e9dition\u00a0\u2014 Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre autre Exp\u00e9dition (celle o\u00f9 je ne suis pas)."
+                "RECALL_COST": "3"
             },
             "id": "75JVJCNQBB8X8BSKH4KJ86PSAP",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/af6acb471134939d5c1a60d7d172bcad.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Cadets Ordis",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_06_U_7030",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_OR_06_U_7030"
         }

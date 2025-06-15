@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/de_DE/a51310c226bb75b10d3b5594b325e1ac.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/es_ES/a112ca36c489642b74654a9a5ca99e6a.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/en_US/a4fae51e7d6139eace351f27855c8eb7.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/es_ES/a112ca36c489642b74654a9a5ca99e6a.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/fr_FR/457b775330ebe77eec01958057ca34c3.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/it_IT/bcc61dda3cd983561cd298b5e146bc4d.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e0fdadee746ba5bdf800",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions."
+        "RECALL_COST": "2"
     },
     "id": "0THHV5MJ578T38WRW2VDKCXJ48",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/JPG/en_EN/53fc2ffd65afa7e5a3d16d781ce16cc6.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Amelia Earhart",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_11_U_8479",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_AX_11_U_8479",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/de_DE/a51310c226bb75b10d3b5594b325e1ac.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/es_ES/a112ca36c489642b74654a9a5ca99e6a.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/en_US/a4fae51e7d6139eace351f27855c8eb7.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/es_ES/a112ca36c489642b74654a9a5ca99e6a.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/fr_FR/457b775330ebe77eec01958057ca34c3.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/it_IT/bcc61dda3cd983561cd298b5e146bc4d.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/dcfb76b7e70ec5f2bde7",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Exp\u00e9ditions."
+                "RECALL_COST": "2"
             },
             "id": "0THHV5MJ578T38WRW2VDKCXJ48",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_11/UNIQUE/JPG/fr_FR/457b775330ebe77eec01958057ca34c3.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Amelia Earhart",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_11_U_8479",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_AX_11_U_8479"
         }

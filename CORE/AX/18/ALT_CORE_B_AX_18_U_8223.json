@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/de_DE/36d99af48940c228cef40b1c5a5d7b50.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/es_ES/f76d45fc3cd0d0a3394b1f35fff7ad71.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/en_US/d4cd6482f3c5d417c601a3b6056ad20d.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/es_ES/f76d45fc3cd0d0a3394b1f35fff7ad71.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/fr_FR/f36e83eb38c10f6b0df63497d9cec0b5.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/it_IT/7e71ecf99e668d03e3a81af8ed137691.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f2ff5c26126fcbd428eb",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "5",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} You may pay {1}. If you do: You may have target Character gain [[Asleep]].  {R} If you control two or more Landmarks: I lose [[Fleeting]].",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} You may pay\u00a0{1}. If you do: You may have target Character gain [[Asleep]].  {R} If you control two or more Landmarks: I lose [[Fleeting]]."
+        "RECALL_COST": "3"
     },
     "id": "4ZNT9MP2749EFAZYP3Y5GRT1WW",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/JPG/en_EN/ee60111d5b535b525ddf5ac37a91afc1.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Athena",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_18_U_8223",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_AX_18_U_8223",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/de_DE/36d99af48940c228cef40b1c5a5d7b50.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/es_ES/f76d45fc3cd0d0a3394b1f35fff7ad71.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/en_US/d4cd6482f3c5d417c601a3b6056ad20d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/es_ES/f76d45fc3cd0d0a3394b1f35fff7ad71.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/fr_FR/f36e83eb38c10f6b0df63497d9cec0b5.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/it_IT/7e71ecf99e668d03e3a81af8ed137691.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b731b5fcd348be1c4c08",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "5",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Vous pouvez payer {1}. Si vous le faites : Vous pouvez faire gagner [[Endormi]] à un Personnage ciblé.  {R} Si vous contrôlez au moins deux Repères : Je perds [[Fugace]].",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Vous pouvez faire gagner [[Endormi]] \u00e0 un Personnage cibl\u00e9.  {R} Si vous contr\u00f4lez au moins deux Rep\u00e8res\u00a0: Je perds [[Fugace]]."
+                "RECALL_COST": "3"
             },
             "id": "4ZNT9MP2749EFAZYP3Y5GRT1WW",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/UNIQUE/JPG/fr_FR/f36e83eb38c10f6b0df63497d9cec0b5.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
-            "name": "Ath\u00e9na",
+            "name": "Athéna",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_18_U_8223",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_AX_18_U_8223"
         }

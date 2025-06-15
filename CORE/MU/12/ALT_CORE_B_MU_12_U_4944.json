@@ -4,10 +4,10 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/de_DE/830a9a3b6d7602588cf56f97635101af.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/es_ES/de25111f4a6be0900f1bce376c18c04a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/it_IT/106cefa0b43cc15532fc2361f24fe940.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/en_US/9720a451938620bf7a245105a0a77a0b.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/fr_FR/11201b79d16f4835554a92f345a3807d.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/es_ES/de25111f4a6be0900f1bce376c18c04a.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/fr_FR/11201b79d16f4835554a92f345a3807d.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/it_IT/106cefa0b43cc15532fc2361f24fe940.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/454643dea625636f472f",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} []Target opponent draws a card.  {J} You may discard a card from your Reserve. If you do: You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{J} []Target opponent draws a card.  {J} You may discard a card from your Reserve. If you do: You may have target Character with Hand Cost\u00a0{3} or less other than me gain [[Anchored]]."
+        "RECALL_COST": "2"
     },
     "id": "3KN09ANG868W8V9HF3HS1R23V9",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/JPG/en_EN/6d54e9b15e728f1c2971541f73f23ff7.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Daughter of Yggdrasil",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_MU_12_U_4944",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_MU_12_U_4944",
     "translations": {
@@ -78,10 +78,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/de_DE/830a9a3b6d7602588cf56f97635101af.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/es_ES/de25111f4a6be0900f1bce376c18c04a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/it_IT/106cefa0b43cc15532fc2361f24fe940.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/en_US/9720a451938620bf7a245105a0a77a0b.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/fr_FR/11201b79d16f4835554a92f345a3807d.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/es_ES/de25111f4a6be0900f1bce376c18c04a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/fr_FR/11201b79d16f4835554a92f345a3807d.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/it_IT/106cefa0b43cc15532fc2361f24fe940.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/e2b63e490a8cd4872ff0",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} []Un adversaire ciblé pioche une carte.  {J} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{J} []Un adversaire cibl\u00e9 pioche une carte.  {J} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Vous pouvez faire gagner [[Ancr\u00e9]] \u00e0 un Personnage cibl\u00e9 de Co\u00fbt de Main\u00a0{3} ou moins autre que moi."
+                "RECALL_COST": "2"
             },
             "id": "3KN09ANG868W8V9HF3HS1R23V9",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_12/UNIQUE/JPG/fr_FR/11201b79d16f4835554a92f345a3807d.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Fille d'Yggdrasil",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_MU_12_U_4944",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_MU_12_U_4944"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_49_U_14187",
     "@type": "Card",
     "allImagePath": {
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/62d0b160f25db84c6425f5ba8f7db865.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/5b38faa6fe7c07c3370525d383905629.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/3945e1c7735fa39dfeaf03e7a4974b68.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/de_DE/53810c0ce3310ecb980fc7333f7f01d4.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/491fe14d970cdce26668fc8a00756854.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/3945e1c7735fa39dfeaf03e7a4974b68.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/62d0b160f25db84c6425f5ba8f7db865.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/491fe14d970cdce26668fc8a00756854.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/5b38faa6fe7c07c3370525d383905629.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ceb2c59e1d6e17d0c755",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/c890642d19e71d4acc5d",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When you play another Character — []I gain 1 boost, up to a max of 3.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "When I leave the Expedition zone — If you control one or more Landmarks: Target Character in play or in Reserve gains 2 boosts.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "When I leave the Expedition zone — If you control one or more Landmarks: Target Character in play or in Reserve gains 2 boosts.",
-        "ECHO_EFFECT": "{I} When you play another Character — []I gain 1 boost, up to a max of 3."
+        "RECALL_COST": "4"
     },
     "id": "0FXZQCSKFT8DQSVC8Q8NF1M6EE",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/en_EN/77f242fcce56a0e59017bd3aadffd3d5.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Junior Chef",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_14187",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_49_U_14187",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_BR_49_U_14187",
             "@type": "Card",
             "allImagePath": {
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/62d0b160f25db84c6425f5ba8f7db865.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/5b38faa6fe7c07c3370525d383905629.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/3945e1c7735fa39dfeaf03e7a4974b68.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/de_DE/53810c0ce3310ecb980fc7333f7f01d4.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/491fe14d970cdce26668fc8a00756854.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/3945e1c7735fa39dfeaf03e7a4974b68.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/62d0b160f25db84c6425f5ba8f7db865.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/491fe14d970cdce26668fc8a00756854.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/5b38faa6fe7c07c3370525d383905629.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/a0e9599400aa52e18824",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/51dc75dcf9e2eac4306d",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage — []Je gagne 1 boost, jusqu'à un maximum de 3.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins un Repère : Un Personnage ciblé en jeu ou en Réserve gagne 2 boosts.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins un Repère : Un Personnage ciblé en jeu ou en Réserve gagne 2 boosts.",
-                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage — []Je gagne 1 boost, jusqu'à un maximum de 3."
+                "RECALL_COST": "4"
             },
             "id": "0FXZQCSKFT8DQSVC8Q8NF1M6EE",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/491fe14d970cdce26668fc8a00756854.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Petit Cuistot",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_14187",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_49_U_14187"
         }

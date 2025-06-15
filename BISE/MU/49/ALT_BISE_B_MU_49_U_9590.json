@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_49_U_9590",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/de_DE/b9f9c4dd9e75865b4a1fda7f8be8ba6c.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/es_ES/81282d58a78f98753ba0a5edf0b67434.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/it_IT/1e100ffc2562f4496cbd8399c8edfcb0.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/en_US/38695c10a692afc0279920152cef4eed.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/fr_FR/e4a893adce948d23d8cb7f143fa4ca03.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/es_ES/81282d58a78f98753ba0a5edf0b67434.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/fr_FR/e4a893adce948d23d8cb7f143fa4ca03.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/it_IT/1e100ffc2562f4496cbd8399c8edfcb0.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/fd6833ca6771457a35e2",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0b318f17959b1582f130",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} If I'm in {V}: Draw a card, otherwise [Resupply].  When an opponent draws one or more cards or does [Resupply] — You may pay {1}. If you do: Target Character in your other Expedition (the one I'm not in) gains 2 boosts.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} If I'm in {V}: Draw a card, otherwise [Resupply].  When an opponent draws one or more cards or does [Resupply] — You may pay {1}. If you do: Target Character in your other Expedition (the one I'm not in) gains 2 boosts."
+        "RECALL_COST": "3"
     },
     "id": "3P46ZQ4D8Z9FXTJ2YDW9GE96A8",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/en_EN/808306f35e6cc3c552c53ca2596b8d1c.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Burrowing Noosh",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_49_U_9590",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_49_U_9590",
     "translations": {
@@ -85,10 +85,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/de_DE/b9f9c4dd9e75865b4a1fda7f8be8ba6c.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/es_ES/81282d58a78f98753ba0a5edf0b67434.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/it_IT/1e100ffc2562f4496cbd8399c8edfcb0.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/en_US/38695c10a692afc0279920152cef4eed.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/fr_FR/e4a893adce948d23d8cb7f143fa4ca03.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/es_ES/81282d58a78f98753ba0a5edf0b67434.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/fr_FR/e4a893adce948d23d8cb7f143fa4ca03.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/JPG/it_IT/1e100ffc2562f4496cbd8399c8edfcb0.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/1f9b3af3c83d15b480bd",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/31f2b82af0d41338d9a5",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Si je suis en {V} : Piochez une carte. Sinon, [Ravitaillez].  Lorsqu'un adversaire pioche au moins une carte ou [Ravitaille] — Vous pouvez payer {1}. Si vous le faites : Un Personnage ciblé dans votre autre Expédition (celle où je ne suis pas) gagne 2 boosts.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} Si je suis en {V} : Piochez une carte. Sinon, [Ravitaillez].  Lorsqu'un adversaire pioche au moins une carte ou [Ravitaille] — Vous pouvez payer {1}. Si vous le faites : Un Personnage ciblé dans votre autre Expédition (celle où je ne suis pas) gagne 2 boosts."
+                "RECALL_COST": "3"
             },
             "id": "3P46ZQ4D8Z9FXTJ2YDW9GE96A8",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_49/UNIQUE/JPG/fr_FR/e4a893adce948d23d8cb7f143fa4ca03.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Fouisseur Nouch",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_49_U_9590",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_49_U_9590"
         }

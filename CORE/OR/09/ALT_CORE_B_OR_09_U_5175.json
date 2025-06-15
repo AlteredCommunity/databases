@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CORE_B_OR_09_U_5175",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/fr_FR/707f1d476d119bb690cc1be4409b8b58.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/es_ES/283a4242e1c073c9159191c3026a1ae1.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/it_IT/067f4c52a10c1536e2a2de54c1d3abca.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/de_DE/fa6d5fd184878bfbb0bd73b5c42a39eb.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/en_US/883c4a63b0cfb4ca4032dd8c01d45425.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/en_US/883c4a63b0cfb4ca4032dd8c01d45425.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/es_ES/283a4242e1c073c9159191c3026a1ae1.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/fr_FR/707f1d476d119bb690cc1be4409b8b58.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/it_IT/067f4c52a10c1536e2a2de54c1d3abca.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9ae73f099a8be3a4aeb6",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/23ca4f82e7d3c35e54d0",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} If you control a token: I gain 1 boost.  When I leave the Expedition zone — If you control two or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.  When I go to Reserve from the Expedition zone — You may pay {1}. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} If you control a token: I gain 1 boost.  When I leave the Expedition zone\u00a0\u2014 If you control two or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.  When I go to Reserve from the Expedition zone\u00a0\u2014 You may pay\u00a0{1}. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions."
+        "RECALL_COST": "3"
     },
     "id": "1WWQ594H4192YRSC6FBVD4KVWK",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/JPG/en_EN/73ea9b644cdeb1f36333c61faa25fe0c.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "The Frog Prince",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_09_U_5175",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_OR_09_U_5175",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_CORE_B_OR_09_U_5175",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/fr_FR/707f1d476d119bb690cc1be4409b8b58.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/es_ES/283a4242e1c073c9159191c3026a1ae1.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/it_IT/067f4c52a10c1536e2a2de54c1d3abca.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/de_DE/fa6d5fd184878bfbb0bd73b5c42a39eb.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/en_US/883c4a63b0cfb4ca4032dd8c01d45425.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/en_US/883c4a63b0cfb4ca4032dd8c01d45425.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/es_ES/283a4242e1c073c9159191c3026a1ae1.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/fr_FR/707f1d476d119bb690cc1be4409b8b58.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/it_IT/067f4c52a10c1536e2a2de54c1d3abca.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/82693751165f61f0f88f",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/50cf8963e5ce37d20a1b",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Si vous contrôlez un jeton : Je gagne 1 boost.  Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins deux Repères : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros.  Lorsque je vais en Réserve depuis la zone d'Expédition — Vous pouvez payer {1}. Si vous le faites : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Si vous contr\u00f4lez un jeton\u00a0: Je gagne 1\u00a0boost.  Lorsque je quitte la zone d'Exp\u00e9dition\u00a0\u2014 Si vous contr\u00f4lez au moins deux Rep\u00e8res\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition H\u00e9ros.  Lorsque je vais en R\u00e9serve depuis la zone d'Exp\u00e9dition\u00a0\u2014 Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Exp\u00e9ditions."
+                "RECALL_COST": "3"
             },
             "id": "1WWQ594H4192YRSC6FBVD4KVWK",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/UNIQUE/JPG/fr_FR/707f1d476d119bb690cc1be4409b8b58.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Le Roi-Grenouille",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_09_U_5175",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_OR_09_U_5175"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_YZ_53_U_10573",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/de_DE/a9feb6afea47290d17d2db2018485084.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/it_IT/a939e31f2fac2175c113038db3c20f12.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/es_ES/c2c953dc99b42132e70cd909a4406749.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/fac02e34fcf4174ea2dc3b24390ac18e.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/c737afc95e37090fec63d88bdd5983bc.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/es_ES/c2c953dc99b42132e70cd909a4406749.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/c737afc95e37090fec63d88bdd5983bc.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/it_IT/a939e31f2fac2175c113038db3c20f12.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,46 +21,46 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/6c5a747c48a762d64629",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/5c175a5a047c0252fcfe",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a4e9275e801403aa90d8",
-            "reference": "MESSENGER",
+            "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-            "name": "Messenger"
+            "name": "Messenger",
+            "reference": "MESSENGER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "0",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {1}.  {J} You may put a card from your hand in Reserve. If you do: Remove up to 2 counters from target card in play or in Reserve.  When you create a token — If both of your Expeditions are behind or tied: Target Character in play or in Reserve gains 1 boost.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "[][][Scout] {1}.  {J} You may put a card from your hand in Reserve. If you do: Remove up to 2 counters from target card in play or in Reserve.  When you create a token — If both of your Expeditions are behind or tied: Target Character in play or in Reserve gains 1 boost."
+        "RECALL_COST": "4"
     },
     "id": "46P274PZEM87W81WYRY488WNYJ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/en_EN/843de9fe37587fef9bb010281bf487d4.jpg",
@@ -70,19 +70,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Qorgan Informant",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_10573",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_YZ_53_U_10573",
     "translations": {
@@ -92,10 +92,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/de_DE/a9feb6afea47290d17d2db2018485084.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/it_IT/a939e31f2fac2175c113038db3c20f12.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/es_ES/c2c953dc99b42132e70cd909a4406749.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/fac02e34fcf4174ea2dc3b24390ac18e.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/c737afc95e37090fec63d88bdd5983bc.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/es_ES/c2c953dc99b42132e70cd909a4406749.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/c737afc95e37090fec63d88bdd5983bc.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/JPG/it_IT/a939e31f2fac2175c113038db3c20f12.jpg"
             },
             "assets": {
                 "WEB": [
@@ -109,46 +109,46 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d04ab950e50c43b28672",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/e8f630416cda2ebf973c",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/30c71d82a729673b11be",
-                    "reference": "MESSENGER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-                    "name": "Émissaire"
+                    "name": "Émissaire",
+                    "reference": "MESSENGER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "0",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Retirez jusqu'à 2 compteurs d'une carte ciblée en jeu ou en Réserve.  Lorsque vous créez un jeton — Si vos deux Expéditions sont en retard ou à égalité : Un Personnage ciblé en jeu ou en Réserve gagne 1 boost.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Retirez jusqu'à 2 compteurs d'une carte ciblée en jeu ou en Réserve.  Lorsque vous créez un jeton — Si vos deux Expéditions sont en retard ou à égalité : Un Personnage ciblé en jeu ou en Réserve gagne 1 boost."
+                "RECALL_COST": "4"
             },
             "id": "46P274PZEM87W81WYRY488WNYJ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/c737afc95e37090fec63d88bdd5983bc.jpg",
@@ -158,19 +158,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Indic du Qorgan",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_10573",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_YZ_53_U_10573"
         }

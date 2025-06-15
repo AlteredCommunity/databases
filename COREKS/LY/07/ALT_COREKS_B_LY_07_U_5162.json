@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_07_U_5162",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/4021342d972947cc6ffbe0f61c3ba4df.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/9ff833bfa004d0e14e46eb683cc6233c.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/5cef23f29f16e1b0a2352745b5c95778.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/de_DE/d690c373dd4a8a2a26c9edc023dcd700.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/33b7f1e1cba73e4d3786dd4be085601e.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/33b7f1e1cba73e4d3786dd4be085601e.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/9ff833bfa004d0e14e46eb683cc6233c.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/4021342d972947cc6ffbe0f61c3ba4df.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/5cef23f29f16e1b0a2352745b5c95778.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/5cd08208268b50376e84",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/1ec403b7e22d02ece2e0",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} []You may discard target Permanent.  {R} If you control one or more Landmarks: [Resupply].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{H} []You may discard target Permanent.  {R} If you control one or more Landmarks: [Resupply].",
-        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand."
+        "RECALL_COST": "3"
     },
     "id": "08VNDGEQE39SH8BD0WD70K1CGG",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/JPG/en_EN/59dceea60cc85c1aed05fbd7f33907cb.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Hathor",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_07_U_5162",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_07_U_5162",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_07_U_5162",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/4021342d972947cc6ffbe0f61c3ba4df.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/9ff833bfa004d0e14e46eb683cc6233c.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/5cef23f29f16e1b0a2352745b5c95778.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/de_DE/d690c373dd4a8a2a26c9edc023dcd700.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/33b7f1e1cba73e4d3786dd4be085601e.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/33b7f1e1cba73e4d3786dd4be085601e.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/9ff833bfa004d0e14e46eb683cc6233c.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/4021342d972947cc6ffbe0f61c3ba4df.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/5cef23f29f16e1b0a2352745b5c95778.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d6f854b7a06c5f0c1e30",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/2a850123468d25036908",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer une carte de votre Réserve dans votre main.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} []Vous pouvez défausser un Permanent ciblé.  {R} Si vous contrôlez au moins un Repère : [Ravitaillez].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{H} []Vous pouvez d\u00e9fausser un Permanent cibl\u00e9.  {R} Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: [Ravitaillez].",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez renvoyer une carte de votre R\u00e9serve dans votre main."
+                "RECALL_COST": "3"
             },
             "id": "08VNDGEQE39SH8BD0WD70K1CGG",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/4021342d972947cc6ffbe0f61c3ba4df.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Hathor",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_07_U_5162",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_07_U_5162"
         }

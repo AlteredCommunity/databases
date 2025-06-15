@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_13_U_4631",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/2c63975571079f14f6d05d3b313a1f18.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/ecb79c30d002434a252b771ed6ad3e1a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/74cecb508dce0592d8542281d02a2122.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/4d0071c6ea5b09e3387c359c9da60ab4.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/e2edd70757a29509a852bf5f6113c2fe.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/e2edd70757a29509a852bf5f6113c2fe.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/ecb79c30d002434a252b771ed6ad3e1a.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/2c63975571079f14f6d05d3b313a1f18.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/74cecb508dce0592d8542281d02a2122.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/bd0c4eb1b0222662162b",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/02a6a5df13521e67785f",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} []I gain 1 boost per card in each player's Reserve.  {J} If there are three or more base statistics of 0 among Characters you control: Up to one target Character gains [[Asleep]]. You may give it 2 boosts.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} []I gain 1 boost per card in each player's Reserve.  {J} If there are three or more base statistics of 0 among Characters you control: Up to one target Character gains [[Asleep]]. You may give it 2 boosts."
+        "RECALL_COST": "3"
     },
     "id": "1ZKC31FK4N9J79DV451YCE2S1S",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/JPG/en_EN/f9daa89748a6c6ab1a93dec0e59af5e9.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Anansi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_4631",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_13_U_4631",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_13_U_4631",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/2c63975571079f14f6d05d3b313a1f18.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/ecb79c30d002434a252b771ed6ad3e1a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/74cecb508dce0592d8542281d02a2122.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/4d0071c6ea5b09e3387c359c9da60ab4.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/e2edd70757a29509a852bf5f6113c2fe.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/e2edd70757a29509a852bf5f6113c2fe.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/ecb79c30d002434a252b771ed6ad3e1a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/2c63975571079f14f6d05d3b313a1f18.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/74cecb508dce0592d8542281d02a2122.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/bea59d22927348de963a",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/50d0b808dd34db93f453",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} []Je gagne 1 boost par carte dans la Réserve de chaque joueur.  {J} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contrôlez : Jusqu'à un Personnage ciblé gagne [[Endormi]]. Vous pouvez lui donner 2 boosts.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} []Je gagne 1\u00a0boost par carte dans la R\u00e9serve de chaque joueur.  {J} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contr\u00f4lez\u00a0: Jusqu'\u00e0 un Personnage cibl\u00e9 gagne [[Endormi]]. Vous pouvez lui donner 2\u00a0boosts."
+                "RECALL_COST": "3"
             },
             "id": "1ZKC31FK4N9J79DV451YCE2S1S",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/2c63975571079f14f6d05d3b313a1f18.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Anansi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_4631",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_13_U_4631"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_49_U_3925",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/f538adac912447d9f193696ead1fc3a7.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/2bae37d3a4b16f012283211bdb5e4034.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/de_DE/f8880ab6178c20f29b4d4eed14bc0144.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/ee403653d2c56079cf6c3bc4e1d2958f.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/b806cb06111c1ad723c2b73bcbf7dabc.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/b806cb06111c1ad723c2b73bcbf7dabc.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/2bae37d3a4b16f012283211bdb5e4034.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/f538adac912447d9f193696ead1fc3a7.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/ee403653d2c56079cf6c3bc4e1d2958f.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/09c9e3a88824969353c4",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/877adb2c9bea4130e21a",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When you play another Character — []I gain 1 boost, up to a max of 3.",
+        "FOREST_POWER": "3",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} []Target Character gains 1 boost and [[Fleeting]].  {R} You may discard a card from your Reserve. If you do: Target Character gains 2 boosts and [[Fleeting]].",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{H} []Target Character gains 1 boost and [[Fleeting]].  {R} You may discard a card from your Reserve. If you do: Target Character gains 2 boosts and [[Fleeting]].",
-        "ECHO_EFFECT": "{I} When you play another Character — []I gain 1 boost, up to a max of 3."
+        "RECALL_COST": "3"
     },
     "id": "1RWK3H4N4W9EQVJ7TFK4DBWKJJ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/en_EN/56746cea53862547d093d51421098f05.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Junior Chef",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_3925",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_49_U_3925",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_BR_49_U_3925",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/f538adac912447d9f193696ead1fc3a7.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/2bae37d3a4b16f012283211bdb5e4034.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/de_DE/f8880ab6178c20f29b4d4eed14bc0144.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/ee403653d2c56079cf6c3bc4e1d2958f.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/b806cb06111c1ad723c2b73bcbf7dabc.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/b806cb06111c1ad723c2b73bcbf7dabc.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/es_ES/2bae37d3a4b16f012283211bdb5e4034.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/f538adac912447d9f193696ead1fc3a7.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/JPG/it_IT/ee403653d2c56079cf6c3bc4e1d2958f.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/a3acb297bf4d187db33d",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ab0a5cd8874f17a9d906",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage — []Je gagne 1 boost, jusqu'à un maximum de 3.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} []Un Personnage ciblé gagne 1 boost et [[Fugace]].  {R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Un Personnage ciblé gagne 2 boosts et [[Fugace]].",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{H} []Un Personnage ciblé gagne 1 boost et [[Fugace]].  {R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Un Personnage ciblé gagne 2 boosts et [[Fugace]].",
-                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage — []Je gagne 1 boost, jusqu'à un maximum de 3."
+                "RECALL_COST": "3"
             },
             "id": "1RWK3H4N4W9EQVJ7TFK4DBWKJJ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/f538adac912447d9f193696ead1fc3a7.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Petit Cuistot",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_3925",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_49_U_3925"
         }

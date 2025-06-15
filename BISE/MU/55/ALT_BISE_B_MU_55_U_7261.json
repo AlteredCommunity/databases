@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_55_U_7261",
     "@type": "Card",
     "allImagePath": {
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/c465c200f50a4dfe2499ff6c8b10a594.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/57475896a3d9541cf65c39867baccf75.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/e03d29cc90ff43f5cb86a9e58f0f9200.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/db222060c79f38b9c3cdb577b74d6736.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/d25fb451e05f1c40bee1c011d47a1b73.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/57475896a3d9541cf65c39867baccf75.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/c465c200f50a4dfe2499ff6c8b10a594.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/d25fb451e05f1c40bee1c011d47a1b73.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/e03d29cc90ff43f5cb86a9e58f0f9200.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e7de4f4b67df4b4dd86c",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/72b1a7b8d6df2abc641b",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} You may discard a Character from your Reserve. If you do: I gain [[Anchored]].  At Noon — If your Companion Expedition is behind: Characters you control gain 1 boost.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{H} You may discard a Character from your Reserve. If you do: I gain [[Anchored]].  At Noon — If your Companion Expedition is behind: Characters you control gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition."
+        "RECALL_COST": "3"
     },
     "id": "60B1KF3C6H9QYBF9WT8T8F6DSE",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/en_EN/634f13f6f0cd6968f89d5c725f914f93.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Luminous Swarm",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_7261",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_55_U_7261",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_MU_55_U_7261",
             "@type": "Card",
             "allImagePath": {
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/c465c200f50a4dfe2499ff6c8b10a594.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/57475896a3d9541cf65c39867baccf75.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/e03d29cc90ff43f5cb86a9e58f0f9200.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/db222060c79f38b9c3cdb577b74d6736.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/d25fb451e05f1c40bee1c011d47a1b73.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/57475896a3d9541cf65c39867baccf75.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/c465c200f50a4dfe2499ff6c8b10a594.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/d25fb451e05f1c40bee1c011d47a1b73.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/e03d29cc90ff43f5cb86a9e58f0f9200.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/15137c0bbec90171d2d0",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/7788bafee03aeb282e0c",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} Vous pouvez défausser un Personnage de votre Réserve. Si vous le faites : Je gagne [[Ancré]].  À Midi — Si votre Expédition Compagnon est en retard : Les Personnages que vous contrôlez gagnent 1 boost.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{H} Vous pouvez défausser un Personnage de votre Réserve. Si vous le faites : Je gagne [[Ancré]].  À Midi — Si votre Expédition Compagnon est en retard : Les Personnages que vous contrôlez gagnent 1 boost.",
-                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon."
+                "RECALL_COST": "3"
             },
             "id": "60B1KF3C6H9QYBF9WT8T8F6DSE",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/d25fb451e05f1c40bee1c011d47a1b73.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Essaim de Libellumines",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_7261",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_55_U_7261"
         }

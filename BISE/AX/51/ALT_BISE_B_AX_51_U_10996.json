@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_51_U_10996",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/62523a4766fe7d78c753e3c0e744acdf.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/614a7279ef026ea01c1682c90c03c1c8.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/9d1e0307b59c3b1901dbdf91db61308f.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/de_DE/68ca34876a1b472a930a90bcea871c9d.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/59c1ea078080a9338908b648246c051d.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/9d1e0307b59c3b1901dbdf91db61308f.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/614a7279ef026ea01c1682c90c03c1c8.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/59c1ea078080a9338908b648246c051d.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/62523a4766fe7d78c753e3c0e744acdf.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ce0278e62908c8dc0458",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/2b4f6c7f968bd123e599",
-            "reference": "ROBOT",
+            "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-            "name": "Robot"
+            "name": "Robot",
+            "reference": "ROBOT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{R} You may discard a card from your Reserve. If you do: You may discard target Permanent with Hand Cost {3} or less.  When I leave the Expedition zone — You may sacrifice a Permanent. If you do: Create a [Brassbug 2/2/2] Robot token in your Companion Expedition.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{R} You may discard a card from your Reserve. If you do: You may discard target Permanent with Hand Cost {3} or less.  When I leave the Expedition zone — You may sacrifice a Permanent. If you do: Create a [Brassbug 2/2/2] Robot token in your Companion Expedition.",
-        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3."
+        "RECALL_COST": "3"
     },
     "id": "0HTBB5RPEP9D8BBQX66A0799GG",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/en_EN/18171e03ff06e652ef7b61f93ab90b49.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Designer Drone",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_10996",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_51_U_10996",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_AX_51_U_10996",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/62523a4766fe7d78c753e3c0e744acdf.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/614a7279ef026ea01c1682c90c03c1c8.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/9d1e0307b59c3b1901dbdf91db61308f.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/de_DE/68ca34876a1b472a930a90bcea871c9d.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/59c1ea078080a9338908b648246c051d.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/9d1e0307b59c3b1901dbdf91db61308f.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/614a7279ef026ea01c1682c90c03c1c8.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/59c1ea078080a9338908b648246c051d.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/62523a4766fe7d78c753e3c0e744acdf.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/09156383394f52987d95",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/81853a5c21ac8f91cf14",
-                    "reference": "ROBOT",
+                    "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-                    "name": "Robot"
+                    "name": "Robot",
+                    "reference": "ROBOT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins.  Lorsque je quitte la zone d'Expédition — Vous pouvez sacrifier un Permanent. Si vous le faites : Créez un jeton Robot [2/2/2 Scarabot] dans votre Expédition Compagnon.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins.  Lorsque je quitte la zone d'Expédition — Vous pouvez sacrifier un Permanent. Si vous le faites : Créez un jeton Robot [2/2/2 Scarabot] dans votre Expédition Compagnon.",
-                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3."
+                "RECALL_COST": "3"
             },
             "id": "0HTBB5RPEP9D8BBQX66A0799GG",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/59c1ea078080a9338908b648246c051d.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Drone Designer",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_10996",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_51_U_10996"
         }

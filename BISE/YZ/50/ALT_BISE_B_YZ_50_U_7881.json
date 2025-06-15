@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_YZ_50_U_7881",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/de_DE/d967fd160415f3dc252442abf73bdedf.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/1a3352cb1c6e1aba5bb76e04d0570c38.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/667704fa88de46ce9b6272753623800b.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/en_US/5691765a83764b7bced19b3fa318095a.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/0b216facced7bdca5831733f407984d0.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/667704fa88de46ce9b6272753623800b.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/0b216facced7bdca5831733f407984d0.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/1a3352cb1c6e1aba5bb76e04d0570c38.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/7a8139c97a04296cab0b",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/442c8874d52c5d8e0a9b",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When you play a Spell — []I gain 1 boost, up to a max of 2.",
+        "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{J} You may spend 1 counter from a card you control or in your Reserve. If you do: You may send to Reserve target Character with Hand Cost {2} or less.  {J} You may put a card from your hand in Reserve. If it's a Spell: You may discard target Character with Hand Cost {4} or more.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} You may spend 1 counter from a card you control or in your Reserve. If you do: You may send to Reserve target Character with Hand Cost {2} or less.  {J} You may put a card from your hand in Reserve. If it's a Spell: You may discard target Character with Hand Cost {4} or more.",
-        "ECHO_EFFECT": "{I} When you play a Spell — []I gain 1 boost, up to a max of 2."
+        "RECALL_COST": "5"
     },
     "id": "4W7F31NQ878EKVSZ77EERC5064",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/en_EN/306711a64de9b7ef3b27ba9759a2c272.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Yzmir Engraver",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_50_U_7881",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_YZ_50_U_7881",
     "translations": {
@@ -86,10 +86,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/de_DE/d967fd160415f3dc252442abf73bdedf.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/1a3352cb1c6e1aba5bb76e04d0570c38.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/667704fa88de46ce9b6272753623800b.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/en_US/5691765a83764b7bced19b3fa318095a.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/0b216facced7bdca5831733f407984d0.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/667704fa88de46ce9b6272753623800b.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/0b216facced7bdca5831733f407984d0.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/1a3352cb1c6e1aba5bb76e04d0570c38.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d00b00b7a2d687dc3a9f",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/2a4f6a981f2480210bff",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsque vous jouez un Sort — []Je gagne 1 boost, jusqu'à un maximum de 2.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{J} Vous pouvez dépenser 1 compteur d'une carte que vous contrôlez ou dans votre Réserve. Si vous le faites : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {2} ou moins.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Sort : Vous pouvez défausser un Personnage ciblé de Coût de Main {4} ou plus.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Vous pouvez dépenser 1 compteur d'une carte que vous contrôlez ou dans votre Réserve. Si vous le faites : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {2} ou moins.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Sort : Vous pouvez défausser un Personnage ciblé de Coût de Main {4} ou plus.",
-                "ECHO_EFFECT": "{I} Lorsque vous jouez un Sort — []Je gagne 1 boost, jusqu'à un maximum de 2."
+                "RECALL_COST": "5"
             },
             "id": "4W7F31NQ878EKVSZ77EERC5064",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/0b216facced7bdca5831733f407984d0.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Tatoueur Yzmir",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_50_U_7881",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_YZ_50_U_7881"
         }

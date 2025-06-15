@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CORE_B_YZ_04_U_4316",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/df066949417f2460a33acdd4ed8590e2.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/72c80c79beacc3a9416af297659e8439.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/df24dfbf0019d5c9140b73b1e14394fb.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/de_DE/ede2ec1ceb48aa295b410299edf156fd.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/b184c1902aed7371ce42f2bf3afa3390.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/b184c1902aed7371ce42f2bf3afa3390.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/72c80c79beacc3a9416af297659e8439.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/df066949417f2460a33acdd4ed8590e2.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/df24dfbf0019d5c9140b73b1e14394fb.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/bd1f33a6ef0f5dbe395a",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d8a9b9eab039d6097e8e",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Spell you play this Afternoon costs {1} less.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "1",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If you do: The next Spell you play this Afternoon costs {1} less.  When you play a Spell — You may put a card from your hand in Reserve. If you do: You may have target Character gain [[Fleeting]].",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If you do: The next Spell you play this Afternoon costs\u00a0{1} less.  When you play a Spell\u00a0\u2014 You may put a card from your hand in Reserve. If you do: You may have target Character gain [[Fleeting]].",
-        "ECHO_EFFECT": "{D} : []The next Spell you play this Afternoon costs\u00a0{1} less."
+        "RECALL_COST": "2"
     },
     "id": "25XC24RH1M8GM8HQY8K6SFHKN2",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/JPG/en_EN/4cc23dc31c0faf8f4e5d2bf652f0c9c7.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Studious Disciple",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_04_U_4316",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_04_U_4316",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_CORE_B_YZ_04_U_4316",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/df066949417f2460a33acdd4ed8590e2.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/72c80c79beacc3a9416af297659e8439.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/df24dfbf0019d5c9140b73b1e14394fb.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/de_DE/ede2ec1ceb48aa295b410299edf156fd.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/b184c1902aed7371ce42f2bf3afa3390.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/b184c1902aed7371ce42f2bf3afa3390.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/72c80c79beacc3a9416af297659e8439.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/df066949417f2460a33acdd4ed8590e2.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/df24dfbf0019d5c9140b73b1e14394fb.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/bd5bae235f0ad2174395",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/1aad0b048a75c14b04ab",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Sort que vous jouez cet Après-midi coûte {1} de moins.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "1",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Le prochain Sort que vous jouez cet Après-midi coûte {1} de moins.  Lorsque vous jouez un Sort — Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{R} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Le prochain Sort que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins.  Lorsque vous jouez un Sort\u00a0\u2014 Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Vous pouvez faire gagner [[Fugace]] \u00e0 un Personnage cibl\u00e9.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Sort que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "2"
             },
             "id": "25XC24RH1M8GM8HQY8K6SFHKN2",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/df066949417f2460a33acdd4ed8590e2.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Disciple Studieux",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_04_U_4316",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_04_U_4316"
         }

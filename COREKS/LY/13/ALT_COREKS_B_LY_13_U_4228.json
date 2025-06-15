@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_13_U_4228",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e2229f6253864e7591d8ed32d3cc637a.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/10bf8025354f2f803ee86e3856c01c32.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/3a9b0413b7c40d537620e81819ed284a.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/d50147fda90751e66a772af833026f76.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/d934b537239befb6b32335b7e36655cc.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/d934b537239befb6b32335b7e36655cc.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/10bf8025354f2f803ee86e3856c01c32.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e2229f6253864e7591d8ed32d3cc637a.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/3a9b0413b7c40d537620e81819ed284a.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/3070b2882e361ea4b13b",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/881e2f3b9e3e3f0ec143",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: I gain 1 boost per card in each player's Reserve.  When I leave the Expedition zone — []You may return a card other than me from your Reserve to your hand.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: I gain 1 boost per card in each player's Reserve.  When I leave the Expedition zone\u00a0\u2014 []You may return a card other than me from your Reserve to your hand."
+        "RECALL_COST": "3"
     },
     "id": "2K6KCECFN59T18ZHMHFC6D72E1",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/JPG/en_EN/906b77e8b23f7a171f9defe55c7278ab.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Anansi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_4228",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_13_U_4228",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_13_U_4228",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e2229f6253864e7591d8ed32d3cc637a.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/10bf8025354f2f803ee86e3856c01c32.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/3a9b0413b7c40d537620e81819ed284a.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/d50147fda90751e66a772af833026f76.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/d934b537239befb6b32335b7e36655cc.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/d934b537239befb6b32335b7e36655cc.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/10bf8025354f2f803ee86e3856c01c32.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e2229f6253864e7591d8ed32d3cc637a.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/3a9b0413b7c40d537620e81819ed284a.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/7b0effd823fa72df079d",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/41522941989bab862947",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Je gagne 1 boost par carte dans la Réserve de chaque joueur.  Lorsque je quitte la zone d'Expédition — []Vous pouvez renvoyer dans votre main une carte de votre Réserve autre que moi.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Je gagne 1\u00a0boost par carte dans la R\u00e9serve de chaque joueur.  Lorsque je quitte la zone d'Exp\u00e9dition\u00a0\u2014 []Vous pouvez renvoyer dans votre main une carte de votre R\u00e9serve autre que moi."
+                "RECALL_COST": "3"
             },
             "id": "2K6KCECFN59T18ZHMHFC6D72E1",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e2229f6253864e7591d8ed32d3cc637a.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Anansi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_4228",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_13_U_4228"
         }

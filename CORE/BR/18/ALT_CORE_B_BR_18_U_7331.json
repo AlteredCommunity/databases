@@ -3,8 +3,8 @@
     "@id": "/cards/ALT_CORE_B_BR_18_U_7331",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/en_US/ac48097dfc2d417e32c20d1e2a40ac5c.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/de_DE/addbfac951edbe63b48dda910941f01e.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/en_US/ac48097dfc2d417e32c20d1e2a40ac5c.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/es_ES/b590910dd069713a31aee664fa0c5735.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/fr_FR/27ec4af4f2368ec51089466374000a3f.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/it_IT/1bbb2d672f3a274ad6c1b6624ccd11c4.jpg"
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f99b8352023c3985a1f3",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "4",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{J} If you control one or more Landmarks: Characters you control gain 1 boost.  {R} You may put a card from your hand in Reserve. If you do: I gain 2 boosts.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} If you control one or more Landmarks: Characters you control gain 1 boost.  {R} You may put a card from your hand in Reserve. If you do: I gain 2 boosts."
+        "RECALL_COST": "5"
     },
     "id": "209JP52F5598VT1YE606TCGQKV",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/en_EN/15d0af1fb281d2061a9fd55b363b201e.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Sun Wukong",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_18_U_7331",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_BR_18_U_7331",
     "translations": {
@@ -77,8 +77,8 @@
             "@id": "/cards/ALT_CORE_B_BR_18_U_7331",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/en_US/ac48097dfc2d417e32c20d1e2a40ac5c.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/de_DE/addbfac951edbe63b48dda910941f01e.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/en_US/ac48097dfc2d417e32c20d1e2a40ac5c.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/es_ES/b590910dd069713a31aee664fa0c5735.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/fr_FR/27ec4af4f2368ec51089466374000a3f.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/it_IT/1bbb2d672f3a274ad6c1b6624ccd11c4.jpg"
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b7325ec55e78172419ec",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "4",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{J} Si vous contrôlez au moins un Repère : Les Personnages que vous contrôlez gagnent 1 boost.  {R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Je gagne 2 boosts.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: Les Personnages que vous contr\u00f4lez gagnent 1\u00a0boost.  {R} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Je gagne 2\u00a0boosts."
+                "RECALL_COST": "5"
             },
             "id": "209JP52F5598VT1YE606TCGQKV",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/fr_FR/27ec4af4f2368ec51089466374000a3f.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Sun Wukong",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_18_U_7331",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_BR_18_U_7331"
         }

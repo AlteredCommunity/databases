@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/de_DE/186a9d4560e36e77816aab4243d32848.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/es_ES/020b9ceef2723cd609b2f372dacba864.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/en_US/3ef91ab685e4a0f58eb9d5bf69ed1489.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/es_ES/020b9ceef2723cd609b2f372dacba864.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/fr_FR/f1a916e2b14771d929a4f9484c83a708.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/it_IT/4eb79d07474ac305315ca973b5590afa.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/961ea67e1f07a1e503b2",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{R} You may discard a card from your Reserve. If you do: You may discard target Permanent.  When I leave the Expedition zone — You may pay {1}. If you do: [Sabotage].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} You may discard a card from your Reserve. If you do: You may discard target Permanent.  When I leave the Expedition zone\u00a0\u2014 You may pay\u00a0{1}. If you do: [Sabotage]."
+        "RECALL_COST": "3"
     },
     "id": "2AMDTRC91Q8QBRJPHV9YMCAPH4",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/JPG/en_EN/7d24aec004d5eea8b833a1cec97ffe31.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Haven Bouncer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_15_U_6577",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_BR_15_U_6577",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/de_DE/186a9d4560e36e77816aab4243d32848.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/es_ES/020b9ceef2723cd609b2f372dacba864.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/en_US/3ef91ab685e4a0f58eb9d5bf69ed1489.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/es_ES/020b9ceef2723cd609b2f372dacba864.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/fr_FR/f1a916e2b14771d929a4f9484c83a708.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/it_IT/4eb79d07474ac305315ca973b5590afa.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b8ea2d8718913e93bfa3",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez défausser un Permanent ciblé.  Lorsque je quitte la zone d'Expédition — Vous pouvez payer {1}. Si vous le faites : [Sabotez].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Vous pouvez d\u00e9fausser un Permanent cibl\u00e9.  Lorsque je quitte la zone d'Exp\u00e9dition\u00a0\u2014 Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: [Sabotez]."
+                "RECALL_COST": "3"
             },
             "id": "2AMDTRC91Q8QBRJPHV9YMCAPH4",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_15/UNIQUE/JPG/fr_FR/f1a916e2b14771d929a4f9484c83a708.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Videuse Bravos",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_15_U_6577",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_BR_15_U_6577"
         }

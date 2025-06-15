@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_58_U_7863",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/d2ec99275bded764c0dec52ab8cd9c78.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/46d41f5adcee465824b80364c737368b.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/de_DE/e9d4e8888621e3f46c7b5d1e5083cd9f.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/2a1cf29e29e900bffd2a2c9612c34be7.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/5945ac4ca3a2937275040707ecc56033.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/d2ec99275bded764c0dec52ab8cd9c78.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/5945ac4ca3a2937275040707ecc56033.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/46d41f5adcee465824b80364c737368b.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/2a1cf29e29e900bffd2a2c9612c34be7.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/4e5a9dfe50a4caf0646b",
-            "reference": "DRUID",
+            "@type": "CardSubType",
             "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
-            "name": "Druid"
+            "name": "Druid",
+            "reference": "DRUID"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0933ff6b9e574c6e6bc2",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "7",
         "MAIN_COST": "6",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "[][][Scout] {2}.  {J} You may put a card from your hand in Reserve. If you do: You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]].",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "7",
-        "MAIN_EFFECT": "[][][Scout] {2}.  {J} You may put a card from your hand in Reserve. If you do: You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]]."
+        "RECALL_COST": "5"
     },
     "id": "0NH3VZX4YY9QATWBBFTXE8EPRF",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/en_EN/768e15751d16f51f9039f87e768d532d.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "The Minotaur",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_58_U_7863",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_58_U_7863",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_MU_58_U_7863",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/d2ec99275bded764c0dec52ab8cd9c78.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/46d41f5adcee465824b80364c737368b.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/de_DE/e9d4e8888621e3f46c7b5d1e5083cd9f.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/2a1cf29e29e900bffd2a2c9612c34be7.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/5945ac4ca3a2937275040707ecc56033.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/d2ec99275bded764c0dec52ab8cd9c78.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/5945ac4ca3a2937275040707ecc56033.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/46d41f5adcee465824b80364c737368b.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/2a1cf29e29e900bffd2a2c9612c34be7.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4665d70da528d6eb4ea3",
-                    "reference": "DRUID",
+                    "@type": "CardSubType",
                     "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
-                    "name": "Druide"
+                    "name": "Druide",
+                    "reference": "DRUID"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/1143aaf30d9f0659bbd0",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "7",
                 "MAIN_COST": "6",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "[][][Repérage] {2}.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "7",
-                "MAIN_EFFECT": "[][][Repérage] {2}.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi."
+                "RECALL_COST": "5"
             },
             "id": "0NH3VZX4YY9QATWBBFTXE8EPRF",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/46d41f5adcee465824b80364c737368b.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Le Minotaure",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_58_U_7863",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_58_U_7863"
         }

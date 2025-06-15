@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_07_U_3933",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/aa937321236d7dcbd3698912f84bcf2c.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/3d8b096db915a6c3a7d9d70f322f7ef7.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/505d3f32393a57e947e21146923c70df.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/de_DE/9616bf792fa8bd3e657c84e6b2fbaf3f.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/c508d2535ada092e1b26f7ce5831f492.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/c508d2535ada092e1b26f7ce5831f492.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/3d8b096db915a6c3a7d9d70f322f7ef7.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/aa937321236d7dcbd3698912f84bcf2c.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/505d3f32393a57e947e21146923c70df.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/252a338b17d2ea83feaa",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/4502227d6f123961879c",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} If you control one or more Landmarks: Roll a die. On a 4+, I gain 2 boosts. On a 1-3, I gain 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} If you control one or more Landmarks: Roll a die. On a 4+, I gain 2 boosts. On a 1-3, I gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand."
+        "RECALL_COST": "2"
     },
     "id": "6KECCBF41S8Y3RDFNYY7E2W0FK",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/JPG/en_EN/7531b12c6aa665d2746ae4144fd7c413.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Hathor",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_07_U_3933",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_07_U_3933",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_07_U_3933",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/aa937321236d7dcbd3698912f84bcf2c.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/3d8b096db915a6c3a7d9d70f322f7ef7.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/505d3f32393a57e947e21146923c70df.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/de_DE/9616bf792fa8bd3e657c84e6b2fbaf3f.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/c508d2535ada092e1b26f7ce5831f492.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/en_US/c508d2535ada092e1b26f7ce5831f492.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/es_ES/3d8b096db915a6c3a7d9d70f322f7ef7.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/aa937321236d7dcbd3698912f84bcf2c.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/it_IT/505d3f32393a57e947e21146923c70df.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/a552ad69b83d0ff0098b",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/3874111cdb31f5c934ef",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer une carte de votre Réserve dans votre main.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} Si vous contrôlez au moins un Repère : Lancez un dé. Sur 4+, je gagne 2 boosts. Sur 1-3, je gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: Lancez un d\u00e9. Sur 4+, je gagne 2\u00a0boosts. Sur 1-3, je gagne 1\u00a0boost.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez renvoyer une carte de votre R\u00e9serve dans votre main."
+                "RECALL_COST": "2"
             },
             "id": "6KECCBF41S8Y3RDFNYY7E2W0FK",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_07/UNIQUE/JPG/fr_FR/aa937321236d7dcbd3698912f84bcf2c.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Hathor",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_07_U_3933",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_07_U_3933"
         }

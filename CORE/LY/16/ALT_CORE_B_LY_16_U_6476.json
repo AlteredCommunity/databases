@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/de_DE/26f919197fa987340e0ccd29c9d2d803.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/es_ES/d894d08cc54005e06d40b0b44ac6d1d4.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/en_US/b1b4b077f6d7ee16fe1b436b9a899464.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/es_ES/d894d08cc54005e06d40b0b44ac6d1d4.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/fr_FR/6d0df09943531694f4276a78badb9726.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/it_IT/08479f93e0e97c56e639a4e8dd02f0c6.jpg"
     },
@@ -21,33 +21,33 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/69d51299971395610698",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : [][Resupply].",
+        "FOREST_POWER": "3",
         "MAIN_COST": "2",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{J} []You may have target Character gain [[Fleeting]].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} []You may have target Character gain [[Fleeting]].",
-        "ECHO_EFFECT": "{D} : [][Resupply]."
+        "RECALL_COST": "4"
     },
     "id": "3683WX1BM989E8E2YGTW3XS2JH",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/JPG/en_EN/cd2011db69d763d447efa03ab8c7bfaf.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Lyra Chronicler",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_16_U_6476",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_16_U_6476",
     "translations": {
@@ -79,8 +79,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/de_DE/26f919197fa987340e0ccd29c9d2d803.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/es_ES/d894d08cc54005e06d40b0b44ac6d1d4.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/en_US/b1b4b077f6d7ee16fe1b436b9a899464.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/es_ES/d894d08cc54005e06d40b0b44ac6d1d4.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/fr_FR/6d0df09943531694f4276a78badb9726.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/it_IT/08479f93e0e97c56e639a4e8dd02f0c6.jpg"
             },
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/8b53a5cc74df3ca00e82",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : [][Ravitaillez].",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "2",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{J} []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} []Vous pouvez faire gagner [[Fugace]] \u00e0 un Personnage cibl\u00e9.",
-                "ECHO_EFFECT": "{D}\u00a0: [][Ravitaillez]."
+                "RECALL_COST": "4"
             },
             "id": "3683WX1BM989E8E2YGTW3XS2JH",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/UNIQUE/JPG/fr_FR/6d0df09943531694f4276a78badb9726.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Chroniqueuse Lyra",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_16_U_6476",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_16_U_6476"
         }

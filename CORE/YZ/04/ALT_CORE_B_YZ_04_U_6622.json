@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CORE_B_YZ_04_U_6622",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/1b26550fc0b12d669f01bf9ffb2983d8.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/6e385bc899d3592236e4e1875b67a221.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/7b8c886eed21d0f46d79f6bfcc89c0b9.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/de_DE/fb9a86a8ea05f5292db3956e6cdbe17c.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/1b4c9b5a97cc6e07d315ee4392627a5b.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/6e385bc899d3592236e4e1875b67a221.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/1b4c9b5a97cc6e07d315ee4392627a5b.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/7b8c886eed21d0f46d79f6bfcc89c0b9.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/1b26550fc0b12d669f01bf9ffb2983d8.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e01d28f0b39a1a3d93c8",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ebd2f691e5ed044bde6b",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Spell you play this Afternoon costs {1} less.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "When I go to Reserve from the Expedition zone — []Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  When you play another Character with a base statistic of 0 — If I have 1 or more boosts: You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "When I go to Reserve from the Expedition zone\u00a0\u2014 []Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  When you play another Character with a base statistic of 0\u00a0\u2014 If I have 1 or more boosts: You may have target Character with Hand Cost\u00a0{3} or less other than me gain [[Anchored]].",
-        "ECHO_EFFECT": "{D} : []The next Spell you play this Afternoon costs\u00a0{1} less."
+        "RECALL_COST": "2"
     },
     "id": "4YDSBQ8M648BHSWD5ZZFP5YN08",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/JPG/en_EN/3092cfd05935e5cb161fdecd01f65a31.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Studious Disciple",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_04_U_6622",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_04_U_6622",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_CORE_B_YZ_04_U_6622",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/1b26550fc0b12d669f01bf9ffb2983d8.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/6e385bc899d3592236e4e1875b67a221.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/7b8c886eed21d0f46d79f6bfcc89c0b9.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/de_DE/fb9a86a8ea05f5292db3956e6cdbe17c.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/1b4c9b5a97cc6e07d315ee4392627a5b.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/6e385bc899d3592236e4e1875b67a221.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/1b4c9b5a97cc6e07d315ee4392627a5b.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/7b8c886eed21d0f46d79f6bfcc89c0b9.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/1b26550fc0b12d669f01bf9ffb2983d8.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d46b89425917b1f6384f",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c142d5979223611dc16a",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Sort que vous jouez cet Après-midi coûte {1} de moins.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "Lorsque je vais en Réserve depuis la zone d'Expédition — []Lancez un dé. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  Lorsque vous jouez un autre Personnage avec une statistique de base 0 — Si j'ai au moins 1 boost : Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "Lorsque je vais en R\u00e9serve depuis la zone d'Exp\u00e9dition\u00a0\u2014 []Lancez un d\u00e9. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  Lorsque vous jouez un autre Personnage avec une statistique de base 0\u00a0\u2014 Si j'ai au moins 1\u00a0boost\u00a0: Vous pouvez faire gagner [[Ancr\u00e9]] \u00e0 un Personnage cibl\u00e9 de Co\u00fbt de Main\u00a0{3} ou moins autre que moi.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Sort que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "2"
             },
             "id": "4YDSBQ8M648BHSWD5ZZFP5YN08",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/7b8c886eed21d0f46d79f6bfcc89c0b9.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Disciple Studieux",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_04_U_6622",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_04_U_6622"
         }

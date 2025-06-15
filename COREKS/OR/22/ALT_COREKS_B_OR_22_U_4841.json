@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_OR_22_U_4841",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/e88274cace0e74cd560aa8b57cee90d7.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/es_ES/8378a6e302854d8a9ed2a282578c3486.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/4bdea517003552cfa82c5ee8f8f8b1c8.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/de_DE/46682c9b32c6745f07fb91a6f523a71e.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/en_US/552e696f9291f5f14979710ad21d4802.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/en_US/552e696f9291f5f14979710ad21d4802.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/es_ES/8378a6e302854d8a9ed2a282578c3486.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/e88274cace0e74cd560aa8b57cee90d7.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/4bdea517003552cfa82c5ee8f8f8b1c8.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/b4c220cdf9305eccb43a",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/de7c7432dc7406552894",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{J} If you control four or more Characters: Characters you control gain 1 boost.  When my Expedition fails to move forward during Dusk — After Rest: []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} If you control four or more Characters: Characters you control gain 1 boost.  When my Expedition fails to move forward during Dusk\u00a0\u2014 After Rest: []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition."
+        "RECALL_COST": "4"
     },
     "id": "79R66V2HVE9ST923N5G94KV8FB",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/JPG/en_EN/7774a7724f4f18de923b4cc8ba5a0d6a.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Thoth",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_22_U_4841",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_OR_22_U_4841",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_OR_22_U_4841",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/e88274cace0e74cd560aa8b57cee90d7.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/es_ES/8378a6e302854d8a9ed2a282578c3486.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/4bdea517003552cfa82c5ee8f8f8b1c8.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/de_DE/46682c9b32c6745f07fb91a6f523a71e.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/en_US/552e696f9291f5f14979710ad21d4802.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/en_US/552e696f9291f5f14979710ad21d4802.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/es_ES/8378a6e302854d8a9ed2a282578c3486.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/e88274cace0e74cd560aa8b57cee90d7.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/it_IT/4bdea517003552cfa82c5ee8f8f8b1c8.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/26c266b85f2be50378b5",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/25099c961e6d7eb5fa14",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{J} Si vous contrôlez au moins quatre Personnages : Les Personnages que vous contrôlez gagnent 1 boost.  Lorsque mon Expédition n'avance pas pendant le Crépuscule — Au Repos : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} Si vous contr\u00f4lez au moins quatre Personnages\u00a0: Les Personnages que vous contr\u00f4lez gagnent 1\u00a0boost.  Lorsque mon Exp\u00e9dition n'avance pas pendant le Cr\u00e9puscule\u00a0\u2014 Au Repos\u00a0: []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition Compagnon.",
-                "ECHO_EFFECT": "{D}\u00a0: []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition H\u00e9ros."
+                "RECALL_COST": "4"
             },
             "id": "79R66V2HVE9ST923N5G94KV8FB",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_22/UNIQUE/JPG/fr_FR/e88274cace0e74cd560aa8b57cee90d7.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Thot",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_22_U_4841",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_OR_22_U_4841"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_50_U_8665",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/de_DE/e4772db71b9d8c033637c2658525ceee.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/74f1a045e1691d9c1c81aeefc04c8277.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/es_ES/bc27895342ff1d0a0bfc771af7a4666d.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/it_IT/0a8258cc411b2f1b12fdec0bde621f4c.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/fr_FR/f663e4d208cb1721a2eebdb4bd5386a9.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/74f1a045e1691d9c1c81aeefc04c8277.jpg"
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/it_IT/0a8258cc411b2f1b12fdec0bde621f4c.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a5f709239dcab64c6e30",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} If you control three or more Characters: Draw a card.  {R} You may discard a card from your Reserve. If you do: I gain 1 boost per [[Boosted]] Character you control.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{H} If you control three or more Characters: Draw a card.  {R} You may discard a card from your Reserve. If you do: I gain 1 boost per [[Boosted]] Character you control."
+        "RECALL_COST": "2"
     },
     "id": "3XGVS8TF338FE9A23SSDEX41VZ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/en_EN/5c16bfea92fecb1688a5ba80efc266b6.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Spirit Wielder",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_50_U_8665",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_50_U_8665",
     "translations": {
@@ -78,10 +78,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/de_DE/e4772db71b9d8c033637c2658525ceee.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/74f1a045e1691d9c1c81aeefc04c8277.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/es_ES/bc27895342ff1d0a0bfc771af7a4666d.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/it_IT/0a8258cc411b2f1b12fdec0bde621f4c.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/fr_FR/f663e4d208cb1721a2eebdb4bd5386a9.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/74f1a045e1691d9c1c81aeefc04c8277.jpg"
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/it_IT/0a8258cc411b2f1b12fdec0bde621f4c.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/62e664c78119b7e209fb",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Si vous contrôlez au moins trois Personnages : Piochez une carte.  {R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Je gagne 1 boost par Personnage [[Boosté]] que vous contrôlez.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{H} Si vous contrôlez au moins trois Personnages : Piochez une carte.  {R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Je gagne 1 boost par Personnage [[Boosté]] que vous contrôlez."
+                "RECALL_COST": "2"
             },
             "id": "3XGVS8TF338FE9A23SSDEX41VZ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/fr_FR/f663e4d208cb1721a2eebdb4bd5386a9.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Porteuse d'Esprit",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_50_U_8665",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_50_U_8665"
         }

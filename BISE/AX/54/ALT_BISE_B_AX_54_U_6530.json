@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_54_U_6530",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/457fec743a02af8ac210ed4ffdafb9ec.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/456f26a908c7189e8491ec79597833cc.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/1f335a63f236c166e18b2816c418bfc0.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/de_DE/2af2998072c01c5489e06f340f6a9364.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/d852c2e39d346a64612bca199a3689d2.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/456f26a908c7189e8491ec79597833cc.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/d852c2e39d346a64612bca199a3689d2.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/1f335a63f236c166e18b2816c418bfc0.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/457fec743a02af8ac210ed4ffdafb9ec.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/14a460ed07f77dab3d73",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9af4bb94211c48144f55",
-            "reference": "MESSENGER",
+            "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-            "name": "Messenger"
+            "name": "Messenger",
+            "reference": "MESSENGER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may [Augment] target card in play or in Reserve.",
+        "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {2}.  {J} [][Augment] any number of target cards in play or in Reserve.  When I leave the Expedition zone, if I was [[Fleeting]] — []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "[][][Scout] {2}.  {J} [][Augment] any number of target cards in play or in Reserve.  When I leave the Expedition zone, if I was [[Fleeting]] — []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
-        "ECHO_EFFECT": "{D} : []You may [Augment] target card in play or in Reserve."
+        "RECALL_COST": "4"
     },
     "id": "3ZSHJ22JGW9KSSRSC16F7JH9PD",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/en_EN/c5f2d3a449847d13a0040099def41386.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Aby, Sap Courier",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_6530",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_54_U_6530",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_AX_54_U_6530",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/457fec743a02af8ac210ed4ffdafb9ec.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/456f26a908c7189e8491ec79597833cc.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/1f335a63f236c166e18b2816c418bfc0.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/de_DE/2af2998072c01c5489e06f340f6a9364.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/d852c2e39d346a64612bca199a3689d2.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/456f26a908c7189e8491ec79597833cc.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/d852c2e39d346a64612bca199a3689d2.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/1f335a63f236c166e18b2816c418bfc0.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/457fec743a02af8ac210ed4ffdafb9ec.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/63329fd0f6f5a81de1e7",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/fcced9f964c601751464",
-                    "reference": "MESSENGER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-                    "name": "Émissaire"
+                    "name": "Émissaire",
+                    "reference": "MESSENGER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez [Amplifier] une carte ciblée en jeu ou en Réserve.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {2}.  {J} [][Amplifiez] n'importe quel nombre de cartes ciblées en jeu ou en Réserve.  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "[][][Repérage] {2}.  {J} [][Amplifiez] n'importe quel nombre de cartes ciblées en jeu ou en Réserve.  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez [Amplifier] une carte ciblée en jeu ou en Réserve."
+                "RECALL_COST": "4"
             },
             "id": "3ZSHJ22JGW9KSSRSC16F7JH9PD",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/1f335a63f236c166e18b2816c418bfc0.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Aby, Livreuse de Sève",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_6530",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_54_U_6530"
         }

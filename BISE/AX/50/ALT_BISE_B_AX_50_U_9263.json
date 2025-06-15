@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_50_U_9263",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/fr_FR/7296f5cb6f0596d6b2ca2a32937626a2.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/es_ES/9fc44ad6d311aa9b7def57fe13709182.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/it_IT/1c4d0f7cf9aca79afe434e26dc27d2a6.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/de_DE/33ce7db7e4052a4839942ad5f00eb9f4.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/en_US/aba2a57425a23b90253b67382fea7dcd.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/en_US/aba2a57425a23b90253b67382fea7dcd.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/es_ES/9fc44ad6d311aa9b7def57fe13709182.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/fr_FR/7296f5cb6f0596d6b2ca2a32937626a2.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/it_IT/1c4d0f7cf9aca79afe434e26dc27d2a6.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d88f40c35cbf9e440293",
-            "reference": "ROBOT",
+            "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-            "name": "Robot"
+            "name": "Robot",
+            "reference": "ROBOT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When you play another Character with a base statistic of 0 — []I gain 1 boost, up to a max of 2.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "1",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} You may spend 1 counter from a card you control or in your Reserve. If you do: [Resupply], otherwise [Exhausted Resupply].  {H} If you control a [[Fleeting]] Character: [Exhausted Resupply].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{J} You may spend 1 counter from a card you control or in your Reserve. If you do: [Resupply], otherwise [Exhausted Resupply].  {H} If you control a [[Fleeting]] Character: [Exhausted Resupply].",
-        "ECHO_EFFECT": "{I} When you play another Character with a base statistic of 0 — []I gain 1 boost, up to a max of 2."
+        "RECALL_COST": "2"
     },
     "id": "3VTGYYFHE38NGR5X4VRPG43PQ1",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/en_EN/cf8c25fc842ebe7fba1601828172c3a6.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Dredger Drone",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_50_U_9263",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_50_U_9263",
     "translations": {
@@ -78,11 +78,11 @@
             "@id": "/cards/ALT_BISE_B_AX_50_U_9263",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/fr_FR/7296f5cb6f0596d6b2ca2a32937626a2.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/es_ES/9fc44ad6d311aa9b7def57fe13709182.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/it_IT/1c4d0f7cf9aca79afe434e26dc27d2a6.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/de_DE/33ce7db7e4052a4839942ad5f00eb9f4.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/en_US/aba2a57425a23b90253b67382fea7dcd.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/en_US/aba2a57425a23b90253b67382fea7dcd.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/es_ES/9fc44ad6d311aa9b7def57fe13709182.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/fr_FR/7296f5cb6f0596d6b2ca2a32937626a2.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/JPG/it_IT/1c4d0f7cf9aca79afe434e26dc27d2a6.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/fe86e3107041f54392c4",
-                    "reference": "ROBOT",
+                    "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-                    "name": "Robot"
+                    "name": "Robot",
+                    "reference": "ROBOT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage avec une statistique de base 0 — []Je gagne 1 boost, jusqu'à un maximum de 2.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "1",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} Vous pouvez dépenser 1 compteur d'une carte que vous contrôlez ou dans votre Réserve. Si vous le faites : [Ravitaillez]. Sinon, [Ravitaillez Épuisé].  {H} Si vous contrôlez un Personnage [[Fugace]] : [Ravitaillez Épuisé].",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{J} Vous pouvez dépenser 1 compteur d'une carte que vous contrôlez ou dans votre Réserve. Si vous le faites : [Ravitaillez]. Sinon, [Ravitaillez Épuisé].  {H} Si vous contrôlez un Personnage [[Fugace]] : [Ravitaillez Épuisé].",
-                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage avec une statistique de base 0 — []Je gagne 1 boost, jusqu'à un maximum de 2."
+                "RECALL_COST": "2"
             },
             "id": "3VTGYYFHE38NGR5X4VRPG43PQ1",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_50/UNIQUE/JPG/fr_FR/7296f5cb6f0596d6b2ca2a32937626a2.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Drone Ratisseur",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_50_U_9263",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_50_U_9263"
         }

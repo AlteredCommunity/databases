@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_57_U_13329",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/e83660c48452376ca33aed79c85e77fc.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/444c0777f2645d778600f20d955d1e55.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/202e8a80f9b63ce2367bb009d3b61bde.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/768a6e51c7baac0b44078dcffcdbfc07.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/40105805967e6e18bec8077abce8aac0.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/40105805967e6e18bec8077abce8aac0.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/202e8a80f9b63ce2367bb009d3b61bde.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/444c0777f2645d778600f20d955d1e55.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/e83660c48452376ca33aed79c85e77fc.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/8d42105a9d3c3da9b9b8",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/22e6a2e0dd605ba2dd39",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "6",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.  When I leave the Expedition zone — If you control two or more Permanents: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions, otherwise create one in my Expedition.  When I leave the Expedition zone — If you control one or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions, otherwise create one in my Expedition.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.  When I leave the Expedition zone — If you control two or more Permanents: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions, otherwise create one in my Expedition.  When I leave the Expedition zone — If you control one or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions, otherwise create one in my Expedition."
+        "RECALL_COST": "5"
     },
     "id": "58NY1MJ6449CRBV4KGVBHKEN9D",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/en_EN/279e258ab9ec9857af464ba4ff2f0a05.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Ariadne",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_13329",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_57_U_13329",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_OR_57_U_13329",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/e83660c48452376ca33aed79c85e77fc.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/444c0777f2645d778600f20d955d1e55.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/202e8a80f9b63ce2367bb009d3b61bde.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/768a6e51c7baac0b44078dcffcdbfc07.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/40105805967e6e18bec8077abce8aac0.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/40105805967e6e18bec8077abce8aac0.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/202e8a80f9b63ce2367bb009d3b61bde.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/444c0777f2645d778600f20d955d1e55.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/e83660c48452376ca33aed79c85e77fc.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ce7fad1a5e14adab1b3f",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4a5ebc9d4b605c35d03a",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "6",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.  Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins deux Permanents : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions. Sinon, créez-en un dans mon Expédition.  Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins un Repère : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions. Sinon, créez-en un dans mon Expédition.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.  Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins deux Permanents : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions. Sinon, créez-en un dans mon Expédition.  Lorsque je quitte la zone d'Expédition — Si vous contrôlez au moins un Repère : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions. Sinon, créez-en un dans mon Expédition."
+                "RECALL_COST": "5"
             },
             "id": "58NY1MJ6449CRBV4KGVBHKEN9D",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/444c0777f2645d778600f20d955d1e55.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Ariane",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_13329",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_57_U_13329"
         }

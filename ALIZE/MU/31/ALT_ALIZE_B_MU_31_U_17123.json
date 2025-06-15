@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/de_DE/41e6a4d9536b2d0bd30382d59e11eae6.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/en_US/c5f9588992d3e8e8c79f50d134da2308.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/fr_FR/56746d570ab6b4214ae38cc23e78854d.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/es_ES/6d865892ba748df678f1e8c2594b971d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/fr_FR/56746d570ab6b4214ae38cc23e78854d.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/it_IT/71722cd31802b52d162929b8ae6346a9.jpg"
     },
     "assets": {
@@ -21,33 +21,33 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/c07fcd1a429ff35bc00a",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Target Character you control with Hand Cost {4} or less gains [[Asleep]].",
+        "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} If you have two or more cards in Reserve: Draw a card.  When a Character you control gains 1 or more boosts — If you have two or more cards in Reserve: You may exhaust target card in Reserve.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} If you have two or more cards in Reserve: Draw a card.  When a Character you control gains 1 or more boosts\u00a0\u2014 If you have two or more cards in Reserve: You may exhaust target card in Reserve.",
-        "ECHO_EFFECT": "{D} : []Target Character you control with Hand Cost {4} or less gains [[Asleep]]."
+        "RECALL_COST": "3"
     },
     "id": "39GF5NQZT59ERASPZXSVZYHAJH",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/en_EN/77d6ee5617cdd83ef4df4dfec0ec3c73.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Jack Frost",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_31_U_17123",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_MU_31_U_17123",
     "translations": {
@@ -80,8 +80,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/de_DE/41e6a4d9536b2d0bd30382d59e11eae6.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/en_US/c5f9588992d3e8e8c79f50d134da2308.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/fr_FR/56746d570ab6b4214ae38cc23e78854d.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/es_ES/6d865892ba748df678f1e8c2594b971d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/fr_FR/56746d570ab6b4214ae38cc23e78854d.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/it_IT/71722cd31802b52d162929b8ae6346a9.jpg"
             },
             "assets": {
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c18d1e4024eb50742544",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Un Personnage ciblé que vous contrôlez de Coût de Main {4} ou moins gagne [[Endormi]].",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Si vous avez au moins deux cartes en Réserve : Piochez une carte.  Lorsqu'un Personnage que vous contrôlez gagne au moins 1 boost — Si vous avez au moins deux cartes en Réserve : Vous pouvez épuiser une carte ciblée en Réserve.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Si vous avez au moins deux cartes en R\u00e9serve\u00a0: Piochez une carte.  Lorsqu'un Personnage que vous contr\u00f4lez gagne au moins 1\u00a0boost\u00a0\u2014 Si vous avez au moins deux cartes en R\u00e9serve\u00a0: Vous pouvez \u00e9puiser une carte cibl\u00e9e en R\u00e9serve.",
-                "ECHO_EFFECT": "{D}\u00a0: []Un Personnage cibl\u00e9 que vous contr\u00f4lez de Co\u00fbt de Main\u00a0{4} ou moins gagne [[Endormi]]."
+                "RECALL_COST": "3"
             },
             "id": "39GF5NQZT59ERASPZXSVZYHAJH",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_31/JPG/fr_FR/56746d570ab6b4214ae38cc23e78854d.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Jack Frost",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_31_U_17123",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_MU_31_U_17123"
         }

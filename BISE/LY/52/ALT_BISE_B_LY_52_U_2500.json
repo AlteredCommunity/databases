@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_LY_52_U_2500",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/fr_FR/77aeab977b0aac2db0b3787c6d366ecd.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/es_ES/d626ae913f540f0117891a537493acd4.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/de_DE/b9f432f078fcbe34076cd0fcdc32d0fc.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/it_IT/9c2dc7bb339cc37a39f6868823a4f84a.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/en_US/501a1a3b03fe533486b6b6a43625a289.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/en_US/501a1a3b03fe533486b6b6a43625a289.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/es_ES/d626ae913f540f0117891a537493acd4.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/fr_FR/77aeab977b0aac2db0b3787c6d366ecd.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/it_IT/9c2dc7bb339cc37a39f6868823a4f84a.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/14e03ca55bc3c100350d",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{R} If I have 1 or more boosts: Reveal the top card of your deck. If it's a Robot or Permanent, draw it, otherwise discard it.  {R} You may put a card from your hand in Reserve. If you do: Create a [Brassbug 2/2/2] Robot token in your other Expedition (the one I'm not in).",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{R} If I have 1 or more boosts: Reveal the top card of your deck. If it's a Robot or Permanent, draw it, otherwise discard it.  {R} You may put a card from your hand in Reserve. If you do: Create a [Brassbug 2/2/2] Robot token in your other Expedition (the one I'm not in).",
-        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3."
+        "RECALL_COST": "4"
     },
     "id": "22NVD8QX0X8EDAZR6YKRMYG3TT",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/en_EN/dd15854304fcea07ecfc07007bf583a1.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "BLISS Keytarist",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_52_U_2500",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_LY_52_U_2500",
     "translations": {
@@ -78,11 +78,11 @@
             "@id": "/cards/ALT_BISE_B_LY_52_U_2500",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/fr_FR/77aeab977b0aac2db0b3787c6d366ecd.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/es_ES/d626ae913f540f0117891a537493acd4.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/de_DE/b9f432f078fcbe34076cd0fcdc32d0fc.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/it_IT/9c2dc7bb339cc37a39f6868823a4f84a.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/en_US/501a1a3b03fe533486b6b6a43625a289.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/en_US/501a1a3b03fe533486b6b6a43625a289.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/es_ES/d626ae913f540f0117891a537493acd4.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/fr_FR/77aeab977b0aac2db0b3787c6d366ecd.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/JPG/it_IT/9c2dc7bb339cc37a39f6868823a4f84a.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/29622b25f4fbb76f5884",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{R} Si j'ai au moins 1 boost : Révélez la première carte de votre deck. Si c'est un Robot ou un Permanent, piochez-la. Sinon, défaussez-la.  {R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Créez un jeton Robot [2/2/2 Scarabot] dans votre autre Expédition (celle où je ne suis pas).",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{R} Si j'ai au moins 1 boost : Révélez la première carte de votre deck. Si c'est un Robot ou un Permanent, piochez-la. Sinon, défaussez-la.  {R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Créez un jeton Robot [2/2/2 Scarabot] dans votre autre Expédition (celle où je ne suis pas).",
-                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3."
+                "RECALL_COST": "4"
             },
             "id": "22NVD8QX0X8EDAZR6YKRMYG3TT",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_52/UNIQUE/JPG/fr_FR/77aeab977b0aac2db0b3787c6d366ecd.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Claviériste de Bliss",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_52_U_2500",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_LY_52_U_2500"
         }

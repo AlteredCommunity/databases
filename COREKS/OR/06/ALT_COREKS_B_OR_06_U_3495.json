@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_OR_06_U_3495",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/be0bf8a22f586e732bb93ec44fd1282a.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/c5131ce98fd0aeac6a104e4f0a7a6b8e.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/2dbcc59e47ce255023a38043a7c8ae14.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/de_DE/d35aca39d140e9e4f76b5b58edc0bf76.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/en_US/03ebdab4f93e9f4a14582927d66d2888.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/en_US/03ebdab4f93e9f4a14582927d66d2888.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/c5131ce98fd0aeac6a104e4f0a7a6b8e.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/be0bf8a22f586e732bb93ec44fd1282a.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/2dbcc59e47ce255023a38043a7c8ae14.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/1157c747b7d52d3aa597",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/48e887711942b5718d6a",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "When another non-token Character joins your Expeditions — If you control one or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.  When I go to Reserve from the Expedition zone — []Create an [Ordis Recruit 1/1/1] Soldier token in your other Expedition (the one I'm not in).",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "When another non-token Character joins your Expeditions\u00a0\u2014 If you control one or more Landmarks: Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.  When I go to Reserve from the Expedition zone\u00a0\u2014 []Create an [Ordis Recruit 1/1/1] Soldier token in your other Expedition (the one I'm not in).",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition."
+        "RECALL_COST": "1"
     },
     "id": "318D9VD6A89JNBB0EX8YQ2JBK5",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/JPG/en_EN/2d869ea4675e372c7a3a5b05d719ed8e.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Ordis Cadets",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_06_U_3495",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_OR_06_U_3495",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_OR_06_U_3495",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/be0bf8a22f586e732bb93ec44fd1282a.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/c5131ce98fd0aeac6a104e4f0a7a6b8e.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/2dbcc59e47ce255023a38043a7c8ae14.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/de_DE/d35aca39d140e9e4f76b5b58edc0bf76.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/en_US/03ebdab4f93e9f4a14582927d66d2888.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/en_US/03ebdab4f93e9f4a14582927d66d2888.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/es_ES/c5131ce98fd0aeac6a104e4f0a7a6b8e.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/be0bf8a22f586e732bb93ec44fd1282a.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/it_IT/2dbcc59e47ce255023a38043a7c8ae14.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/bdcca6a7923b5c59c764",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/f681350a4aecfc4d2161",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "Lorsqu'un autre Personnage non-jeton rejoint vos Expéditions — Si vous contrôlez au moins un Repère : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros.  Lorsque je vais en Réserve depuis la zone d'Expédition — []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre autre Expédition (celle où je ne suis pas).",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "Lorsqu'un autre Personnage non-jeton rejoint vos Exp\u00e9ditions\u00a0\u2014 Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition H\u00e9ros.  Lorsque je vais en R\u00e9serve depuis la zone d'Exp\u00e9dition\u00a0\u2014 []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre autre Exp\u00e9dition (celle o\u00f9 je ne suis pas).",
-                "ECHO_EFFECT": "{D}\u00a0: []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition Compagnon."
+                "RECALL_COST": "1"
             },
             "id": "318D9VD6A89JNBB0EX8YQ2JBK5",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_06/UNIQUE/JPG/fr_FR/be0bf8a22f586e732bb93ec44fd1282a.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Cadets Ordis",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_06_U_3495",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_OR_06_U_3495"
         }

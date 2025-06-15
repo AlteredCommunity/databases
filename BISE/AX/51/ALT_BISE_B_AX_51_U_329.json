@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_51_U_329",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/96efee5c8f5b2200858d4cf02ccd0521.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/de_DE/774077a3a54ab1403ae6c362e19ae67f.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/5bb1b41c9165d75d1aa37aee7aa2eb51.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/4b4a8160098502ed9eba1898901a81db.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/e8d3fff15d10dc797fc8bfb51e6a5586.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/5bb1b41c9165d75d1aa37aee7aa2eb51.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/e8d3fff15d10dc797fc8bfb51e6a5586.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/96efee5c8f5b2200858d4cf02ccd0521.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/99a1e720807679b18011",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/2b8c2ab195e013401882",
-            "reference": "ROBOT",
+            "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-            "name": "Robot"
+            "name": "Robot",
+            "reference": "ROBOT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{R} You may discard a card from your Reserve. If you do: [Sabotage], otherwise you may exhaust target card in Reserve.  When another Robot joins your Expeditions — You may pay {1}. If you do: Each Robot you control other than me gains 1 boost.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} You may discard a card from your Reserve. If you do: [Sabotage], otherwise you may exhaust target card in Reserve.  When another Robot joins your Expeditions — You may pay {1}. If you do: Each Robot you control other than me gains 1 boost.",
-        "ECHO_EFFECT": "{I} At Noon — []Choose one:  • I gain 1 boost, up to a max of 3.  • {T} : I gain 2 boosts, up to a max of 3."
+        "RECALL_COST": "3"
     },
     "id": "00Q9PWNVEW8F79RDT805J2K6Y7",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/en_EN/7f5b2557ca060a48a5005731cf67fb17.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Designer Drone",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_329",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_51_U_329",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_AX_51_U_329",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/96efee5c8f5b2200858d4cf02ccd0521.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/de_DE/774077a3a54ab1403ae6c362e19ae67f.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/5bb1b41c9165d75d1aa37aee7aa2eb51.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/4b4a8160098502ed9eba1898901a81db.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/e8d3fff15d10dc797fc8bfb51e6a5586.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/es_ES/5bb1b41c9165d75d1aa37aee7aa2eb51.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/e8d3fff15d10dc797fc8bfb51e6a5586.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/JPG/it_IT/96efee5c8f5b2200858d4cf02ccd0521.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/2b98a17e751dc8e4d31e",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/687056876eb2fc0e2537",
-                    "reference": "ROBOT",
+                    "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-                    "name": "Robot"
+                    "name": "Robot",
+                    "reference": "ROBOT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : [Sabotez]. Sinon, vous pouvez épuiser une carte ciblée en Réserve.  Lorsqu'un autre Robot rejoint vos Expéditions — Vous pouvez payer {1}. Si vous le faites : Chaque Robot que vous contrôlez autre que moi gagne 1 boost.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : [Sabotez]. Sinon, vous pouvez épuiser une carte ciblée en Réserve.  Lorsqu'un autre Robot rejoint vos Expéditions — Vous pouvez payer {1}. Si vous le faites : Chaque Robot que vous contrôlez autre que moi gagne 1 boost.",
-                "ECHO_EFFECT": "{I} À Midi — []Choisissez l'un :  • Je gagne 1 boost, jusqu'à un max de 3.  • {T} : Je gagne 2 boosts, jusqu'à un max de 3."
+                "RECALL_COST": "3"
             },
             "id": "00Q9PWNVEW8F79RDT805J2K6Y7",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/e8d3fff15d10dc797fc8bfb51e6a5586.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Drone Designer",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_329",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_51_U_329"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_YZ_50_U_8281",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/de_DE/c364af1052519a659f7f04eb2a0af49c.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/301d6aabcd3316fb64bb9eb6c2a08ade.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/fa06ef8d8524e768f287ecbfbe90232b.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/en_US/e5902121c98e0ed5c32a5dd0024b7e1b.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/a1e16caa563f08cec05c350d61176007.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/fa06ef8d8524e768f287ecbfbe90232b.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/a1e16caa563f08cec05c350d61176007.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/301d6aabcd3316fb64bb9eb6c2a08ade.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0c280519ecca6a56b7e3",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/b27cecbb29954cfc8cbc",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When you play a Spell — []I gain 1 boost, up to a max of 2.",
+        "FOREST_POWER": "3",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} If your Hero Expedition is behind: [Resupply].  {R} You may spend 1 of my boosts. If you do: You may discard target Character or Permanent with Hand Cost {2} or less.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{H} If your Hero Expedition is behind: [Resupply].  {R} You may spend 1 of my boosts. If you do: You may discard target Character or Permanent with Hand Cost {2} or less.",
-        "ECHO_EFFECT": "{I} When you play a Spell — []I gain 1 boost, up to a max of 2."
+        "RECALL_COST": "3"
     },
     "id": "457FM3Z3J29C3935MYHZY5AFRT",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/en_EN/25e7f846f12a7e86cca095eadf58bf16.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Yzmir Engraver",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_50_U_8281",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_YZ_50_U_8281",
     "translations": {
@@ -86,10 +86,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/de_DE/c364af1052519a659f7f04eb2a0af49c.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/301d6aabcd3316fb64bb9eb6c2a08ade.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/fa06ef8d8524e768f287ecbfbe90232b.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/en_US/e5902121c98e0ed5c32a5dd0024b7e1b.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/a1e16caa563f08cec05c350d61176007.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/es_ES/fa06ef8d8524e768f287ecbfbe90232b.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/a1e16caa563f08cec05c350d61176007.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/JPG/it_IT/301d6aabcd3316fb64bb9eb6c2a08ade.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d9926b81eaebd02eaf89",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/486cfc1f97f39225e674",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsque vous jouez un Sort — []Je gagne 1 boost, jusqu'à un maximum de 2.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} Si votre Expédition Héros est en retard : [Ravitaillez].  {R} Vous pouvez dépenser 1 de mes boosts. Si vous le faites : Vous pouvez défausser un Personnage ou un Permanent ciblé de Coût de Main {2} ou moins.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{H} Si votre Expédition Héros est en retard : [Ravitaillez].  {R} Vous pouvez dépenser 1 de mes boosts. Si vous le faites : Vous pouvez défausser un Personnage ou un Permanent ciblé de Coût de Main {2} ou moins.",
-                "ECHO_EFFECT": "{I} Lorsque vous jouez un Sort — []Je gagne 1 boost, jusqu'à un maximum de 2."
+                "RECALL_COST": "3"
             },
             "id": "457FM3Z3J29C3935MYHZY5AFRT",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_50/UNIQUE/JPG/fr_FR/a1e16caa563f08cec05c350d61176007.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Tatoueur Yzmir",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_50_U_8281",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_YZ_50_U_8281"
         }

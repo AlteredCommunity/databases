@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/de_DE/d57b8aef2080656e941a9dea422c17e7.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/es_ES/4c47e7aa17562c44858e431735785673.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/en_US/e8f03ce35e093f52e88be8a080ae5f50.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/es_ES/4c47e7aa17562c44858e431735785673.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/fr_FR/3d0c18f0c52b8ac2062afde0aa7f3c8d.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/it_IT/790b112a41b27e91c9e147e731a9041d.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/94da8f0b6059a681b01f",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "6",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{J} []Create a [Brassbug 2/2/2] Robot token in target Expedition.  {H} []For each Permanent you control, you may activate its {j} abilities.  When I leave the Expedition zone — You may pay {1}. If you do: Target opponent discards a card from their hand.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} []Create a [Brassbug 2/2/2] Robot token in target Expedition.  {H} []For each Permanent you control, you may activate its\u00a0{j} abilities.  When I leave the Expedition zone\u00a0\u2014 You may pay\u00a0{1}. If you do: Target opponent discards a card from their hand."
+        "RECALL_COST": "4"
     },
     "id": "5C83SMBNX1821TT3Q8Z2T7T1NN",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/JPG/en_EN/f85fa0776fb185a14cee19955ce85f36.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Baku",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_10_U_6417",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_10_U_6417",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/de_DE/d57b8aef2080656e941a9dea422c17e7.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/es_ES/4c47e7aa17562c44858e431735785673.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/en_US/e8f03ce35e093f52e88be8a080ae5f50.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/es_ES/4c47e7aa17562c44858e431735785673.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/fr_FR/3d0c18f0c52b8ac2062afde0aa7f3c8d.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/it_IT/790b112a41b27e91c9e147e731a9041d.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/57c8c0a9dd56a65cb58a",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "6",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{J} []Créez un jeton Robot [2/2/2 Scarabot] dans une Expédition ciblée.  {H} []Pour chaque Permanent que vous contrôlez, vous pouvez activer ses capacités {j}.  Lorsque je quitte la zone d'Expédition — Vous pouvez payer {1}. Si vous le faites : Un adversaire ciblé défausse une carte de sa main.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} []Cr\u00e9ez un jeton Robot [2/2/2 Scarabot] dans une Exp\u00e9dition cibl\u00e9e.  {H} []Pour chaque Permanent que vous contr\u00f4lez, vous pouvez activer ses capacit\u00e9s\u00a0{j}.  Lorsque je quitte la zone d'Exp\u00e9dition\u00a0\u2014 Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Un adversaire cibl\u00e9 d\u00e9fausse une carte de sa main."
+                "RECALL_COST": "4"
             },
             "id": "5C83SMBNX1821TT3Q8Z2T7T1NN",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_10/UNIQUE/JPG/fr_FR/3d0c18f0c52b8ac2062afde0aa7f3c8d.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Baku",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_10_U_6417",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_10_U_6417"
         }

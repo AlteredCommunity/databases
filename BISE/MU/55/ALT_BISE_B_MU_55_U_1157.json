@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_55_U_1157",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/3c0bb83c28d1f99e5f3afe7c63a2eabe.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/569d25b1c9fa9c47ece379be1bc0d98e.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/f1d1e2ea8883f2fbb66efc26e6f0000d.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/f80ea7b19cbcb2a2cf000e11d46f0b73.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/6cb5d045f9ea247162ab76e26ba08761.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/6cb5d045f9ea247162ab76e26ba08761.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/f1d1e2ea8883f2fbb66efc26e6f0000d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/3c0bb83c28d1f99e5f3afe7c63a2eabe.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/569d25b1c9fa9c47ece379be1bc0d98e.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/c157eed28ff2c9d6d831",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/fa3b957c9bad3fe28e85",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "5",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{H} []I gain [[Anchored]].  {R} If your Hero Expedition is behind: Up to two target Characters each gain 2 boosts.  At Noon — If you have ten or more Mana Orbs: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "{H} []I gain [[Anchored]].  {R} If your Hero Expedition is behind: Up to two target Characters each gain 2 boosts.  At Noon — If you have ten or more Mana Orbs: Create an [Ordis Recruit 1/1/1] Soldier token in each of your Expeditions."
+        "RECALL_COST": "5"
     },
     "id": "4TS8QPNRB28WYVDKPEE87BK40D",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/en_EN/faf72334e6a55e7ee98b908dd9c8aa7f.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Luminous Swarm",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_1157",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_55_U_1157",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_MU_55_U_1157",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/3c0bb83c28d1f99e5f3afe7c63a2eabe.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/569d25b1c9fa9c47ece379be1bc0d98e.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/f1d1e2ea8883f2fbb66efc26e6f0000d.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/f80ea7b19cbcb2a2cf000e11d46f0b73.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/6cb5d045f9ea247162ab76e26ba08761.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/6cb5d045f9ea247162ab76e26ba08761.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/f1d1e2ea8883f2fbb66efc26e6f0000d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/3c0bb83c28d1f99e5f3afe7c63a2eabe.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/569d25b1c9fa9c47ece379be1bc0d98e.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/8c0d1e30c4bb348afbce",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ff8f8fc8b67a6e4f182b",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "5",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{H} []Je gagne [[Ancré]].  {R} Si votre Expédition Héros est en retard : Jusqu'à deux Personnages ciblés gagnent chacun 2 boosts.  À Midi — Si vous avez au moins dix Orbes de Mana : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "{H} []Je gagne [[Ancré]].  {R} Si votre Expédition Héros est en retard : Jusqu'à deux Personnages ciblés gagnent chacun 2 boosts.  À Midi — Si vous avez au moins dix Orbes de Mana : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions."
+                "RECALL_COST": "5"
             },
             "id": "4TS8QPNRB28WYVDKPEE87BK40D",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/3c0bb83c28d1f99e5f3afe7c63a2eabe.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Essaim de Libellumines",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_1157",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_55_U_1157"
         }

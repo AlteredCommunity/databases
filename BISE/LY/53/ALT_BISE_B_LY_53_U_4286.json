@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_LY_53_U_4286",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/c7225db3b7892147593b2bf65a57c718.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/8bf99fc221e9a0fd97eb742b601ba46a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1a7d8c322c1315d522a08dea91c06d24.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/de_DE/ac0ee4a4fe44098c8d7e50c363be1c76.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/295b5c0b541c013f9e30b24006ef4d5e.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/295b5c0b541c013f9e30b24006ef4d5e.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/8bf99fc221e9a0fd97eb742b601ba46a.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/c7225db3b7892147593b2bf65a57c718.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1a7d8c322c1315d522a08dea91c06d24.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f9517aaea4db86a6314a",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{J} []Target a Character in play or in Reserve other than me. Then, roll a die:  • On a 4+, we both gain 1 boost.  • On a 1-3, it gains 1 boost.  {H} Roll a die. On a 4+: Up to two target Characters in play or in Reserve each gain 1 boost.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{J} []Target a Character in play or in Reserve other than me. Then, roll a die:  • On a 4+, we both gain 1 boost.  • On a 1-3, it gains 1 boost.  {H} Roll a die. On a 4+: Up to two target Characters in play or in Reserve each gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []You may return a card from your Reserve to your hand."
+        "RECALL_COST": "4"
     },
     "id": "3BDGKCQ08D9YM8PKB8PYG2RT3J",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/en_EN/51f07e59397bfac32ee8fc219b5810ab.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Daedalus",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_53_U_4286",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_LY_53_U_4286",
     "translations": {
@@ -78,11 +78,11 @@
             "@id": "/cards/ALT_BISE_B_LY_53_U_4286",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/c7225db3b7892147593b2bf65a57c718.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/8bf99fc221e9a0fd97eb742b601ba46a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1a7d8c322c1315d522a08dea91c06d24.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/de_DE/ac0ee4a4fe44098c8d7e50c363be1c76.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/295b5c0b541c013f9e30b24006ef4d5e.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/295b5c0b541c013f9e30b24006ef4d5e.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/8bf99fc221e9a0fd97eb742b601ba46a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/c7225db3b7892147593b2bf65a57c718.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1a7d8c322c1315d522a08dea91c06d24.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/8729e6dca831dea947b7",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer une carte de votre Réserve dans votre main.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{J} []Ciblez un Personnage autre que moi en jeu ou en Réserve. Puis lancez un dé :  • Sur 4+, nous gagnons chacun 1 boost.  • Sur 1-3, il gagne 1 boost.  {H} Lancez un dé. Sur 4+ : Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{J} []Ciblez un Personnage autre que moi en jeu ou en Réserve. Puis lancez un dé :  • Sur 4+, nous gagnons chacun 1 boost.  • Sur 1-3, il gagne 1 boost.  {H} Lancez un dé. Sur 4+ : Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer une carte de votre Réserve dans votre main."
+                "RECALL_COST": "4"
             },
             "id": "3BDGKCQ08D9YM8PKB8PYG2RT3J",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/c7225db3b7892147593b2bf65a57c718.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Dédale",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_53_U_4286",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_LY_53_U_4286"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_55_U_8264",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/2d0170b0a8d100546a33fc89259e358e.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/ad474e5f9ac7d959213acb2b764ec88d.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/da3a1a34a75afdb979713ee239516e85.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/297f88535e4730ab14e7f1934cdd304c.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/13d7d2521e9d75144685db60a269d4b7.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/da3a1a34a75afdb979713ee239516e85.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/13d7d2521e9d75144685db60a269d4b7.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/ad474e5f9ac7d959213acb2b764ec88d.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/b34f114322c17adbeca8",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a8e9b0cff6755b09d1eb",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "5",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{J} You may pay {1}. If you do: I gain [[Anchored]].  At Noon — If my Expedition is behind: I gain 1 boost.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "{J} You may pay {1}. If you do: I gain [[Anchored]].  At Noon — If my Expedition is behind: I gain 1 boost."
+        "RECALL_COST": "5"
     },
     "id": "7DFZA3YCAZ8CES0BTC5JC577EC",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/en_EN/d955e56f77e99832857cb2bc97f5a145.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Luminous Swarm",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_8264",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_55_U_8264",
     "translations": {
@@ -85,10 +85,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/2d0170b0a8d100546a33fc89259e358e.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/ad474e5f9ac7d959213acb2b764ec88d.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/da3a1a34a75afdb979713ee239516e85.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/297f88535e4730ab14e7f1934cdd304c.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/13d7d2521e9d75144685db60a269d4b7.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/da3a1a34a75afdb979713ee239516e85.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/13d7d2521e9d75144685db60a269d4b7.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/ad474e5f9ac7d959213acb2b764ec88d.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/9be817fd8b800ee4eb65",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d623ef4656e44383cf85",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "5",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{J} Vous pouvez payer {1}. Si vous le faites : Je gagne [[Ancré]].  À Midi — Si mon Expédition est en retard : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "{J} Vous pouvez payer {1}. Si vous le faites : Je gagne [[Ancré]].  À Midi — Si mon Expédition est en retard : Je gagne 1 boost."
+                "RECALL_COST": "5"
             },
             "id": "7DFZA3YCAZ8CES0BTC5JC577EC",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/13d7d2521e9d75144685db60a269d4b7.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Essaim de Libellumines",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_8264",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_55_U_8264"
         }

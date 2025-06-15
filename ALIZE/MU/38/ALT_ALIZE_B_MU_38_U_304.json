@@ -4,10 +4,10 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/de_DE/3b4654beed101b6654b53f483df1e1a8.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/es_ES/f0de5d3dbef0d46f3d55d7bc9b773b42.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/it_IT/98c3ab0e3cf864fa72275d246883e50c.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/en_US/d60cf2dcde5c8e9de40eca9d208365d4.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/fr_FR/4071306f6064a54a6b547668686a3bfb.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/es_ES/f0de5d3dbef0d46f3d55d7bc9b773b42.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/fr_FR/4071306f6064a54a6b547668686a3bfb.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/it_IT/98c3ab0e3cf864fa72275d246883e50c.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/73833d7dda6c154bf1c6",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9d462c526c3e06e2085a",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Character you play this turn gains 2 boosts.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If you do: I gain 1 boost per Expedition in {V}.  When another Character joins your Expeditions — If you control one or more Landmarks: I gain 2 boosts.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If you do: I gain 1 boost per Expedition in\u00a0{V}.  When another Character joins your Expeditions\u00a0\u2014 If you control one or more Landmarks: I gain 2 boosts.",
-        "ECHO_EFFECT": "{D} : []The next Character you play this turn gains 2 boosts."
+        "RECALL_COST": "4"
     },
     "id": "6ST98Y6G1T9K98NBBWVDWGYVEW",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/en_EN/a31c6e2d03397870ca0e9200beaa0493.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Leshy",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_38_U_304",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_MU_38_U_304",
     "translations": {
@@ -86,10 +86,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/de_DE/3b4654beed101b6654b53f483df1e1a8.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/es_ES/f0de5d3dbef0d46f3d55d7bc9b773b42.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/it_IT/98c3ab0e3cf864fa72275d246883e50c.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/en_US/d60cf2dcde5c8e9de40eca9d208365d4.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/fr_FR/4071306f6064a54a6b547668686a3bfb.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/es_ES/f0de5d3dbef0d46f3d55d7bc9b773b42.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/fr_FR/4071306f6064a54a6b547668686a3bfb.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/JPG/it_IT/98c3ab0e3cf864fa72275d246883e50c.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d1cd0ad2dca24d2b4522",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/28f6edc4bb0e3fc4666f",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour gagne 2 boosts.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Je gagne 1 boost par Expédition en {V}.  Lorsqu'un autre Personnage rejoint vos Expéditions — Si vous contrôlez au moins un Repère : Je gagne 2 boosts.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Je gagne 1\u00a0boost par Exp\u00e9dition en\u00a0{V}.  Lorsqu'un autre Personnage rejoint vos Exp\u00e9ditions\u00a0\u2014 Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: Je gagne 2\u00a0boosts.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Personnage que vous jouez ce tour gagne 2\u00a0boosts."
+                "RECALL_COST": "4"
             },
             "id": "6ST98Y6G1T9K98NBBWVDWGYVEW",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_38/UNIQUE/JPG/fr_FR/4071306f6064a54a6b547668686a3bfb.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
-            "name": "Li\u00e9chi",
+            "name": "Liéchi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_38_U_304",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_MU_38_U_304"
         }

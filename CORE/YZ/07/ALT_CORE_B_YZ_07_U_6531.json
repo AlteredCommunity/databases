@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CORE_B_YZ_07_U_6531",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/fr_FR/b94e6960723e97e39cbdf9b254fab9f1.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/es_ES/63dbc1bd9e7f810a33b5984399f7d4a3.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/de_DE/a4f1a85cb11754579f59c38fedf1528b.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/it_IT/30036d7dc0564339dc9d7bc45088d34c.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/en_US/9df504d1b7a0621049e63c5cfc7f902a.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/en_US/9df504d1b7a0621049e63c5cfc7f902a.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/es_ES/63dbc1bd9e7f810a33b5984399f7d4a3.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/fr_FR/b94e6960723e97e39cbdf9b254fab9f1.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/it_IT/30036d7dc0564339dc9d7bc45088d34c.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/4f0cbab492c50dfe062f",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9ae0d134d37fcc7b1e3b",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Character you play this turn gains 1 boost.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} You may put a card from your hand in Reserve. If you do: Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  When you roll one or more dice — []I gain 1 boost per card in your Reserve.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{H} You may put a card from your hand in Reserve. If you do: Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  When you roll one or more dice\u00a0\u2014 []I gain 1 boost per card in your Reserve.",
-        "ECHO_EFFECT": "{D} : []The next Character you play this turn gains 1 boost."
+        "RECALL_COST": "2"
     },
     "id": "5055NVAK848ESRD732BBDVE6XY",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/JPG/en_EN/c7f00a6f1d83eaca01d0713c7b3cea0e.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Kadigiran Mage-Dancer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_07_U_6531",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_07_U_6531",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_CORE_B_YZ_07_U_6531",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/fr_FR/b94e6960723e97e39cbdf9b254fab9f1.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/es_ES/63dbc1bd9e7f810a33b5984399f7d4a3.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/de_DE/a4f1a85cb11754579f59c38fedf1528b.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/it_IT/30036d7dc0564339dc9d7bc45088d34c.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/en_US/9df504d1b7a0621049e63c5cfc7f902a.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/en_US/9df504d1b7a0621049e63c5cfc7f902a.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/es_ES/63dbc1bd9e7f810a33b5984399f7d4a3.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/fr_FR/b94e6960723e97e39cbdf9b254fab9f1.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/it_IT/30036d7dc0564339dc9d7bc45088d34c.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c3ffff639f8d740e01ae",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/00d2daaa39fad067a903",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour gagne 1 boost.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Lancez un dé. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  Lorsque vous lancez au moins un dé — []Je gagne 1 boost par carte dans votre Réserve.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{H} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Lancez un d\u00e9. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  Lorsque vous lancez au moins un d\u00e9\u00a0\u2014 []Je gagne 1\u00a0boost par carte dans votre R\u00e9serve.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Personnage que vous jouez ce tour gagne 1\u00a0boost."
+                "RECALL_COST": "2"
             },
             "id": "5055NVAK848ESRD732BBDVE6XY",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/UNIQUE/JPG/fr_FR/b94e6960723e97e39cbdf9b254fab9f1.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Mage-Danseur du Kadigir",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_07_U_6531",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_07_U_6531"
         }

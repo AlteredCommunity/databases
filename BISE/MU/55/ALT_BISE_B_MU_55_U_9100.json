@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_55_U_9100",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/ff6245c73b7d24e2df79c496c100fa07.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/fbf98ce97b93712bc5f7559601aee5e8.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/23ac6c1d23f7911078498c0c7e0c320f.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/e097e2e6295d286649ff299d04e96668.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/aff57e82c2b18fa7e0f5e2bf046c21d2.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/aff57e82c2b18fa7e0f5e2bf046c21d2.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/23ac6c1d23f7911078498c0c7e0c320f.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/ff6245c73b7d24e2df79c496c100fa07.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/fbf98ce97b93712bc5f7559601aee5e8.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/57fa2a7176ab0959b0d8",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/016c0b710e691a13ff36",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} You may pay {1}. If you do: I gain [[Anchored]].  At Noon — You may discard a card from your Reserve. If you do: You may discard target Permanent with Hand Cost {3} or less.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{H} You may pay {1}. If you do: I gain [[Anchored]].  At Noon — You may discard a card from your Reserve. If you do: You may discard target Permanent with Hand Cost {3} or less."
+        "RECALL_COST": "3"
     },
     "id": "3A3D4F8QMB88V80NMJYP8XBTSM",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/en_EN/e3f0f96085c07cbcc4a0af6e09fb2afd.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Luminous Swarm",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_9100",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_55_U_9100",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_MU_55_U_9100",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/ff6245c73b7d24e2df79c496c100fa07.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/fbf98ce97b93712bc5f7559601aee5e8.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/23ac6c1d23f7911078498c0c7e0c320f.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/e097e2e6295d286649ff299d04e96668.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/aff57e82c2b18fa7e0f5e2bf046c21d2.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/aff57e82c2b18fa7e0f5e2bf046c21d2.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/23ac6c1d23f7911078498c0c7e0c320f.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/ff6245c73b7d24e2df79c496c100fa07.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/fbf98ce97b93712bc5f7559601aee5e8.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/daa7931d04967ee3d859",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/abc820df5a9e6b41e32a",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Je gagne [[Ancré]].  À Midi — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Je gagne [[Ancré]].  À Midi — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins."
+                "RECALL_COST": "3"
             },
             "id": "3A3D4F8QMB88V80NMJYP8XBTSM",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/ff6245c73b7d24e2df79c496c100fa07.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Essaim de Libellumines",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_9100",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_55_U_9100"
         }

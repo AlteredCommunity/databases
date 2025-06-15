@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_55_U_8589",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/a8b449b1d81feae79a34dec6f8372953.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/c34bf108e3fbac64c3844da4ab19908d.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/33b357eb90da32c5cce339bc10433373.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/9901f7ee3f64169b749089e786d7623a.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/3e3908a1400388bf78ae33df1d466bfd.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/3e3908a1400388bf78ae33df1d466bfd.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/33b357eb90da32c5cce339bc10433373.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/a8b449b1d81feae79a34dec6f8372953.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/c34bf108e3fbac64c3844da4ab19908d.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ff92a9e184fd6600fc93",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/c7f719c51baf6388b189",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]].",
+        "FOREST_POWER": "4",
         "MAIN_COST": "5",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} []I gain [[Anchored]].  At Noon — You may pay {1}. If you do: Up to two target Characters in play or in Reserve each gain 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} []I gain [[Anchored]].  At Noon — You may pay {1}. If you do: Up to two target Characters in play or in Reserve each gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]]."
+        "RECALL_COST": "3"
     },
     "id": "7QTGRMF08T898TJEXCWRH497EF",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/en_EN/a18d3462846687fbda70538f48370b4e.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Luminous Swarm",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_8589",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_55_U_8589",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_MU_55_U_8589",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/a8b449b1d81feae79a34dec6f8372953.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/c34bf108e3fbac64c3844da4ab19908d.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/33b357eb90da32c5cce339bc10433373.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/de_DE/9901f7ee3f64169b749089e786d7623a.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/3e3908a1400388bf78ae33df1d466bfd.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/en_US/3e3908a1400388bf78ae33df1d466bfd.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/es_ES/33b357eb90da32c5cce339bc10433373.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/a8b449b1d81feae79a34dec6f8372953.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/JPG/it_IT/c34bf108e3fbac64c3844da4ab19908d.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ab4d540a131a84bdcc1e",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/9da97f87f6da6b2881f6",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "5",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} []Je gagne [[Ancré]].  À Midi — Vous pouvez payer {1}. Si vous le faites : Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} []Je gagne [[Ancré]].  À Midi — Vous pouvez payer {1}. Si vous le faites : Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé."
+                "RECALL_COST": "3"
             },
             "id": "7QTGRMF08T898TJEXCWRH497EF",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_55/UNIQUE/JPG/fr_FR/a8b449b1d81feae79a34dec6f8372953.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Essaim de Libellumines",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_55_U_8589",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_55_U_8589"
         }

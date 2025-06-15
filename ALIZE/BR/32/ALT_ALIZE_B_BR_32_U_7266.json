@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_ALIZE_B_BR_32_U_7266",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/c50927709b2ae4d42dd61a09664cced1.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/7b77ba0b7de6996618cf2869e677d5e1.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/ae0cfc50bec3c20765a2aa6446b39ac9.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/de_DE/ec0577de0fbc1bc76df630aff97c94f2.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/2fd45767c9a0194a5297a9bc29790dd8.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/ae0cfc50bec3c20765a2aa6446b39ac9.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/2fd45767c9a0194a5297a9bc29790dd8.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/7b77ba0b7de6996618cf2869e677d5e1.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/c50927709b2ae4d42dd61a09664cced1.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/18355622a39083a0a55a",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/78a9365c3478f6fd2d9d",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.",
+        "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} You may have me gain [[Fleeting]]. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in my Expedition.  When you create a token — If you control two or more Landmarks: I gain 1 boost.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} You may have me gain [[Fleeting]]. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in my Expedition.  When you create a token\u00a0\u2014 If you control two or more Landmarks: I gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition."
+        "RECALL_COST": "2"
     },
     "id": "0RR83EB9XG9MFT0KJ0C5H7TY8P",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/JPG/en_EN/b815bc1dad8065b640f7513ef75659e7.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Fire Rabbit",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_32_U_7266",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_BR_32_U_7266",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_ALIZE_B_BR_32_U_7266",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/c50927709b2ae4d42dd61a09664cced1.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/7b77ba0b7de6996618cf2869e677d5e1.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/ae0cfc50bec3c20765a2aa6446b39ac9.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/de_DE/ec0577de0fbc1bc76df630aff97c94f2.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/2fd45767c9a0194a5297a9bc29790dd8.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/ae0cfc50bec3c20765a2aa6446b39ac9.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/2fd45767c9a0194a5297a9bc29790dd8.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/7b77ba0b7de6996618cf2869e677d5e1.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/c50927709b2ae4d42dd61a09664cced1.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4355186b1b82c204f272",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/3dfa78f063c9afb23c16",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Vous pouvez me faire gagner [[Fugace]]. Si vous le faites : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans mon Expédition.  Lorsque vous créez un jeton — Si vous contrôlez au moins deux Repères : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} Vous pouvez me faire gagner [[Fugace]]. Si vous le faites\u00a0: Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans mon Exp\u00e9dition.  Lorsque vous cr\u00e9ez un jeton\u00a0\u2014 Si vous contr\u00f4lez au moins deux Rep\u00e8res\u00a0: Je gagne 1\u00a0boost.",
-                "ECHO_EFFECT": "{D}\u00a0: []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Exp\u00e9dition H\u00e9ros."
+                "RECALL_COST": "2"
             },
             "id": "0RR83EB9XG9MFT0KJ0C5H7TY8P",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/7b77ba0b7de6996618cf2869e677d5e1.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Lapin Ardent",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_32_U_7266",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_BR_32_U_7266"
         }

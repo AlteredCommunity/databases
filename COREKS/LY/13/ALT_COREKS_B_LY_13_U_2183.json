@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_13_U_2183",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e83e7ec07be3dd99b4f4d99f1ec356ba.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/04d085d7bec128f472fa18641cdd2530.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/5cdf3f19d62c4d6acb613981b671abdb.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/3f5187528627514b6517f6dba1464613.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/b51e11fc248c8cdc5215efe8d80585db.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/b51e11fc248c8cdc5215efe8d80585db.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/04d085d7bec128f472fa18641cdd2530.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e83e7ec07be3dd99b4f4d99f1ec356ba.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/5cdf3f19d62c4d6acb613981b671abdb.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/b6fef7ef17f34c352802",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d95b1869f934bc433214",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "{H} You may pay {1}. If you do: I gain 1 boost per card in each player's Reserve.  When another Robot joins your Expeditions — []You may return a card from your Reserve to your hand.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{H} You may pay\u00a0{1}. If you do: I gain 1 boost per card in each player's Reserve.  When another Robot joins your Expeditions\u00a0\u2014 []You may return a card from your Reserve to your hand."
+        "RECALL_COST": "1"
     },
     "id": "4X96HX0JKQ8YGVWMVF9S4GCSMC",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/JPG/en_EN/7fcf8d91e1d55ed86c864d25e7c31f9f.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Anansi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_2183",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_13_U_2183",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_13_U_2183",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e83e7ec07be3dd99b4f4d99f1ec356ba.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/04d085d7bec128f472fa18641cdd2530.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/5cdf3f19d62c4d6acb613981b671abdb.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/3f5187528627514b6517f6dba1464613.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/b51e11fc248c8cdc5215efe8d80585db.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/b51e11fc248c8cdc5215efe8d80585db.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/04d085d7bec128f472fa18641cdd2530.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e83e7ec07be3dd99b4f4d99f1ec356ba.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/5cdf3f19d62c4d6acb613981b671abdb.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4fb8aecfce8aada4d1c4",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b70765643837b452474a",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Je gagne 1 boost par carte dans la Réserve de chaque joueur.  Lorsqu'un autre Robot rejoint vos Expéditions — []Vous pouvez renvoyer une carte de votre Réserve dans votre main.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Je gagne 1\u00a0boost par carte dans la R\u00e9serve de chaque joueur.  Lorsqu'un autre Robot rejoint vos Exp\u00e9ditions\u00a0\u2014 []Vous pouvez renvoyer une carte de votre R\u00e9serve dans votre main."
+                "RECALL_COST": "1"
             },
             "id": "4X96HX0JKQ8YGVWMVF9S4GCSMC",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/e83e7ec07be3dd99b4f4d99f1ec356ba.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Anansi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_13_U_2183",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_13_U_2183"
         }

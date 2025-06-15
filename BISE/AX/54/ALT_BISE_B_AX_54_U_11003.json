@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_54_U_11003",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/ce7b67907da471105124209f718ce73f.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/45235dbb7c0c04c30c7c6e5809c7667d.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/39b3af07c9d01c329924df7b0e977858.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/de_DE/d0581d39dacdb37a1a7252c343efef97.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/0419b9dbad03245bdee31c6ec06ea064.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/39b3af07c9d01c329924df7b0e977858.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/45235dbb7c0c04c30c7c6e5809c7667d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/0419b9dbad03245bdee31c6ec06ea064.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/ce7b67907da471105124209f718ce73f.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ae8e4b4d54ed255e27c4",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/dd2ba05109baf5118cea",
-            "reference": "MESSENGER",
+            "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-            "name": "Messenger"
+            "name": "Messenger",
+            "reference": "MESSENGER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {2}.  {J} [][Augment] any number of target cards in play or in Reserve.  {R} If you control two or more Landmarks: You may send to Reserve target Character with Hand Cost {3} or less.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "[][][Scout] {2}.  {J} [][Augment] any number of target cards in play or in Reserve.  {R} If you control two or more Landmarks: You may send to Reserve target Character with Hand Cost {3} or less."
+        "RECALL_COST": "4"
     },
     "id": "45QFW1EZ4884QRDKBT3CHEBX6P",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/en_EN/bccf0f2342e49aa779e32e7e081a0775.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Aby, Sap Courier",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_11003",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_54_U_11003",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_AX_54_U_11003",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/ce7b67907da471105124209f718ce73f.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/45235dbb7c0c04c30c7c6e5809c7667d.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/39b3af07c9d01c329924df7b0e977858.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/de_DE/d0581d39dacdb37a1a7252c343efef97.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/0419b9dbad03245bdee31c6ec06ea064.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/39b3af07c9d01c329924df7b0e977858.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/es_ES/45235dbb7c0c04c30c7c6e5809c7667d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/0419b9dbad03245bdee31c6ec06ea064.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/JPG/it_IT/ce7b67907da471105124209f718ce73f.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c2d289c041a82b658cc9",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/79cbff8cbeb7156b87e4",
-                    "reference": "MESSENGER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-                    "name": "Émissaire"
+                    "name": "Émissaire",
+                    "reference": "MESSENGER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {2}.  {J} [][Amplifiez] n'importe quel nombre de cartes ciblées en jeu ou en Réserve.  {R} Si vous contrôlez au moins deux Repères : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {3} ou moins.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "[][][Repérage] {2}.  {J} [][Amplifiez] n'importe quel nombre de cartes ciblées en jeu ou en Réserve.  {R} Si vous contrôlez au moins deux Repères : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {3} ou moins."
+                "RECALL_COST": "4"
             },
             "id": "45QFW1EZ4884QRDKBT3CHEBX6P",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/0419b9dbad03245bdee31c6ec06ea064.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Aby, Livreuse de Sève",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_11003",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_54_U_11003"
         }

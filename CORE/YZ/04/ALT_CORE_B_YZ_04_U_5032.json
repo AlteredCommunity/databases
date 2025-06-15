@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CORE_B_YZ_04_U_5032",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/b4e9b4f42d8dc9ed4d4cca5de74b34a7.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/04be2d223eacc9a461b272aa89b779fd.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/06fb1ad99edf8c0c2005bd8d0041d39e.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/de_DE/422123c33262afe55953ea4c5ea28258.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/5fb42b69424c5d9eb343fdad0cbb7ea9.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/5fb42b69424c5d9eb343fdad0cbb7ea9.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/04be2d223eacc9a461b272aa89b779fd.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/b4e9b4f42d8dc9ed4d4cca5de74b34a7.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/06fb1ad99edf8c0c2005bd8d0041d39e.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/89d2e9d7b49e792b5a11",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/154e612d1580e5751fdc",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Spell you play this Afternoon costs {1} less.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "{H} If you control one or more Landmarks: Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  {H} You may pay {1}. If you do: You may have target Character gain [[Fleeting]].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{H} If you control one or more Landmarks: Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  {H} You may pay\u00a0{1}. If you do: You may have target Character gain [[Fleeting]].",
-        "ECHO_EFFECT": "{D} : []The next Spell you play this Afternoon costs\u00a0{1} less."
+        "RECALL_COST": "1"
     },
     "id": "2MRY742E629V88KH7T9N51Q637",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/JPG/en_EN/ba96d328676380e4ecab3ec7d357c73c.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Studious Disciple",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_04_U_5032",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_04_U_5032",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_CORE_B_YZ_04_U_5032",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/b4e9b4f42d8dc9ed4d4cca5de74b34a7.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/04be2d223eacc9a461b272aa89b779fd.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/06fb1ad99edf8c0c2005bd8d0041d39e.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/de_DE/422123c33262afe55953ea4c5ea28258.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/5fb42b69424c5d9eb343fdad0cbb7ea9.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/en_US/5fb42b69424c5d9eb343fdad0cbb7ea9.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/es_ES/04be2d223eacc9a461b272aa89b779fd.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/b4e9b4f42d8dc9ed4d4cca5de74b34a7.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/it_IT/06fb1ad99edf8c0c2005bd8d0041d39e.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/61126393201c8bb237f0",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c6ce4a5934dbc78e9df8",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Sort que vous jouez cet Après-midi coûte {1} de moins.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "{H} Si vous contrôlez au moins un Repère : Lancez un dé. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  {H} Vous pouvez payer {1}. Si vous le faites : Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{H} Si vous contr\u00f4lez au moins un Rep\u00e8re\u00a0: Lancez un d\u00e9. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  {H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Vous pouvez faire gagner [[Fugace]] \u00e0 un Personnage cibl\u00e9.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Sort que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "1"
             },
             "id": "2MRY742E629V88KH7T9N51Q637",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/UNIQUE/JPG/fr_FR/b4e9b4f42d8dc9ed4d4cca5de74b34a7.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Disciple Studieux",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_04_U_5032",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_04_U_5032"
         }

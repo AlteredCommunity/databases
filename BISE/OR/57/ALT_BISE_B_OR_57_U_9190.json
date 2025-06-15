@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_57_U_9190",
     "@type": "Card",
     "allImagePath": {
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/948f0c328eee386bbddf79f05ca18a1d.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/7deae9ea353a453e53339dfe7f54ee71.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/c150ac51d5388cdf4f10621d9865b4fd.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/0b5b32a03cacecb7c25ea85475af1529.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/214158a11ad0968fe1cacff36bc38d23.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/214158a11ad0968fe1cacff36bc38d23.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/948f0c328eee386bbddf79f05ca18a1d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/c150ac51d5388cdf4f10621d9865b4fd.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/7deae9ea353a453e53339dfe7f54ee71.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/35a47015187a9994015c",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/dd2d23cec6b4b2ecbfdc",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "5",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If you do: Each player chooses a Character they control. It gains [[Asleep]].  When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve. If you do: Each player chooses a Character they control. It gains [[Asleep]].  When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions."
+        "RECALL_COST": "4"
     },
     "id": "057C83XWPF9N9BJ10PF68X52C4",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/en_EN/4adfc6c6e93679eb84cedff9d644bc00.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Ariadne",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_9190",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_57_U_9190",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_OR_57_U_9190",
             "@type": "Card",
             "allImagePath": {
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/948f0c328eee386bbddf79f05ca18a1d.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/7deae9ea353a453e53339dfe7f54ee71.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/c150ac51d5388cdf4f10621d9865b4fd.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/0b5b32a03cacecb7c25ea85475af1529.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/214158a11ad0968fe1cacff36bc38d23.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/214158a11ad0968fe1cacff36bc38d23.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/948f0c328eee386bbddf79f05ca18a1d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/c150ac51d5388cdf4f10621d9865b4fd.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/7deae9ea353a453e53339dfe7f54ee71.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/3b5cc0320a89676eef46",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4e13d878f29923a06b04",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "5",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Chaque joueur choisit un Personnage qu'il contrôle. Il gagne [[Endormi]].  Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "{R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Chaque joueur choisit un Personnage qu'il contrôle. Il gagne [[Endormi]].  Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition."
+                "RECALL_COST": "4"
             },
             "id": "057C83XWPF9N9BJ10PF68X52C4",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/c150ac51d5388cdf4f10621d9865b4fd.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Ariane",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_9190",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_57_U_9190"
         }

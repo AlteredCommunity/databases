@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_ALIZE_B_BR_32_U_11009",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/0cd97b032ef193896cc07ea9b1fd348a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/9c056c1da6c73057bbaf05e8813ce4f4.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/0a702f9599ee40d4cd01aded19371361.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/de_DE/fc443bd251d8ae78341ca0b37bff9c09.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/19105640772a5d503478e35ab576cefe.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/0cd97b032ef193896cc07ea9b1fd348a.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/0a702f9599ee40d4cd01aded19371361.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/19105640772a5d503478e35ab576cefe.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/9c056c1da6c73057bbaf05e8813ce4f4.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/cc348002d6cfef1bddbf",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ac045bdf606f0fef9500",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next card you play this turn costs {1} less.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} You may have me gain [[Fleeting]]. If you do: The next Bureaucrat you play this Afternoon costs {1} less.  When I go to Reserve from the Expedition zone — You may pay {1}. If you do: You may discard target Permanent with Hand Cost {4} or more.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{H} You may have me gain [[Fleeting]]. If you do: The next Bureaucrat you play this Afternoon costs\u00a0{1} less.  When I go to Reserve from the Expedition zone\u00a0\u2014 You may pay\u00a0{1}. If you do: You may discard target Permanent with Hand Cost\u00a0{4} or more.",
-        "ECHO_EFFECT": "{D} : []The next card you play this turn costs\u00a0{1} less."
+        "RECALL_COST": "2"
     },
     "id": "637ZK9X4FD8E09SY5MTETEYPWT",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/JPG/en_EN/6cc38a43443f20e0d8fe0c7207b97981.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Fire Rabbit",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_32_U_11009",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_BR_32_U_11009",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_ALIZE_B_BR_32_U_11009",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/0cd97b032ef193896cc07ea9b1fd348a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/9c056c1da6c73057bbaf05e8813ce4f4.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/0a702f9599ee40d4cd01aded19371361.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/de_DE/fc443bd251d8ae78341ca0b37bff9c09.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/19105640772a5d503478e35ab576cefe.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/en_US/0cd97b032ef193896cc07ea9b1fd348a.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/es_ES/0a702f9599ee40d4cd01aded19371361.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/19105640772a5d503478e35ab576cefe.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/it_IT/9c056c1da6c73057bbaf05e8813ce4f4.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/17b3327436dcc8d4c7da",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ef30681aae16617ad497",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []La prochaine carte que vous jouez ce tour coûte {1} de moins.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Vous pouvez me faire gagner [[Fugace]]. Si vous le faites : Le prochain Bureaucrate que vous jouez cet Après-midi coûte {1} de moins.  Lorsque je vais en Réserve depuis la zone d'Expédition — Vous pouvez payer {1}. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {4} ou plus.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{H} Vous pouvez me faire gagner [[Fugace]]. Si vous le faites\u00a0: Le prochain Bureaucrate que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins.  Lorsque je vais en R\u00e9serve depuis la zone d'Exp\u00e9dition\u00a0\u2014 Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Vous pouvez d\u00e9fausser un Permanent cibl\u00e9 de Co\u00fbt de Main\u00a0{4} ou plus.",
-                "ECHO_EFFECT": "{D}\u00a0: []La prochaine carte que vous jouez ce tour co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "2"
             },
             "id": "637ZK9X4FD8E09SY5MTETEYPWT",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_32/UNIQUE/JPG/fr_FR/19105640772a5d503478e35ab576cefe.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Lapin Ardent",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_32_U_11009",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_BR_32_U_11009"
         }

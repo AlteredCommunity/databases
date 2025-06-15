@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/de_DE/da953b3587bfc9aa524cba4785409604.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/en_US/b7e0df6fb1cc9a7c39ca71a67b6e08d0.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/fr_FR/389866560aaaa8e61169dcad841db1e3.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/es_ES/b6420107e653071e60645efe1849fde4.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/fr_FR/389866560aaaa8e61169dcad841db1e3.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/it_IT/cca42d8f364f0486065aa6984378df63.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d82722a0d41548f724bf",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "1",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "{H} Roll a die. On a 4+: I gain 1 boost per card in your Reserve.  {R} If there are three or more base statistics of 0 among Characters you control: [Resupply].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{H} Roll a die. On a 4+: I gain 1 boost per card in your Reserve.  {R} If there are three or more base statistics of 0 among Characters you control: [Resupply]."
+        "RECALL_COST": "1"
     },
     "id": "0ZTTJNS5T18KF8KQ5Z366ZC71S",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/JPG/en_EN/19f08e4a9a5f31d2e1635d70fb32c16c.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Esmeralda",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_11_U_5842",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_11_U_5842",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/de_DE/da953b3587bfc9aa524cba4785409604.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/en_US/b7e0df6fb1cc9a7c39ca71a67b6e08d0.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/fr_FR/389866560aaaa8e61169dcad841db1e3.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/es_ES/b6420107e653071e60645efe1849fde4.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/fr_FR/389866560aaaa8e61169dcad841db1e3.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/it_IT/cca42d8f364f0486065aa6984378df63.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4a47dde8621595a5f2ad",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "1",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "{H} Lancez un dé. Sur 4+ : Je gagne 1 boost par carte dans votre Réserve.  {R} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contrôlez : [Ravitaillez].",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{H} Lancez un d\u00e9. Sur 4+\u00a0: Je gagne 1\u00a0boost par carte dans votre R\u00e9serve.  {R} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contr\u00f4lez\u00a0: [Ravitaillez]."
+                "RECALL_COST": "1"
             },
             "id": "0ZTTJNS5T18KF8KQ5Z366ZC71S",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_11/UNIQUE/JPG/fr_FR/389866560aaaa8e61169dcad841db1e3.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Esmeralda",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_11_U_5842",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_11_U_5842"
         }

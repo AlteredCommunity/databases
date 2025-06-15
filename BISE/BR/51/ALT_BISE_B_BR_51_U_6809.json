@@ -1,11 +1,11 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_51_U_6809",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/de_DE/10ed5450d1f3a614c13c091acb677183.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/es_ES/c795539319ccc912a4cc9e0516cab4ee.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/UNIQUE/JPG/en_US/d50868f8d4b90fbc1251220b3b5d5c8c.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/es_ES/c795539319ccc912a4cc9e0516cab4ee.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/UNIQUE/JPG/fr_FR/c539b2ea47eb0276c8cbb471237bc154.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/it_IT/738d291086f60a7b4335bf97004758e2.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/55a4e8a5ca8669f3fbdf",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} If you control two or more [[Boosted]] Characters: [Sabotage].  When my Expedition moves forward due to {V} — You may pay {1}. If you do: You may discard target Permanent with Hand Cost {3} or less.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} If you control two or more [[Boosted]] Characters: [Sabotage].  When my Expedition moves forward due to {V} — You may pay {1}. If you do: You may discard target Permanent with Hand Cost {3} or less."
+        "RECALL_COST": "2"
     },
     "id": "6D4V1SCXJP93SBCDJV212YDYZF",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/en_EN/eb15b91fac2910d8bb3dea35623d1b70.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Bravos Pendekar",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_51_U_6809",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_51_U_6809",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/de_DE/10ed5450d1f3a614c13c091acb677183.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/es_ES/c795539319ccc912a4cc9e0516cab4ee.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/UNIQUE/JPG/en_US/d50868f8d4b90fbc1251220b3b5d5c8c.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/es_ES/c795539319ccc912a4cc9e0516cab4ee.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/UNIQUE/JPG/fr_FR/c539b2ea47eb0276c8cbb471237bc154.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/JPG/it_IT/738d291086f60a7b4335bf97004758e2.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/e985d2a4fedcfb365f0c",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} Si vous contrôlez au moins deux Personnages [[Boostés]] : [Sabotez].  Lorsque mon Expédition avance grâce à {V} — Vous pouvez payer {1}. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Si vous contrôlez au moins deux Personnages [[Boostés]] : [Sabotez].  Lorsque mon Expédition avance grâce à {V} — Vous pouvez payer {1}. Si vous le faites : Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins."
+                "RECALL_COST": "2"
             },
             "id": "6D4V1SCXJP93SBCDJV212YDYZF",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_51/UNIQUE/JPG/fr_FR/c539b2ea47eb0276c8cbb471237bc154.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Pendekar Bravos",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_51_U_6809",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_51_U_6809"
         }

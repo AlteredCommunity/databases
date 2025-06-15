@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/de_DE/15c48288553e82994c417f421c2bd380.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/fr_FR/ab14b535682edd7fd584c4f697e1735a.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/en_US/edd912d666c4496a02cb8d4ef1e88eaf.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/es_ES/bea905c35b84b568f99a52a904c875d3.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/fr_FR/ab14b535682edd7fd584c4f697e1735a.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/it_IT/5cf3886bfc7cd3a3edfa4a2d57cc475e.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0de6def1369c79baecbc",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "1",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "When you play a Spell — You may put a card from your hand in Reserve. If it's a Spell: I gain 1 boost.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "When you play a Spell\u00a0\u2014 You may put a card from your hand in Reserve. If it's a Spell: I gain 1 boost."
+        "RECALL_COST": "1"
     },
     "id": "1GHZXKZJAK82YTNN609D80RRNR",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/JPG/en_EN/addf5a20d62da1013e8e27fd2c7f8f9a.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Ordis Trooper",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_05_U_380",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_OR_05_U_380",
     "translations": {
@@ -78,9 +78,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/de_DE/15c48288553e82994c417f421c2bd380.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/fr_FR/ab14b535682edd7fd584c4f697e1735a.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/en_US/edd912d666c4496a02cb8d4ef1e88eaf.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/es_ES/bea905c35b84b568f99a52a904c875d3.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/fr_FR/ab14b535682edd7fd584c4f697e1735a.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/it_IT/5cf3886bfc7cd3a3edfa4a2d57cc475e.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/aa15d0c0bc9f087dc7b7",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "1",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "Lorsque vous jouez un Sort — Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Sort : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "Lorsque vous jouez un Sort\u00a0\u2014 Vous pouvez mettre une carte de votre main en R\u00e9serve. Si c'est un Sort\u00a0: Je gagne 1\u00a0boost."
+                "RECALL_COST": "1"
             },
             "id": "1GHZXKZJAK82YTNN609D80RRNR",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_OR_05/UNIQUE/JPG/fr_FR/ab14b535682edd7fd584c4f697e1735a.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
-            "name": "Troupi\u00e8re Ordis",
+            "name": "Troupière Ordis",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_OR_05_U_380",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_OR_05_U_380"
         }

@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/de_DE/fefa25498f93860aeeffe6738afa5959.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/es_ES/916eef041db10651c2ff804b915b2bf0.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/en_US/0820810dfacb47edc48c9d68d8969291.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/es_ES/916eef041db10651c2ff804b915b2bf0.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/fr_FR/de464aef460aba3e0325f2bc9eb8c993.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/it_IT/67087026a31670042ffc8cef3d4eab12.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/fedcd07b69278e63e688",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "[]If your hand is empty: Each Character you control other than me is [Tough 2].  When I leave the Expedition zone, if I was [[Fleeting]] — []Draw a card.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "[]If your hand is empty: Each Character you control other than me is [Tough\u00a02].  When I leave the Expedition zone, if I was [[Fleeting]]\u00a0\u2014 []Draw a card."
+        "RECALL_COST": "3"
     },
     "id": "4VV3DVG41S9MW8WQ3R92X2HHSD",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/JPG/en_EN/c14472fdd1e98c823746bae061eecb00.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Haven Seiringar",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_34_U_1648",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_BR_34_U_1648",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/de_DE/fefa25498f93860aeeffe6738afa5959.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/es_ES/916eef041db10651c2ff804b915b2bf0.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/en_US/0820810dfacb47edc48c9d68d8969291.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/es_ES/916eef041db10651c2ff804b915b2bf0.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/fr_FR/de464aef460aba3e0325f2bc9eb8c993.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/it_IT/67087026a31670042ffc8cef3d4eab12.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/6c7b5ce15e91d10f56e1",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "[]Si votre main est vide : Chaque Personnage que vous contrôlez autre que moi est [Coriace 2].  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Piochez une carte.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "[]Si votre main est vide\u00a0: Chaque Personnage que vous contr\u00f4lez autre que moi est [Coriace\u00a02].  Lorsque je quitte la zone d'Exp\u00e9dition, si j'\u00e9tais [[Fugace]]\u00a0\u2014 []Piochez une carte."
+                "RECALL_COST": "3"
             },
             "id": "4VV3DVG41S9MW8WQ3R92X2HHSD",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_34/UNIQUE/JPG/fr_FR/de464aef460aba3e0325f2bc9eb8c993.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Seiringar de Havre",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_34_U_1648",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_BR_34_U_1648"
         }

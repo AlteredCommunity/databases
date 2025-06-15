@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_53_U_7252",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/de_DE/9b7d8edc959bf011f376126cbddd00db.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/it_IT/0f0338d92d7b0709853a520b5b2b88df.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/fr_FR/00f202ddf73b92882c71fa3139665b15.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/en_US/8cf77b3a52e3858edb56c86f5764e7cf.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/es_ES/d0e078e8b16b504192b400507ef2c4d0.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/en_US/8cf77b3a52e3858edb56c86f5764e7cf.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/fr_FR/00f202ddf73b92882c71fa3139665b15.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/it_IT/0f0338d92d7b0709853a520b5b2b88df.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/39fe63a161f96dd13587",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Target Character with Hand Cost {3} or less gains [[Anchored]].",
+        "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} [][Sabotage]. If you discarded a card this way, its owner [Exhausted Resupplies].  When you roll one or more dice — You may pay {1}. If you do: I gain 2 boosts.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} [][Sabotage]. If you discarded a card this way, its owner [Exhausted Resupplies].  When you roll one or more dice — You may pay {1}. If you do: I gain 2 boosts.",
-        "ECHO_EFFECT": "{D} : []Target Character with Hand Cost {3} or less gains [[Anchored]]."
+        "RECALL_COST": "3"
     },
     "id": "4GE51WE4Z291BVPA8S5PHN22T6",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/en_EN/1f0c0a46796358b43525b6ed90ca2181.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "The Little Mouse",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_53_U_7252",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_53_U_7252",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/de_DE/9b7d8edc959bf011f376126cbddd00db.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/it_IT/0f0338d92d7b0709853a520b5b2b88df.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/fr_FR/00f202ddf73b92882c71fa3139665b15.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/en_US/8cf77b3a52e3858edb56c86f5764e7cf.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/es_ES/d0e078e8b16b504192b400507ef2c4d0.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/en_US/8cf77b3a52e3858edb56c86f5764e7cf.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/fr_FR/00f202ddf73b92882c71fa3139665b15.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/JPG/it_IT/0f0338d92d7b0709853a520b5b2b88df.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/af31b15cfab99a1654f8",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Un Personnage ciblé de Coût de Main {3} ou moins gagne [[Ancré]].",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} [][Sabotez]. Si vous avez défaussé une carte de cette façon, son propriétaire [Ravitaille Épuisé].  Lorsque vous lancez au moins un dé — Vous pouvez payer {1}. Si vous le faites : Je gagne 2 boosts.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} [][Sabotez]. Si vous avez défaussé une carte de cette façon, son propriétaire [Ravitaille Épuisé].  Lorsque vous lancez au moins un dé — Vous pouvez payer {1}. Si vous le faites : Je gagne 2 boosts.",
-                "ECHO_EFFECT": "{D} : []Un Personnage ciblé de Coût de Main {3} ou moins gagne [[Ancré]]."
+                "RECALL_COST": "3"
             },
             "id": "4GE51WE4Z291BVPA8S5PHN22T6",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_53/UNIQUE/JPG/fr_FR/00f202ddf73b92882c71fa3139665b15.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "La Petite Souris",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_53_U_7252",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_53_U_7252"
         }

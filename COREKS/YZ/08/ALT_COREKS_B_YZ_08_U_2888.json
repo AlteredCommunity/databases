@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_YZ_08_U_2888",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/1a21be9b589b16d425d9578ef4fc3f58.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/a8f0952817dc4b91417b09887e4a5acc.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/2313f85730623fd1a2e0360292656aea.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/de_DE/fc6bd030d355ea4c890615dd36b99507.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/89fc72c2444ecadfe4b277005fe3adf1.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/89fc72c2444ecadfe4b277005fe3adf1.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/a8f0952817dc4b91417b09887e4a5acc.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/1a21be9b589b16d425d9578ef4fc3f58.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/2313f85730623fd1a2e0360292656aea.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/731c07329b732ac1394d",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/b076bcd41d4e9b59c7ab",
-            "reference": "SCHOLAR",
+            "@type": "CardSubType",
             "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
-            "name": "Scholar"
+            "name": "Scholar",
+            "reference": "SCHOLAR"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Character you play from your hand this turn activates its {r} abilities.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "{H} You may discard a card from your Reserve. If you do: You may return a card from your Reserve to your hand.  When you create a token — You may pay {1}. If you do: I gain 1 boost.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{H} You may discard a card from your Reserve. If you do: You may return a card from your Reserve to your hand.  When you create a token\u00a0\u2014 You may pay\u00a0{1}. If you do: I gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []The next Character you play from your hand this turn activates its\u00a0{r} abilities."
+        "RECALL_COST": "1"
     },
     "id": "1REHGM38Q983ZTJZSE11ME7WS2",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/JPG/en_EN/0999a1ff16ff5e18d67a4a8ff10b9755.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Yzmir Stargazer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_08_U_2888",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_YZ_08_U_2888",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_YZ_08_U_2888",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/1a21be9b589b16d425d9578ef4fc3f58.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/a8f0952817dc4b91417b09887e4a5acc.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/2313f85730623fd1a2e0360292656aea.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/de_DE/fc6bd030d355ea4c890615dd36b99507.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/89fc72c2444ecadfe4b277005fe3adf1.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/89fc72c2444ecadfe4b277005fe3adf1.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/a8f0952817dc4b91417b09887e4a5acc.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/1a21be9b589b16d425d9578ef4fc3f58.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/2313f85730623fd1a2e0360292656aea.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/8f5d0a0cb86e21a448a0",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/41dd432b4d1afa92b8ee",
-                    "reference": "SCHOLAR",
+                    "@type": "CardSubType",
                     "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
-                    "name": "\u00c9rudit"
+                    "name": "Érudit",
+                    "reference": "SCHOLAR"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez de votre main ce tour active ses capacités {r}.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "{H} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez renvoyer une carte de votre Réserve dans votre main.  Lorsque vous créez un jeton — Vous pouvez payer {1}. Si vous le faites : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{H} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Vous pouvez renvoyer une carte de votre R\u00e9serve dans votre main.  Lorsque vous cr\u00e9ez un jeton\u00a0\u2014 Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Je gagne 1\u00a0boost.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Personnage que vous jouez de votre main ce tour active ses capacit\u00e9s\u00a0{r}."
+                "RECALL_COST": "1"
             },
             "id": "1REHGM38Q983ZTJZSE11ME7WS2",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/1a21be9b589b16d425d9578ef4fc3f58.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Augure Yzmir",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_08_U_2888",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_YZ_08_U_2888"
         }

@@ -1,10 +1,10 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_50_U_7881",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/609cb49079bf6ca1becedd81a1e10d7b.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/de_DE/c45a53e685c77816e676e7278c5010b4.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/609cb49079bf6ca1becedd81a1e10d7b.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/es_ES/a75e9841a37e6f221e2b98dd9836fd98.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/fr_FR/4d580a7dfc2d8fb4f745a8d5c9ea4b86.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/it_IT/268d5026a8af1bab345bf4e7873ec5cb.jpg"
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/8c54a19932d9538d9004",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} []I gain 1 boost per [[Boosted]] Character you control.  When a Character you control gains [[Fleeting]] — []I gain 2 boosts.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} []I gain 1 boost per [[Boosted]] Character you control.  When a Character you control gains [[Fleeting]] — []I gain 2 boosts."
+        "RECALL_COST": "3"
     },
     "id": "4G1KQ6EB1P9FZSK2J70BGZ142B",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/en_EN/094a5badd1bb5d62d73cc00bf24cf3ea.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Spirit Wielder",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_50_U_7881",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_50_U_7881",
     "translations": {
@@ -77,8 +77,8 @@
             "@id": "/cards/ALT_BISE_B_BR_50_U_7881",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/609cb49079bf6ca1becedd81a1e10d7b.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/de_DE/c45a53e685c77816e676e7278c5010b4.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/en_US/609cb49079bf6ca1becedd81a1e10d7b.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/es_ES/a75e9841a37e6f221e2b98dd9836fd98.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/fr_FR/4d580a7dfc2d8fb4f745a8d5c9ea4b86.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/JPG/it_IT/268d5026a8af1bab345bf4e7873ec5cb.jpg"
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/79ad701833c9b069dd09",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} []Je gagne 1 boost par Personnage [[Boosté]] que vous contrôlez.  Lorsqu'un Personnage que vous contrôlez gagne [[Fugace]] — []Je gagne 2 boosts.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} []Je gagne 1 boost par Personnage [[Boosté]] que vous contrôlez.  Lorsqu'un Personnage que vous contrôlez gagne [[Fugace]] — []Je gagne 2 boosts."
+                "RECALL_COST": "3"
             },
             "id": "4G1KQ6EB1P9FZSK2J70BGZ142B",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_50/UNIQUE/JPG/fr_FR/4d580a7dfc2d8fb4f745a8d5c9ea4b86.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Porteuse d'Esprit",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_50_U_7881",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_50_U_7881"
         }

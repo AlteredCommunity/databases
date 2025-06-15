@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_57_U_2812",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e12ef365b33b058838d4a8883dea2950.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/e48a958bfcb8f41d16bd1e1319039dae.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/1537bad1512c6a85833795d4cfd1902f.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/482d4a291d10e5673701a273f1beb49f.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/b61c433c33574be7325f94a9ad7254df.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e12ef365b33b058838d4a8883dea2950.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/b61c433c33574be7325f94a9ad7254df.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/e48a958bfcb8f41d16bd1e1319039dae.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/1537bad1512c6a85833795d4cfd1902f.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0b30f8819d23d6fd1d5b",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/2f17fdcd984fb0599c56",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "5",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{H} If you control two or more Permanents: Target Character in play or in Reserve other than me gains 1 boost.  When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.  When I leave the Expedition zone — You may pay {1}. If you do: Up to two target Characters in play or in Reserve each gain 1 boost.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{H} If you control two or more Permanents: Target Character in play or in Reserve other than me gains 1 boost.  When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.  When I leave the Expedition zone — You may pay {1}. If you do: Up to two target Characters in play or in Reserve each gain 1 boost."
+        "RECALL_COST": "4"
     },
     "id": "3XT5J0F9T19CB8WM2JNAM034DC",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/en_EN/73b05adf7c2d960c67ec3ba1f146778f.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Ariadne",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_2812",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_57_U_2812",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_OR_57_U_2812",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e12ef365b33b058838d4a8883dea2950.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/e48a958bfcb8f41d16bd1e1319039dae.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/1537bad1512c6a85833795d4cfd1902f.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/482d4a291d10e5673701a273f1beb49f.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/b61c433c33574be7325f94a9ad7254df.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e12ef365b33b058838d4a8883dea2950.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/b61c433c33574be7325f94a9ad7254df.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/e48a958bfcb8f41d16bd1e1319039dae.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/1537bad1512c6a85833795d4cfd1902f.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/550b4fbf85758ef1a522",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/a31d67c8e5f9ba031217",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "5",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{H} Si vous contrôlez au moins deux Permanents : Un Personnage ciblé autre que moi en jeu ou en Réserve gagne 1 boost.  Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.  Lorsque je quitte la zone d'Expédition — Vous pouvez payer {1}. Si vous le faites : Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{H} Si vous contrôlez au moins deux Permanents : Un Personnage ciblé autre que moi en jeu ou en Réserve gagne 1 boost.  Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.  Lorsque je quitte la zone d'Expédition — Vous pouvez payer {1}. Si vous le faites : Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost."
+                "RECALL_COST": "4"
             },
             "id": "3XT5J0F9T19CB8WM2JNAM034DC",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/e48a958bfcb8f41d16bd1e1319039dae.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Ariane",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_2812",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_57_U_2812"
         }

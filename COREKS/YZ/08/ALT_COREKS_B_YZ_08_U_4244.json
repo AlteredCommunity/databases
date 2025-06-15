@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_YZ_08_U_4244",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/2af4c8f4a60d1100d790498124ddb3b5.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/8400496adea96a12b1519f1d3e7babec.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/9f1d92f30f2e3fa43cdd4d45f2377520.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/de_DE/22f57a79a0e0675a471f7b3f8286ff41.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/03663d1160a4c70507efe6b9c1bfcb41.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/8400496adea96a12b1519f1d3e7babec.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/03663d1160a4c70507efe6b9c1bfcb41.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/2af4c8f4a60d1100d790498124ddb3b5.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/9f1d92f30f2e3fa43cdd4d45f2377520.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/3398a0ea42c8eddfbd70",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/b3a4c0909e33f0e88e56",
-            "reference": "SCHOLAR",
+            "@type": "CardSubType",
             "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
-            "name": "Scholar"
+            "name": "Scholar",
+            "reference": "SCHOLAR"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]].",
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} []I gain 1 boost per Landmark you control.  When you play a Permanent with Hand Cost {3} or more — You may discard a card from your Reserve. If you do: I gain 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{H} []I gain 1 boost per Landmark you control.  When you play a Permanent with Hand Cost\u00a0{3} or more\u00a0\u2014 You may discard a card from your Reserve. If you do: I gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]]."
+        "RECALL_COST": "2"
     },
     "id": "7YDSAFS83T8EX8XVSYFGRAXGZK",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/JPG/en_EN/4c074d16c80a2f6c957a6e6d6f1cd7bf.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Yzmir Stargazer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_08_U_4244",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_YZ_08_U_4244",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_YZ_08_U_4244",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/2af4c8f4a60d1100d790498124ddb3b5.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/8400496adea96a12b1519f1d3e7babec.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/9f1d92f30f2e3fa43cdd4d45f2377520.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/de_DE/22f57a79a0e0675a471f7b3f8286ff41.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/03663d1160a4c70507efe6b9c1bfcb41.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/en_US/8400496adea96a12b1519f1d3e7babec.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/es_ES/03663d1160a4c70507efe6b9c1bfcb41.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/2af4c8f4a60d1100d790498124ddb3b5.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/it_IT/9f1d92f30f2e3fa43cdd4d45f2377520.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c132abcca4adf5cfb2fe",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/588cd084671a8007e35b",
-                    "reference": "SCHOLAR",
+                    "@type": "CardSubType",
                     "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
-                    "name": "\u00c9rudit"
+                    "name": "Érudit",
+                    "reference": "SCHOLAR"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} []Je gagne 1 boost par Repère que vous contrôlez.  Lorsque vous jouez un Permanent de Coût de Main {3} ou plus — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{H} []Je gagne 1\u00a0boost par Rep\u00e8re que vous contr\u00f4lez.  Lorsque vous jouez un Permanent de Co\u00fbt de Main\u00a0{3} ou plus\u00a0\u2014 Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Je gagne 1\u00a0boost.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez faire gagner [[Fugace]] \u00e0 un Personnage cibl\u00e9."
+                "RECALL_COST": "2"
             },
             "id": "7YDSAFS83T8EX8XVSYFGRAXGZK",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_08/UNIQUE/JPG/fr_FR/2af4c8f4a60d1100d790498124ddb3b5.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Augure Yzmir",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_08_U_4244",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_YZ_08_U_4244"
         }

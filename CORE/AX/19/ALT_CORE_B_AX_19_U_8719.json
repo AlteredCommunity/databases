@@ -3,8 +3,8 @@
     "@id": "/cards/ALT_CORE_B_AX_19_U_8719",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/76c7fd9412ca8c3024908531c3275dd6.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/de_DE/4484da6262f60b3ce962d1f97a4ebad7.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/76c7fd9412ca8c3024908531c3275dd6.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/es_ES/5a599c10f7fd6bea3a1f0bde9c8e8f54.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/fr_FR/189e5e8980a40cad0427f00af33deb3a.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/it_IT/34ed28f9386c36631ead887d852ed233.jpg"
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/33e028aa38c38bb908a2",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "5",
-        "RECALL_COST": "6",
+        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: For each Permanent you control, you may activate its {j} abilities.",
         "MOUNTAIN_POWER": "6",
         "OCEAN_POWER": "6",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: For each Permanent you control, you may activate its\u00a0{j} abilities."
+        "RECALL_COST": "6"
     },
     "id": "4QH3TJ2F9E877VB36RZAHFDWDJ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_EN/1192ffdf9b97e4b3ff2087662bee08e7.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Ganesha",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_19_U_8719",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_AX_19_U_8719",
     "translations": {
@@ -77,8 +77,8 @@
             "@id": "/cards/ALT_CORE_B_AX_19_U_8719",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/76c7fd9412ca8c3024908531c3275dd6.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/de_DE/4484da6262f60b3ce962d1f97a4ebad7.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/76c7fd9412ca8c3024908531c3275dd6.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/es_ES/5a599c10f7fd6bea3a1f0bde9c8e8f54.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/fr_FR/189e5e8980a40cad0427f00af33deb3a.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/it_IT/34ed28f9386c36631ead887d852ed233.jpg"
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/1597f45da4f9403236d1",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "5",
-                "RECALL_COST": "6",
+                "MAIN_EFFECT": "{J} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Pour chaque Permanent que vous contrôlez, vous pouvez activer ses capacités {j}.",
                 "MOUNTAIN_POWER": "6",
                 "OCEAN_POWER": "6",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "{J} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Pour chaque Permanent que vous contr\u00f4lez, vous pouvez activer ses capacit\u00e9s\u00a0{j}."
+                "RECALL_COST": "6"
             },
             "id": "4QH3TJ2F9E877VB36RZAHFDWDJ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/fr_FR/189e5e8980a40cad0427f00af33deb3a.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Ganesh",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_19_U_8719",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_AX_19_U_8719"
         }

@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/de_DE/88958db6d6d8893c525b6e1e2ba194b7.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/fr_FR/e75a2333d0efcc4ac6cfa4de892765b1.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/en_US/4958f711361138f1d4ed6c80a016956f.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/es_ES/963de54077df335b12e6deac6234f942.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/fr_FR/e75a2333d0efcc4ac6cfa4de892765b1.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/it_IT/7f2562815b2ffbc316829e5e2ba4ad42.jpg"
     },
     "assets": {
@@ -21,33 +21,33 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ae0824c85272c062e832",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in target Expedition.",
+        "FOREST_POWER": "4",
         "MAIN_COST": "6",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{R} If you control two or more Landmarks: Each player sacrifices a Character.  At Dusk — You may put a card from your hand in Reserve. If you do: Draw three cards.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{R} If you control two or more Landmarks: Each player sacrifices a Character.  At Dusk\u00a0\u2014 You may put a card from your hand in Reserve. If you do: Draw three cards.",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in target Expedition."
+        "RECALL_COST": "5"
     },
     "id": "7HS9G8VBVR9PDS4FNVD63CQMR7",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/JPG/en_EN/97e9eaa696e7dc416fef82a33c8f219b.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Anubis",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_20_U_6657",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_OR_20_U_6657",
     "translations": {
@@ -79,9 +79,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/de_DE/88958db6d6d8893c525b6e1e2ba194b7.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/fr_FR/e75a2333d0efcc4ac6cfa4de892765b1.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/en_US/4958f711361138f1d4ed6c80a016956f.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/es_ES/963de54077df335b12e6deac6234f942.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/fr_FR/e75a2333d0efcc4ac6cfa4de892765b1.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/it_IT/7f2562815b2ffbc316829e5e2ba4ad42.jpg"
             },
             "assets": {
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/a9fee732f8b185b316d8",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans une Expédition ciblée.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "6",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{R} Si vous contrôlez au moins deux Repères : Chaque joueur sacrifie un Personnage.  Au Crépuscule — Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Piochez trois cartes.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{R} Si vous contr\u00f4lez au moins deux Rep\u00e8res\u00a0: Chaque joueur sacrifie un Personnage.  Au Cr\u00e9puscule\u00a0\u2014 Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Piochez trois cartes.",
-                "ECHO_EFFECT": "{D}\u00a0: []Cr\u00e9ez un jeton Soldat [1/1/1 Recrue Ordis] dans une Exp\u00e9dition cibl\u00e9e."
+                "RECALL_COST": "5"
             },
             "id": "7HS9G8VBVR9PDS4FNVD63CQMR7",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_20/UNIQUE/JPG/fr_FR/e75a2333d0efcc4ac6cfa4de892765b1.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Anubis",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_OR_20_U_6657",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_OR_20_U_6657"
         }

@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/de_DE/95d678de25f649dd01e46d1a86e493b9.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/fr_FR/08fd2a7c6f03a5111ab54a7d5a3b99e3.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/en_US/845548a5bc564c7b62f773057acba46d.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/es_ES/e6e080a0e80f47a35e8b0f22262d80a1.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/fr_FR/08fd2a7c6f03a5111ab54a7d5a3b99e3.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/it_IT/116def28a90aad0b7e473d73e301280c.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f1ce9db148718ef73ed0",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{R} You may pay {1}. If you do: I lose [[Fleeting]].  At Dusk — You may put a card from your hand in Reserve. If it's a Spell: You may discard target Permanent.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} You may pay\u00a0{1}. If you do: I lose [[Fleeting]].  At Dusk\u00a0\u2014 You may put a card from your hand in Reserve. If it's a Spell: You may discard target Permanent."
+        "RECALL_COST": "4"
     },
     "id": "05DYW7NS6G94YT3GXZSF1VDNY7",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/JPG/en_EN/45ed0dc2405ac01a77f1619dcdc00dca.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Hua Mulan",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_12_U_540",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_BR_12_U_540",
     "translations": {
@@ -78,9 +78,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/de_DE/95d678de25f649dd01e46d1a86e493b9.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/fr_FR/08fd2a7c6f03a5111ab54a7d5a3b99e3.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/en_US/845548a5bc564c7b62f773057acba46d.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/es_ES/e6e080a0e80f47a35e8b0f22262d80a1.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/fr_FR/08fd2a7c6f03a5111ab54a7d5a3b99e3.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/it_IT/116def28a90aad0b7e473d73e301280c.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/07fa0de9a6c74f73927a",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{R} Vous pouvez payer {1}. Si vous le faites : Je perds [[Fugace]].  Au Crépuscule — Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Sort : Vous pouvez défausser un Permanent ciblé.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Je perds [[Fugace]].  Au Cr\u00e9puscule\u00a0\u2014 Vous pouvez mettre une carte de votre main en R\u00e9serve. Si c'est un Sort\u00a0: Vous pouvez d\u00e9fausser un Permanent cibl\u00e9."
+                "RECALL_COST": "4"
             },
             "id": "05DYW7NS6G94YT3GXZSF1VDNY7",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_12/UNIQUE/JPG/fr_FR/08fd2a7c6f03a5111ab54a7d5a3b99e3.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Hua Mulan",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_12_U_540",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_BR_12_U_540"
         }

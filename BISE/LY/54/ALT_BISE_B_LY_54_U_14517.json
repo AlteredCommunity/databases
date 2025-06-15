@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_LY_54_U_14517",
     "@type": "Card",
     "allImagePath": {
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/it_IT/1c420b42c71c380c6ddbdfcac02da23b.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/es_ES/3c1a86c76b0206b1fcfbafa3842e846f.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/en_US/114ac61df1773a9c9ea19ba90270d228.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/de_DE/e624c390470d42b526f91459f2d837c5.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/fr_FR/7c3b04627f36b03868335d84485f5285.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/en_US/114ac61df1773a9c9ea19ba90270d228.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/es_ES/3c1a86c76b0206b1fcfbafa3842e846f.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/fr_FR/7c3b04627f36b03868335d84485f5285.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/it_IT/1c420b42c71c380c6ddbdfcac02da23b.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f5c38402f640900b2554",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When you play another Character with a base statistic of 0 — []I gain 1 boost, up to a max of 2.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "5",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "[]If I have 1 or more boosts: Artists other than me cost {1} less to play from your Reserve, down to a minimum of {1}.  {H} []You may return a Spell from your Reserve to your hand.  {H} Roll a die. On a 4+: You may send to Reserve target Character with Hand Cost {3} or less.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "[]If I have 1 or more boosts: Artists other than me cost {1} less to play from your Reserve, down to a minimum of {1}.  {H} []You may return a Spell from your Reserve to your hand.  {H} Roll a die. On a 4+: You may send to Reserve target Character with Hand Cost {3} or less.",
-        "ECHO_EFFECT": "{I} When you play another Character with a base statistic of 0 — []I gain 1 boost, up to a max of 2."
+        "RECALL_COST": "5"
     },
     "id": "1608Q7EV2989HRZAXASNCPVE5M",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/en_EN/ae0fc0d2af102cf3f6ae9823eb808559.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "BLISS Drummer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_54_U_14517",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_LY_54_U_14517",
     "translations": {
@@ -78,11 +78,11 @@
             "@id": "/cards/ALT_BISE_B_LY_54_U_14517",
             "@type": "Card",
             "allImagePath": {
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/it_IT/1c420b42c71c380c6ddbdfcac02da23b.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/es_ES/3c1a86c76b0206b1fcfbafa3842e846f.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/en_US/114ac61df1773a9c9ea19ba90270d228.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/de_DE/e624c390470d42b526f91459f2d837c5.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/fr_FR/7c3b04627f36b03868335d84485f5285.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/en_US/114ac61df1773a9c9ea19ba90270d228.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/es_ES/3c1a86c76b0206b1fcfbafa3842e846f.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/fr_FR/7c3b04627f36b03868335d84485f5285.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/JPG/it_IT/1c420b42c71c380c6ddbdfcac02da23b.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/0c05c985e2b7524836e9",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage avec une statistique de base 0 — []Je gagne 1 boost, jusqu'à un maximum de 2.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "5",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Les Artistes autres que moi coûtent {1} de moins à jouer depuis votre Réserve, jusqu'à un minimum de {1}.  {H} []Vous pouvez renvoyer un Sort de votre Réserve dans votre main.  {H} Lancez un dé. Sur 4+ : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {3} ou moins.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Les Artistes autres que moi coûtent {1} de moins à jouer depuis votre Réserve, jusqu'à un minimum de {1}.  {H} []Vous pouvez renvoyer un Sort de votre Réserve dans votre main.  {H} Lancez un dé. Sur 4+ : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {3} ou moins.",
-                "ECHO_EFFECT": "{I} Lorsque vous jouez un autre Personnage avec une statistique de base 0 — []Je gagne 1 boost, jusqu'à un maximum de 2."
+                "RECALL_COST": "5"
             },
             "id": "1608Q7EV2989HRZAXASNCPVE5M",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_54/UNIQUE/JPG/fr_FR/7c3b04627f36b03868335d84485f5285.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Batteur de Bliss",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_54_U_14517",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_LY_54_U_14517"
         }

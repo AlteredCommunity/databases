@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_56_U_5260",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/252c93d8ae5d5b7d543a9ef59ebd7b7a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/933f3a9fb5420ec1e8cdc2de1eaa4cde.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/ae12c73314c65d3032b5319c2592044a.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/de_DE/d91a5d2f99efb51b0fe5655d47047088.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/446b1922dd685c3310a53723425985c5.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/252c93d8ae5d5b7d543a9ef59ebd7b7a.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/ae12c73314c65d3032b5319c2592044a.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/446b1922dd685c3310a53723425985c5.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/933f3a9fb5420ec1e8cdc2de1eaa4cde.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/83816d4fbd530a9e39c2",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/34d20de1bea6b01f7e3e",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "[]If I have 1 or more boosts: I am [Eternal].  At Night — I lose 1 boost.  {J} []I gain 1 boost per Character other than me in my Expedition, then send them to Reserve.  {R} If you control two or more [[Boosted]] Characters: You may return target Character to its owner's hand.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "[]If I have 1 or more boosts: I am [Eternal].  At Night — I lose 1 boost.  {J} []I gain 1 boost per Character other than me in my Expedition, then send them to Reserve.  {R} If you control two or more [[Boosted]] Characters: You may return target Character to its owner's hand."
+        "RECALL_COST": "5"
     },
     "id": "7R29W42T5S9F6R3VRPXYPM2C80",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/en_EN/64bbb4cdfa00b5aeb6b269ea6f2cdb41.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Fiore dei Liberi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_5260",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_56_U_5260",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_OR_56_U_5260",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/252c93d8ae5d5b7d543a9ef59ebd7b7a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/933f3a9fb5420ec1e8cdc2de1eaa4cde.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/ae12c73314c65d3032b5319c2592044a.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/de_DE/d91a5d2f99efb51b0fe5655d47047088.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/446b1922dd685c3310a53723425985c5.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/252c93d8ae5d5b7d543a9ef59ebd7b7a.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/ae12c73314c65d3032b5319c2592044a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/446b1922dd685c3310a53723425985c5.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/933f3a9fb5420ec1e8cdc2de1eaa4cde.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/799243127f7b6fe0b391",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c6771a6d56d19d1595eb",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Je suis [Éternel].  À la tombée de la Nuit — Je perds 1 boost.  {J} []Je gagne 1 boost par Personnage autre que moi dans mon Expédition, puis envoyez-les en Réserve.  {R} Si vous contrôlez au moins deux Personnages [[Boostés]] : Vous pouvez renvoyer un Personnage ciblé dans la main de son propriétaire.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Je suis [Éternel].  À la tombée de la Nuit — Je perds 1 boost.  {J} []Je gagne 1 boost par Personnage autre que moi dans mon Expédition, puis envoyez-les en Réserve.  {R} Si vous contrôlez au moins deux Personnages [[Boostés]] : Vous pouvez renvoyer un Personnage ciblé dans la main de son propriétaire."
+                "RECALL_COST": "5"
             },
             "id": "7R29W42T5S9F6R3VRPXYPM2C80",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/446b1922dd685c3310a53723425985c5.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Fiore dei Liberi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_5260",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_56_U_5260"
         }

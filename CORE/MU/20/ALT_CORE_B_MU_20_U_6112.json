@@ -4,10 +4,10 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/de_DE/c6358f4ebdf2b9008de327da191b3123.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/it_IT/d5f42569defc0abe11055cba32494532.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/fr_FR/a53d62f8e0f2bcbad600151d461f29d9.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/en_US/c38bedffed2466fca6d050a03bd91744.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/es_ES/864512883846512f3e4904c8b2fe6a28.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/es_ES/864512883846512f3e4904c8b2fe6a28.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/fr_FR/a53d62f8e0f2bcbad600151d461f29d9.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/it_IT/d5f42569defc0abe11055cba32494532.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9254a2c9d0bc57820ddc",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "4",
-        "RECALL_COST": "6",
+        "MAIN_EFFECT": "{J} You may pay {1}. If you do: I gain [[Anchored]].  {J} You may put a card from your hand in Reserve. If you do: Target Character gains 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{J} You may pay\u00a0{1}. If you do: I gain [[Anchored]].  {J} You may put a card from your hand in Reserve. If you do: Target Character gains 1 boost."
+        "RECALL_COST": "6"
     },
     "id": "7G9K9Q6SV68TESVZK17RDTQ3EV",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/JPG/en_EN/a5699f90eb96457ab3fb3864fc5ff938.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Coniferal Coneman",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_MU_20_U_6112",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_MU_20_U_6112",
     "translations": {
@@ -78,10 +78,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/de_DE/c6358f4ebdf2b9008de327da191b3123.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/it_IT/d5f42569defc0abe11055cba32494532.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/fr_FR/a53d62f8e0f2bcbad600151d461f29d9.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/en_US/c38bedffed2466fca6d050a03bd91744.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/es_ES/864512883846512f3e4904c8b2fe6a28.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/es_ES/864512883846512f3e4904c8b2fe6a28.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/fr_FR/a53d62f8e0f2bcbad600151d461f29d9.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/it_IT/d5f42569defc0abe11055cba32494532.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/87c57ae96269b86a2d08",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "4",
-                "RECALL_COST": "6",
+                "MAIN_EFFECT": "{J} Vous pouvez payer {1}. Si vous le faites : Je gagne [[Ancré]].  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Un Personnage ciblé gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{J} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Je gagne [[Ancr\u00e9]].  {J} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Un Personnage cibl\u00e9 gagne 1\u00a0boost."
+                "RECALL_COST": "6"
             },
             "id": "7G9K9Q6SV68TESVZK17RDTQ3EV",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_20/UNIQUE/JPG/fr_FR/a53d62f8e0f2bcbad600151d461f29d9.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Pignon Pugnace",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_MU_20_U_6112",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_MU_20_U_6112"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_56_U_5429",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/de_DE/33fa0b3c74524697a2ce166fca535a87.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/590bd99f718e5f2439535c67903c75c9.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/52dda27f58277b3b91e6aff6984882e2.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/it_IT/4381b7d3e77e1602a726750e5e10779c.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/es_ES/b7cae5c9f49ab3b364cc48ce0cfcfbc9.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/es_ES/b7cae5c9f49ab3b364cc48ce0cfcfbc9.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/590bd99f718e5f2439535c67903c75c9.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/it_IT/4381b7d3e77e1602a726750e5e10779c.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/7cefae0b0d276e243b89",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/cc526bb5614b37ac76d9",
-            "reference": "ELEMENTAL",
+            "@type": "CardSubType",
             "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
-            "name": "Elemental"
+            "name": "Elemental",
+            "reference": "ELEMENTAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "5",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {2}.  {H} If you control one or more Landmarks: Target Character gains 2 boosts and [[Fleeting]].  When I gain 1 or more boosts — If I'm the only Character in my Expedition: You may exhaust target card in Reserve.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "[][][Scout] {2}.  {H} If you control one or more Landmarks: Target Character gains 2 boosts and [[Fleeting]].  When I gain 1 or more boosts — If I'm the only Character in my Expedition: You may exhaust target card in Reserve."
+        "RECALL_COST": "4"
     },
     "id": "2AEX2JE6838MPAAP05EVWDP71X",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/en_EN/7481cd484b1503e5a6b294ebd18c2c64.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Aoife, Fire Avatar",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_5429",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_56_U_5429",
     "translations": {
@@ -85,10 +85,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/de_DE/33fa0b3c74524697a2ce166fca535a87.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/590bd99f718e5f2439535c67903c75c9.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/52dda27f58277b3b91e6aff6984882e2.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/it_IT/4381b7d3e77e1602a726750e5e10779c.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/es_ES/b7cae5c9f49ab3b364cc48ce0cfcfbc9.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/es_ES/b7cae5c9f49ab3b364cc48ce0cfcfbc9.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/590bd99f718e5f2439535c67903c75c9.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/JPG/it_IT/4381b7d3e77e1602a726750e5e10779c.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/864608b73199b7b6508e",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/903312d3b80a89a09e4c",
-                    "reference": "ELEMENTAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
-                    "name": "Élémentaire"
+                    "name": "Élémentaire",
+                    "reference": "ELEMENTAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "5",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {2}.  {H} Si vous contrôlez au moins un Repère : Un Personnage ciblé gagne 2 boosts et [[Fugace]].  Lorsque je gagne au moins 1 boost — Si je suis le seul Personnage dans mon Expédition : Vous pouvez épuiser une carte ciblée en Réserve.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "[][][Repérage] {2}.  {H} Si vous contrôlez au moins un Repère : Un Personnage ciblé gagne 2 boosts et [[Fugace]].  Lorsque je gagne au moins 1 boost — Si je suis le seul Personnage dans mon Expédition : Vous pouvez épuiser une carte ciblée en Réserve."
+                "RECALL_COST": "4"
             },
             "id": "2AEX2JE6838MPAAP05EVWDP71X",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/590bd99f718e5f2439535c67903c75c9.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Aoife, Avatar de Feu",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_5429",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_56_U_5429"
         }

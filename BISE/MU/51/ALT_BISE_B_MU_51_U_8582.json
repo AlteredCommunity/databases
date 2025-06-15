@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_51_U_8582",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/de_DE/fdda8f9f8fff44e8078abe75f18066be.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/it_IT/93eb9a9a9cb9feac6df7d5ea43818082.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/es_ES/cb39d73fa7ff75b0e8d358fe00b0849d.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/en_US/74910764f3569af14fb9622d26fe14fb.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/fr_FR/07f1d536277857dc7b8428e31af150af.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/es_ES/cb39d73fa7ff75b0e8d358fe00b0849d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/fr_FR/07f1d536277857dc7b8428e31af150af.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/it_IT/93eb9a9a9cb9feac6df7d5ea43818082.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f097488444252276f7ed",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Character you play this turn costs {1} less.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{R} If you control two or more Plants other than me: Target Character gains 1 boost.  When I leave the Expedition zone, if I was [[Boosted]] — []You may discard target Permanent with Hand Cost {2} or less. If you do, its controller [Resupplies].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{R} If you control two or more Plants other than me: Target Character gains 1 boost.  When I leave the Expedition zone, if I was [[Boosted]] — []You may discard target Permanent with Hand Cost {2} or less. If you do, its controller [Resupplies].",
-        "ECHO_EFFECT": "{D} : []The next Character you play this turn costs {1} less."
+        "RECALL_COST": "3"
     },
     "id": "5TTQ8FAX2V88B82ER69VCK621Y",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/en_EN/3bdd7be4a422fc53e36dd2d27a37bedc.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Fair Fox",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_51_U_8582",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_51_U_8582",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/de_DE/fdda8f9f8fff44e8078abe75f18066be.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/it_IT/93eb9a9a9cb9feac6df7d5ea43818082.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/es_ES/cb39d73fa7ff75b0e8d358fe00b0849d.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/en_US/74910764f3569af14fb9622d26fe14fb.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/fr_FR/07f1d536277857dc7b8428e31af150af.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/es_ES/cb39d73fa7ff75b0e8d358fe00b0849d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/fr_FR/07f1d536277857dc7b8428e31af150af.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/JPG/it_IT/93eb9a9a9cb9feac6df7d5ea43818082.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/de8dc1be7e0fcb7a3a4c",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour coûte {1} de moins.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{R} Si vous contrôlez au moins deux Plantes autres que moi : Un Personnage ciblé gagne 1 boost.  Lorsque je quitte la zone d'Expédition, si j'étais [[Boosté]] — []Vous pouvez défausser un Permanent ciblé de Coût de Main {2} ou moins. Si vous le faites, son contrôleur [Ravitaille].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{R} Si vous contrôlez au moins deux Plantes autres que moi : Un Personnage ciblé gagne 1 boost.  Lorsque je quitte la zone d'Expédition, si j'étais [[Boosté]] — []Vous pouvez défausser un Permanent ciblé de Coût de Main {2} ou moins. Si vous le faites, son contrôleur [Ravitaille].",
-                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour coûte {1} de moins."
+                "RECALL_COST": "3"
             },
             "id": "5TTQ8FAX2V88B82ER69VCK621Y",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_51/UNIQUE/JPG/fr_FR/07f1d536277857dc7b8428e31af150af.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Renarde Intègre",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_51_U_8582",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_51_U_8582"
         }

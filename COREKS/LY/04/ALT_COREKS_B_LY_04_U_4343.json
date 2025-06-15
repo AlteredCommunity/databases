@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_LY_04_U_4343",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/fr_FR/7fba06fdc88a4a1a56789a3494de42ee.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/es_ES/014a3c40beb032b418a2c4ec0581deff.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/it_IT/30d686f75f69dd0aa68c93febd549ddc.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/de_DE/c7d6a0c12efbf0800f768b8a05c5856c.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/en_US/d9e5c9be215200df0a05b71fd5a3e062.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/en_US/d9e5c9be215200df0a05b71fd5a3e062.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/es_ES/014a3c40beb032b418a2c4ec0581deff.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/fr_FR/7fba06fdc88a4a1a56789a3494de42ee.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/it_IT/30d686f75f69dd0aa68c93febd549ddc.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f54753075b60d537fac5",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/bbd54b9f7d448011f73d",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next card you play this Afternoon costs {1} less.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} []You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]].  {H} If there are three or more base statistics of 0 among Characters you control: You may return a Spell from your Reserve to your hand.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{J} []You may have target Character with Hand Cost\u00a0{3} or less other than me gain [[Anchored]].  {H} If there are three or more base statistics of 0 among Characters you control: You may return a Spell from your Reserve to your hand.",
-        "ECHO_EFFECT": "{D} : []The next card you play this Afternoon costs\u00a0{1} less."
+        "RECALL_COST": "2"
     },
     "id": "6HGQN7ZVKN9QR9E1DEDD18REMD",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/JPG/en_EN/26ee63210eae55febc3877f6de1d6efa.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Martengale",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_04_U_4343",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_LY_04_U_4343",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_LY_04_U_4343",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/fr_FR/7fba06fdc88a4a1a56789a3494de42ee.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/es_ES/014a3c40beb032b418a2c4ec0581deff.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/it_IT/30d686f75f69dd0aa68c93febd549ddc.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/de_DE/c7d6a0c12efbf0800f768b8a05c5856c.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/en_US/d9e5c9be215200df0a05b71fd5a3e062.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/en_US/d9e5c9be215200df0a05b71fd5a3e062.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/es_ES/014a3c40beb032b418a2c4ec0581deff.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/fr_FR/7fba06fdc88a4a1a56789a3494de42ee.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/it_IT/30d686f75f69dd0aa68c93febd549ddc.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/686f186a7236950c235b",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/249794d0f4cb6a1d9eb6",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []La prochaine carte que vous jouez cet Après-midi coûte {1} de moins.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} []Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi.  {H} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contrôlez : Vous pouvez renvoyer un Sort de votre Réserve dans votre main.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{J} []Vous pouvez faire gagner [[Ancr\u00e9]] \u00e0 un Personnage cibl\u00e9 de Co\u00fbt de Main\u00a0{3} ou moins autre que moi.  {H} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contr\u00f4lez\u00a0: Vous pouvez renvoyer un Sort de votre R\u00e9serve dans votre main.",
-                "ECHO_EFFECT": "{D}\u00a0: []La prochaine carte que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "2"
             },
             "id": "6HGQN7ZVKN9QR9E1DEDD18REMD",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_04/UNIQUE/JPG/fr_FR/7fba06fdc88a4a1a56789a3494de42ee.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Martengale",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_04_U_4343",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_LY_04_U_4343"
         }

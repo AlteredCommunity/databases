@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_BR_13_U_4771",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/fr_FR/faa424bc4634aefc9c74e54e09daff90.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/es_ES/9938e85cb85becf4e693d5e5c8a46fe9.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/it_IT/f26f24b2f66e93d63c4e816ebf2827d0.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/de_DE/d5ff5bdb903e1b9b918a805d53f29142.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/en_US/c6eb7c255437946f5ef7e717b787ac1f.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/en_US/c6eb7c255437946f5ef7e717b787ac1f.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/es_ES/9938e85cb85becf4e693d5e5c8a46fe9.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/fr_FR/faa424bc4634aefc9c74e54e09daff90.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/it_IT/f26f24b2f66e93d63c4e816ebf2827d0.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a6d95736252c599c0ac0",
-            "reference": "TRAINER",
+            "@type": "CardSubType",
             "id": "01HKAGQ07R8R2DAC69RKNZ5SA6",
-            "name": "Trainer"
+            "name": "Trainer",
+            "reference": "TRAINER"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ec8a7515554090767506",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a Spell from your Reserve to your hand.",
+        "FOREST_POWER": "6",
         "MAIN_COST": "4",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{H} []Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "6",
-        "MAIN_EFFECT": "{H} []Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts.",
-        "ECHO_EFFECT": "{D} : []You may return a Spell from your Reserve to your hand."
+        "RECALL_COST": "5"
     },
     "id": "0RP96N323B8YNAFZ4PYKARQVRT",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/JPG/en_EN/92bc9dbaab50ece0568dc0fbf05a55b3.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Kappa",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_BR_13_U_4771",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_BR_13_U_4771",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_BR_13_U_4771",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/fr_FR/faa424bc4634aefc9c74e54e09daff90.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/es_ES/9938e85cb85becf4e693d5e5c8a46fe9.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/it_IT/f26f24b2f66e93d63c4e816ebf2827d0.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/de_DE/d5ff5bdb903e1b9b918a805d53f29142.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/en_US/c6eb7c255437946f5ef7e717b787ac1f.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/en_US/c6eb7c255437946f5ef7e717b787ac1f.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/es_ES/9938e85cb85becf4e693d5e5c8a46fe9.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/fr_FR/faa424bc4634aefc9c74e54e09daff90.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/it_IT/f26f24b2f66e93d63c4e816ebf2827d0.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/bb9b466a2562c2e55a8f",
-                    "reference": "TRAINER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ07R8R2DAC69RKNZ5SA6",
-                    "name": "Mentor"
+                    "name": "Mentor",
+                    "reference": "TRAINER"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/2d25c4a01f4d792761eb",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer un Sort de votre Réserve dans votre main.",
+                "FOREST_POWER": "6",
                 "MAIN_COST": "4",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{H} []Lancez un dé. Sur 4+, je gagne [[Ancré]]. Sur 1-3, je gagne 3 boosts.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "6",
-                "MAIN_EFFECT": "{H} []Lancez un d\u00e9. Sur 4+, je gagne [[Ancr\u00e9]]. Sur 1-3, je gagne 3\u00a0boosts.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez renvoyer un Sort de votre R\u00e9serve dans votre main."
+                "RECALL_COST": "5"
             },
             "id": "0RP96N323B8YNAFZ4PYKARQVRT",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_BR_13/UNIQUE/JPG/fr_FR/faa424bc4634aefc9c74e54e09daff90.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Kappa",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_BR_13_U_4771",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_BR_13_U_4771"
         }

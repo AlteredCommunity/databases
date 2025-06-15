@@ -3,8 +3,8 @@
     "@id": "/cards/ALT_CORE_B_LY_12_U_7362",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/en_US/8b51c0df5e4774a9f6feaf7ece8b2aac.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/de_DE/3c09da016ca9ab2fb810a075b6a2ddc0.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/en_US/8b51c0df5e4774a9f6feaf7ece8b2aac.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/es_ES/cdb668822e3d31d30ace57c8ffafb80f.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/fr_FR/d9e453ff5678785ade82e8af0340ca76.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/it_IT/3751cdf3237e80227295f76f822fe727.jpg"
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/500bb33861b50ece608b",
-            "reference": "CITIZEN",
+            "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-            "name": "Citizen"
+            "name": "Citizen",
+            "reference": "CITIZEN"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "0",
         "MAIN_COST": "1",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} Roll a die. On a 4+: The next Spell you play this Afternoon costs {1} less.",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{H} Roll a die. On a 4+: The next Spell you play this Afternoon costs\u00a0{1} less."
+        "RECALL_COST": "2"
     },
     "id": "0ARFKJ59ZA81TR37V80BWAMXAG",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/en_EN/4150956481f3a5ab052bca84f1f187a4.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Lyra Navigator",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_12_U_7362",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_12_U_7362",
     "translations": {
@@ -77,8 +77,8 @@
             "@id": "/cards/ALT_CORE_B_LY_12_U_7362",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/en_US/8b51c0df5e4774a9f6feaf7ece8b2aac.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/de_DE/3c09da016ca9ab2fb810a075b6a2ddc0.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/en_US/8b51c0df5e4774a9f6feaf7ece8b2aac.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/es_ES/cdb668822e3d31d30ace57c8ffafb80f.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/fr_FR/d9e453ff5678785ade82e8af0340ca76.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/it_IT/3751cdf3237e80227295f76f822fe727.jpg"
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/849049e165be5eb3c4b1",
-                    "reference": "CITIZEN",
+                    "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-                    "name": "Citoyen"
+                    "name": "Citoyen",
+                    "reference": "CITIZEN"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "0",
                 "MAIN_COST": "1",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Lancez un dé. Sur 4+ : Le prochain Sort que vous jouez cet Après-midi coûte {1} de moins.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{H} Lancez un d\u00e9. Sur 4+\u00a0: Le prochain Sort que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins."
+                "RECALL_COST": "2"
             },
             "id": "0ARFKJ59ZA81TR37V80BWAMXAG",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_12/JPG/fr_FR/d9e453ff5678785ade82e8af0340ca76.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Navigatrice Lyra",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_12_U_7362",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_12_U_7362"
         }

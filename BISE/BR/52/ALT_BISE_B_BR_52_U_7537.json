@@ -1,11 +1,11 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_52_U_7537",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/de_DE/24537edcb64fce2de313f7778e2ca64c.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/ecf6e2d70b35f0f4fdd53ef4432ae79c.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/en_US/7ef285825007de21bd499f8c60752bdd.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/ecf6e2d70b35f0f4fdd53ef4432ae79c.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/06bbd6d08b283a8c330992ef4464c522.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/5a563663d351554b59f346777f4e8af3.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/8460178c014f28c47c09",
-            "reference": "MESSENGER",
+            "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-            "name": "Messenger"
+            "name": "Messenger",
+            "reference": "MESSENGER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {1}.  {J} []You may give target [[Fleeting]] Character 1 boost.  When I leave the Expedition zone, if I was [[Fleeting]] — []Up to two target Characters in play or in Reserve each gain 1 boost.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "[][][Scout] {1}.  {J} []You may give target [[Fleeting]] Character 1 boost.  When I leave the Expedition zone, if I was [[Fleeting]] — []Up to two target Characters in play or in Reserve each gain 1 boost."
+        "RECALL_COST": "4"
     },
     "id": "254XBPV4CF82MB0F8ZJ3AMG01Z",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/en_EN/afba0b04ab97790f5ee9b56820fc22cf.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Talarian Skater",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_52_U_7537",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_52_U_7537",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/de_DE/24537edcb64fce2de313f7778e2ca64c.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/ecf6e2d70b35f0f4fdd53ef4432ae79c.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/en_US/7ef285825007de21bd499f8c60752bdd.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/ecf6e2d70b35f0f4fdd53ef4432ae79c.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/06bbd6d08b283a8c330992ef4464c522.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/5a563663d351554b59f346777f4e8af3.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/2a67cd3a943f6cd12372",
-                    "reference": "MESSENGER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-                    "name": "Émissaire"
+                    "name": "Émissaire",
+                    "reference": "MESSENGER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} []Vous pouvez donner 1 boost à un Personnage [[Fugace]] ciblé.  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} []Vous pouvez donner 1 boost à un Personnage [[Fugace]] ciblé.  Lorsque je quitte la zone d'Expédition, si j'étais [[Fugace]] — []Jusqu'à deux Personnages ciblés en jeu ou en Réserve gagnent chacun 1 boost."
+                "RECALL_COST": "4"
             },
             "id": "254XBPV4CF82MB0F8ZJ3AMG01Z",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/06bbd6d08b283a8c330992ef4464c522.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Skateuse Talarienne",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_52_U_7537",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_52_U_7537"
         }

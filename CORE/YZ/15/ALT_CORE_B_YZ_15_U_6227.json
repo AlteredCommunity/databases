@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/de_DE/b2e9e7d0c444d8a1ab7d518b349dec92.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/fr_FR/9b837c0afe385535bbe4009460d8a36b.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/en_US/5c9e475bd0092f6f3e736fc73479dbfb.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/es_ES/ff9607647eba4d457fbda9a4c26b612b.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/fr_FR/9b837c0afe385535bbe4009460d8a36b.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/it_IT/8664f145a5779ceea9691993fd7d907e.jpg"
     },
     "assets": {
@@ -21,33 +21,33 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/013318078d7c04574e37",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Spell you play this turn loses [[Fleeting]].",
+        "FOREST_POWER": "3",
         "MAIN_COST": "6",
-        "RECALL_COST": "6",
+        "MAIN_EFFECT": "{J} You may sacrifice a Character. If you do: You may send to Reserve target Character with Hand Cost {4} or more.  {H} []Sacrifice a Character in my Expedition.",
         "MOUNTAIN_POWER": "7",
         "OCEAN_POWER": "7",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} You may sacrifice a Character. If you do: You may send to Reserve target Character with Hand Cost\u00a0{4} or more.  {H} []Sacrifice a Character in my Expedition.",
-        "ECHO_EFFECT": "{D} : []The next Spell you play this turn loses [[Fleeting]]."
+        "RECALL_COST": "6"
     },
     "id": "32P09D0FK985H86SJAP1DJ6V1A",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/JPG/en_EN/40541019ec04e8fc7b0ff16c9ad1c21b.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Kuwat, the Dissenter",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_15_U_6227",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_15_U_6227",
     "translations": {
@@ -79,9 +79,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/de_DE/b2e9e7d0c444d8a1ab7d518b349dec92.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/fr_FR/9b837c0afe385535bbe4009460d8a36b.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/en_US/5c9e475bd0092f6f3e736fc73479dbfb.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/es_ES/ff9607647eba4d457fbda9a4c26b612b.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/fr_FR/9b837c0afe385535bbe4009460d8a36b.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/it_IT/8664f145a5779ceea9691993fd7d907e.jpg"
             },
             "assets": {
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/652b16f3dff60e2cfdbd",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Sort que vous jouez ce tour perd [[Fugace]].",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "6",
-                "RECALL_COST": "6",
+                "MAIN_EFFECT": "{J} Vous pouvez sacrifier un Personnage. Si vous le faites : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {4} ou plus.  {H} []Sacrifiez un Personnage dans mon Expédition.",
                 "MOUNTAIN_POWER": "7",
                 "OCEAN_POWER": "7",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Vous pouvez sacrifier un Personnage. Si vous le faites\u00a0: Vous pouvez envoyer en R\u00e9serve un Personnage cibl\u00e9 de Co\u00fbt de Main\u00a0{4} ou plus.  {H} []Sacrifiez un Personnage dans mon Exp\u00e9dition.",
-                "ECHO_EFFECT": "{D}\u00a0: []Le prochain Sort que vous jouez ce tour perd [[Fugace]]."
+                "RECALL_COST": "6"
             },
             "id": "32P09D0FK985H86SJAP1DJ6V1A",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_15/UNIQUE/JPG/fr_FR/9b837c0afe385535bbe4009460d8a36b.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Kuwat, le Dissident",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_15_U_6227",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_15_U_6227"
         }

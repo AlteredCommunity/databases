@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/de_DE/de27ad5ad0e37d1cab3a0f016ae9be71.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/en_US/6508937d1fa607501d63e272db9d31d9.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/fr_FR/a6f2cc8ebb485017a0b23ed8548426b4.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/es_ES/f2d1836f3c6885177e1c277a0b974489.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/fr_FR/a6f2cc8ebb485017a0b23ed8548426b4.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/it_IT/6400a3d4dd350bff0020441538e90c0a.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/646a3de86c945f854f4a",
-            "reference": "CITIZEN",
+            "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-            "name": "Citizen"
+            "name": "Citizen",
+            "reference": "CITIZEN"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} []You may exhaust target card in Reserve.  {J} You may put a card from your hand in Reserve. If you do: [Sabotage].",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} []You may exhaust target card in Reserve.  {J} You may put a card from your hand in Reserve. If you do: [Sabotage]."
+        "RECALL_COST": "3"
     },
     "id": "5ZYAMEV2SW9T8SWE4KPBYE0XPE",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/en_EN/32d4a3ecf484ac7011fb73dc66f4b527.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Snowball Commando",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_32_U_7234",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_LY_32_U_7234",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/de_DE/de27ad5ad0e37d1cab3a0f016ae9be71.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/en_US/6508937d1fa607501d63e272db9d31d9.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/fr_FR/a6f2cc8ebb485017a0b23ed8548426b4.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/es_ES/f2d1836f3c6885177e1c277a0b974489.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/fr_FR/a6f2cc8ebb485017a0b23ed8548426b4.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/JPG/it_IT/6400a3d4dd350bff0020441538e90c0a.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ab2fe7f9999407986523",
-                    "reference": "CITIZEN",
+                    "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-                    "name": "Citoyen"
+                    "name": "Citoyen",
+                    "reference": "CITIZEN"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} []Vous pouvez épuiser une carte ciblée en Réserve.  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : [Sabotez].",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} []Vous pouvez \u00e9puiser une carte cibl\u00e9e en R\u00e9serve.  {J} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: [Sabotez]."
+                "RECALL_COST": "3"
             },
             "id": "5ZYAMEV2SW9T8SWE4KPBYE0XPE",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_32/UNIQUE/JPG/fr_FR/a6f2cc8ebb485017a0b23ed8548426b4.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Commando Boule-de-Neige",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_32_U_7234",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_LY_32_U_7234"
         }

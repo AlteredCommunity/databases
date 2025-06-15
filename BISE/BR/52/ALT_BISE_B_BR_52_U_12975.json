@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_52_U_12975",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/de_DE/a734a7e4c38c31fef65b63fd23c6371c.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/36eea55bfe68b825cdb58f7af4f65135.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/en_US/d3b8db3086ac00c46e3877aaac0334ad.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/c0f02cf349b1594bfd1afb2340a98c4b.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/f5d371b8632c56f91430da51100d247c.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/f5d371b8632c56f91430da51100d247c.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/36eea55bfe68b825cdb58f7af4f65135.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9cddbd88d48628825960",
-            "reference": "MESSENGER",
+            "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-            "name": "Messenger"
+            "name": "Messenger",
+            "reference": "MESSENGER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {1}.  {J} If you have less cards in Reserve than target opponent: Target Character other than me gains 1 boost.  {R} []You may discard target Permanent with Hand Cost {3} or less.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "[][][Scout] {1}.  {J} If you have less cards in Reserve than target opponent: Target Character other than me gains 1 boost.  {R} []You may discard target Permanent with Hand Cost {3} or less."
+        "RECALL_COST": "4"
     },
     "id": "16HZNCAFED8QDSQWTSQH8DWD20",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/en_EN/76126dc8aeaf189d6ac8abe0e18cc4c3.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Talarian Skater",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_52_U_12975",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_52_U_12975",
     "translations": {
@@ -78,10 +78,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/de_DE/a734a7e4c38c31fef65b63fd23c6371c.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/36eea55bfe68b825cdb58f7af4f65135.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/en_US/d3b8db3086ac00c46e3877aaac0334ad.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/c0f02cf349b1594bfd1afb2340a98c4b.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/f5d371b8632c56f91430da51100d247c.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/f5d371b8632c56f91430da51100d247c.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/36eea55bfe68b825cdb58f7af4f65135.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/1da68c2bea43c4fc8da1",
-                    "reference": "MESSENGER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-                    "name": "Émissaire"
+                    "name": "Émissaire",
+                    "reference": "MESSENGER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : Un Personnage ciblé autre que moi gagne 1 boost.  {R} []Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : Un Personnage ciblé autre que moi gagne 1 boost.  {R} []Vous pouvez défausser un Permanent ciblé de Coût de Main {3} ou moins."
+                "RECALL_COST": "4"
             },
             "id": "16HZNCAFED8QDSQWTSQH8DWD20",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/f5d371b8632c56f91430da51100d247c.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Skateuse Talarienne",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_52_U_12975",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_52_U_12975"
         }

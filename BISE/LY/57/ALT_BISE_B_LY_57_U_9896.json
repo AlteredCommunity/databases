@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_LY_57_U_9896",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/de_DE/0117cea2645f56508d1eb0c4b9249af0.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/es_ES/8b82c78ff30c4383b07091ab81fb9477.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/it_IT/19a5019e6f1bebc8f2a9b259164d4920.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/en_US/cf383798a96520b73dac4a2023793e9e.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/fr_FR/aaeafa3bce529cb47cc02e9d6a319eea.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/es_ES/8b82c78ff30c4383b07091ab81fb9477.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/fr_FR/aaeafa3bce529cb47cc02e9d6a319eea.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/it_IT/19a5019e6f1bebc8f2a9b259164d4920.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f86e1accfd844dd7fd8c",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may exhaust target card in Reserve.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "6",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{H} Remove all boosts from Characters in play and in Reserve. Then, depending on the number of boosts removed this way:  • 1+: [Resupply].  • 4+: Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts.  • 9+: Your opponent's Expedition facing me moves backwards one region.",
         "MOUNTAIN_POWER": "7",
         "OCEAN_POWER": "6",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{H} Remove all boosts from Characters in play and in Reserve. Then, depending on the number of boosts removed this way:  • 1+: [Resupply].  • 4+: Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts.  • 9+: Your opponent's Expedition facing me moves backwards one region.",
-        "ECHO_EFFECT": "{D} : []You may exhaust target card in Reserve."
+        "RECALL_COST": "5"
     },
     "id": "1RVTSCS4YH9S4T6Q9Q534679PZ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/en_EN/b7d0f420d445266687fd057ed5b94321.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Man in the Maze",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_57_U_9896",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_LY_57_U_9896",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/de_DE/0117cea2645f56508d1eb0c4b9249af0.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/es_ES/8b82c78ff30c4383b07091ab81fb9477.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/it_IT/19a5019e6f1bebc8f2a9b259164d4920.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/en_US/cf383798a96520b73dac4a2023793e9e.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/fr_FR/aaeafa3bce529cb47cc02e9d6a319eea.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/es_ES/8b82c78ff30c4383b07091ab81fb9477.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/fr_FR/aaeafa3bce529cb47cc02e9d6a319eea.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/JPG/it_IT/19a5019e6f1bebc8f2a9b259164d4920.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b09a9bc22f36c0004ac4",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinité"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez épuiser une carte ciblée en Réserve.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "6",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{H} Retirez tous les boosts des Personnages en jeu et en Réserve. Puis, en fonction du nombre de boosts retirés de cette manière :  • 1+ : [Ravitaillez].  • 4+ : Lancez un dé. Sur 4+, je gagne [[Ancré]]. Sur 1-3, je gagne 3 boosts.  • 9+ : L'Expédition adverse qui me fait face recule d'une région.",
                 "MOUNTAIN_POWER": "7",
                 "OCEAN_POWER": "6",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{H} Retirez tous les boosts des Personnages en jeu et en Réserve. Puis, en fonction du nombre de boosts retirés de cette manière :  • 1+ : [Ravitaillez].  • 4+ : Lancez un dé. Sur 4+, je gagne [[Ancré]]. Sur 1-3, je gagne 3 boosts.  • 9+ : L'Expédition adverse qui me fait face recule d'une région.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez épuiser une carte ciblée en Réserve."
+                "RECALL_COST": "5"
             },
             "id": "1RVTSCS4YH9S4T6Q9Q534679PZ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_57/UNIQUE/JPG/fr_FR/aaeafa3bce529cb47cc02e9d6a319eea.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "L'Homme dans le Labyrinthe",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_57_U_9896",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_LY_57_U_9896"
         }

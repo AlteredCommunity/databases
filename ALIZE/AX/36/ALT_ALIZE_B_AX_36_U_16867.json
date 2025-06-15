@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/de_DE/f67a84749fcd3e73f8fc65eecabc514c.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/fr_FR/6cbdf7ead90d950cc3dab5c42c652e96.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/en_US/6024e104617974979fce5f5461df8743.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/es_ES/c1fd81f6f01ce484b0a359b37f467a54.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/fr_FR/6cbdf7ead90d950cc3dab5c42c652e96.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/it_IT/1412dfc8a60b2f336455b6158d0cf9d3.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a203275296263f84e6e4",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "[]If you control a token: Your Characters other than me have: \"{R} I gain 1 boost.\"  When another Robot joins your Expeditions — You may discard a card from your Reserve. If you do: Each Robot you control other than me gains 1 boost.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "[]If you control a token: Your Characters other than me have: \"{R} I gain 1 boost.\"  When another Robot joins your Expeditions\u00a0\u2014 You may discard a card from your Reserve. If you do: Each Robot you control other than me gains 1 boost."
+        "RECALL_COST": "2"
     },
     "id": "59X8ZT7VB19Z4SEAKEYEPHVWGM",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/JPG/en_EN/94db8248f238a42000eea8b6652f7f47.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Walrus Scout",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_36_U_16867",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_AX_36_U_16867",
     "translations": {
@@ -78,9 +78,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/de_DE/f67a84749fcd3e73f8fc65eecabc514c.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/fr_FR/6cbdf7ead90d950cc3dab5c42c652e96.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/en_US/6024e104617974979fce5f5461df8743.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/es_ES/c1fd81f6f01ce484b0a359b37f467a54.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/fr_FR/6cbdf7ead90d950cc3dab5c42c652e96.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/it_IT/1412dfc8a60b2f336455b6158d0cf9d3.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/9e123be190257748f25b",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "[]Si vous contrôlez un jeton : Vos Personnages autres que moi ont : « {R} Je gagne 1 boost. »  Lorsqu'un autre Robot rejoint vos Expéditions — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Chaque Robot que vous contrôlez autre que moi gagne 1 boost.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "[]Si vous contr\u00f4lez un jeton\u00a0: Vos Personnages autres que moi ont\u00a0: \u00ab\u00a0{R} Je gagne 1\u00a0boost.\u00a0\u00bb  Lorsqu'un autre Robot rejoint vos Exp\u00e9ditions\u00a0\u2014 Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Chaque Robot que vous contr\u00f4lez autre que moi gagne 1\u00a0boost."
+                "RECALL_COST": "2"
             },
             "id": "59X8ZT7VB19Z4SEAKEYEPHVWGM",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_36/UNIQUE/JPG/fr_FR/6cbdf7ead90d950cc3dab5c42c652e96.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
-            "name": "\u00c9claireur Morse",
+            "name": "Éclaireur Morse",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_36_U_16867",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_AX_36_U_16867"
         }

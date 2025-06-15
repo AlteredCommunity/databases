@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_LY_53_U_2581",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/1a5de17cfecf2c297f29252b4a10c990.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1372d67aa2bf393c7317f75fd6ea4c35.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/93dac846eecbdae76b7ed15b707a5280.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/de_DE/c70a9f00f0aaa6ddf6b2a2102d40c6f8.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/ff0deba917132049a6a2fdf3b4155c7f.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/1a5de17cfecf2c297f29252b4a10c990.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/93dac846eecbdae76b7ed15b707a5280.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/ff0deba917132049a6a2fdf3b4155c7f.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1372d67aa2bf393c7317f75fd6ea4c35.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/cc554341d09e724db5f7",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{J} []Target a Character in play or in Reserve other than me. Then, roll a die:  • On a 4+, we both gain 1 boost.  • On a 1-3, it gains 1 boost.  {H} You may put a card from your hand in Reserve. If you do: You may give target [[Fleeting]] Character 2 boosts.  {R} If I'm the only Character in my Expedition: I gain 2 boosts, otherwise I gain 1 boost.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} []Target a Character in play or in Reserve other than me. Then, roll a die:  • On a 4+, we both gain 1 boost.  • On a 1-3, it gains 1 boost.  {H} You may put a card from your hand in Reserve. If you do: You may give target [[Fleeting]] Character 2 boosts.  {R} If I'm the only Character in my Expedition: I gain 2 boosts, otherwise I gain 1 boost."
+        "RECALL_COST": "4"
     },
     "id": "0M618EM3EZ8TK8GBEP5VFAN8KC",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/en_EN/45dbab66d42953c911381b74513399eb.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Daedalus",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_53_U_2581",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_LY_53_U_2581",
     "translations": {
@@ -77,11 +77,11 @@
             "@id": "/cards/ALT_BISE_B_LY_53_U_2581",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/1a5de17cfecf2c297f29252b4a10c990.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1372d67aa2bf393c7317f75fd6ea4c35.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/93dac846eecbdae76b7ed15b707a5280.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/de_DE/c70a9f00f0aaa6ddf6b2a2102d40c6f8.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/ff0deba917132049a6a2fdf3b4155c7f.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/en_US/1a5de17cfecf2c297f29252b4a10c990.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/es_ES/93dac846eecbdae76b7ed15b707a5280.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/ff0deba917132049a6a2fdf3b4155c7f.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/JPG/it_IT/1372d67aa2bf393c7317f75fd6ea4c35.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/7fe461f577051b81b27b",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ingénieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{J} []Ciblez un Personnage autre que moi en jeu ou en Réserve. Puis lancez un dé :  • Sur 4+, nous gagnons chacun 1 boost.  • Sur 1-3, il gagne 1 boost.  {H} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez donner 2 boosts à un Personnage [[Fugace]] ciblé.  {R} Si je suis le seul Personnage dans mon Expédition : Je gagne 2 boosts. Sinon, je gagne 1 boost.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} []Ciblez un Personnage autre que moi en jeu ou en Réserve. Puis lancez un dé :  • Sur 4+, nous gagnons chacun 1 boost.  • Sur 1-3, il gagne 1 boost.  {H} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez donner 2 boosts à un Personnage [[Fugace]] ciblé.  {R} Si je suis le seul Personnage dans mon Expédition : Je gagne 2 boosts. Sinon, je gagne 1 boost."
+                "RECALL_COST": "4"
             },
             "id": "0M618EM3EZ8TK8GBEP5VFAN8KC",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_53/UNIQUE/JPG/fr_FR/ff0deba917132049a6a2fdf3b4155c7f.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Dédale",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_53_U_2581",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_LY_53_U_2581"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_52_U_4458",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/de_DE/ed74dec887c6299fe323634cf084684a.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/f0db287593b12aefc12c0a1755e7156c.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/en_US/0b7e912d058fd709bbc2e5eafba76523.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/e50787ad7e7a57319a4edcf1548cf986.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/08da03360566dad2c1f2fe6dc050d288.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/08da03360566dad2c1f2fe6dc050d288.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/f0db287593b12aefc12c0a1755e7156c.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ca93867a38536339e153",
-            "reference": "MESSENGER",
+            "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-            "name": "Messenger"
+            "name": "Messenger",
+            "reference": "MESSENGER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][][Scout] {1}.  {J} If you have less cards in Reserve than target opponent: Target Character other than me gains 1 boost.  {R} If you have less cards in Reserve than target opponent: The next card you play this Afternoon costs {1} less.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "[][][Scout] {1}.  {J} If you have less cards in Reserve than target opponent: Target Character other than me gains 1 boost.  {R} If you have less cards in Reserve than target opponent: The next card you play this Afternoon costs {1} less."
+        "RECALL_COST": "4"
     },
     "id": "4RJJV9087M9509WPVB1QDZDVBJ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/en_EN/fce5eb93d33d7acf2b1f56b7ecc24c0d.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Talarian Skater",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_52_U_4458",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_52_U_4458",
     "translations": {
@@ -78,10 +78,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/de_DE/ed74dec887c6299fe323634cf084684a.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/f0db287593b12aefc12c0a1755e7156c.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/en_US/0b7e912d058fd709bbc2e5eafba76523.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/es_ES/e50787ad7e7a57319a4edcf1548cf986.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/08da03360566dad2c1f2fe6dc050d288.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/08da03360566dad2c1f2fe6dc050d288.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/JPG/it_IT/f0db287593b12aefc12c0a1755e7156c.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c125dd040c9b022e6c26",
-                    "reference": "MESSENGER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
-                    "name": "Émissaire"
+                    "name": "Émissaire",
+                    "reference": "MESSENGER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : Un Personnage ciblé autre que moi gagne 1 boost.  {R} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : La prochaine carte que vous jouez cet Après-midi coûte {1} de moins.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "[][][Repérage] {1}.  {J} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : Un Personnage ciblé autre que moi gagne 1 boost.  {R} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : La prochaine carte que vous jouez cet Après-midi coûte {1} de moins."
+                "RECALL_COST": "4"
             },
             "id": "4RJJV9087M9509WPVB1QDZDVBJ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_52/UNIQUE/JPG/fr_FR/08da03360566dad2c1f2fe6dc050d288.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Skateuse Talarienne",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_52_U_4458",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_52_U_4458"
         }

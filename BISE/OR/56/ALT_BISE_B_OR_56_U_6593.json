@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_56_U_6593",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/3fdde1b2a28824d23d969867465519bf.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/90c0230e4688c657a3e347104c5221de.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/5af71c287e5b63ff1f23d4666d08d114.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/de_DE/2aa07513a83b5cdc292d09b294a71795.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/764faf6f3ec45d5c2e87beb09f255a3e.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/3fdde1b2a28824d23d969867465519bf.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/5af71c287e5b63ff1f23d4666d08d114.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/764faf6f3ec45d5c2e87beb09f255a3e.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/90c0230e4688c657a3e347104c5221de.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/2048cf288d81bd86b71b",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/7728c8835dc3c3695517",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[]If I have 1 or more boosts: I am [Eternal].  At Night — I lose 1 boost.  {J} []I gain 1 boost per Character other than me in my Expedition, then send them to Reserve.  {R} If you have ten or more Mana Orbs: You may send to Reserve target Character with Hand Cost {4} or more.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "[]If I have 1 or more boosts: I am [Eternal].  At Night — I lose 1 boost.  {J} []I gain 1 boost per Character other than me in my Expedition, then send them to Reserve.  {R} If you have ten or more Mana Orbs: You may send to Reserve target Character with Hand Cost {4} or more.",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition."
+        "RECALL_COST": "4"
     },
     "id": "2MJR56ACBA9NA8DTZRRZ96BYN8",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/en_EN/a5b390d2cebe9d00060329b46bb66dc0.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Fiore dei Liberi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_6593",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_56_U_6593",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_OR_56_U_6593",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/3fdde1b2a28824d23d969867465519bf.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/90c0230e4688c657a3e347104c5221de.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/5af71c287e5b63ff1f23d4666d08d114.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/de_DE/2aa07513a83b5cdc292d09b294a71795.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/764faf6f3ec45d5c2e87beb09f255a3e.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/3fdde1b2a28824d23d969867465519bf.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/5af71c287e5b63ff1f23d4666d08d114.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/764faf6f3ec45d5c2e87beb09f255a3e.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/90c0230e4688c657a3e347104c5221de.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/8cae1e9bf66dae94f2fe",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4a90dabadda4b22e9e3e",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Je suis [Éternel].  À la tombée de la Nuit — Je perds 1 boost.  {J} []Je gagne 1 boost par Personnage autre que moi dans mon Expédition, puis envoyez-les en Réserve.  {R} Si vous avez au moins dix Orbes de Mana : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {4} ou plus.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Je suis [Éternel].  À la tombée de la Nuit — Je perds 1 boost.  {J} []Je gagne 1 boost par Personnage autre que moi dans mon Expédition, puis envoyez-les en Réserve.  {R} Si vous avez au moins dix Orbes de Mana : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {4} ou plus.",
-                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros."
+                "RECALL_COST": "4"
             },
             "id": "2MJR56ACBA9NA8DTZRRZ96BYN8",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/764faf6f3ec45d5c2e87beb09f255a3e.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Fiore dei Liberi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_6593",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_56_U_6593"
         }

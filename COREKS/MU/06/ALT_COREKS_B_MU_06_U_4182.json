@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_MU_06_U_4182",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/fr_FR/773ebf37480d0cd4a7807a4807e78c64.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/es_ES/0c91e8c6976586a91958aabca0ff1618.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/it_IT/cdffc01b3dfd221b13970ca9bdf9a50a.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/de_DE/5ab3fe0662ad92715a253528a6811819.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/en_US/7111829517ddf9d543f18941537fb3fb.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/en_US/7111829517ddf9d543f18941537fb3fb.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/es_ES/0c91e8c6976586a91958aabca0ff1618.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/fr_FR/773ebf37480d0cd4a7807a4807e78c64.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/it_IT/cdffc01b3dfd221b13970ca9bdf9a50a.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/50494ac61a2d67a50125",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/46d924039a7bdb0890c8",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "0",
         "MAIN_COST": "2",
-        "RECALL_COST": "1",
+        "MAIN_EFFECT": "{J} Unless you control two or more Plants other than me: Target opponent draws a card.  {H} []I gain [[Anchored]].  When another Character joins your Expeditions — If I have 2 or more boosts: You may give target Plant 2 boosts.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{J} Unless you control two or more Plants other than me: Target opponent draws a card.  {H} []I gain [[Anchored]].  When another Character joins your Expeditions\u00a0\u2014 If I have 2 or more boosts: You may give target Plant 2 boosts."
+        "RECALL_COST": "1"
     },
     "id": "15CRB9YGF88AP8D57ZK7MB2RT1",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/JPG/en_EN/a47aa13497825fb6f91fdc9e2e7c64ed.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Spindle Harvesters",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_06_U_4182",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_MU_06_U_4182",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_COREKS_B_MU_06_U_4182",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/fr_FR/773ebf37480d0cd4a7807a4807e78c64.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/es_ES/0c91e8c6976586a91958aabca0ff1618.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/it_IT/cdffc01b3dfd221b13970ca9bdf9a50a.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/de_DE/5ab3fe0662ad92715a253528a6811819.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/en_US/7111829517ddf9d543f18941537fb3fb.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/en_US/7111829517ddf9d543f18941537fb3fb.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/es_ES/0c91e8c6976586a91958aabca0ff1618.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/fr_FR/773ebf37480d0cd4a7807a4807e78c64.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/it_IT/cdffc01b3dfd221b13970ca9bdf9a50a.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/497c470ded3e5fbc68d5",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/ceb0fd2bc43462c37b25",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "0",
                 "MAIN_COST": "2",
-                "RECALL_COST": "1",
+                "MAIN_EFFECT": "{J} À moins que vous ne contrôliez au moins deux Plantes autres que moi : Un adversaire ciblé pioche une carte.  {H} []Je gagne [[Ancré]].  Lorsqu'un autre Personnage rejoint vos Expéditions — Si j'ai au moins 2 boosts : Vous pouvez donner 2 boosts à une Plante ciblée.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{J} \u00c0 moins que vous ne contr\u00f4liez au moins deux Plantes autres que moi\u00a0: Un adversaire cibl\u00e9 pioche une carte.  {H} []Je gagne [[Ancr\u00e9]].  Lorsqu'un autre Personnage rejoint vos Exp\u00e9ditions\u00a0\u2014 Si j'ai au moins 2\u00a0boosts\u00a0: Vous pouvez donner 2\u00a0boosts \u00e0 une Plante cibl\u00e9e."
+                "RECALL_COST": "1"
             },
             "id": "15CRB9YGF88AP8D57ZK7MB2RT1",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_06/UNIQUE/JPG/fr_FR/773ebf37480d0cd4a7807a4807e78c64.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Vendangeurs du Fuseau",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_06_U_4182",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_MU_06_U_4182"
         }

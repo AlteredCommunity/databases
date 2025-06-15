@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/de_DE/48ed3ba86847d21f63a506069bbfdcc8.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/en_US/92b543b9a8ce0cf94009bdcc511795e0.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/fr_FR/867cf9fbdafa18722a90a8fe9a409273.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/es_ES/33510d83fdf0a962492df000facb9fd4.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/fr_FR/867cf9fbdafa18722a90a8fe9a409273.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/it_IT/1515528cbee00b2f4b3f4d13e9dccc21.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ac950e78ff12f1db881b",
-            "reference": "APPRENTICE",
+            "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-            "name": "Apprentice"
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} If you control two or more [[Boosted]] Characters: Target Character gains 1 boost.  {R} You may discard a card from your Reserve. If you do: Up to two target Characters each gain 2 boosts.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} If you control two or more [[Boosted]] Characters: Target Character gains 1 boost.  {R} You may discard a card from your Reserve. If you do: Up to two target Characters each gain 2 boosts."
+        "RECALL_COST": "3"
     },
     "id": "5FAKG9THPD8PRRE2GCB5Z96TS9",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/JPG/en_EN/24b3ec6e77c1a4163280223c5b3aba2a.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Haven Trainee",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_09_U_90",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_BR_09_U_90",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/de_DE/48ed3ba86847d21f63a506069bbfdcc8.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/en_US/92b543b9a8ce0cf94009bdcc511795e0.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/fr_FR/867cf9fbdafa18722a90a8fe9a409273.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/es_ES/33510d83fdf0a962492df000facb9fd4.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/fr_FR/867cf9fbdafa18722a90a8fe9a409273.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/it_IT/1515528cbee00b2f4b3f4d13e9dccc21.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/7ce617e83a271f40b243",
-                    "reference": "APPRENTICE",
+                    "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
-                    "name": "Apprenti"
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Si vous contrôlez au moins deux Personnages [[Boostés]] : Un Personnage ciblé gagne 1 boost.  {R} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Jusqu'à deux Personnages ciblés gagnent chacun 2 boosts.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Si vous contr\u00f4lez au moins deux Personnages [[Boost\u00e9s]]\u00a0: Un Personnage cibl\u00e9 gagne 1\u00a0boost.  {R} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Jusqu'\u00e0 deux Personnages cibl\u00e9s gagnent chacun 2\u00a0boosts."
+                "RECALL_COST": "3"
             },
             "id": "5FAKG9THPD8PRRE2GCB5Z96TS9",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/UNIQUE/JPG/fr_FR/867cf9fbdafa18722a90a8fe9a409273.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Aspirant de Havre",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_09_U_90",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_BR_09_U_90"
         }

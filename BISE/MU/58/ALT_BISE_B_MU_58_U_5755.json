@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_MU_58_U_5755",
     "@type": "Card",
     "allImagePath": {
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/0b3a259bc5197549c203d39475b3ccea.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/60a656c99115a80f8e688dbbd8a3e315.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/79d5c528a236a9ffb68fc3fead71b9c1.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/de_DE/daefdc34f018203ecee05363aba5dadc.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/7ded381ca63925edab8511631449b10e.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/0b3a259bc5197549c203d39475b3ccea.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/7ded381ca63925edab8511631449b10e.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/60a656c99115a80f8e688dbbd8a3e315.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/79d5c528a236a9ffb68fc3fead71b9c1.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,39 +21,39 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/30c5a76a92c8b12116b1",
-            "reference": "DRUID",
+            "@type": "CardSubType",
             "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
-            "name": "Druid"
+            "name": "Druid",
+            "reference": "DRUID"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/773845e860e6b6d3ba74",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "6",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "[][][Scout] {2}.  {H} If you have two or more cards in Reserve: You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]].  At Dusk — You may discard a card from your Reserve. If you do: Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "[][][Scout] {2}.  {H} If you have two or more cards in Reserve: You may have target Character with Hand Cost {3} or less other than me gain [[Anchored]].  At Dusk — You may discard a card from your Reserve. If you do: Put the top card of your deck in your Mana zone (as an exhausted Mana Orb)."
+        "RECALL_COST": "5"
     },
     "id": "3850SMDW7N9GQR6Q2CY2299DJX",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/en_EN/3b4fa4cfaa7f2802bf82cf4271dcfe8d.jpg",
@@ -63,19 +63,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "The Minotaur",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_58_U_5755",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_MU_58_U_5755",
     "translations": {
@@ -84,11 +84,11 @@
             "@id": "/cards/ALT_BISE_B_MU_58_U_5755",
             "@type": "Card",
             "allImagePath": {
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/0b3a259bc5197549c203d39475b3ccea.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/60a656c99115a80f8e688dbbd8a3e315.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/79d5c528a236a9ffb68fc3fead71b9c1.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/de_DE/daefdc34f018203ecee05363aba5dadc.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/7ded381ca63925edab8511631449b10e.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/en_US/0b3a259bc5197549c203d39475b3ccea.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/es_ES/7ded381ca63925edab8511631449b10e.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/60a656c99115a80f8e688dbbd8a3e315.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/JPG/it_IT/79d5c528a236a9ffb68fc3fead71b9c1.jpg"
             },
             "assets": {
                 "WEB": [
@@ -102,39 +102,39 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/44958b091dd9ecf4ae22",
-                    "reference": "DRUID",
+                    "@type": "CardSubType",
                     "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
-                    "name": "Druide"
+                    "name": "Druide",
+                    "reference": "DRUID"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/b4d97728a7502c8fa606",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "6",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "[][][Repérage] {2}.  {H} Si vous avez au moins deux cartes en Réserve : Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi.  Au Crépuscule — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Mettez la première carte de votre deck dans votre zone de Mana (en tant qu'Orbe de Mana épuisé).",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "[][][Repérage] {2}.  {H} Si vous avez au moins deux cartes en Réserve : Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé de Coût de Main {3} ou moins autre que moi.  Au Crépuscule — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Mettez la première carte de votre deck dans votre zone de Mana (en tant qu'Orbe de Mana épuisé)."
+                "RECALL_COST": "5"
             },
             "id": "3850SMDW7N9GQR6Q2CY2299DJX",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_MU_58/UNIQUE/JPG/fr_FR/60a656c99115a80f8e688dbbd8a3e315.jpg",
@@ -144,19 +144,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Le Minotaure",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_MU_58_U_5755",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_MU_58_U_5755"
         }

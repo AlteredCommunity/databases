@@ -1,12 +1,12 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_49_U_8562",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/de_DE/8439f14f3141be5316eb600217357b81.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/en_US/ae620f94c34f95125e91a8bcacd57a7c.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/fr_FR/176ce4c25e8a16bd143fae760962d724.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/es_ES/f30bc27cea3dc92a8d7c7d8d8362d0b4.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/fr_FR/176ce4c25e8a16bd143fae760962d724.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/it_IT/5dc4ad8357b83b36b68dff697fd158e0.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/347d1d924cd1516c5653",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{R} []You may [Augment] target card in play or in Reserve.  When a Character you control gains 1 or more boosts — You may discard a card from your Reserve. If you do: You may exhaust target card in Reserve.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{R} []You may [Augment] target card in play or in Reserve.  When a Character you control gains 1 or more boosts — You may discard a card from your Reserve. If you do: You may exhaust target card in Reserve."
+        "RECALL_COST": "3"
     },
     "id": "3X6V1JR4DD8HKT0PATDHRNGRDV",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/en_EN/922f7a4b58238e4bf04573ae79a0d823.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Sap Sniffer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_49_U_8562",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_49_U_8562",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/de_DE/8439f14f3141be5316eb600217357b81.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/en_US/ae620f94c34f95125e91a8bcacd57a7c.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/fr_FR/176ce4c25e8a16bd143fae760962d724.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/es_ES/f30bc27cea3dc92a8d7c7d8d8362d0b4.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/fr_FR/176ce4c25e8a16bd143fae760962d724.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/JPG/it_IT/5dc4ad8357b83b36b68dff697fd158e0.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/7e63e0559dbc52fbbf88",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{R} []Vous pouvez [Amplifier] une carte ciblée en jeu ou en Réserve.  Lorsqu'un Personnage que vous contrôlez gagne au moins 1 boost — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez épuiser une carte ciblée en Réserve.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{R} []Vous pouvez [Amplifier] une carte ciblée en jeu ou en Réserve.  Lorsqu'un Personnage que vous contrôlez gagne au moins 1 boost — Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez épuiser une carte ciblée en Réserve."
+                "RECALL_COST": "3"
             },
             "id": "3X6V1JR4DD8HKT0PATDHRNGRDV",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_49/UNIQUE/JPG/fr_FR/176ce4c25e8a16bd143fae760962d724.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Renifleur de Sève",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_49_U_8562",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_49_U_8562"
         }

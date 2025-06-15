@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_MU_19_U_4591",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/fr_FR/35d2fc922a5c48073d1381b537357502.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/es_ES/f5da297c0a9e386f3fdc0e21fdd33a22.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/it_IT/e7ccac15f3f7bd223ce55559c19b3d4d.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/de_DE/c93c46a88ebc8af41e379187457cad7d.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/en_US/a2b084d7c5717254b2d2ef15fc7138d5.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/en_US/a2b084d7c5717254b2d2ef15fc7138d5.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/es_ES/f5da297c0a9e386f3fdc0e21fdd33a22.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/fr_FR/35d2fc922a5c48073d1381b537357502.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/it_IT/e7ccac15f3f7bd223ce55559c19b3d4d.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/411ca3177cdf8cf09d03",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/aa76a417f1417d4a1200",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Each player draws a card.",
+        "FOREST_POWER": "4",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[][]I am [Defender].  When I leave the Expedition zone — You may put a card from your hand in Reserve. If you do: Draw a card.",
         "MOUNTAIN_POWER": "6",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "[][]I am [Defender].  When I leave the Expedition zone\u00a0\u2014 You may put a card from your hand in Reserve. If you do: Draw a card.",
-        "ECHO_EFFECT": "{D} : []Each player draws a card."
+        "RECALL_COST": "4"
     },
     "id": "70HNED10P49D0TQZCTS4E180AG",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/JPG/en_EN/c33d3105dcc2c981a60f8ed4842e96f3.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Verdantback",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_19_U_4591",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_MU_19_U_4591",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_MU_19_U_4591",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/fr_FR/35d2fc922a5c48073d1381b537357502.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/es_ES/f5da297c0a9e386f3fdc0e21fdd33a22.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/it_IT/e7ccac15f3f7bd223ce55559c19b3d4d.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/de_DE/c93c46a88ebc8af41e379187457cad7d.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/en_US/a2b084d7c5717254b2d2ef15fc7138d5.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/en_US/a2b084d7c5717254b2d2ef15fc7138d5.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/es_ES/f5da297c0a9e386f3fdc0e21fdd33a22.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/fr_FR/35d2fc922a5c48073d1381b537357502.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/it_IT/e7ccac15f3f7bd223ce55559c19b3d4d.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/532fa500be79b15788d8",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/00e9888392827889a01e",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Chaque joueur pioche une carte.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[][]Je suis [Défenseur].  Lorsque je quitte la zone d'Expédition — Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Piochez une carte.",
                 "MOUNTAIN_POWER": "6",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "[][]Je suis [D\u00e9fenseur].  Lorsque je quitte la zone d'Exp\u00e9dition\u00a0\u2014 Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Piochez une carte.",
-                "ECHO_EFFECT": "{D}\u00a0: []Chaque joueur pioche une carte."
+                "RECALL_COST": "4"
             },
             "id": "70HNED10P49D0TQZCTS4E180AG",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_19/UNIQUE/JPG/fr_FR/35d2fc922a5c48073d1381b537357502.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
-            "name": "Vert\u00e9chine",
+            "name": "Vertéchine",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_19_U_4591",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_MU_19_U_4591"
         }

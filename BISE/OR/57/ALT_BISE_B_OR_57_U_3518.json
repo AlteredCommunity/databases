@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_57_U_3518",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/d6746edf184494994a3de25bf0edbed2.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/f4d885dfae3b6609cbe61b7e37672ae6.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/b1f8c2b4c5f2f05b4d925e5764104173.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/8d8c52dcca9ecf24afb65ab388bc6dad.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e2d675ef4e64eeb577eee773c0d92f73.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e2d675ef4e64eeb577eee773c0d92f73.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/f4d885dfae3b6609cbe61b7e37672ae6.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/d6746edf184494994a3de25bf0edbed2.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/8d8c52dcca9ecf24afb65ab388bc6dad.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/5fbdb3c7cdd274972204",
-            "reference": "BUREAUCRAT",
+            "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-            "name": "Bureaucrat"
+            "name": "Bureaucrat",
+            "reference": "BUREAUCRAT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/a4b7c55c7bd770bb79aa",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition.",
+        "FOREST_POWER": "4",
         "MAIN_COST": "6",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{H} If you have less cards in Reserve than target opponent: Characters you control gain 1 boost.  When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} If you have less cards in Reserve than target opponent: Characters you control gain 1 boost.  When an opponent plays a Character — []If there are no Characters in the Expedition facing me, that Character switches Expeditions.",
-        "ECHO_EFFECT": "{D} : []Create an [Ordis Recruit 1/1/1] Soldier token in your Hero Expedition."
+        "RECALL_COST": "5"
     },
     "id": "3G1YDA89W3882SCRA9QHQKDF6P",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/en_EN/07c8b86e58746822cbe000a9b4e0bab5.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Ariadne",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_3518",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_57_U_3518",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_OR_57_U_3518",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/d6746edf184494994a3de25bf0edbed2.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/f4d885dfae3b6609cbe61b7e37672ae6.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/de_DE/b1f8c2b4c5f2f05b4d925e5764104173.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/8d8c52dcca9ecf24afb65ab388bc6dad.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e2d675ef4e64eeb577eee773c0d92f73.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/e2d675ef4e64eeb577eee773c0d92f73.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/es_ES/f4d885dfae3b6609cbe61b7e37672ae6.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/d6746edf184494994a3de25bf0edbed2.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/JPG/it_IT/8d8c52dcca9ecf24afb65ab388bc6dad.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/bf59bc6ad083dc81587b",
-                    "reference": "BUREAUCRAT",
+                    "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
-                    "name": "Bureaucrate"
+                    "name": "Bureaucrate",
+                    "reference": "BUREAUCRAT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/92712279097b4ccfd5aa",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "6",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{H} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : Les Personnages que vous contrôlez gagnent 1 boost.  Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} Si vous avez moins de cartes en Réserve qu'un adversaire ciblé : Les Personnages que vous contrôlez gagnent 1 boost.  Lorsqu'un adversaire joue un Personnage — []S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.",
-                "ECHO_EFFECT": "{D} : []Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Héros."
+                "RECALL_COST": "5"
             },
             "id": "3G1YDA89W3882SCRA9QHQKDF6P",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/d6746edf184494994a3de25bf0edbed2.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Ariane",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_3518",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_57_U_3518"
         }

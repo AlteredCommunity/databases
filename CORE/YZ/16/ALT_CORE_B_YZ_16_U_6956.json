@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/de_DE/406d1ae89781fdb537d1ee3dc1444291.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/en_US/388e34759abd5dd6b25f58f7b668c72f.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/3f8bae6bc9ada5794020450a94f42aa0.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/es_ES/2cf053ed6376c48ff76afcf13c13200d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/3f8bae6bc9ada5794020450a94f42aa0.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/it_IT/22d30fdc1ca386d83ee4f821618273a1.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/1d0b182fe0ca1b8a1550",
-            "reference": "CITIZEN",
+            "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-            "name": "Citizen"
+            "name": "Citizen",
+            "reference": "CITIZEN"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "6",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} You may sacrifice a Character. If you do: You may send target Character to Reserve.  {H} You may put a card from your hand in Reserve. If you do: Draw a card.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} You may sacrifice a Character. If you do: You may send target Character to Reserve.  {H} You may put a card from your hand in Reserve. If you do: Draw a card."
+        "RECALL_COST": "2"
     },
     "id": "6KKQGVSJPH9TETQC68ZM4DB2G8",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/JPG/en_EN/fa6df515b34d97079dcbeb0bb72e4b37.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Dorothy Gale",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_16_U_6956",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_16_U_6956",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/de_DE/406d1ae89781fdb537d1ee3dc1444291.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/en_US/388e34759abd5dd6b25f58f7b668c72f.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/3f8bae6bc9ada5794020450a94f42aa0.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/es_ES/2cf053ed6376c48ff76afcf13c13200d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/3f8bae6bc9ada5794020450a94f42aa0.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/it_IT/22d30fdc1ca386d83ee4f821618273a1.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/de603b7a05a8d55c358f",
-                    "reference": "CITIZEN",
+                    "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-                    "name": "Citoyen"
+                    "name": "Citoyen",
+                    "reference": "CITIZEN"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "6",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} Vous pouvez sacrifier un Personnage. Si vous le faites : Vous pouvez envoyer un Personnage ciblé en Réserve.  {H} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Piochez une carte.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} Vous pouvez sacrifier un Personnage. Si vous le faites\u00a0: Vous pouvez envoyer un Personnage cibl\u00e9 en R\u00e9serve.  {H} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: Piochez une carte."
+                "RECALL_COST": "2"
             },
             "id": "6KKQGVSJPH9TETQC68ZM4DB2G8",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/3f8bae6bc9ada5794020450a94f42aa0.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Dorothy Gale",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_16_U_6956",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_16_U_6956"
         }

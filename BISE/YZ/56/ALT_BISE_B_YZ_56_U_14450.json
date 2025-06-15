@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_YZ_56_U_14450",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/de_DE/4e7422566e95d3a6f0a439969ba15628.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/it_IT/d0fe4cf6e9e2491aa3e112a1d493c2ef.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/en_US/a63b3e1da308fa902f6c6e76cfea0a06.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/es_ES/b937dea16a9662e3a27d4e69fc515f94.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/fr_FR/1f0e9ee2931b0ede40e94945382b446b.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/fr_FR/1f0e9ee2931b0ede40e94945382b446b.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/it_IT/d0fe4cf6e9e2491aa3e112a1d493c2ef.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/748c49db6087d52647cf",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may [Augment] target card in play or in Reserve.",
+        "FOREST_POWER": "5",
         "MAIN_COST": "10",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "[][]{H} Discard all other cards from play and Reserve.  When a card goes to the discard pile — I gain 1 boost.  {R} If I'm the only Character in my Expedition: I gain 2 boosts.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "[][]{H} Discard all other cards from play and Reserve.  When a card goes to the discard pile — I gain 1 boost.  {R} If I'm the only Character in my Expedition: I gain 2 boosts.",
-        "ECHO_EFFECT": "{D} : []You may [Augment] target card in play or in Reserve."
+        "RECALL_COST": "5"
     },
     "id": "0GVKFJQPAQ9DQ97HW76PSD3V3B",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/en_EN/5bd552f081a592a82b9ef61578dd01fc.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "The Hunger",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_56_U_14450",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_YZ_56_U_14450",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/de_DE/4e7422566e95d3a6f0a439969ba15628.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/it_IT/d0fe4cf6e9e2491aa3e112a1d493c2ef.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/en_US/a63b3e1da308fa902f6c6e76cfea0a06.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/es_ES/b937dea16a9662e3a27d4e69fc515f94.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/fr_FR/1f0e9ee2931b0ede40e94945382b446b.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/fr_FR/1f0e9ee2931b0ede40e94945382b446b.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/JPG/it_IT/d0fe4cf6e9e2491aa3e112a1d493c2ef.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/721bd6e68c5cb0d77fce",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez [Amplifier] une carte ciblée en jeu ou en Réserve.",
+                "FOREST_POWER": "5",
                 "MAIN_COST": "10",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "[][]{H} Défaussez toutes les autres cartes en jeu et en Réserve.  Lorsqu'une carte va dans la défausse — Je gagne 1 boost.  {R} Si je suis le seul Personnage dans mon Expédition : Je gagne 2 boosts.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "[][]{H} Défaussez toutes les autres cartes en jeu et en Réserve.  Lorsqu'une carte va dans la défausse — Je gagne 1 boost.  {R} Si je suis le seul Personnage dans mon Expédition : Je gagne 2 boosts.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez [Amplifier] une carte ciblée en jeu ou en Réserve."
+                "RECALL_COST": "5"
             },
             "id": "0GVKFJQPAQ9DQ97HW76PSD3V3B",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_56/UNIQUE/JPG/fr_FR/1f0e9ee2931b0ede40e94945382b446b.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "L'Affamé",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_56_U_14450",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_YZ_56_U_14450"
         }

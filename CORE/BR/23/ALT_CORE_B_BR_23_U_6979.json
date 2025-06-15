@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/de_DE/40e74a1b7f51a423d345dccfef27b52c.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/en_US/edda691a8bf46aa717df7beb5ffe4707.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/fr_FR/9d3849da063bbdbbc27d3a443d56cbb9.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/es_ES/26bc7394e25c72447032304d8f1971ca.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/fr_FR/9d3849da063bbdbbc27d3a443d56cbb9.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/it_IT/1393efd45384ae789a05564f3a529373.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/ea958a21de59979009eb",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "[][]I can't be played if you have less than six Mana Orbs.  {H} You may pay {1}. If you do: Up to two target Characters each gain 1 boost.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "[][]I can't be played if you have less than six Mana Orbs.  {H} You may pay\u00a0{1}. If you do: Up to two target Characters each gain 1 boost."
+        "RECALL_COST": "2"
     },
     "id": "0NDAPH1X1Y9ETBGB645MSHVN0B",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/JPG/en_EN/6953fa85a65c5cd8a3ba634e0972c6bf.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Tomoe Gozen",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_23_U_6979",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_BR_23_U_6979",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/de_DE/40e74a1b7f51a423d345dccfef27b52c.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/en_US/edda691a8bf46aa717df7beb5ffe4707.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/fr_FR/9d3849da063bbdbbc27d3a443d56cbb9.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/es_ES/26bc7394e25c72447032304d8f1971ca.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/fr_FR/9d3849da063bbdbbc27d3a443d56cbb9.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/it_IT/1393efd45384ae789a05564f3a529373.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/4723b199d9ab157ef99b",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "[][]Je ne peux pas être joué si vous avez moins de six Orbes de Mana.  {H} Vous pouvez payer {1}. Si vous le faites : Jusqu'à deux Personnages ciblés gagnent chacun 1 boost.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "[][]Je ne peux pas \u00eatre jou\u00e9 si vous avez moins de six Orbes de Mana.  {H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Jusqu'\u00e0 deux Personnages cibl\u00e9s gagnent chacun 1\u00a0boost."
+                "RECALL_COST": "2"
             },
             "id": "0NDAPH1X1Y9ETBGB645MSHVN0B",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/UNIQUE/JPG/fr_FR/9d3849da063bbdbbc27d3a443d56cbb9.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Tomoe Gozen",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_23_U_6979",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_BR_23_U_6979"
         }

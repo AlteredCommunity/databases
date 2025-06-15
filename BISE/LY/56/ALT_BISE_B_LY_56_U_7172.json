@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_LY_56_U_7172",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/de_DE/203e88cc77659d864508baca2f29266f.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/it_IT/ca486aaca511aa8c72005f0c7f558268.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/fr_FR/95b8072e255ab7fc65267cd3c3f865ea.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/en_US/feaa0b25f4234326d76d184859af4b37.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/es_ES/f88fedcbd79f7e5fb4ea29f44d99298c.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/en_US/feaa0b25f4234326d76d184859af4b37.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/fr_FR/95b8072e255ab7fc65267cd3c3f865ea.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/it_IT/ca486aaca511aa8c72005f0c7f558268.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/44ffa2c900f201eac2f1",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Character you play from your hand this turn activates its {r} abilities.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} Roll a die. On a 4+: I gain 1 boost per card in your Reserve, otherwise I gain 1 boost.  {R} You may sacrifice a Permanent. If you do: Target Character in play or in Reserve gains 2 boosts.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} Roll a die. On a 4+: I gain 1 boost per card in your Reserve, otherwise I gain 1 boost.  {R} You may sacrifice a Permanent. If you do: Target Character in play or in Reserve gains 2 boosts.",
-        "ECHO_EFFECT": "{D} : []The next Character you play from your hand this turn activates its {r} abilities."
+        "RECALL_COST": "3"
     },
     "id": "4S8G0PZFYF9TJT1PVSD7KJFDEH",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/en_EN/2d58d5b7fa6db34308493b4059429276.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Efrén, Puppet Master",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_56_U_7172",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_LY_56_U_7172",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/de_DE/203e88cc77659d864508baca2f29266f.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/it_IT/ca486aaca511aa8c72005f0c7f558268.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/fr_FR/95b8072e255ab7fc65267cd3c3f865ea.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/en_US/feaa0b25f4234326d76d184859af4b37.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/es_ES/f88fedcbd79f7e5fb4ea29f44d99298c.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/en_US/feaa0b25f4234326d76d184859af4b37.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/fr_FR/95b8072e255ab7fc65267cd3c3f865ea.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/JPG/it_IT/ca486aaca511aa8c72005f0c7f558268.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/86ddb4f1f9e7c3acde01",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez de votre main ce tour active ses capacités {r}.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Lancez un dé. Sur 4+ : Je gagne 1 boost par carte dans votre Réserve. Sinon, je gagne 1 boost.  {R} Vous pouvez sacrifier un Permanent. Si vous le faites : Un Personnage ciblé en jeu ou en Réserve gagne 2 boosts.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Lancez un dé. Sur 4+ : Je gagne 1 boost par carte dans votre Réserve. Sinon, je gagne 1 boost.  {R} Vous pouvez sacrifier un Permanent. Si vous le faites : Un Personnage ciblé en jeu ou en Réserve gagne 2 boosts.",
-                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez de votre main ce tour active ses capacités {r}."
+                "RECALL_COST": "3"
             },
             "id": "4S8G0PZFYF9TJT1PVSD7KJFDEH",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_LY_56/UNIQUE/JPG/fr_FR/95b8072e255ab7fc65267cd3c3f865ea.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Efrén, Marionnettiste",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_LY_56_U_7172",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_LY_56_U_7172"
         }

@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/de_DE/f340996ab1f513cb3ba63b873c6d175c.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/en_US/e7d54354a099257fb0b2cec35cb9b398.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/fr_FR/d8c3cfa171da36448db54763538e1c22.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/es_ES/c1f21e0c4e0c27751e4c0527f0e00fb6.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/fr_FR/d8c3cfa171da36448db54763538e1c22.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/it_IT/40843e9baededf8e29ec6d77b5865560.jpg"
     },
     "assets": {
@@ -21,33 +21,33 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/5fdaff1f90cd21c4a100",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]].",
+        "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: Roll a die. On a 4+, I gain 2 boosts. On a 1-3, I gain 1 boost.  {R} []I gain 1 boost.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: Roll a die. On a 4+, I gain 2 boosts. On a 1-3, I gain 1 boost.  {R} []I gain 1 boost.",
-        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]]."
+        "RECALL_COST": "5"
     },
     "id": "4YDHR6SQVR945R22XVW27Y8M1X",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/JPG/en_EN/26d1da5ac09ac2b012d70aa9fff07a2b.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Asmodeus",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_20_U_953",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_20_U_953",
     "translations": {
@@ -80,8 +80,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/de_DE/f340996ab1f513cb3ba63b873c6d175c.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/en_US/e7d54354a099257fb0b2cec35cb9b398.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/fr_FR/d8c3cfa171da36448db54763538e1c22.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/es_ES/c1f21e0c4e0c27751e4c0527f0e00fb6.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/fr_FR/d8c3cfa171da36448db54763538e1c22.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/it_IT/40843e9baededf8e29ec6d77b5865560.jpg"
             },
             "assets": {
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/f9ef80c7cc5b43fbe789",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{J} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Lancez un dé. Sur 4+, je gagne 2 boosts. Sur 1-3, je gagne 1 boost.  {R} []Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Lancez un d\u00e9. Sur 4+, je gagne 2\u00a0boosts. Sur 1-3, je gagne 1\u00a0boost.  {R} []Je gagne 1\u00a0boost.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez faire gagner [[Fugace]] \u00e0 un Personnage cibl\u00e9."
+                "RECALL_COST": "5"
             },
             "id": "4YDHR6SQVR945R22XVW27Y8M1X",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/UNIQUE/JPG/fr_FR/d8c3cfa171da36448db54763538e1c22.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
-            "name": "Asmod\u00e9e",
+            "name": "Asmodée",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_20_U_953",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_20_U_953"
         }

@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_YZ_59_U_13324",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/de_DE/c9542b4c24531276386b185a4ddfdbd0.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/it_IT/cfad80c3b4d17a2a6074640c37940171.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/fr_FR/5273d5fe7ad323acb8706faa3589b123.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/en_US/6cb894abe3e73f3f62549a8109f0f5b7.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/es_ES/13cfd0671f45e4b165fb059d7efe52ea.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/en_US/6cb894abe3e73f3f62549a8109f0f5b7.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/fr_FR/5273d5fe7ad323acb8706faa3589b123.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/it_IT/cfad80c3b4d17a2a6074640c37940171.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/74ab32eabea4b8c52827",
-            "reference": "MAGE",
+            "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-            "name": "Mage"
+            "name": "Mage",
+            "reference": "MAGE"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a Spell from your Reserve to your hand.",
+        "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "[][][Scout] {2}.  {H} You may put a card from your hand in Reserve. If it's a Spell: Create a [Mana Moth 2/2/2] Illusion token in your Companion Expedition.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "[][][Scout] {2}.  {H} You may put a card from your hand in Reserve. If it's a Spell: Create a [Mana Moth 2/2/2] Illusion token in your Companion Expedition.",
-        "ECHO_EFFECT": "{D} : []You may return a Spell from your Reserve to your hand."
+        "RECALL_COST": "2"
     },
     "id": "4XPSX85W9R8BTV5FR9Q9AVP326",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/en_EN/2e66e27697b10e52d64ec48bdb7e2d29.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Yzmir Mothbreeder",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_59_U_13324",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_YZ_59_U_13324",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/de_DE/c9542b4c24531276386b185a4ddfdbd0.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/it_IT/cfad80c3b4d17a2a6074640c37940171.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/fr_FR/5273d5fe7ad323acb8706faa3589b123.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/en_US/6cb894abe3e73f3f62549a8109f0f5b7.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/es_ES/13cfd0671f45e4b165fb059d7efe52ea.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/en_US/6cb894abe3e73f3f62549a8109f0f5b7.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/fr_FR/5273d5fe7ad323acb8706faa3589b123.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/JPG/it_IT/cfad80c3b4d17a2a6074640c37940171.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/28844aac1c12b7920883",
-                    "reference": "MAGE",
+                    "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
-                    "name": "Mage"
+                    "name": "Mage",
+                    "reference": "MAGE"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer un Sort de votre Réserve dans votre main.",
+                "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "[][][Repérage] {2}.  {H} Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Sort : Créez un jeton Illusion [2/2/2 Phalène de Mana] dans votre Expédition Compagnon.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "[][][Repérage] {2}.  {H} Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Sort : Créez un jeton Illusion [2/2/2 Phalène de Mana] dans votre Expédition Compagnon.",
-                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer un Sort de votre Réserve dans votre main."
+                "RECALL_COST": "2"
             },
             "id": "4XPSX85W9R8BTV5FR9Q9AVP326",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_59/UNIQUE/JPG/fr_FR/5273d5fe7ad323acb8706faa3589b123.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Entomologiste Yzmir",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_59_U_13324",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_YZ_59_U_13324"
         }

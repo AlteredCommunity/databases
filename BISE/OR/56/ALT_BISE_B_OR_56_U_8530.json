@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_OR_56_U_8530",
     "@type": "Card",
     "allImagePath": {
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/13c78fdcbf8e1daba90176395474fb66.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/3bc822f60123f2aeefa672c4f181de97.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/de_DE/b11b11e9498404d9ceb40920a9771cae.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/d2f6cc07933f66132dd9e0b02f3d8a3a.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/633ed6deded8240b5c6f0e657f72f9fb.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/13c78fdcbf8e1daba90176395474fb66.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/633ed6deded8240b5c6f0e657f72f9fb.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/3bc822f60123f2aeefa672c4f181de97.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/7d7760b8b7b3355cb74c",
-            "reference": "NOBLE",
+            "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-            "name": "Noble"
+            "name": "Noble",
+            "reference": "NOBLE"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e0004d1413a1c77fbde4",
-            "reference": "SOLDIER",
+            "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-            "name": "Soldier"
+            "name": "Soldier",
+            "reference": "SOLDIER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Bureaucrat you play this turn costs {1} less.",
+        "FOREST_POWER": "0",
         "MAIN_COST": "4",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "[]If I have 1 or more boosts: I am [Eternal].  At Night — I lose 1 boost.  []If your Reserve is empty: The {j}, {h} and {r} abilities of Characters facing me can't activate.  {J} []I gain 1 boost per Character other than me in my Expedition, then send them to Reserve.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "2",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "[]If I have 1 or more boosts: I am [Eternal].  At Night — I lose 1 boost.  []If your Reserve is empty: The {j}, {h} and {r} abilities of Characters facing me can't activate.  {J} []I gain 1 boost per Character other than me in my Expedition, then send them to Reserve.",
-        "ECHO_EFFECT": "{D} : []The next Bureaucrat you play this turn costs {1} less."
+        "RECALL_COST": "4"
     },
     "id": "49ER0J169Q8SATH2ZGRP3V3QHM",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/en_EN/a8873f94ef551d745e25a03bb3563b67.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Fiore dei Liberi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_8530",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_OR_56_U_8530",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_BISE_B_OR_56_U_8530",
             "@type": "Card",
             "allImagePath": {
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/13c78fdcbf8e1daba90176395474fb66.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/3bc822f60123f2aeefa672c4f181de97.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/de_DE/b11b11e9498404d9ceb40920a9771cae.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/d2f6cc07933f66132dd9e0b02f3d8a3a.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/633ed6deded8240b5c6f0e657f72f9fb.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/es_ES/13c78fdcbf8e1daba90176395474fb66.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/633ed6deded8240b5c6f0e657f72f9fb.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/JPG/it_IT/3bc822f60123f2aeefa672c4f181de97.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/19d157e9817b7ce8b773",
-                    "reference": "NOBLE",
+                    "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
-                    "name": "Noble"
+                    "name": "Noble",
+                    "reference": "NOBLE"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/3fe5ae991ad408becea5",
-                    "reference": "SOLDIER",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
-                    "name": "Soldat"
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Bureaucrate que vous jouez ce tour coûte {1} de moins.",
+                "FOREST_POWER": "0",
                 "MAIN_COST": "4",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Je suis [Éternel].  À la tombée de la Nuit — Je perds 1 boost.  []Si votre Réserve est vide : Les capacités {j}, {h} et {r} des Personnages qui me font face ne peuvent pas s’activer.  {J} []Je gagne 1 boost par Personnage autre que moi dans mon Expédition, puis envoyez-les en Réserve.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "2",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "[]Si j'ai au moins 1 boost : Je suis [Éternel].  À la tombée de la Nuit — Je perds 1 boost.  []Si votre Réserve est vide : Les capacités {j}, {h} et {r} des Personnages qui me font face ne peuvent pas s’activer.  {J} []Je gagne 1 boost par Personnage autre que moi dans mon Expédition, puis envoyez-les en Réserve.",
-                "ECHO_EFFECT": "{D} : []Le prochain Bureaucrate que vous jouez ce tour coûte {1} de moins."
+                "RECALL_COST": "4"
             },
             "id": "49ER0J169Q8SATH2ZGRP3V3QHM",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/633ed6deded8240b5c6f0e657f72f9fb.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Fiore dei Liberi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_8530",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_OR_56_U_8530"
         }

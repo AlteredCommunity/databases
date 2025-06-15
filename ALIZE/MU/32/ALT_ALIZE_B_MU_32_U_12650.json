@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/de_DE/700fc0047020a00d6a320be852ce5d5f.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/d878d65a95b394244951bf5812f8b8a3.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/en_US/ef86a4ace6bca919fa0d48e7c4f94a5b.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/es_ES/9f0113bfd9143200f7c2952509db00a1.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/d878d65a95b394244951bf5812f8b8a3.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/it_IT/6d5a89973ac39657ed51cdaba22595ba.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e6c4289c6b93d400dd09",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} You may sacrifice a Character. If you do: You may have target Character in the Expedition facing me gain [[Asleep]].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{J} You may sacrifice a Character. If you do: You may have target Character in the Expedition facing me gain [[Asleep]]."
+        "RECALL_COST": "3"
     },
     "id": "1MEQG1M4MQ9JN9SARGY454PHKB",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/JPG/en_EN/7e4619ec97868727dd4aa1a07ec52c13.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Snoozer Shroom",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_32_U_12650",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_MU_32_U_12650",
     "translations": {
@@ -78,9 +78,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/de_DE/700fc0047020a00d6a320be852ce5d5f.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/d878d65a95b394244951bf5812f8b8a3.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/en_US/ef86a4ace6bca919fa0d48e7c4f94a5b.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/es_ES/9f0113bfd9143200f7c2952509db00a1.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/d878d65a95b394244951bf5812f8b8a3.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/it_IT/6d5a89973ac39657ed51cdaba22595ba.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/e51a4a62f2af8679effb",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Vous pouvez sacrifier un Personnage. Si vous le faites : Vous pouvez faire gagner [[Endormi]] à un Personnage ciblé dans l'Expédition qui me fait face.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{J} Vous pouvez sacrifier un Personnage. Si vous le faites\u00a0: Vous pouvez faire gagner [[Endormi]] \u00e0 un Personnage cibl\u00e9 dans l'Exp\u00e9dition qui me fait face."
+                "RECALL_COST": "3"
             },
             "id": "1MEQG1M4MQ9JN9SARGY454PHKB",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/d878d65a95b394244951bf5812f8b8a3.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
-            "name": "Champignon Ext\u00e9nueur",
+            "name": "Champignon Exténueur",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_32_U_12650",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_MU_32_U_12650"
         }

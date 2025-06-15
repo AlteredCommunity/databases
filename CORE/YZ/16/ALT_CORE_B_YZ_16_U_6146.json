@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/de_DE/743e10a81b8cd5ff509fc0927d8c6d84.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/es_ES/206b2414e9ac15d41f491813561a1ec7.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/en_US/6ed9b457b8112658ec7cb84cff426696.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/es_ES/206b2414e9ac15d41f491813561a1ec7.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/373d8d85341dd2eb93dc62c10d92c512.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/it_IT/fc6fc09d12f26cfb693ccde6bcc7f136.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/0e25832add699bb8a8b6",
-            "reference": "CITIZEN",
+            "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-            "name": "Citizen"
+            "name": "Citizen",
+            "reference": "CITIZEN"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "5",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{H} You may pay {1}. If you do: You may send to Reserve target Character with Hand Cost {3} or less.  At Dusk — If I have 1 or more boosts: Target opponent discards a card from their hand.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} You may pay\u00a0{1}. If you do: You may send to Reserve target Character with Hand Cost\u00a0{3} or less.  At Dusk\u00a0\u2014 If I have 1 or more boosts: Target opponent discards a card from their hand."
+        "RECALL_COST": "4"
     },
     "id": "4XJBHWC7Y1869BC6309M1D4XAR",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/JPG/en_EN/9d9721f6915c12fc2af96d23393fac5b.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/YZ",
         "@type": "Faction",
-        "reference": "YZ",
         "color": "#764891",
         "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-        "name": "Yzmir"
+        "name": "Yzmir",
+        "reference": "YZ"
     },
     "name": "Dorothy Gale",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_16_U_6146",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_YZ_16_U_6146",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/de_DE/743e10a81b8cd5ff509fc0927d8c6d84.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/es_ES/206b2414e9ac15d41f491813561a1ec7.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/en_US/6ed9b457b8112658ec7cb84cff426696.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/es_ES/206b2414e9ac15d41f491813561a1ec7.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/373d8d85341dd2eb93dc62c10d92c512.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/it_IT/fc6fc09d12f26cfb693ccde6bcc7f136.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/21aaf343246a9e0b47ac",
-                    "reference": "CITIZEN",
+                    "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-                    "name": "Citoyen"
+                    "name": "Citoyen",
+                    "reference": "CITIZEN"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "5",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Main {3} ou moins.  Au Crépuscule — Si j'ai au moins 1 boost : Un adversaire ciblé défausse une carte de sa main.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Vous pouvez envoyer en R\u00e9serve un Personnage cibl\u00e9 de Co\u00fbt de Main\u00a0{3} ou moins.  Au Cr\u00e9puscule\u00a0\u2014 Si j'ai au moins 1\u00a0boost\u00a0: Un adversaire cibl\u00e9 d\u00e9fausse une carte de sa main."
+                "RECALL_COST": "4"
             },
             "id": "4XJBHWC7Y1869BC6309M1D4XAR",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/UNIQUE/JPG/fr_FR/373d8d85341dd2eb93dc62c10d92c512.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/YZ",
                 "@type": "Faction",
-                "reference": "YZ",
                 "color": "#764891",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
-                "name": "Yzmir"
+                "name": "Yzmir",
+                "reference": "YZ"
             },
             "name": "Dorothy Gale",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_YZ_16_U_6146",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_YZ_16_U_6146"
         }

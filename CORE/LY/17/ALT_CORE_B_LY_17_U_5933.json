@@ -4,10 +4,10 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/de_DE/15f19edfce463f59265712eebbb0eff6.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/it_IT/2d9d2aaffb289e738380ef8b5d4af665.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/en_US/e9e87398de1d731d86e984b3e7ec394c.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/es_ES/4ee89bdde44449f8d6ee0b4e779cadc7.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/fr_FR/ba782146f4e9e49adbaf59c73d3e13fa.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/fr_FR/ba782146f4e9e49adbaf59c73d3e13fa.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/it_IT/2d9d2aaffb289e738380ef8b5d4af665.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/2b92feddee2b07aa8744",
-            "reference": "CITIZEN",
+            "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-            "name": "Citizen"
+            "name": "Citizen",
+            "reference": "CITIZEN"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If it's a Permanent: Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  When another Robot joins your Expeditions — If you control two or more Landmarks: I gain 1 boost.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If it's a Permanent: Roll a die. On a 4+, draw a card. On a 1-3, [Resupply].  When another Robot joins your Expeditions\u00a0\u2014 If you control two or more Landmarks: I gain 1 boost."
+        "RECALL_COST": "3"
     },
     "id": "3CHGW32YXK8ZHB04BJMBZ0ESH7",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/JPG/en_EN/5593dad919c190cb81f990f6e8f76ad6.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Ouroboros Croupier",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_17_U_5933",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_17_U_5933",
     "translations": {
@@ -78,10 +78,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/de_DE/15f19edfce463f59265712eebbb0eff6.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/it_IT/2d9d2aaffb289e738380ef8b5d4af665.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/en_US/e9e87398de1d731d86e984b3e7ec394c.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/es_ES/4ee89bdde44449f8d6ee0b4e779cadc7.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/fr_FR/ba782146f4e9e49adbaf59c73d3e13fa.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/fr_FR/ba782146f4e9e49adbaf59c73d3e13fa.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/it_IT/2d9d2aaffb289e738380ef8b5d4af665.jpg"
             },
             "assets": {
                 "WEB": [
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/e22cbc87cddcda944f22",
-                    "reference": "CITIZEN",
+                    "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
-                    "name": "Citoyen"
+                    "name": "Citoyen",
+                    "reference": "CITIZEN"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Permanent : Lancez un dé. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  Lorsqu'un autre Robot rejoint vos Expéditions — Si vous contrôlez au moins deux Repères : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si c'est un Permanent\u00a0: Lancez un d\u00e9. Sur 4+, piochez une carte. Sur 1-3, [Ravitaillez].  Lorsqu'un autre Robot rejoint vos Exp\u00e9ditions\u00a0\u2014 Si vous contr\u00f4lez au moins deux Rep\u00e8res\u00a0: Je gagne 1\u00a0boost."
+                "RECALL_COST": "3"
             },
             "id": "3CHGW32YXK8ZHB04BJMBZ0ESH7",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_17/UNIQUE/JPG/fr_FR/ba782146f4e9e49adbaf59c73d3e13fa.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
-            "name": "Croupi\u00e8re de l'Ouroboros",
+            "name": "Croupière de l'Ouroboros",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_17_U_5933",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_17_U_5933"
         }

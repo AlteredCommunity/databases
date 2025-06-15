@@ -4,9 +4,9 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/de_DE/ec284e844d09658c12219991e2e69d24.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/fr_FR/60b98437c3b07451949da250ac794e37.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/en_US/5bcb2bb4bcc17941b66ad74a091dcdd4.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/es_ES/5411fd59de9d425fd0a30a1037015f44.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/fr_FR/60b98437c3b07451949da250ac794e37.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/it_IT/bfdaae893bfc7d57c07e44e73a86540e.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/f10e2f55f1f273e8fbb6",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "6",
-        "RECALL_COST": "4",
+        "MAIN_EFFECT": "{H} You may pay {1}. If you do: Each player discards their hand, then draws three cards.  {R} []Target Character in your other Expedition (the one I'm not in) gains 2 boosts.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "6",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "{H} You may pay\u00a0{1}. If you do: Each player discards their hand, then draws three cards.  {R} []Target Character in your other Expedition (the one I'm not in) gains 2 boosts."
+        "RECALL_COST": "4"
     },
     "id": "2WN9C9TD258TRRP0JPC6CNW0Z4",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/JPG/en_EN/9225c3022a9ae8143fb965a38de2010a.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Loki",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_21_U_6808",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_21_U_6808",
     "translations": {
@@ -78,9 +78,9 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/de_DE/ec284e844d09658c12219991e2e69d24.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/fr_FR/60b98437c3b07451949da250ac794e37.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/en_US/5bcb2bb4bcc17941b66ad74a091dcdd4.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/es_ES/5411fd59de9d425fd0a30a1037015f44.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/fr_FR/60b98437c3b07451949da250ac794e37.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/it_IT/bfdaae893bfc7d57c07e44e73a86540e.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/3b6569b3ab537b951a30",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "6",
-                "RECALL_COST": "4",
+                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Chaque joueur défausse sa main, puis pioche trois cartes.  {R} []Un Personnage ciblé dans votre autre Expédition (celle où je ne suis pas) gagne 2 boosts.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "6",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "{H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Chaque joueur d\u00e9fausse sa main, puis pioche trois cartes.  {R} []Un Personnage cibl\u00e9 dans votre autre Exp\u00e9dition (celle o\u00f9 je ne suis pas) gagne 2\u00a0boosts."
+                "RECALL_COST": "4"
             },
             "id": "2WN9C9TD258TRRP0JPC6CNW0Z4",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_21/UNIQUE/JPG/fr_FR/60b98437c3b07451949da250ac794e37.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Loki",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_21_U_6808",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_21_U_6808"
         }

@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/de_DE/6063b71d385d21f497b0cc037b5d2798.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/es_ES/bd40ac414f8f919e32fa716d4b904642.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/en_US/6529d90b6de9a0d4e6642ab6d4490c70.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/es_ES/bd40ac414f8f919e32fa716d4b904642.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/fr_FR/2720d6fac3013f73d636ae569f5f6356.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/it_IT/fab0d893b9a068d6f16a65198f57b4f5.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/5451421325e72692f5ff",
-            "reference": "ENGINEER",
+            "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-            "name": "Engineer"
+            "name": "Engineer",
+            "reference": "ENGINEER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "3",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{H} []The next Permanent you play this Afternoon costs {1} less.  When another Robot joins your Expeditions — You may put a card from your hand in Reserve. If it's a Permanent: You may have target Character other than me lose [[Fleeting]].",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "3",
-        "MAIN_EFFECT": "{H} []The next Permanent you play this Afternoon costs\u00a0{1} less.  When another Robot joins your Expeditions\u00a0\u2014 You may put a card from your hand in Reserve. If it's a Permanent: You may have target Character other than me lose [[Fleeting]]."
+        "RECALL_COST": "2"
     },
     "id": "7DWFQ4RFKY8YEAFSNYHZEK65QW",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/JPG/en_EN/f30b91008dd2144ba69835fe5df94dd4.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Foundry Engineer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_05_U_7554",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_AX_05_U_7554",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/de_DE/6063b71d385d21f497b0cc037b5d2798.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/es_ES/bd40ac414f8f919e32fa716d4b904642.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/en_US/6529d90b6de9a0d4e6642ab6d4490c70.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/es_ES/bd40ac414f8f919e32fa716d4b904642.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/fr_FR/2720d6fac3013f73d636ae569f5f6356.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/it_IT/fab0d893b9a068d6f16a65198f57b4f5.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/71e00f6b047b1457723d",
-                    "reference": "ENGINEER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
-                    "name": "Ing\u00e9nieur"
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "3",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{H} []Le prochain Permanent que vous jouez cet Après-midi coûte {1} de moins.  Lorsqu'un autre Robot rejoint vos Expéditions — Vous pouvez mettre une carte de votre main en Réserve. Si c'est un Permanent : Vous pouvez faire perdre [[Fugace]] à un Personnage ciblé autre que moi.",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "3",
-                "MAIN_EFFECT": "{H} []Le prochain Permanent que vous jouez cet Apr\u00e8s-midi co\u00fbte\u00a0{1} de moins.  Lorsqu'un autre Robot rejoint vos Exp\u00e9ditions\u00a0\u2014 Vous pouvez mettre une carte de votre main en R\u00e9serve. Si c'est un Permanent\u00a0: Vous pouvez faire perdre [[Fugace]] \u00e0 un Personnage cibl\u00e9 autre que moi."
+                "RECALL_COST": "2"
             },
             "id": "7DWFQ4RFKY8YEAFSNYHZEK65QW",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/UNIQUE/JPG/fr_FR/2720d6fac3013f73d636ae569f5f6356.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
-            "name": "Ing\u00e9nieure de la Fonderie",
+            "name": "Ingénieure de la Fonderie",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_05_U_7554",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_AX_05_U_7554"
         }

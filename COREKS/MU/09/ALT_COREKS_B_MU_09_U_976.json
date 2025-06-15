@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_MU_09_U_976",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/fr_FR/90abdc022cd70a1c1f918fc6eadb90f8.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/es_ES/1412d6d49cbda12dc337a1dc43f05226.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/it_IT/73d26cab56782c94fa8644a1c6d46505.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/de_DE/fca6b431ad3dca8f26eafbfcf1bccd75.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/en_US/92a772148eafb0dc0654e6c2bbcb2f44.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/en_US/92a772148eafb0dc0654e6c2bbcb2f44.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/es_ES/1412d6d49cbda12dc337a1dc43f05226.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/fr_FR/90abdc022cd70a1c1f918fc6eadb90f8.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/it_IT/73d26cab56782c94fa8644a1c6d46505.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/1a63fe02146b7aa84216",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/bdf798e0d21b6f54b664",
-            "reference": "SPIRIT",
+            "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-            "name": "Spirit"
+            "name": "Spirit",
+            "reference": "SPIRIT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]].",
+        "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} []You may have target Character other than me lose [[Fleeting]].  {R} []I gain [[Asleep]].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} []You may have target Character other than me lose [[Fleeting]].  {R} []I gain [[Asleep]].",
-        "ECHO_EFFECT": "{D} : []You may have target Character gain [[Fleeting]]."
+        "RECALL_COST": "3"
     },
     "id": "2A3F92R48A9B3V8VASDP0MRTGJ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/JPG/en_EN/c9c7de078179cb197237d5fe44899ba2.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Kodama",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_09_U_976",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_MU_09_U_976",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_MU_09_U_976",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/fr_FR/90abdc022cd70a1c1f918fc6eadb90f8.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/es_ES/1412d6d49cbda12dc337a1dc43f05226.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/it_IT/73d26cab56782c94fa8644a1c6d46505.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/de_DE/fca6b431ad3dca8f26eafbfcf1bccd75.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/en_US/92a772148eafb0dc0654e6c2bbcb2f44.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/en_US/92a772148eafb0dc0654e6c2bbcb2f44.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/es_ES/1412d6d49cbda12dc337a1dc43f05226.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/fr_FR/90abdc022cd70a1c1f918fc6eadb90f8.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/it_IT/73d26cab56782c94fa8644a1c6d46505.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/5fb43597139345e28f00",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/7ab697de263897664ab5",
-                    "reference": "SPIRIT",
+                    "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
-                    "name": "Esprit"
+                    "name": "Esprit",
+                    "reference": "SPIRIT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez faire gagner [[Fugace]] à un Personnage ciblé.",
+                "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} []Vous pouvez faire perdre [[Fugace]] à un Personnage ciblé autre que moi.  {R} []Je gagne [[Endormi]].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} []Vous pouvez faire perdre [[Fugace]] \u00e0 un Personnage cibl\u00e9 autre que moi.  {R} []Je gagne [[Endormi]].",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez faire gagner [[Fugace]] \u00e0 un Personnage cibl\u00e9."
+                "RECALL_COST": "3"
             },
             "id": "2A3F92R48A9B3V8VASDP0MRTGJ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_COREKS_B_MU_09/UNIQUE/JPG/fr_FR/90abdc022cd70a1c1f918fc6eadb90f8.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Kodama",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_09_U_976",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_MU_09_U_976"
         }

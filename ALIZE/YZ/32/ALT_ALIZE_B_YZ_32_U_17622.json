@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/de_DE/0b50a13f9c03a227f1547d211c180dea.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/es_ES/0c08f029b85266f511c010df3688734c.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/en_US/a8eb8f30601a14b72b2d48355495233d.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/es_ES/0c08f029b85266f511c010df3688734c.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/744486e7d9c12f99910cfcad6cc8971b.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/it_IT/54728cbb52473263c7140d8a512b0b91.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/efc60e2675dcebcb5210",
-            "reference": "ANIMAL",
+            "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-            "name": "Animal"
+            "name": "Animal",
+            "reference": "ANIMAL"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "0",
         "MAIN_COST": "2",
-        "RECALL_COST": "2",
+        "MAIN_EFFECT": "{J} If there are two or more exhausted cards in Reserve: Create a [Brassbug 2/2/2] Robot token in target Expedition.  When you play a Permanent — If you control two or more Permanents: Target Character other than me gains 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "0",
-        "MAIN_EFFECT": "{J} If there are two or more exhausted cards in Reserve: Create a [Brassbug 2/2/2] Robot token in target Expedition.  When you play a Permanent\u00a0\u2014 If you control two or more Permanents: Target Character other than me gains 1 boost."
+        "RECALL_COST": "2"
     },
     "id": "6GW8WD1PFP8R8RBR8TZSXTB6A4",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/en_EN/ea0c4b01bdb4e903d3c29472acce09bf.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Moth Larva",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_17622",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_YZ_32_U_17622",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/de_DE/0b50a13f9c03a227f1547d211c180dea.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/es_ES/0c08f029b85266f511c010df3688734c.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/en_US/a8eb8f30601a14b72b2d48355495233d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/es_ES/0c08f029b85266f511c010df3688734c.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/744486e7d9c12f99910cfcad6cc8971b.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/it_IT/54728cbb52473263c7140d8a512b0b91.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c8938c08d6a600caf198",
-                    "reference": "ANIMAL",
+                    "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
-                    "name": "Animal"
+                    "name": "Animal",
+                    "reference": "ANIMAL"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "0",
                 "MAIN_COST": "2",
-                "RECALL_COST": "2",
+                "MAIN_EFFECT": "{J} S'il y a au moins deux cartes épuisées en Réserve : Créez un jeton Robot [2/2/2 Scarabot] dans une Expédition ciblée.  Lorsque vous jouez un Permanent — Si vous contrôlez au moins deux Permanents : Un Personnage ciblé autre que moi gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "0",
-                "MAIN_EFFECT": "{J} S'il y a au moins deux cartes \u00e9puis\u00e9es en R\u00e9serve\u00a0: Cr\u00e9ez un jeton Robot [2/2/2 Scarabot] dans une Exp\u00e9dition cibl\u00e9e.  Lorsque vous jouez un Permanent\u00a0\u2014 Si vous contr\u00f4lez au moins deux Permanents\u00a0: Un Personnage cibl\u00e9 autre que moi gagne 1\u00a0boost."
+                "RECALL_COST": "2"
             },
             "id": "6GW8WD1PFP8R8RBR8TZSXTB6A4",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/744486e7d9c12f99910cfcad6cc8971b.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
-            "name": "Larve de Phal\u00e8ne",
+            "name": "Larve de Phalène",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_17622",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_YZ_32_U_17622"
         }

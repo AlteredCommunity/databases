@@ -5,8 +5,8 @@
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/de_DE/44027d86e16554548681e07d42474580.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/en_US/77093dfd121a99d5bef40db638e6a419.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/098f8a93cab89a57c070992d51a6a32e.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/es_ES/edba0e5f7e99d2b3f10c45add19980cd.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/098f8a93cab89a57c070992d51a6a32e.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/it_IT/50a88d8f1af86565d117ffb29238d99e.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
         "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-        "reference": "ALIZE",
-        "name": "Trial by Frost"
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/e5126390e7503c63c459",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} You may pay {1}. If you do: You may have target Character in the Expedition facing me gain [[Asleep]].  {R} If you control a token: [Resupply], otherwise [Exhausted Resupply].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "4",
-        "FOREST_POWER": "4",
-        "MAIN_EFFECT": "{H} You may pay\u00a0{1}. If you do: You may have target Character in the Expedition facing me gain [[Asleep]].  {R} If you control a token: [Resupply], otherwise [Exhausted Resupply]."
+        "RECALL_COST": "3"
     },
     "id": "3D7K0TV0VF8H69CPF6H2D6HH1Q",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/JPG/en_EN/ca702540e4a0d3b1458ace1fa6a345dd.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Snoozer Shroom",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_32_U_1194",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_ALIZE_B_MU_32_U_1194",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/de_DE/44027d86e16554548681e07d42474580.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/en_US/77093dfd121a99d5bef40db638e6a419.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/098f8a93cab89a57c070992d51a6a32e.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/es_ES/edba0e5f7e99d2b3f10c45add19980cd.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/098f8a93cab89a57c070992d51a6a32e.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/it_IT/50a88d8f1af86565d117ffb29238d99e.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
                 "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
-                "reference": "ALIZE",
-                "name": "\u00c9preuve du froid"
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/508c1d354d1981258d98",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Vous pouvez faire gagner [[Endormi]] à un Personnage ciblé dans l'Expédition qui me fait face.  {R} Si vous contrôlez un jeton : [Ravitaillez]. Sinon, [Ravitaillez Épuisé].",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "4",
-                "FOREST_POWER": "4",
-                "MAIN_EFFECT": "{H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Vous pouvez faire gagner [[Endormi]] \u00e0 un Personnage cibl\u00e9 dans l'Exp\u00e9dition qui me fait face.  {R} Si vous contr\u00f4lez un jeton\u00a0: [Ravitaillez]. Sinon, [Ravitaillez \u00c9puis\u00e9]."
+                "RECALL_COST": "3"
             },
             "id": "3D7K0TV0VF8H69CPF6H2D6HH1Q",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_MU_32/UNIQUE/JPG/fr_FR/098f8a93cab89a57c070992d51a6a32e.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
-            "name": "Champignon Ext\u00e9nueur",
+            "name": "Champignon Exténueur",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_MU_32_U_1194",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_ALIZE_B_MU_32_U_1194"
         }

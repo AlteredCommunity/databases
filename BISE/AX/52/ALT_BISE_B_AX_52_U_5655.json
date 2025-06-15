@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_AX_52_U_5655",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/de_DE/88e1642464fd5c489735af1b199d8ca6.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/es_ES/ef601cc050f763bf836a628dc6108f61.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/en_US/d2e80f5c3d7ecd3bff9abe309046b2f0.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/it_IT/b0406bddc2439e3910a6d55539cec9b5.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/fr_FR/aa716b37ad9428d70845226ae71b15ff.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/es_ES/ef601cc050f763bf836a628dc6108f61.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/fr_FR/aa716b37ad9428d70845226ae71b15ff.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/it_IT/b0406bddc2439e3910a6d55539cec9b5.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d4c41feb41170e890c93",
-            "reference": "ROBOT",
+            "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-            "name": "Robot"
+            "name": "Robot",
+            "reference": "ROBOT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{I} When another Character joins your Expeditions — []I gain 1 boost, up to a max of 2.",
+        "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} You may discard a Character from your Reserve. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.  {H} If both of your Expeditions are behind or tied: Target Character in play or in Reserve other than me gains 1 boost.  {R} You may spend 1 of my boosts. If you do: [Sabotage].",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "2",
-        "MAIN_EFFECT": "{J} You may discard a Character from your Reserve. If you do: Create an [Ordis Recruit 1/1/1] Soldier token in your Companion Expedition.  {H} If both of your Expeditions are behind or tied: Target Character in play or in Reserve other than me gains 1 boost.  {R} You may spend 1 of my boosts. If you do: [Sabotage].",
-        "ECHO_EFFECT": "{I} When another Character joins your Expeditions — []I gain 1 boost, up to a max of 2."
+        "RECALL_COST": "3"
     },
     "id": "6AVVF1S6S88AZT8NSC5FKYV7ZQ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/en_EN/95fc3b51ef60ebceb09818342eff6751.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/OR",
         "@type": "Faction",
-        "reference": "OR",
         "color": "#0f6593",
         "id": "01GE7AC9X78DXSNKNB15KCF69X",
-        "name": "Ordis"
+        "name": "Ordis",
+        "reference": "OR"
     },
     "name": "Drillmole",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_52_U_5655",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_AX_52_U_5655",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/de_DE/88e1642464fd5c489735af1b199d8ca6.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/es_ES/ef601cc050f763bf836a628dc6108f61.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/en_US/d2e80f5c3d7ecd3bff9abe309046b2f0.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/it_IT/b0406bddc2439e3910a6d55539cec9b5.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/fr_FR/aa716b37ad9428d70845226ae71b15ff.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/es_ES/ef601cc050f763bf836a628dc6108f61.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/fr_FR/aa716b37ad9428d70845226ae71b15ff.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/JPG/it_IT/b0406bddc2439e3910a6d55539cec9b5.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/f17a17d903afdaafa5ef",
-                    "reference": "ROBOT",
+                    "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
-                    "name": "Robot"
+                    "name": "Robot",
+                    "reference": "ROBOT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{I} Lorsqu'un autre Personnage rejoint vos Expéditions — []Je gagne 1 boost, jusqu'à un maximum de 2.",
+                "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} Vous pouvez défausser un Personnage de votre Réserve. Si vous le faites : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.  {H} Si vos deux Expéditions sont en retard ou à égalité : Un Personnage ciblé autre que moi en jeu ou en Réserve gagne 1 boost.  {R} Vous pouvez dépenser 1 de mes boosts. Si vous le faites : [Sabotez].",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "2",
-                "MAIN_EFFECT": "{J} Vous pouvez défausser un Personnage de votre Réserve. Si vous le faites : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre Expédition Compagnon.  {H} Si vos deux Expéditions sont en retard ou à égalité : Un Personnage ciblé autre que moi en jeu ou en Réserve gagne 1 boost.  {R} Vous pouvez dépenser 1 de mes boosts. Si vous le faites : [Sabotez].",
-                "ECHO_EFFECT": "{I} Lorsqu'un autre Personnage rejoint vos Expéditions — []Je gagne 1 boost, jusqu'à un maximum de 2."
+                "RECALL_COST": "3"
             },
             "id": "6AVVF1S6S88AZT8NSC5FKYV7ZQ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_52/UNIQUE/JPG/fr_FR/aa716b37ad9428d70845226ae71b15ff.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/OR",
                 "@type": "Faction",
-                "reference": "OR",
                 "color": "#0f6593",
                 "id": "01GE7AC9X78DXSNKNB15KCF69X",
-                "name": "Ordis"
+                "name": "Ordis",
+                "reference": "OR"
             },
             "name": "Taupetaraude",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_52_U_5655",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_AX_52_U_5655"
         }

@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/de_DE/1a1f644cb464389399339d611d9f6741.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/es_ES/ef8ce8e70102075efd770f45644162fc.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/en_US/93a30350c2fb6ce170758e0a86e42a4c.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/es_ES/ef8ce8e70102075efd770f45644162fc.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/fr_FR/13f7f8aaabc733bc173df1321b74475c.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/it_IT/cf82e852b1a13195333fb4029c095fd2.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/d9c1c6663465e15d34e5",
-            "reference": "SCHOLAR",
+            "@type": "CardSubType",
             "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
-            "name": "Scholar"
+            "name": "Scholar",
+            "reference": "SCHOLAR"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "6",
         "MAIN_COST": "5",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: You may have target Character other than me lose [[Fleeting]].  {R} You may put a card from your hand in Reserve. If you do: [Resupply].",
         "MOUNTAIN_POWER": "6",
         "OCEAN_POWER": "6",
-        "FOREST_POWER": "6",
-        "MAIN_EFFECT": "{J} You may discard a card from your Reserve. If you do: You may have target Character other than me lose [[Fleeting]].  {R} You may put a card from your hand in Reserve. If you do: [Resupply]."
+        "RECALL_COST": "5"
     },
     "id": "4WPFP14XSF9Y1T5HNX3PANF9GP",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/JPG/en_EN/7505f8c2163f16d4f7aa89ab52993a02.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/AX",
         "@type": "Faction",
-        "reference": "AX",
         "color": "#8c432a",
         "id": "01GE7AC9XBG707G19F03A95TH1",
-        "name": "Axiom"
+        "name": "Axiom",
+        "reference": "AX"
     },
     "name": "Amahle, Asgarthan Outcast",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_19_U_5877",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_19_U_5877",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/de_DE/1a1f644cb464389399339d611d9f6741.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/es_ES/ef8ce8e70102075efd770f45644162fc.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/en_US/93a30350c2fb6ce170758e0a86e42a4c.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/es_ES/ef8ce8e70102075efd770f45644162fc.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/fr_FR/13f7f8aaabc733bc173df1321b74475c.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/it_IT/cf82e852b1a13195333fb4029c095fd2.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c8d4fbc0e8c3cf8de6f8",
-                    "reference": "SCHOLAR",
+                    "@type": "CardSubType",
                     "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
-                    "name": "\u00c9rudit"
+                    "name": "Érudit",
+                    "reference": "SCHOLAR"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "6",
                 "MAIN_COST": "5",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{J} Vous pouvez défausser une carte de votre Réserve. Si vous le faites : Vous pouvez faire perdre [[Fugace]] à un Personnage ciblé autre que moi.  {R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : [Ravitaillez].",
                 "MOUNTAIN_POWER": "6",
                 "OCEAN_POWER": "6",
-                "FOREST_POWER": "6",
-                "MAIN_EFFECT": "{J} Vous pouvez d\u00e9fausser une carte de votre R\u00e9serve. Si vous le faites\u00a0: Vous pouvez faire perdre [[Fugace]] \u00e0 un Personnage cibl\u00e9 autre que moi.  {R} Vous pouvez mettre une carte de votre main en R\u00e9serve. Si vous le faites\u00a0: [Ravitaillez]."
+                "RECALL_COST": "5"
             },
             "id": "4WPFP14XSF9Y1T5HNX3PANF9GP",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/UNIQUE/JPG/fr_FR/13f7f8aaabc733bc173df1321b74475c.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/AX",
                 "@type": "Faction",
-                "reference": "AX",
                 "color": "#8c432a",
                 "id": "01GE7AC9XBG707G19F03A95TH1",
-                "name": "Axiom"
+                "name": "Axiom",
+                "reference": "AX"
             },
             "name": "Amahle, Paria Asgarthi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_19_U_5877",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_19_U_5877"
         }

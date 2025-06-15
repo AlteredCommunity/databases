@@ -1,13 +1,13 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_59_U_9818",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/de_DE/98cfb889ddf74750bfc1d1bd9a272f29.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/it_IT/6b40a777bd2a1dc06d9a41de41fedcb6.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/fr_FR/c45291587ded08bf0ced487297a4c81f.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/en_US/4619d48ff1ec9ef989543d9bc3bf1883.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/es_ES/df60aa5042133fbcf4260acf9e6a1380.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/en_US/4619d48ff1ec9ef989543d9bc3bf1883.jpg"
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/fr_FR/c45291587ded08bf0ced487297a4c81f.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/it_IT/6b40a777bd2a1dc06d9a41de41fedcb6.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,33 +21,33 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/11125e3d45a0e60179b0",
-            "reference": "DRAGON",
+            "@type": "CardSubType",
             "id": "01HKAGQCSK17FMGRQDPCFZZ4GB",
-            "name": "Dragon"
+            "name": "Dragon",
+            "reference": "DRAGON"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []The next Character you play this turn gains 1 boost.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "5",
-        "RECALL_COST": "7",
+        "MAIN_EFFECT": "{J} []I gain 1 boost per Mana Orb in your Mana Zone.  {J} []Target a Character, then roll a die. On a 4+, it gains [[Anchored]]. On a 1-3, it gains [[Asleep]].",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "0",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} []I gain 1 boost per Mana Orb in your Mana Zone.  {J} []Target a Character, then roll a die. On a 4+, it gains [[Anchored]]. On a 1-3, it gains [[Asleep]].",
-        "ECHO_EFFECT": "{D} : []The next Character you play this turn gains 1 boost."
+        "RECALL_COST": "7"
     },
     "id": "3DWHQQEB9A9DEAVM1F5GSW1WKZ",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/en_EN/3748d57ff9282c7e5c6337961df37658.jpg",
@@ -57,19 +57,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Lernaean Hydra",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_59_U_9818",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_59_U_9818",
     "translations": {
@@ -79,10 +79,10 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/de_DE/98cfb889ddf74750bfc1d1bd9a272f29.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/it_IT/6b40a777bd2a1dc06d9a41de41fedcb6.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/fr_FR/c45291587ded08bf0ced487297a4c81f.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/en_US/4619d48ff1ec9ef989543d9bc3bf1883.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/es_ES/df60aa5042133fbcf4260acf9e6a1380.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/en_US/4619d48ff1ec9ef989543d9bc3bf1883.jpg"
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/fr_FR/c45291587ded08bf0ced487297a4c81f.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/JPG/it_IT/6b40a777bd2a1dc06d9a41de41fedcb6.jpg"
             },
             "assets": {
                 "WEB": [
@@ -96,33 +96,33 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d1089ff8b6b3010bddda",
-                    "reference": "DRAGON",
+                    "@type": "CardSubType",
                     "id": "01HKAGQCSK17FMGRQDPCFZZ4GB",
-                    "name": "Dragon"
+                    "name": "Dragon",
+                    "reference": "DRAGON"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour gagne 1 boost.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "5",
-                "RECALL_COST": "7",
+                "MAIN_EFFECT": "{J} []Je gagne 1 boost par Orbe de Mana dans votre zone de Mana.  {J} []Ciblez un Personnage, puis lancez un dé. Sur 4+, il gagne [[Ancré]]. Sur 1-3, il gagne [[Endormi]].",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "0",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} []Je gagne 1 boost par Orbe de Mana dans votre zone de Mana.  {J} []Ciblez un Personnage, puis lancez un dé. Sur 4+, il gagne [[Ancré]]. Sur 1-3, il gagne [[Endormi]].",
-                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour gagne 1 boost."
+                "RECALL_COST": "7"
             },
             "id": "3DWHQQEB9A9DEAVM1F5GSW1WKZ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_59/UNIQUE/JPG/fr_FR/c45291587ded08bf0ced487297a4c81f.jpg",
@@ -132,19 +132,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Hydre de Lerne",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_59_U_9818",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_59_U_9818"
         }

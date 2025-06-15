@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_COREKS_B_MU_15_U_4157",
     "@type": "Card",
     "allImagePath": {
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/fr_FR/e718f4999dc1387728cb9700185f04ad.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/es_ES/5e8d6f92cb03dd80c181593c62b6f18d.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/it_IT/48924cb51694d04fb8c256da78f81bf0.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/de_DE/42c6872f934cc815b6105ed1ed06c3e8.jpg",
-        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/en_US/36cc2b3d8e0d3dbe525675826a265ead.jpg"
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/en_US/36cc2b3d8e0d3dbe525675826a265ead.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/es_ES/5e8d6f92cb03dd80c181593c62b6f18d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/fr_FR/e718f4999dc1387728cb9700185f04ad.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/it_IT/48924cb51694d04fb8c256da78f81bf0.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
         "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-        "reference": "COREKS",
-        "name": "Beyond the Gates - KS Edition"
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/024c83498d81fdd898fa",
-            "reference": "DRAGON",
+            "@type": "CardSubType",
             "id": "01HKAGQCSK17FMGRQDPCFZZ4GB",
-            "name": "Dragon"
+            "name": "Dragon",
+            "reference": "DRAGON"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/9cb2034d24586579c57d",
-            "reference": "PLANT",
+            "@type": "CardSubType",
             "id": "01HKAGSB49H24XWW17AAY441MT",
-            "name": "Plant"
+            "name": "Plant",
+            "reference": "PLANT"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []Each player draws a card.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{J} []I gain [[Anchored]].  At Noon — If I have 1 or more boosts: Each player puts the top card of their deck in their Mana zone (as an exhausted Mana Orb).",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "1",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{J} []I gain [[Anchored]].  At Noon\u00a0\u2014 If I have 1 or more boosts: Each player puts the top card of their deck in their Mana zone (as an exhausted Mana Orb).",
-        "ECHO_EFFECT": "{D} : []Each player draws a card."
+        "RECALL_COST": "3"
     },
     "id": "2AVRVSBZN39PWVVD245RRZ3V9V",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/JPG/en_EN/03667b2aea93929924a3f6716e1be6be.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Dracaena",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_15_U_4157",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_COREKS_B_MU_15_U_4157",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_COREKS_B_MU_15_U_4157",
             "@type": "Card",
             "allImagePath": {
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/fr_FR/e718f4999dc1387728cb9700185f04ad.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/es_ES/5e8d6f92cb03dd80c181593c62b6f18d.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/it_IT/48924cb51694d04fb8c256da78f81bf0.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/de_DE/42c6872f934cc815b6105ed1ed06c3e8.jpg",
-                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/en_US/36cc2b3d8e0d3dbe525675826a265ead.jpg"
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/en_US/36cc2b3d8e0d3dbe525675826a265ead.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/es_ES/5e8d6f92cb03dd80c181593c62b6f18d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/fr_FR/e718f4999dc1387728cb9700185f04ad.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/it_IT/48924cb51694d04fb8c256da78f81bf0.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
                 "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
-                "reference": "COREKS",
-                "name": "Au-del\u00e0 des portes - \u00c9dition KS"
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/c416e99558e6f2a5d6e7",
-                    "reference": "DRAGON",
+                    "@type": "CardSubType",
                     "id": "01HKAGQCSK17FMGRQDPCFZZ4GB",
-                    "name": "Dragon"
+                    "name": "Dragon",
+                    "reference": "DRAGON"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/9fa484276cc29397be0e",
-                    "reference": "PLANT",
+                    "@type": "CardSubType",
                     "id": "01HKAGSB49H24XWW17AAY441MT",
-                    "name": "Plante"
+                    "name": "Plante",
+                    "reference": "PLANT"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Chaque joueur pioche une carte.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{J} []Je gagne [[Ancré]].  À Midi — Si j'ai au moins 1 boost : Chaque joueur met la première carte de son deck dans sa zone de Mana (en tant qu'Orbe de Mana épuisé).",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "1",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{J} []Je gagne [[Ancr\u00e9]].  \u00c0 Midi\u00a0\u2014 Si j'ai au moins 1\u00a0boost\u00a0: Chaque joueur met la premi\u00e8re carte de son deck dans sa zone de Mana (en tant qu'Orbe de Mana \u00e9puis\u00e9).",
-                "ECHO_EFFECT": "{D}\u00a0: []Chaque joueur pioche une carte."
+                "RECALL_COST": "3"
             },
             "id": "2AVRVSBZN39PWVVD245RRZ3V9V",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_15/UNIQUE/JPG/fr_FR/e718f4999dc1387728cb9700185f04ad.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Dracaena",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_15_U_4157",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_COREKS_B_MU_15_U_4157"
         }

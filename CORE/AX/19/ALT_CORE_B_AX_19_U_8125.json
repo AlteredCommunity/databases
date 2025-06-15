@@ -4,8 +4,8 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/de_DE/31e184c07eddb4636c9f7b7f6d64d2e4.jpg",
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/es_ES/619564d0587926e63f023070c96d8fcd.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/en_US/7dfd1aa2c7f0e2a42e29d4d59fd9b522.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/es_ES/619564d0587926e63f023070c96d8fcd.jpg",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/fr_FR/2883dbc093914642bc33c32de86e3ebf.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/it_IT/9af336cf320c26e8b54e54e8f67d0559.jpg"
     },
@@ -21,32 +21,32 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/c256c2dc54ef410414f8",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "5",
         "MAIN_COST": "7",
-        "RECALL_COST": "5",
+        "MAIN_EFFECT": "{J} []For each Character you control other than me, you may activate its {j} abilities.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "7",
-        "FOREST_POWER": "5",
-        "MAIN_EFFECT": "{J} []For each Character you control other than me, you may activate its\u00a0{j} abilities."
+        "RECALL_COST": "5"
     },
     "id": "7SMBE0V1ES88584MG5CXG13AM8",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_EN/a35797bcfe8e7df1ee9418787bf83c50.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/MU",
         "@type": "Faction",
-        "reference": "MU",
         "color": "#3d6b42",
         "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-        "name": "Muna"
+        "name": "Muna",
+        "reference": "MU"
     },
     "name": "Ganesha",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_19_U_8125",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_AX_19_U_8125",
     "translations": {
@@ -78,8 +78,8 @@
             "@type": "Card",
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/de_DE/31e184c07eddb4636c9f7b7f6d64d2e4.jpg",
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/es_ES/619564d0587926e63f023070c96d8fcd.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/en_US/7dfd1aa2c7f0e2a42e29d4d59fd9b522.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/es_ES/619564d0587926e63f023070c96d8fcd.jpg",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/fr_FR/2883dbc093914642bc33c32de86e3ebf.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/it_IT/9af336cf320c26e8b54e54e8f67d0559.jpg"
             },
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d444cb0c191ba79735e3",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "5",
                 "MAIN_COST": "7",
-                "RECALL_COST": "5",
+                "MAIN_EFFECT": "{J} []Pour chaque Personnage que vous contrôlez autre que moi, vous pouvez activer ses capacités {j}.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "7",
-                "FOREST_POWER": "5",
-                "MAIN_EFFECT": "{J} []Pour chaque Personnage que vous contr\u00f4lez autre que moi, vous pouvez activer ses capacit\u00e9s\u00a0{j}."
+                "RECALL_COST": "5"
             },
             "id": "7SMBE0V1ES88584MG5CXG13AM8",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/UNIQUE/JPG/fr_FR/2883dbc093914642bc33c32de86e3ebf.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/MU",
                 "@type": "Faction",
-                "reference": "MU",
                 "color": "#3d6b42",
                 "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
-                "name": "Muna"
+                "name": "Muna",
+                "reference": "MU"
             },
             "name": "Ganesh",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_19_U_8125",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_AX_19_U_8125"
         }

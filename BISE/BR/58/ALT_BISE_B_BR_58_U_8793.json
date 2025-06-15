@@ -1,12 +1,12 @@
-﻿{
+{
     "@context": "/contexts/Card",
     "@id": "/cards/ALT_BISE_B_BR_58_U_8793",
     "@type": "Card",
     "allImagePath": {
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/de_DE/4bd1132fe304770f29bf5af1eb58a0ab.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/en_US/a96b98e0e393e5c0a020c1f2743eab14.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/fr_FR/ea7aff1a990488f2b6828a09d9d3da5c.jpg",
         "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/es_ES/7293aae348056327ffdc113a6b847ebe.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/fr_FR/ea7aff1a990488f2b6828a09d9d3da5c.jpg",
         "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/it_IT/038f6ba5e596b2d783e6c87cb11479b3.jpg"
     },
     "assets": {
@@ -21,32 +21,32 @@
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
         "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-        "reference": "BISE",
-        "name": "Whispers from the Maze"
+        "name": "Whispers from the Maze",
+        "reference": "BISE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/c3088340fa0c11613a51",
-            "reference": "ADVENTURER",
+            "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-            "name": "Adventurer"
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "FOREST_POWER": "6",
         "MAIN_COST": "7",
-        "RECALL_COST": "8",
+        "MAIN_EFFECT": "[][][Scout] {3}.  {J} []You may discard target Character with Hand Cost {4} or more.  {R} You may put a card from your hand in Reserve. If you do: You may send target Character to Reserve, then exhaust it.",
         "MOUNTAIN_POWER": "7",
         "OCEAN_POWER": "5",
-        "FOREST_POWER": "6",
-        "MAIN_EFFECT": "[][][Scout] {3}.  {J} []You may discard target Character with Hand Cost {4} or more.  {R} You may put a card from your hand in Reserve. If you do: You may send target Character to Reserve, then exhaust it."
+        "RECALL_COST": "8"
     },
     "id": "691FAYC3ZC8S8958ZRHN00JN67",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/en_EN/f56af9dc9891fc78ca4b7a089bbe4a7e.jpg",
@@ -56,19 +56,19 @@
     "mainFaction": {
         "@id": "/factions/BR",
         "@type": "Faction",
-        "reference": "BR",
         "color": "#c32637",
         "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-        "name": "Bravos"
+        "name": "Bravos",
+        "reference": "BR"
     },
     "name": "Theseus",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_58_U_8793",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_BISE_B_BR_58_U_8793",
     "translations": {
@@ -79,8 +79,8 @@
             "allImagePath": {
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/de_DE/4bd1132fe304770f29bf5af1eb58a0ab.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/en_US/a96b98e0e393e5c0a020c1f2743eab14.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/fr_FR/ea7aff1a990488f2b6828a09d9d3da5c.jpg",
                 "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/es_ES/7293aae348056327ffdc113a6b847ebe.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/fr_FR/ea7aff1a990488f2b6828a09d9d3da5c.jpg",
                 "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/JPG/it_IT/038f6ba5e596b2d783e6c87cb11479b3.jpg"
             },
             "assets": {
@@ -95,32 +95,32 @@
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
                 "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
-                "reference": "BISE",
-                "name": "Murmures du Labyrinthe"
+                "name": "Murmures du Labyrinthe",
+                "reference": "BISE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/48f244254eaa408a43c7",
-                    "reference": "ADVENTURER",
+                    "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
-                    "name": "Aventurier"
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "FOREST_POWER": "6",
                 "MAIN_COST": "7",
-                "RECALL_COST": "8",
+                "MAIN_EFFECT": "[][][Repérage] {3}.  {J} []Vous pouvez défausser un Personnage ciblé de Coût de Main {4} ou plus.  {R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez envoyer un Personnage ciblé en Réserve, puis épuisez-le.",
                 "MOUNTAIN_POWER": "7",
                 "OCEAN_POWER": "5",
-                "FOREST_POWER": "6",
-                "MAIN_EFFECT": "[][][Repérage] {3}.  {J} []Vous pouvez défausser un Personnage ciblé de Coût de Main {4} ou plus.  {R} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez envoyer un Personnage ciblé en Réserve, puis épuisez-le."
+                "RECALL_COST": "8"
             },
             "id": "691FAYC3ZC8S8958ZRHN00JN67",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_58/UNIQUE/JPG/fr_FR/ea7aff1a990488f2b6828a09d9d3da5c.jpg",
@@ -130,19 +130,19 @@
             "mainFaction": {
                 "@id": "/factions/BR",
                 "@type": "Faction",
-                "reference": "BR",
                 "color": "#c32637",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T4",
-                "name": "Bravos"
+                "name": "Bravos",
+                "reference": "BR"
             },
             "name": "Thésée",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_58_U_8793",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_BISE_B_BR_58_U_8793"
         }

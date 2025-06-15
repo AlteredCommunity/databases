@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CORE_B_LY_13_U_4806",
     "@type": "Card",
     "allImagePath": {
-        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/8a07c17b6991a3aba31571c076acbf3b.jpg",
-        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/0a71c7ca23e4b9c6c34e8aea6c5b11d5.jpg",
         "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/2427c2f1e9ea2c4d99b462476f2560e4.jpg",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/b51d4a03fc33297fe4f7bbd560e1ef35.jpg",
-        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/ae55b6a7166fc26b6f8c0fdb14b39552.jpg"
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/8a07c17b6991a3aba31571c076acbf3b.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/ae55b6a7166fc26b6f8c0fdb14b39552.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/0a71c7ca23e4b9c6c34e8aea6c5b11d5.jpg"
     },
     "assets": {
         "WEB": [
@@ -21,40 +21,40 @@
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
         "id": "01HKAFJN3HG3TWKYV0E014K01G",
-        "reference": "CORE",
-        "name": "Beyond the Gates"
+        "name": "Beyond the Gates",
+        "reference": "CORE"
     },
     "cardSubTypes": [
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/894d4f95ac395af8f8d3",
-            "reference": "ARTIST",
+            "@type": "CardSubType",
             "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-            "name": "Artist"
+            "name": "Artist",
+            "reference": "ARTIST"
         },
         {
-            "@type": "CardSubType",
             "@id": "/.well-known/genid/001131a91f857ddfd353",
-            "reference": "DEITY",
+            "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
-            "name": "Deity"
+            "name": "Deity",
+            "reference": "DEITY"
         }
     ],
     "cardType": {
         "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
         "@type": "CardType",
-        "reference": "CHARACTER",
         "id": "01H19NWA92A4ERAC4ATMSZNASS",
-        "name": "Character"
+        "name": "Character",
+        "reference": "CHARACTER"
     },
     "elements": {
+        "ECHO_EFFECT": "{D} : []You may return a Spell from your Reserve to your hand.",
+        "FOREST_POWER": "1",
         "MAIN_COST": "4",
-        "RECALL_COST": "3",
+        "MAIN_EFFECT": "{H} You may pay {1}. If you do: Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts.  When you roll one or more dice — []I gain 1 boost per card in your Reserve.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
-        "FOREST_POWER": "1",
-        "MAIN_EFFECT": "{H} You may pay\u00a0{1}. If you do: Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts.  When you roll one or more dice\u00a0\u2014 []I gain 1 boost per card in your Reserve.",
-        "ECHO_EFFECT": "{D} : []You may return a Spell from your Reserve to your hand."
+        "RECALL_COST": "3"
     },
     "id": "26VD55N8Q59ESBDSDXDZF63NKB",
     "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/JPG/en_EN/00966f12d4c0c644a6218fc38a993ac6.jpg",
@@ -64,19 +64,19 @@
     "mainFaction": {
         "@id": "/factions/LY",
         "@type": "Faction",
-        "reference": "LY",
         "color": "#cf4171",
         "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-        "name": "Lyra"
+        "name": "Lyra",
+        "reference": "LY"
     },
     "name": "Anansi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_13_U_4806",
     "rarity": {
         "@id": "/rarities/UNIQUE",
         "@type": "Rarity",
-        "reference": "UNIQUE",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-        "name": "Unique"
+        "name": "Unique",
+        "reference": "UNIQUE"
     },
     "reference": "ALT_CORE_B_LY_13_U_4806",
     "translations": {
@@ -85,11 +85,11 @@
             "@id": "/cards/ALT_CORE_B_LY_13_U_4806",
             "@type": "Card",
             "allImagePath": {
-                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/8a07c17b6991a3aba31571c076acbf3b.jpg",
-                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/0a71c7ca23e4b9c6c34e8aea6c5b11d5.jpg",
                 "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/de_DE/2427c2f1e9ea2c4d99b462476f2560e4.jpg",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/en_US/b51d4a03fc33297fe4f7bbd560e1ef35.jpg",
-                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/ae55b6a7166fc26b6f8c0fdb14b39552.jpg"
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/es_ES/8a07c17b6991a3aba31571c076acbf3b.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/ae55b6a7166fc26b6f8c0fdb14b39552.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/it_IT/0a71c7ca23e4b9c6c34e8aea6c5b11d5.jpg"
             },
             "assets": {
                 "WEB": [
@@ -103,40 +103,40 @@
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
                 "id": "01HKAFJN3HG3TWKYV0E014K01G",
-                "reference": "CORE",
-                "name": "Au-del\u00e0 des portes"
+                "name": "Au-delà des portes",
+                "reference": "CORE"
             },
             "cardSubTypes": [
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/abbd6fe913231163afab",
-                    "reference": "ARTIST",
+                    "@type": "CardSubType",
                     "id": "01HKAGQTJ167DYCKKGR8MCESNT",
-                    "name": "Artiste"
+                    "name": "Artiste",
+                    "reference": "ARTIST"
                 },
                 {
-                    "@type": "CardSubType",
                     "@id": "/.well-known/genid/d0d60ac875f830858c7f",
-                    "reference": "DEITY",
+                    "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
-                    "name": "Divinit\u00e9"
+                    "name": "Divinité",
+                    "reference": "DEITY"
                 }
             ],
             "cardType": {
                 "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
                 "@type": "CardType",
-                "reference": "CHARACTER",
                 "id": "01H19NWA92A4ERAC4ATMSZNASS",
-                "name": "Personnage"
+                "name": "Personnage",
+                "reference": "CHARACTER"
             },
             "elements": {
+                "ECHO_EFFECT": "{D} : []Vous pouvez renvoyer un Sort de votre Réserve dans votre main.",
+                "FOREST_POWER": "1",
                 "MAIN_COST": "4",
-                "RECALL_COST": "3",
+                "MAIN_EFFECT": "{H} Vous pouvez payer {1}. Si vous le faites : Lancez un dé. Sur 4+, je gagne [[Ancré]]. Sur 1-3, je gagne 3 boosts.  Lorsque vous lancez au moins un dé — []Je gagne 1 boost par carte dans votre Réserve.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
-                "FOREST_POWER": "1",
-                "MAIN_EFFECT": "{H} Vous pouvez payer\u00a0{1}. Si vous le faites\u00a0: Lancez un d\u00e9. Sur 4+, je gagne [[Ancr\u00e9]]. Sur 1-3, je gagne 3\u00a0boosts.  Lorsque vous lancez au moins un d\u00e9\u00a0\u2014 []Je gagne 1\u00a0boost par carte dans votre R\u00e9serve.",
-                "ECHO_EFFECT": "{D}\u00a0: []Vous pouvez renvoyer un Sort de votre R\u00e9serve dans votre main."
+                "RECALL_COST": "3"
             },
             "id": "26VD55N8Q59ESBDSDXDZF63NKB",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_13/UNIQUE/JPG/fr_FR/ae55b6a7166fc26b6f8c0fdb14b39552.jpg",
@@ -146,19 +146,19 @@
             "mainFaction": {
                 "@id": "/factions/LY",
                 "@type": "Faction",
-                "reference": "LY",
                 "color": "#cf4171",
                 "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
-                "name": "Lyra"
+                "name": "Lyra",
+                "reference": "LY"
             },
             "name": "Anansi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_LY_13_U_4806",
             "rarity": {
                 "@id": "/rarities/UNIQUE",
                 "@type": "Rarity",
-                "reference": "UNIQUE",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
-                "name": "Unique"
+                "name": "Unique",
+                "reference": "UNIQUE"
             },
             "reference": "ALT_CORE_B_LY_13_U_4806"
         }
