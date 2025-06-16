@@ -1,0 +1,362 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_COREKS_B_YZ_25_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/de_DE/bbd1bb5221ce9835d5341537ca062022.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/en_US/161b4d3973f1d6980bc5740680617530.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/es_ES/cb444fe81883fae4099f8ae2957fa75d.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/fr_FR/934141a9049a8d951be236f470f08182.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/it_IT/da8fa95c7331077a635ac40aa9caef84.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_25/WEB_500c01ba51e662279af146537aa49452",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_25/WEB_94adf198134cbebbbd300a2b748bbfab"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/9f157c541e08083b3cb6",
+            "@type": "CardRuling",
+            "answer": "In the Arena, Expeditions can't move forward nor backwards since there's only one Region. Any such effect becomes irrelevant.",
+            "createdAt": "2024-08-28T10:37:55+00:00",
+            "eventFormat": "STANDARD",
+            "question": "What happens if Small Step, Giant Leap is played during the tiebreaker?"
+        },
+        {
+            "@id": "/.well-known/genid/56b345503b0a87d3ac70",
+            "@type": "CardRuling",
+            "answer": "As soon as the effect has fully resolved, yes.",
+            "createdAt": "2024-07-10T10:37:55+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If I play \"Small Step, Giant Leap\" while my Expeditions are adjacent, do I win immediately?"
+        },
+        {
+            "@id": "/.well-known/genid/cffdefc871b64ce69651",
+            "@type": "CardRuling",
+            "answer": "Yes. In general, if an effect tells you to do something and another tells you that you cannot, the negative effect wins. Celebration Day prevents your Expedition from moving forward during the Day. If Small Step, Giant Leap is played on that Expedition during that Day, it will have no effect.",
+            "createdAt": "2024-07-10T10:37:56+00:00",
+            "eventFormat": "STANDARD",
+            "question": "Can \"Celebration Day\" stop \"Small Step, Giant Leap\"?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/COREKS",
+        "@type": "CardSet",
+        "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/2ee687d5bbd76b28420f",
+            "@type": "CardSubType",
+            "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+            "name": "Maneuver",
+            "reference": "MANEUVER"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01GE7AC9X35JXEQZJBBD6E4BKX",
+        "@type": "CardType",
+        "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+        "name": "Spell",
+        "reference": "SPELL"
+    },
+    "elements": {
+        "FOREST_POWER": "",
+        "MAIN_COST": "6",
+        "MAIN_EFFECT": "Target Expedition moves forward one region.",
+        "MOUNTAIN_POWER": "",
+        "OCEAN_POWER": "",
+        "RECALL_COST": "#7#"
+    },
+    "id": "01HN5TXRN484PQ402MQW2JTTKN",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/en_EN/96a71e36d6e6651a15100488916fad50.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HPMB79DR6FSJXAMWZTSSQ1Z2",
+            "@type": "LoreEntry",
+            "id": "01HPMB79DR6FSJXAMWZTSSQ1Z2",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HPME8CZZ461N9PVBN4X3THYJ",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME8CZZ461N9PVBN4X3THYJ",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "The journey of a thousand miles begins with one step."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME8D284J9YYCG07YNAY4GD",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME8D284J9YYCG07YNAY4GD",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "Senka wraps its night feathers around me, and we leap through the raging vortex. The fabric of space bends, and time stops mid-flight. I hurtle down for miles, vast panoramas stretching out as I pass. The world is a wave, a roll that spirals on forever. We ride it like a seething river. Forests, plains and massifs expand and contract in a frenzied dance. And as we emerge from the whirlwind, a thousand cable lengths from our starting point, all my Sigils pulse around me, creating a barrier that I hope is unbreachable. I rush forward, then perform a roll to get myself back on guard. Not to be outdone, my Chimaera spreads its wings to give me cover as I try to take stock of my new environment. It's an estuary, with water flowing into a bay at the mercy of the falling tide...\n\nBut no matter which way I turn, there's no sign of the Chrysanthemum Cloak Warlock. He seems to have vanished. So I take a few steps towards the lifeless body sprawled several feet away from me, walking carefully to avoid any traps. But nothing leaps out in my direction, and no sudden spikes appear at my feet. I kneel down next to Qaasin, placing a couple of fingers on his throat to check his pulse. I push back the tears. His skin is cold and pale. Turning away from the body of my mentor, I roar and release all the spells I've been keeping in reserve, blasting the land around me. I smash a stone mound and scorch the sand with fire until it turns into a frozen wave of glass. I scream out all my rage, my pain, my despair... He warned me. He told me that if I continued to hunt him, he would need to take measures..."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME8D15KXF6DT61B5AB8E3V",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME8D15KXF6DT61B5AB8E3V",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME8CXS0B9ENHVMJEGMS3BF",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME8CXS0B9ENHVMJEGMS3BF",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME8CZ2WRFJDGKFZCKG7NYP",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME8CZ2WRFJDGKFZCKG7NYP",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+                "name": "Spell",
+                "reference": "SPELL"
+            },
+            "reference": "ALT_COREKS_B_YZ_25_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/YZ",
+        "@type": "Faction",
+        "color": "#764891",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+        "name": "Yzmir",
+        "reference": "YZ"
+    },
+    "name": "Small Step, Giant Leap",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_25_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_COREKS_B_YZ_25_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_YZ_25_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/de_DE/bbd1bb5221ce9835d5341537ca062022.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/en_US/161b4d3973f1d6980bc5740680617530.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/es_ES/cb444fe81883fae4099f8ae2957fa75d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/fr_FR/934141a9049a8d951be236f470f08182.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/it_IT/da8fa95c7331077a635ac40aa9caef84.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_25/WEB_500c01ba51e662279af146537aa49452",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_25/WEB_94adf198134cbebbbd300a2b748bbfab"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/b886dc0b5b7d829e3fc4",
+                    "@type": "CardRuling",
+                    "answer": "In the Arena, Expeditions can't move forward nor backwards since there's only one Region. Any such effect becomes irrelevant.",
+                    "createdAt": "2024-08-28T10:37:55+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "What happens if Small Step, Giant Leap is played during the tiebreaker?"
+                },
+                {
+                    "@id": "/.well-known/genid/bb1da99361045a7efcbb",
+                    "@type": "CardRuling",
+                    "answer": "As soon as the effect has fully resolved, yes.",
+                    "createdAt": "2024-07-10T10:37:55+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If I play \"Small Step, Giant Leap\" while my Expeditions are adjacent, do I win immediately?"
+                },
+                {
+                    "@id": "/.well-known/genid/cf8b00ab562d759e08d5",
+                    "@type": "CardRuling",
+                    "answer": "Yes. In general, if an effect tells you to do something and another tells you that you cannot, the negative effect wins. Celebration Day prevents your Expedition from moving forward during the Day. If Small Step, Giant Leap is played on that Expedition during that Day, it will have no effect.",
+                    "createdAt": "2024-07-10T10:37:56+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "Can \"Celebration Day\" stop \"Small Step, Giant Leap\"?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/224cd250282e3136f89a",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+                    "name": "Manœuvre",
+                    "reference": "MANEUVER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9X35JXEQZJBBD6E4BKX",
+                "@type": "CardType",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+                "name": "Sort",
+                "reference": "SPELL"
+            },
+            "elements": {
+                "FOREST_POWER": "",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "Une Expédition ciblée avance d'une région.",
+                "MOUNTAIN_POWER": "",
+                "OCEAN_POWER": "",
+                "RECALL_COST": "#7#"
+            },
+            "id": "01HN5TXRN484PQ402MQW2JTTKN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_25/JPG/fr_FR/934141a9049a8d951be236f470f08182.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB79DR6FSJXAMWZTSSQ1Z2",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB79DR6FSJXAMWZTSSQ1Z2",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME8CZZ461N9PVBN4X3THYJ",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME8CZZ461N9PVBN4X3THYJ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Un voyage de mille lieues commence toujours par un simple pas."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME8D284J9YYCG07YNAY4GD",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME8D284J9YYCG07YNAY4GD",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Senka m'enveloppe de ses plumes de nuit, et nous bondissons à travers le vortex vociférant. Le tissu de l'espace se courbe, tandis que le temps suspend son vol. J'avale les kilomètres, alors que les panoramas se distordent sur mon passage. Le monde est une vague, un rouleau qui spirale en continu. Nous la chevauchons, comme une rivière démente. Forêts, plaines et massifs se dilatent et se contractent en une furieuse farandole... Et alors que nous émergeons du tourbillon, à mille encablures de notre point de départ, tous mes Sceaux pulsent autour de moi, créant une barrière que je souhaite infranchissable. Je me précipite, effectue une roulade pour me mettre en garde. Ma Chimère n'est pas en reste : elle étend les ailes pour me donner un couvert, alors que j'essaie d'interpréter mon nouvel environnement. Un estuaire dont les eaux se déversent dans la baie, au gré de la marée descendante...\n\nMais qu'importe la direction vers laquelle je me tourne, nulle trace du Sorcier au Manteau de Chrysanthème. Il semble s'être volatilisé. Alors je fais quelques pas vers le corps inerte affalé à quelques mètres de moi, marchant avec prudence pour ne pas tomber dans un piège. Mais là encore, rien ne jaillit dans ma direction, aucune chausse-trappe ne s'entrouvre sous mes pieds. Je m'agenouille à côté de Qaasin, posant une main sur sa gorge pour vérifier son pouls. Je réprime un sanglot. Sa peau est froide, son teint livide. Me détournant de la dépouille de mon mentor, je hurle en relâchant tous les sorts que j'ai gardés en réserve, scarifiant la lande autour de moi. Je fracasse un monticule de pierre, incendie le sable jusqu'à le transformer en vague de verre. Je crie ma rage, ma douleur, mon désespoir... Il m'avait prévenu. Il m'avait dit que continuer à le traquer l'obligerait à sévir..."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME8D15KXF6DT61B5AB8E3V",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME8D15KXF6DT61B5AB8E3V",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME8CXS0B9ENHVMJEGMS3BF",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME8CXS0B9ENHVMJEGMS3BF",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME8CZ2WRFJDGKFZCKG7NYP",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME8CZ2WRFJDGKFZCKG7NYP",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+                        "name": "Spell",
+                        "reference": "SPELL"
+                    },
+                    "reference": "ALT_COREKS_B_YZ_25_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Petit Pas, Bond de Géant",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_25_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_COREKS_B_YZ_25_R1"
+        }
+    }
+}

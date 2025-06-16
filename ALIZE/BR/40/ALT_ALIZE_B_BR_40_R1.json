@@ -1,0 +1,332 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_ALIZE_B_BR_40_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/de_DE/7cc586760b88ffc5ca74b2ef89c50d33.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/en_US/39f056ee0308497fa4b3b1cd4c0a8343.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/es_ES/411fb5bba5f1582675cd353ace2227d5.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/fr_FR/c476da34ca739e340f1148ee1a1abf97.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/it_IT/f6bd412da5bbc4dd6d797c76a3f4dd2e.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/WEB_f69710c9195e8989f244b4a338aef698",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/WEB_12469b52894652ee0285f23ee03b4011",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/WEB_c3c06302bfbb9c9a746aa3af462ebbc6"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/2334ded2df9907c98170",
+            "@type": "CardRuling",
+            "answer": "1. Eros is played  2. Any effects triggered by playing Eros join Limbo (the pool of effects \"to be resolved\")  3. The active player starts resolving their effects in Limbo (in the order of their choice)  (3.a Depending on the player's choice and who's the active player, some effects may be resolved before a 2nd Character is played)  3.b Whenever Eros's controller resolves the effect of Eros, they play their 2nd Character, then give 2 boosts to it.  3.c Any effects triggered by playing the new Character joins Limbo  3.d The active player may now resolve any of their effects in Limbo (in the order of their choice), including ones triggered in 3.c  3.e Once the active player has finished, the next player resolves the effects they still have in Limbo.",
+            "createdAt": "2025-01-31T10:38:11+00:00",
+            "eventFormat": "STANDARD",
+            "question": "In which order are the effects triggered by playing Eros and by playing the Character thanks to Eros effect resolved?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/ALIZE",
+        "@type": "CardSet",
+        "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/e6673c233560ec3851c3",
+            "@type": "CardSubType",
+            "id": "01HKAGPAJFS4YDQVKY6AB16614",
+            "name": "Deity",
+            "reference": "DEITY"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "FOREST_POWER": "3",
+        "MAIN_COST": "7",
+        "MAIN_EFFECT": "{J} You may immediately play a Character for {3} less. #It gains 2 boosts.#",
+        "MOUNTAIN_POWER": "#5#",
+        "OCEAN_POWER": "#5#",
+        "RECALL_COST": "7"
+    },
+    "id": "01J1Q4P4S3CD549S9SSC7PCM5V",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/en_EN/7af462be31f7e836b2668bb3f406bdff.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/744N52RQE58N6AZQJPEXNY43BD",
+            "@type": "LoreEntry",
+            "id": "744N52RQE58N6AZQJPEXNY43BD",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01J21J24H7A9S5MMBJXST5WEHH",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24H7A9S5MMBJXST5WEHH",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "He's got more than one arrow in his quiver."
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24HTVGCPH0DF73X6924Q",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24HTVGCPH0DF73X6924Q",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "I slow down, watching Kojo disappear over the other side of the crest. I had barely set foot in the pass when the Belisenki burst out of the snowdrifts, forming swirling clouds of snowflakes. They emerge from their snowbanks with a sinister tinkling and humming sound. Some twenty pairs of black eyes stare at me, like a score of dark threats. My blade is immediately in my hand, but I realize it's already too late. It's clear that they have the numerical advantage. I need time to prepare a fitting response. Ember! My heart sinks. No. No, I can't let myself be slowed down any further. Aurora is waiting for me in her crystal prison. No, this can't be the end of the road for me. I stand on guard, trying to find a way out while readying myself for the imminent attack. I draw on the love I feel for her to give me courage. I call on the love that has guided each of my steps.\n\nLike a meteorite, a flaming spirit lands on my right side, while an intense light begins to shine just above me, dazzling and comforting me. The ice creatures freeze for a moment, blinded, as a figure appears before me. It's Eros gracing me with his presence. Did I just instinctively materialize him? Was it Surge that came to my aid? It doesn't matter. I won't let this opportunity go to waste. The Belisenki blink frantically, and their black eyes open again. But luck is starting to turn in my favor. Two, then three flaming beings land and create a barrier between me and the Belisenki. The creatures hesitate, and rightly so. Eros laughs as his wings unfurl. I smile and am now encouraged, reassured and raring to go. I step back and focus on my next attack. I let Eros make the first move, which gives me time to summon the blazing fire."
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24HGHXQA8AV5DYXQ3W04",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24HGHXQA8AV5DYXQ3W04",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": "Eros is the god of love and procreation in the Greek pantheon. Son of Chaos, he is one of the primordial deities along with Gaia, Nyx, Tartare and Erebus. He was born from the cosmic egg, created by the union of Aether and Chaos. In early depictions he represented a non-sexual union, like friendship. The sexual depiction of Eros came about with the castration of Uranus by Cronus, when Cronus threw his father's genitals into the sea. This act gave rise to Aphrodite, Himeros and the new incarnation of Eros. In both his primordial and subsequent depictions, he represents the force of attraction that pushes partners to be together.\n"
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24GMZB75J14YW5X1CT6S",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24GMZB75J14YW5X1CT6S",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": "ATSADI\n"
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24GYDYGDEFKHMDEC0EYA",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24GYDYGDEFKHMDEC0EYA",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_ALIZE_B_BR_40_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/BR",
+        "@type": "Faction",
+        "color": "#c32637",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+        "name": "Bravos",
+        "reference": "BR"
+    },
+    "name": "Eros",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_40_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_ALIZE_B_BR_40_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_40_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/de_DE/7cc586760b88ffc5ca74b2ef89c50d33.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/en_US/39f056ee0308497fa4b3b1cd4c0a8343.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/es_ES/411fb5bba5f1582675cd353ace2227d5.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/fr_FR/c476da34ca739e340f1148ee1a1abf97.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/it_IT/f6bd412da5bbc4dd6d797c76a3f4dd2e.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/WEB_f69710c9195e8989f244b4a338aef698",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/WEB_12469b52894652ee0285f23ee03b4011",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/WEB_c3c06302bfbb9c9a746aa3af462ebbc6"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/d0f15fff349b6b6bb663",
+                    "@type": "CardRuling",
+                    "answer": "1. Eros is played  2. Any effects triggered by playing Eros join Limbo (the pool of effects \"to be resolved\")  3. The active player starts resolving their effects in Limbo (in the order of their choice)  (3.a Depending on the player's choice and who's the active player, some effects may be resolved before a 2nd Character is played)  3.b Whenever Eros's controller resolves the effect of Eros, they play their 2nd Character, then give 2 boosts to it.  3.c Any effects triggered by playing the new Character joins Limbo  3.d The active player may now resolve any of their effects in Limbo (in the order of their choice), including ones triggered in 3.c  3.e Once the active player has finished, the next player resolves the effects they still have in Limbo.",
+                    "createdAt": "2025-01-31T10:38:11+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "In which order are the effects triggered by playing Eros and by playing the Character thanks to Eros effect resolved?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/85c4bfa1472728ba4596",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinité",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "7",
+                "MAIN_EFFECT": "{J} Vous pouvez immédiatement jouer un Personnage pour {3} de moins. #Il gagne 2 boosts.#",
+                "MOUNTAIN_POWER": "#5#",
+                "OCEAN_POWER": "#5#",
+                "RECALL_COST": "7"
+            },
+            "id": "01J1Q4P4S3CD549S9SSC7PCM5V",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_40/JPG/fr_FR/c476da34ca739e340f1148ee1a1abf97.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/744N52RQE58N6AZQJPEXNY43BD",
+                    "@type": "LoreEntry",
+                    "id": "744N52RQE58N6AZQJPEXNY43BD",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01J21J24H7A9S5MMBJXST5WEHH",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24H7A9S5MMBJXST5WEHH",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Il a plus d'une corde à son arc."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24HTVGCPH0DF73X6924Q",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24HTVGCPH0DF73X6924Q",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Je ralentis, voyant Kojo disparaître de l'autre côté de la crête. À peine ai-je levé le pied dans la passe que les Belisenki jaillissent des congères, formant autant de tourbillons de flocons. Ils s'extirpent de leurs tertres de neige dans un bruissement cristallin sinistre. Une vingtaine de paires d'yeux noirs se braquent sur moi, comme autant de promesses de ténèbres. Ma lame est immédiatement dans ma main, mais je réalise qu'il est déjà trop tard. La supériorité numérique joue en leur faveur, c'est évident. Il me faut du temps pour préparer une riposte conséquente. Braise ! Mon cœur se serre. Mais non. Non, je n'ai pas le droit d'être ralenti davantage. Aurora m'attend dans sa prison translucide. Non, ce ne peut être le bout du chemin pour moi. Je me mets en garde, cherchant à identifier une éventuelle porte de sortie, tout en étant prêt à recevoir le choc imminent. J'en appelle à l'amour que je ressens pour elle pour me donner du courage. J'en appelle à celle qui a guidé chacun de mes pas.\n\nTelle une météorite, un premier esprit de flammes atterrit sur mon flanc droit, tandis qu'une lumière intense se met à briller juste au-dessus de moi, éblouissante et réconfortante. Les créatures des glaces s'immobilisent un bref instant, aveuglées, tandis qu'une silhouette se déploie devant moi. C'est Éros, qui me fait l'amitié de sa présence. L'ai-je matérialisé par instinct ? Est-ce Surge qui est venu à mon secours ? Qu'importe, je ne vais pas laisser passer cette occasion. Les yeux noirs des Belisenki s'ouvrent de nouveau, en un clignement frénétique. Mais la chance est en train de tourner. Deux, puis trois êtres enflammés se posent à leur tour pour constituer un barrage entre eux et moi. Les créatures hésitent, et elles font bien. Éros rit, tandis que ses ailes se déploient. Je souris, réconforté, rassuré, gonflé à bloc. Je recule et me concentre sur mon prochain coup. Je laisse l'initiative à Éros, le temps d'invoquer la fournaise."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24HGHXQA8AV5DYXQ3W04",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24HGHXQA8AV5DYXQ3W04",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": "Éros est le dieu de l'amour et de la puissance créatrice du panthéon grec. Issu du chaos, il fait partie des divinités primordiales tout comme Gaïa, Nyx, Tartare et Érèbe. Il naît de l'œuf cosmique, union de l'éther et du chaos. S'il représente au départ l'union non sexuée, comme l'amitié, l'Éros sexué naît quant à lui lors de la castration d'Ouranos par Cronos, lorsque ce dernier lance le sexe de son père dans la mer. Cet acte donne alors naissance à Aphrodite, Himéros et cette nouvelle incarnation d'Éros. Dans son aspect primordial tout comme sa seconde personnification, il représente la force d'attraction qui pousse les moitiés les unes vers les autres.\n"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24GMZB75J14YW5X1CT6S",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24GMZB75J14YW5X1CT6S",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": "ATSADI\n"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24GYDYGDEFKHMDEC0EYA",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24GYDYGDEFKHMDEC0EYA",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": "393 AC"
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_ALIZE_B_BR_40_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Éros",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_40_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_ALIZE_B_BR_40_R1"
+        }
+    }
+}

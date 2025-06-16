@@ -1,0 +1,338 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_ALIZE_B_BR_46_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/de_DE/ffc18df7596a0779e2f642d43cbc6ba1.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/en_US/f2d1ba5b3aa0a13bec45e3c9d331fce4.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/es_ES/9b836a6c52874875ff32bbdb88719ec7.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/fr_FR/f3ae7f4bb3b42853e567253b8c180769.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/it_IT/0f417c23a26664943dc578a4d8564a90.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/WEB_e307b9e32536a086d1f7b4cbb8fe3cc2",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/WEB_33f3031907bbe6049195e88eeca428f8"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/7f2304288ecceb11d2fa",
+            "@type": "CardRuling",
+            "answer": "No. You only create the Dragon Shade when you successfully sacrifice the Icebound Landmark via its effect.",
+            "createdAt": "2025-01-31T10:38:14+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If I sacrifice an Icebound Landmark via another effect, such as the Rare version of Boom!, can I create a Dragon Shade?"
+        },
+        {
+            "@id": "/.well-known/genid/d29e88afee4f6a3da529",
+            "@type": "CardRuling",
+            "answer": "Unless there's a specific exception (such as the Common version of Gericht, Revered Duellist), a Character which already has a status cannot gain it again. Your Fleeting Characters therefore cannot gain Fleeting (and therefore do not add an additional Trial counter to the Icebound Peak).",
+            "createdAt": "2025-01-31T10:38:15+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If I control a Character which is already Fleeting, and some effects gives it Fleeting again, what happens?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/ALIZE",
+        "@type": "CardSet",
+        "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+        "name": "Trial by Frost",
+        "reference": "ALIZE"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/9f22126e6d0bbcbb59d1",
+            "@type": "CardSubType",
+            "id": "01J1SYC3P1C9H7CT2H8C0WN9CT",
+            "name": "Site",
+            "reference": "SITE"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01J1Q78N4S1E64PN4T7GB4T59F",
+        "@type": "CardType",
+        "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+        "name": "Landmark Permanent",
+        "reference": "LANDMARK_PERMANENT"
+    },
+    "elements": {
+        "MAIN_COST": "#2#",
+        "MAIN_EFFECT": "When a Character you control gains [[Fleeting]] — I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5/5/5] Illusion token in target Expedition, then all Characters you control gain 1 boost.",
+        "RECALL_COST": "#2#"
+    },
+    "id": "01J1Q4P4S494FQQRQ8V7F8JMXB",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/en_EN/89beee709291a1191247e9226018c08e.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/0AP8A6M6KH840TQEF3DJYKM8BS",
+            "@type": "LoreEntry",
+            "id": "0AP8A6M6KH840TQEF3DJYKM8BS",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01J21J24VXMPN9ENDJY697NDWE",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24VXMPN9ENDJY697NDWE",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "On the summit it waits, for freedom, for release."
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24WPNG07MBQD8H482Q90",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24WPNG07MBQD8H482Q90",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "I walk in the footprints of the scouts, which makes progress much easier. But I need to keep my head down to be shielded from the biting wind blowing through the canyon. The frozen walls on either side of the narrow path leading to the rocky spur chill each gust into an ever more painful slap to the face. Each blast of wind brings flurries of snowflakes that hit us in waves. I regularly force myself to stop staring fixedly at the tracks in front of me and raise my head to look up towards the snowy peak that will be our ultimate destination. Though the summit looms larger with each stride, the distance to reach it still seems too long and insurmountable. The silvery glints we can see on the mountaintop warn us that we'll need to use our ice axes to scale its face. I repeatedly say a little prayer that our equipment will withstand this expedition. From this distance, it's hard to gauge the layer of ice that we'll be dealing with during the ascent.\n\nFor a brief moment, I remember the heights of the Vanderun Shards and the morning sun bathing my face with its light. That's when she would always appear to me – my heart, my love – to hold me tightly in her arms... Deep in thought, it takes me a second to notice that the sound of the wind has changed. What was previously a bleak, nagging moan has become a rumble, like the breathing of a buried giant. It almost sounds like the growling of a dragon. I focus on it and surmise that it's coming from the peak. The vibration intensifies and rattles the whole length of my spine. Fear grips me. I look ahead and realize that what I was dreading is actually happening. At the end of the ledge, my two guides have stopped, frozen in horror as the avalanche barrels directly towards them."
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24WA5X437E6ZS0GZN9YV",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24WA5X437E6ZS0GZN9YV",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24V3GG2R38NKHT1YD4SW",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24V3GG2R38NKHT1YD4SW",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": "ATSADI\n"
+                },
+                {
+                    "@id": "/lore_entry_elements/01J21J24VG64NVGJ666GQT9R5V",
+                    "@type": "LoreEntryElement",
+                    "id": "01J21J24VG64NVGJ666GQT9R5V",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01J20ZZP61FEFQ4613REH25WRT",
+                "@type": "LoreEntryType",
+                "id": "01J20ZZP61FEFQ4613REH25WRT",
+                "name": "LANDMARK_PERMANENT",
+                "reference": "LANDMARK_PERMANENT"
+            },
+            "reference": "ALT_ALIZE_B_BR_46_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/BR",
+        "@type": "Faction",
+        "color": "#c32637",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+        "name": "Bravos",
+        "reference": "BR"
+    },
+    "name": "Icebound Peak",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_46_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_ALIZE_B_BR_46_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_46_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/de_DE/ffc18df7596a0779e2f642d43cbc6ba1.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/en_US/f2d1ba5b3aa0a13bec45e3c9d331fce4.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/es_ES/9b836a6c52874875ff32bbdb88719ec7.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/fr_FR/f3ae7f4bb3b42853e567253b8c180769.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/it_IT/0f417c23a26664943dc578a4d8564a90.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/WEB_e307b9e32536a086d1f7b4cbb8fe3cc2",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/WEB_33f3031907bbe6049195e88eeca428f8"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/3588b2c99bcafb01e54e",
+                    "@type": "CardRuling",
+                    "answer": "No. You only create the Dragon Shade when you successfully sacrifice the Icebound Landmark via its effect.",
+                    "createdAt": "2025-01-31T10:38:14+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If I sacrifice an Icebound Landmark via another effect, such as the Rare version of Boom!, can I create a Dragon Shade?"
+                },
+                {
+                    "@id": "/.well-known/genid/7381fe990bdd80c124b7",
+                    "@type": "CardRuling",
+                    "answer": "Unless there's a specific exception (such as the Common version of Gericht, Revered Duellist), a Character which already has a status cannot gain it again. Your Fleeting Characters therefore cannot gain Fleeting (and therefore do not add an additional Trial counter to the Icebound Peak).",
+                    "createdAt": "2025-01-31T10:38:15+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If I control a Character which is already Fleeting, and some effects gives it Fleeting again, what happens?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Épreuve du froid",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/7b9d3c7add3703d43201",
+                    "@type": "CardSubType",
+                    "id": "01J1SYC3P1C9H7CT2H8C0WN9CT",
+                    "name": "Lieu",
+                    "reference": "SITE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01J1Q78N4S1E64PN4T7GB4T59F",
+                "@type": "CardType",
+                "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+                "name": "Repère Permanent",
+                "reference": "LANDMARK_PERMANENT"
+            },
+            "elements": {
+                "MAIN_COST": "#2#",
+                "MAIN_EFFECT": "Lorsqu'un Personnage que vous contrôlez gagne [[Fugace]] — Je gagne 1 compteur Épreuve.  Lorsque je gagne mon troisième compteur Épreuve — Sacrifiez-moi. Si vous le faites, créez un jeton Illusion [5/5/5 Reflet Draconique] dans une Expédition ciblée, puis tous les Personnages que vous contrôlez gagnent 1 boost.",
+                "RECALL_COST": "#2#"
+            },
+            "id": "01J1Q4P4S494FQQRQ8V7F8JMXB",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_46/JPG/fr_FR/f3ae7f4bb3b42853e567253b8c180769.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/0AP8A6M6KH840TQEF3DJYKM8BS",
+                    "@type": "LoreEntry",
+                    "id": "0AP8A6M6KH840TQEF3DJYKM8BS",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01J21J24VXMPN9ENDJY697NDWE",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24VXMPN9ENDJY697NDWE",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Au sommet, il attend. La liberté. La libération."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24WPNG07MBQD8H482Q90",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24WPNG07MBQD8H482Q90",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Je marche dans les pas des éclaireurs, ce qui facilite grandement ma progression. Mais je dois garder la tête baissée pour éviter la morsure du vent qui s'engouffre dans le canyon. Les parois gelées qui encaissent l'étroit chemin vers l'éperon rocheux transforment chaque rafale en une claque toujours plus douloureuse. Chaque bourrasque charrie des tourbillons de flocons qui viennent nous frapper par vagues successives. Rivé sur les traces devant moi, je me force à lever régulièrement la tête en direction de la flèche enneigée, notre destination finale. Même si cette cime grandit à chaque enjambée, la distance qui nous sépare d'elle me paraît toujours trop longue et inatteignable. Les reflets argentés du sommet nous indiquent que nous finirons forcément par jouer du piolet pour escalader sa façade. J'adresse régulièrement une petite prière pour que le matériel choisi résiste à l'expédition. Difficile, à cette distance, d'estimer la couche de glace que nous allons devoir affronter durant l'ascension.\n\nPendant un bref instant, je me remémore les hauteurs des Fragments de Vanderun, et le soleil du matin qui baigne mon visage de sa lumière. C'est alors qu'elle m'apparaissait toujours — mon âme, mon aimée — pour m'enserrer dans ses bras... Plongé dans mes réflexions, je mets un petit moment à noter que le bruit provoqué par les bourrasques a changé. D'une plainte lancinante et lugubre, il est devenu un grondement, pareil à la respiration d'un colosse enseveli. On pourrait même penser au grognement d'un dragon. En me concentrant, j'ai l'impression que ce son vient du pic. La vibration s'intensifie, remontant tout le long de ma colonne vertébrale. La crainte me gagne. Je regarde devant moi, constatant que ce que je redoute est en train de se produire. Là, au bout de la corniche, mes deux guides se sont stoppés, figés dans l'horreur de l'avalanche qui fonce droit sur eux."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24WA5X437E6ZS0GZN9YV",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24WA5X437E6ZS0GZN9YV",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24V3GG2R38NKHT1YD4SW",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24V3GG2R38NKHT1YD4SW",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": "ATSADI\n"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01J21J24VG64NVGJ666GQT9R5V",
+                            "@type": "LoreEntryElement",
+                            "id": "01J21J24VG64NVGJ666GQT9R5V",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": "393 AC"
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01J20ZZP61FEFQ4613REH25WRT",
+                        "@type": "LoreEntryType",
+                        "id": "01J20ZZP61FEFQ4613REH25WRT",
+                        "name": "LANDMARK_PERMANENT",
+                        "reference": "LANDMARK_PERMANENT"
+                    },
+                    "reference": "ALT_ALIZE_B_BR_46_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Pic Saisi par les Glaces",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_46_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_ALIZE_B_BR_46_R1"
+        }
+    }
+}

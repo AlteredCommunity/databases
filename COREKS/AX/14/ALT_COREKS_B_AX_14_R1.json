@@ -1,0 +1,380 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_COREKS_B_AX_14_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/de_DE/b9e60dc3c6d31d4b954c88d198e8b016.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/en_US/d20a0c9ddce639b3e0d17fca9b2f7654.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/es_ES/ab487587b1afd4c7118aba9d040c5477.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/fr_FR/69e69aac3acbd65337005a1b7ecc3423.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/it_IT/219f499979efae21b934330dc8508478.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_C_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_R_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_U_WEB.jpg"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/0545ba705aaeff0c18a3",
+            "@type": "CardRuling",
+            "answer": "Coppelia is played for free! Playing a card for free means bypassing its cost entirely, which is different from reducing it to zero.",
+            "createdAt": "2024-11-15T10:37:37+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If my opponent controls a card such as Robin Hood that affects the cost of Characters when Coppélia is supposed to be played \"for free\", will I need to pay mana?"
+        },
+        {
+            "@id": "/.well-known/genid/3533261eb9ffff5cbcea",
+            "@type": "CardRuling",
+            "answer": "Yes, unless something else prevents it, a card played for free follows the other rules, such as becoming Fleeting when played from Reserve.",
+            "createdAt": "2024-09-15T10:37:38+00:00",
+            "eventFormat": "STANDARD",
+            "question": "Does Coppelia gain Fleeting when played for free via her effect?"
+        },
+        {
+            "@id": "/.well-known/genid/9d003954f8a15894c239",
+            "@type": "CardRuling",
+            "answer": "No. If the resolution of Quick Action includes playing a card, the turn continues normally.",
+            "createdAt": "2024-09-15T10:37:38+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If Coppelia is played for free thanks to a Quick Action, such as the power of Treyst & Rossum, does it end the turn?"
+        },
+        {
+            "@id": "/.well-known/genid/191ec18ce37cb963fee5",
+            "@type": "CardRuling",
+            "answer": "In general, effects and abilities which affect a card when it's in a specific zone cannot track it if it changes zones unless they specifically mention this zone change. \nWhen Coppelia goes to Reserve from hand, her effect can find her in Reserve to play her because it specifically mentions this possibility, and it can find her in the Expedition zone to give her Asleep because, again, its effect mentions playing her.\nHowever, no part of the effect refers going to the discard pile (unlike a Moonlight Jellyfish which mentions \"When I'm sacrificed\") so it cannot find the card in the discard to play it.",
+            "createdAt": "2024-12-11T10:37:38+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If another effect somehow sends Coppelia to the discard pile after she joins the Reserve from hand but before she's played, can she be played from discard?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/COREKS",
+        "@type": "CardSet",
+        "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/ce4d8a4177521c376c97",
+            "@type": "CardSubType",
+            "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+            "name": "Robot",
+            "reference": "ROBOT"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "FOREST_POWER": "#3#",
+        "MAIN_COST": "2",
+        "MAIN_EFFECT": "When I go to Reserve from your hand — You may play me for free and I gain [[Asleep]]. (During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep.)",
+        "MOUNTAIN_POWER": "#3#",
+        "OCEAN_POWER": "0",
+        "RECALL_COST": "2"
+    },
+    "id": "01HN5TXR3ZW6SAWYBH2QBAMHBK",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/en_EN/d44330ee8b14c0774014586ddfd30c82.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HPMB77W8ENJP9C4H36CK32GF",
+            "@type": "LoreEntry",
+            "id": "01HPMB77W8ENJP9C4H36CK32GF",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HPME7WBWPA1XYDGYPNNVYJR0",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7WBWPA1XYDGYPNNVYJR0",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "Because of her artificial nature, she served as a model for the Faction's first Automata prototypes."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7WCA35KTBBCV7GZPVVW9",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7WCA35KTBBCV7GZPVVW9",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "Frankenstein leads me back to the furthest reaches of the Athanor, the research and development area of the Foundry. He opens a door and turns on the workshop lights, revealing a slender shape with an ivory sheen. She looks like a porcelain doll with skin riveted with gold and blue interlacing. I approach the two Eidolons. Frankenstein was created with my Construct, but the same can't be said for the one he has called Coppélia. She looks at me with her enamel eyes while I walk around her, my cane clacking on the dusty floor. How does she manage to stay \"alive\"? As if she had anticipated my question, she opens a compartment on her chest. Inside beats an expertly crafted mechanical heart that gives off a smell of Mana. Her heart contains Kelon. That's how she can stay anchored in reality…\n\nI turn to Frankenstein and away from the pulsing device. By using this technique, we could stabilize Eidolons in the world for longer, like the Muna manage to do. I shake my head, speechless at all the possibilities this seems to open up. But this only works because Coppélia is a mechanized creature. Other Eidolons couldn't accommodate this technology naturally. I sigh as rationality abruptly intrudes on my fascination. Coppélia closes her compartment and smiles at me, the workshop's lights glinting on her ceramic skin. Though she moves jerkily and clicks like a puppet, she has a certain grace, almost like a ballerina. In different circumstances, I might even have allowed myself a little dance with her… but my legs prevent that kind of thing."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7WC4518QFBACGQYKZN4K",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7WC4518QFBACGQYKZN4K",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7WBBZHVMX0R9PG42XZ6N",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7WBBZHVMX0R9PG42XZ6N",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7WBNXA77XKSMAWD044MD",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7WBNXA77XKSMAWD044MD",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_COREKS_B_AX_14_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom",
+        "reference": "AX"
+    },
+    "name": "Coppélia",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_AX_14_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_COREKS_B_AX_14_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_AX_14_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/de_DE/b9e60dc3c6d31d4b954c88d198e8b016.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/en_US/d20a0c9ddce639b3e0d17fca9b2f7654.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/es_ES/ab487587b1afd4c7118aba9d040c5477.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/fr_FR/69e69aac3acbd65337005a1b7ecc3423.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/it_IT/219f499979efae21b934330dc8508478.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_C_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_R_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_14/ALT_CORE_B_AX_14_U_WEB.jpg"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/97b273da2c4f0b4c244d",
+                    "@type": "CardRuling",
+                    "answer": "Coppelia is played for free! Playing a card for free means bypassing its cost entirely, which is different from reducing it to zero.",
+                    "createdAt": "2024-11-15T10:37:37+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If my opponent controls a card such as Robin Hood that affects the cost of Characters when Coppélia is supposed to be played \"for free\", will I need to pay mana?"
+                },
+                {
+                    "@id": "/.well-known/genid/17e47f4ac4b8036bed3e",
+                    "@type": "CardRuling",
+                    "answer": "Yes, unless something else prevents it, a card played for free follows the other rules, such as becoming Fleeting when played from Reserve.",
+                    "createdAt": "2024-09-15T10:37:38+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "Does Coppelia gain Fleeting when played for free via her effect?"
+                },
+                {
+                    "@id": "/.well-known/genid/861eadc1fbb727128510",
+                    "@type": "CardRuling",
+                    "answer": "No. If the resolution of Quick Action includes playing a card, the turn continues normally.",
+                    "createdAt": "2024-09-15T10:37:38+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If Coppelia is played for free thanks to a Quick Action, such as the power of Treyst & Rossum, does it end the turn?"
+                },
+                {
+                    "@id": "/.well-known/genid/0923bbe570747c4299c5",
+                    "@type": "CardRuling",
+                    "answer": "In general, effects and abilities which affect a card when it's in a specific zone cannot track it if it changes zones unless they specifically mention this zone change. \nWhen Coppelia goes to Reserve from hand, her effect can find her in Reserve to play her because it specifically mentions this possibility, and it can find her in the Expedition zone to give her Asleep because, again, its effect mentions playing her.\nHowever, no part of the effect refers going to the discard pile (unlike a Moonlight Jellyfish which mentions \"When I'm sacrificed\") so it cannot find the card in the discard to play it.",
+                    "createdAt": "2024-12-11T10:37:38+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If another effect somehow sends Coppelia to the discard pile after she joins the Reserve from hand but before she's played, can she be played from discard?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/50a2d37f1617e37ba2e5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "#3#",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Lorsque je vais en Réserve depuis votre main — Vous pouvez me jouer gratuitement et je gagne [[Endormi]]. (Ignorez mes statistiques pendant le Crépuscule. Au Repos, je ne vais pas en Réserve et je perds Endormi.)",
+                "MOUNTAIN_POWER": "#3#",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "2"
+            },
+            "id": "01HN5TXR3ZW6SAWYBH2QBAMHBK",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_14/JPG/fr_FR/69e69aac3acbd65337005a1b7ecc3423.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB77W8ENJP9C4H36CK32GF",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB77W8ENJP9C4H36CK32GF",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME7WBWPA1XYDGYPNNVYJR0",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7WBWPA1XYDGYPNNVYJR0",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Par sa nature artificielle, elle a servi de modèle pour les premiers prototypes d'automates de la Faction."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7WCA35KTBBCV7GZPVVW9",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7WCA35KTBBCV7GZPVVW9",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Frankenstein m'emmène au fin fond de l'Athanor, la section de recherche et développement de la Fonderie. Il ouvre une porte et allume les lumières de l'atelier, dévoilant une silhouette gracile aux reflets d'ivoire. Elle ressemble à une poupée au teint de porcelaine, à la peau rivetée d'or et parcourue d'entrelacs bleutés. Je m'approche des deux Eidolons. Mais si Frankenstein a été matérialisé grâce à mon Construct, ce n'est pas le cas de celle qu'il a nommé Coppélia. Cette dernière m'observe avec ses yeux d'émail alors que je tourne autour d'elle, ma canne cliquetant sur le sol poussiéreux. Comment fait-elle pour rester ainsi incarnée ? Comme si elle avait anticipé ma question, elle ouvre un clapet situé sur son torse. À l'intérieur bat un cœur mécanique finement ciselé, duquel émanent des effluves de Mana. Son cœur contient du Kélon. C'est ce qui lui permet de rester ancrée dans la réalité...\n\nJe me tourne vers Frankenstein, détournant les yeux du dispositif pulsant. En procédant de cette manière, il serait donc possible de stabiliser les Eidolons plus longtemps au sein du monde, comme les Muna parviennent à le faire. Je secoue la tête, sans voix face à toutes les possibilités qui semblent s'ouvrir à moi. Mais cette chose ne marche que parce que Coppélia est intrinsèquement une créature mécanisée. Les autres Eidolons ne pourraient pas accueillir un tel ajout de façon naturelle. Je soupire, alors que rationalité prend le pas sur ma fascination. Coppélia referme son compartiment et me sourit, les lumières de l'atelier glissant sur sa peau en céramique. Même si elle bouge de façon saccadée, cliquetant comme un pantin, elle dégage une certaine grâce. On dirait une ballerine. Dans d'autres circonstances, peut-être me serais-je laissé aller à quelques pas de danse... mais mes jambes ne le permettront pas."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7WC4518QFBACGQYKZN4K",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7WC4518QFBACGQYKZN4K",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7WBBZHVMX0R9PG42XZ6N",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7WBBZHVMX0R9PG42XZ6N",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7WBNXA77XKSMAWD044MD",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7WBNXA77XKSMAWD044MD",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_COREKS_B_AX_14_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Coppélia",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_AX_14_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_COREKS_B_AX_14_R1"
+        }
+    }
+}

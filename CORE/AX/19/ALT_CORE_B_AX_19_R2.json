@@ -1,0 +1,348 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_CORE_B_AX_19_R2",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/de_DE/33d7014caa739a2c21d37bfd1e7f7174.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/2fc6b0e038cd700d0db8d0b7b1bd2f7f.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/es_ES/fd62bb03f6863e8d9372034e57cdec43.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/fr_FR/f093b7ff23b3b664febb0eacb5ff365a.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/it_IT/cc556d66bbcf6679fe9088028f854005.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/ALT_CORE_B_AX_19_C_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/ALT_CORE_B_AX_19_R_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/ALT_CORE_B_AX_19_U_WEB.jpg"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/6ae4e7892a89b194f86d",
+            "@type": "CardRuling",
+            "answer": "The first printing of this card said \"For each other Character you control, you may activate its {j} triggers\". Future printings will say \"For each other Character you control, you may activate its {j} abilities.\"",
+            "createdAt": "2024-09-06T10:37:39+00:00",
+            "eventFormat": "STANDARD",
+            "question": "Did the wording of this card change?"
+        },
+        {
+            "@id": "/.well-known/genid/80003489894879f3da52",
+            "@type": "CardRuling",
+            "answer": "In general, if an effect tells you to do something and another tells you that you cannot, the negative effect wins. If Ganesha is played facing the Council, it doesn't have any special effect. If it is played facing the other Expedition, it still cannot activate the triggers of Characters facing the Council.",
+            "createdAt": "2024-09-06T10:37:39+00:00",
+            "eventFormat": "STANDARD",
+            "question": "How does Ganesha interacts with the Council?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/CORE",
+        "@type": "CardSet",
+        "id": "01HKAFJN3HG3TWKYV0E014K01G",
+        "name": "Beyond the Gates",
+        "reference": "CORE"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/eff09e7ce9e0c2d2ade6",
+            "@type": "CardSubType",
+            "id": "01HKAGPAJFS4YDQVKY6AB16614",
+            "name": "Deity",
+            "reference": "DEITY"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "FOREST_POWER": "5",
+        "MAIN_COST": "7",
+        "MAIN_EFFECT": "{J} For each #other Character# you control, you may activate its {j} abilities.",
+        "MOUNTAIN_POWER": "5",
+        "OCEAN_POWER": "5",
+        "RECALL_COST": "7"
+    },
+    "id": "01HKAFJNKA447MS9609CDP5R5E",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_EN/0e23ea31ee92e498888eea5683038439.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HNGY4YWABA67GMEEQGKKF9MG",
+            "@type": "LoreEntry",
+            "id": "01HNGY4YWABA67GMEEQGKKF9MG",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HNJH5QS8PCA0JBA4C4JGD2H9",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5QS8PCA0JBA4C4JGD2H9",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "Knowledge and wisdom must walk side by side."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5QSPG5SYJDC624E9JCVF",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5QSPG5SYJDC624E9JCVF",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "Despite his imposing size, Ganesha leans delicately over the man, adjusting his magnifier goggles. His hands move with a kind of slow precision, like a goldsmith working on a precious stone. He looks at the Graft, the mechanical prosthesis he has attached to the worker, checking that everything looks right and is working properly. He adjusts a few nuts before standing upright, satisfied, while the worker tests his new mechanical arm. Ganesha smiles upon seeing tears in the eyes of the young man, who had lost his limb in an unfortunate work accident. With his new arm, he can get on with his life, even though he'll need to rebuild it a little… just like I had to. I watch him leave the workshop with his eyes fixed on his brand-new Graft. It will take him many weeks to fully get used to its weight, its new sensations, and even the simple fact that it's there.\n\nI slowly walk toward the Elephant-Eidolon, who seems to size me up with his gaze. It's always hard to know what he's thinking. His trunk wraps around the operation seat and gently moves it aside. Each step is painful, but I've learned to live with it. My cane clacks against the stairs as I climb onto the lifting platform to bring Ganesha the prosthesis for the next patient. Crafting these augmentations has given my life new purpose, and I enjoy helping those in need. This obviously wasn't the goal I had set for myself, but it is what it is. I have to be content with that. The Eidolon extends one of his arms toward me, helping me climb the final steps. I nod to him in thanks as a young woman with tanned skin appears. "
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5QSFQCZMNMHPPEGGWSWD",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5QSFQCZMNMHPPEGGWSWD",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": "Regarded as one of the most sacred gods in the Hindu pantheon, Ganesha is a divinity with the head of an elephant who embodies wisdom, knowledge and temperance. Ganesha is Parvati's son, whom she conceived on her own without letting her husband know, and was decapitated by Shiva by mistake when he returned from a long period of meditation. To correct his mistake, Shiva found the head of the first creature that passed nearby – an elephant – and replaced the severed head to save the young god's life."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5QRVHBDPZRNNHRNR6QP0",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5QRVHBDPZRNNHRNR6QP0",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": " Treyst"
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5QS29M2XHKKFJ47H0YR4",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5QS29M2XHKKFJ47H0YR4",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": "382 AC"
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_CORE_B_AX_19_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/MU",
+        "@type": "Faction",
+        "color": "#3d6b42",
+        "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+        "name": "Muna",
+        "reference": "MU"
+    },
+    "name": "Ganesha",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_19_R2",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_CORE_B_AX_19_R2",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CORE_B_AX_19_R2",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/de_DE/33d7014caa739a2c21d37bfd1e7f7174.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/2fc6b0e038cd700d0db8d0b7b1bd2f7f.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/es_ES/fd62bb03f6863e8d9372034e57cdec43.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/fr_FR/f093b7ff23b3b664febb0eacb5ff365a.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/it_IT/cc556d66bbcf6679fe9088028f854005.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/ALT_CORE_B_AX_19_C_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/ALT_CORE_B_AX_19_R_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/ALT_CORE_B_AX_19_U_WEB.jpg"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/a8945de7909f0d4be449",
+                    "@type": "CardRuling",
+                    "answer": "The first printing of this card said \"For each other Character you control, you may activate its {j} triggers\". Future printings will say \"For each other Character you control, you may activate its {j} abilities.\"",
+                    "createdAt": "2024-09-06T10:37:39+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "Did the wording of this card change?"
+                },
+                {
+                    "@id": "/.well-known/genid/d5778ca92c0c31dac143",
+                    "@type": "CardRuling",
+                    "answer": "In general, if an effect tells you to do something and another tells you that you cannot, the negative effect wins. If Ganesha is played facing the Council, it doesn't have any special effect. If it is played facing the other Expedition, it still cannot activate the triggers of Characters facing the Council.",
+                    "createdAt": "2024-09-06T10:37:39+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "How does Ganesha interacts with the Council?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/CORE",
+                "@type": "CardSet",
+                "id": "01HKAFJN3HG3TWKYV0E014K01G",
+                "name": "Au-delà des portes",
+                "reference": "CORE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/737b0a05a8f83be3d8fe",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinité",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "7",
+                "MAIN_EFFECT": "{J} Pour chaque #autre Personnage# que vous contrôlez, vous pouvez activer ses capacités {j}.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "5",
+                "RECALL_COST": "7"
+            },
+            "id": "01HKAFJNKA447MS9609CDP5R5E",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/fr_FR/f093b7ff23b3b664febb0eacb5ff365a.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HNGY4YWABA67GMEEQGKKF9MG",
+                    "@type": "LoreEntry",
+                    "id": "01HNGY4YWABA67GMEEQGKKF9MG",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5QS8PCA0JBA4C4JGD2H9",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5QS8PCA0JBA4C4JGD2H9",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Savoir et sagesse doivent avancer de concert."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5QSPG5SYJDC624E9JCVF",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5QSPG5SYJDC624E9JCVF",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Malgré sa taille imposante, Ganesh se penche délicatement au-dessus de l'homme, ajustant ses binocles amplifiantes. Ses mains se meuvent avec une lente précision, comme un orfèvre travaillant une pierre précieuse. Il observe la Greffe, cette prothèse mécanique qu'il a fixée sur l'ouvrier, vérifiant que tout est en ordre et en état de marche. Il ajuste quelques écrous avant de se redresser, satisfait, tandis que le mortel teste le bras mécanique qui lui a été apposé. Ganesh sourit en remarquant les yeux embués du jeune homme, qu'un malencontreux accident de travail avait privé de son membre. Avec ça, il va pouvoir reprendre le cours de sa vie, même s'il lui faudra la réinventer un tant soit peu, comme j'avais dû le faire moi-même. Je le vois quitter l'atelier, les yeux rivés sur sa Greffe flambant neuve. Il lui faudra de longues semaines pour s'habituer complètement à son poids, aux nouvelles sensations, à sa simple présence.\n\nJ'avance lentement vers l'Eidolon-Éléphant, qui semble me soupeser du regard. Il est toujours difficile de savoir à quoi il pense. Sa trompe s'enroule autour du siège d'opération et l'écarte doucement. Chaque pas est une souffrance, mais j'ai appris à vivre avec. Ma canne claque contre les marches tandis que je monte sur la plate-forme élévatrice pour apporter à Ganesh la prothèse du prochain patient. Façonner de telles améliorations a donné un nouveau sens à ma vie, et je me plais à aider ceux qui en ont besoin. Ce n'était clairement pas l'objectif que je m'étais fixé, mais c'est ainsi. Je dois m'en contenter. L'Eidolon tend l'un de ses quatre bras dans ma direction, m'aidant à monter les dernières marches. Je le remercie d'un signe de tête, tandis qu'une jeune femme au teint hâlé se présente."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5QSFQCZMNMHPPEGGWSWD",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5QSFQCZMNMHPPEGGWSWD",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": "Considéré comme l'un des dieux les plus sacrés du panthéon hindou, Ganesh est une divinité à tête d'éléphant, incarnant à la fois la sagesse, le savoir et la tempérance. Fils de Parvati, qu'elle conçut par elle-même sans prévenir son époux, il fut décapité par méprise par Shiva quand il rentra d'une longue période de méditation. Pour remédier à son acte, ce dernier alla chercher la tête de la première créature passant à proximité — un éléphanteau — pour remplacer la tête coupée et ainsi sauver le jeune dieu."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5QRVHBDPZRNNHRNR6QP0",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5QRVHBDPZRNNHRNR6QP0",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": "Treyst"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5QS29M2XHKKFJ47H0YR4",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5QS29M2XHKKFJ47H0YR4",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": "382 AC"
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_CORE_B_AX_19_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Ganesh",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_AX_19_R2",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_CORE_B_AX_19_R2"
+        }
+    }
+}

@@ -1,0 +1,332 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_COREKS_B_AX_05_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/de_DE/83f51dd26d9bf2b5c82c78eb673a6988.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/en_US/209952b70ee099228f1695ef069b81b8.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/es_ES/533fb675391b8c8f62d84bf61544bcec.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/fr_FR/2d128ca08f461ddf6fec3858e61dd80e.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/it_IT/b180deab630f1192b7abe48ed815c602.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_09804c2b90b8deddcd36f9ef098d4604",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_cbbc51dbf0723f1784b79d876f13d360",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_fadfa6f4983452eecbb24b1acd0f59df"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/bf2c13893be5c2edee6d",
+            "@type": "CardRuling",
+            "answer": "\"This Afternoon\" refers to the Afternoon of the current day, so there are two possibilities : 1. The card is played before, such as during Noon, in which case it will apply to the next corresponding card of the Afternoon. 2. The card is played after, such as during Dusk or Night, in which case it won't have any effect.",
+            "createdAt": "2024-10-02T10:37:39+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If a card that has an effect over the next card played \"this Afternoon\", such as Foundry Engineer, is somehow played outside of the Afternoon, what happens?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/COREKS",
+        "@type": "CardSet",
+        "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/69a27b204f674ea15eaf",
+            "@type": "CardSubType",
+            "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+            "name": "Engineer",
+            "reference": "ENGINEER"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "FOREST_POWER": "2",
+        "MAIN_COST": "2",
+        "MAIN_EFFECT": "{R} The next Permanent you play this Afternoon costs #{2} less.#",
+        "MOUNTAIN_POWER": "2",
+        "OCEAN_POWER": "1",
+        "RECALL_COST": "2"
+    },
+    "id": "01HN5TXR2NS91KP7MH9CCPZ1YQ",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/en_EN/655b40f237ee26ade09e5c2b0c75fabe.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HPMB77VFF2TJQ1YADYY9GNYV",
+            "@type": "LoreEntry",
+            "id": "01HPMB77VFF2TJQ1YADYY9GNYV",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HPME7W12BZRQ0FKTFDY848NM",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7W12BZRQ0FKTFDY848NM",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "Behind every Axiom masterwork, there are Foundry Engineers."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7W1FG1W1FXRC9W2NNJMJ",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7W1FG1W1FXRC9W2NNJMJ",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "I place the smoking drone on the engineer's workbench and watch her slither over to the damaged unit. Her scales scrape on the ground as she moves, and the tip of her tail flicks with interest. Like me, Irun was born among the Lyra. Like me, she joined the Axiom. But she made her choice late, after going through the metamorphosis ceremony. In a way, the transformations she inherited from the ritual became her trademark, her stamp. I know she's amused by her students' surprised reaction to her appearance when they see her for the first time. For me, it's always been normal to see people altered by the Tumult. Maybe that's why we became so close. I watch her examine the drone, then shake her head. I had sent it into the Tumult to collect as much data as possible, but the waves and wild currents had left it terribly banged up. It made its way home as best it could, but its circuits were badly damaged.\n\nI ask Irun if she can help me repair the drone, or at least save what it managed to record. She connects it to a charging station, and it suddenly lets out a piercing screech and shakes its banged-up body. I watch it rise again as pieces of metal detach from its shell and fall to the ground. It's as if… as if it's molting. The drone turns toward me, its camera zooming in and out on my face. Intrigued, I offer my hand, and it approaches as if it has a will of its own. It starts cavorting around me like a puppy greeting its owner. I slide my hand over its chassis, and it shivers with pleasure. What exactly happened out there?"
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7W18TVW9RJH4YJGNE1FP",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7W18TVW9RJH4YJGNE1FP",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7W0P489JKKVS66WR0HN5",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7W0P489JKKVS66WR0HN5",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME7W0XKWK7H5DQTCJATVX4",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME7W0XKWK7H5DQTCJATVX4",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_COREKS_B_AX_05_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/AX",
+        "@type": "Faction",
+        "color": "#8c432a",
+        "id": "01GE7AC9XBG707G19F03A95TH1",
+        "name": "Axiom",
+        "reference": "AX"
+    },
+    "name": "Foundry Engineer",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_AX_05_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_COREKS_B_AX_05_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_AX_05_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/de_DE/83f51dd26d9bf2b5c82c78eb673a6988.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/en_US/209952b70ee099228f1695ef069b81b8.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/es_ES/533fb675391b8c8f62d84bf61544bcec.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/fr_FR/2d128ca08f461ddf6fec3858e61dd80e.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/it_IT/b180deab630f1192b7abe48ed815c602.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_09804c2b90b8deddcd36f9ef098d4604",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_cbbc51dbf0723f1784b79d876f13d360",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_05/WEB_fadfa6f4983452eecbb24b1acd0f59df"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/d7db8ecab79304f383e1",
+                    "@type": "CardRuling",
+                    "answer": "\"This Afternoon\" refers to the Afternoon of the current day, so there are two possibilities : 1. The card is played before, such as during Noon, in which case it will apply to the next corresponding card of the Afternoon. 2. The card is played after, such as during Dusk or Night, in which case it won't have any effect.",
+                    "createdAt": "2024-10-02T10:37:39+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If a card that has an effect over the next card played \"this Afternoon\", such as Foundry Engineer, is somehow played outside of the Afternoon, what happens?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a9a14a3626266b26e912",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingénieur",
+                    "reference": "ENGINEER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Le prochain Permanent que vous jouez cet Après-midi coûte #{2} de moins#.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "01HN5TXR2NS91KP7MH9CCPZ1YQ",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_AX_05/JPG/fr_FR/2d128ca08f461ddf6fec3858e61dd80e.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB77VFF2TJQ1YADYY9GNYV",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB77VFF2TJQ1YADYY9GNYV",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME7W12BZRQ0FKTFDY848NM",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7W12BZRQ0FKTFDY848NM",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Derrière chaque chef-d'œuvre Axiom, il y a des ingénieurs de la Fonderie."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7W1FG1W1FXRC9W2NNJMJ",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7W1FG1W1FXRC9W2NNJMJ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Je pose le drone fumant sur l'établi de l'ingénieure, et la vois serpenter en direction de l'appareil endommagé. Ses écailles crissent sur le sol tandis qu'elle avance, et le bout de sa queue vibre d'intérêt. Comme moi, Irun est née parmi les Lyra. Comme moi, elle a rejoint l'Axiom. Mais elle a fait son choix tardivement, après avoir passé la cérémonie de la métamorphose. Les transformations qu'elle a héritées du rituel sont devenues en quelque sorte sa marque de fabrique, son poinçon. Je sais qu'elle s'amuse de la réaction de ses élèves, pris au dépourvu par son apparence lorsqu'ils la voient pour la première fois. Pour moi, ça a toujours été normal de voir des gens altérés par le Tumulte. C'est peut-être pour ça qu'on est devenues si proches. Je la regarde ausculter le drone en secouant la tête. Je l'avais envoyé au sein du Tumulte pour récupérer autant de données que possible, mais ses courants l'ont bien amoché. Il a réussi à revenir comme il a pu, mais ses circuits ont été endommagés.\n\nJe demande à Irun si elle est capable de m'aider à réparer le drone, ou au moins de sauvegarder ce qu'il a pu enregistrer. Elle le branche à une station de charge, et il émet soudain une complainte stridente, secouant sa carcasse écornée. Je le vois s'élever de nouveau, tandis que des pièces de métal se détachent de sa coque et tombent par terre. C'est comme... comme s'il était en train de muer. Le drone se tourne dans ma direction, sa caméra zoomant et dézoomant sur mon visage. Je tends la main, intriguée, et il s'en approche, comme s'il était animé d'une volonté propre. Il se met à tournoyer autour de moi comme un chiot gambade autour de son maître. Je passe une main sur son châssis, et il frémit de plaisir. Qu'est-ce qui s'est passé, au juste ?"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7W18TVW9RJH4YJGNE1FP",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7W18TVW9RJH4YJGNE1FP",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7W0P489JKKVS66WR0HN5",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7W0P489JKKVS66WR0HN5",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7W0XKWK7H5DQTCJATVX4",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7W0XKWK7H5DQTCJATVX4",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_COREKS_B_AX_05_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Ingénieure de la Fonderie",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_AX_05_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_COREKS_B_AX_05_R1"
+        }
+    }
+}

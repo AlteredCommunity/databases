@@ -1,0 +1,348 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_COREKS_B_YZ_04_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/de_DE/0168312cb2dedc53eaa835a45de9a609.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/en_US/47c917dc96687b9ec5ed727a95797a40.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/es_ES/f39b22b8cfeb5bd90bc06c23ade48d48.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/fr_FR/530ef88edb8884d01a608bdb29e14954.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/it_IT/9f1cfa98fb94417b422c1872e989c529.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/ALT_CORE_B_YZ_04_C_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/ALT_CORE_B_YZ_04_R_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/ALT_CORE_B_YZ_04_U_WEB.jpg"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/4b770f82e5cee8c9966a",
+            "@type": "CardRuling",
+            "answer": "\"This Afternoon\" refers to the Afternoon of the current day, so there are two possibilities : 1. The card is played before, such as during Noon, in which case it will apply to the next corresponding card of the Afternoon. 2. The card is played after, such as during Dusk or Night, in which case it won't have any effect.",
+            "createdAt": "2024-10-02T10:37:56+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If a card that has an effect over the next card played \"this Afternoon\" is somehow played outside of the Afternoon, what happens?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/COREKS",
+        "@type": "CardSet",
+        "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/0c054cf893fa930a2c0f",
+            "@type": "CardSubType",
+            "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
+            "name": "Apprentice",
+            "reference": "APPRENTICE"
+        },
+        {
+            "@id": "/.well-known/genid/b50c860b043574826edc",
+            "@type": "CardSubType",
+            "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+            "name": "Mage",
+            "reference": "MAGE"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "ECHO_EFFECT": "{D} : The next Spell you play this turn costs {1} less. (Discard me from Reserve to do this.)",
+        "FOREST_POWER": "0",
+        "MAIN_COST": "1",
+        "MAIN_EFFECT": "#{R} The next Spell you play this Afternoon costs {1} less.#",
+        "MOUNTAIN_POWER": "1",
+        "OCEAN_POWER": "1",
+        "RECALL_COST": "1"
+    },
+    "id": "01HN5TXRJ6D2MNEYQ2970RMP3V",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/en_EN/7595dc61b58c97a7e6b4ecee805366e7.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HPMB79BSF75DRA0R3NQYVQWJ",
+            "@type": "LoreEntry",
+            "id": "01HPMB79BSF75DRA0R3NQYVQWJ",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HPME89S9KJJDC724QCY7WK8B",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME89S9KJJDC724QCY7WK8B",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "So far behind, and still so much to learn!"
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME89TN1KPKZWWGQQFZCG1W",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME89TN1KPKZWWGQQFZCG1W",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "The gate half-opens onto the gardens of the Kadigir. I move from the windswept coastline to the tranquility of the Yzmir sanctuary. But a storm still rages within me. Anger, guilt, bereavement... The emotions writhe around inside me like snakes. I start to walk along the leafy paths, amid sights and sounds that others might find very strange. The arboretum contains many plants that have been transmuted by the Tumult: trees with extraordinary shapes and colors, the most exotic flowers imaginable... Strange birds twitter on the branches. But nothing can soothe the distress I feel. I suddenly find myself at the entrance to the occult library but hesitate before pushing open the doors. I'm not looking forward to what I need to do. Gritting my teeth, I enter the building and start looking around for the young Disciple I've come to find.\n\nI bow to the receptionist, and he returns my greeting by tracing a few Signs in the air. Everyone is maintaining the silence, as etiquette requires, but all I want to do is scream. I find Fasano carrying a heavy pile of books. As usual, he wants to do the right thing, including rushing around to prove his worth. A grimoire falls to the ground, then another one, and he scrambles to pick them up under the irritated stares of nearby Initiates. I pick up one of the books and place it on top of his pile. His face lights up when he recognizes me, but the glow quickly fades as he notices my pained expression. I see his smile vanish as he begins to understand. I don't even need to speak the bad news. His elder sister won't be coming back. His knees buckle and his hands release all the grimoires, sending them tumbling to the floor."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME89T0CF3MJ810C1934WF7",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME89T0CF3MJ810C1934WF7",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME89QM93P534HA9DYZFDQF",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME89QM93P534HA9DYZFDQF",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME89RKVRHQRQSHK26WTZWB",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME89RKVRHQRQSHK26WTZWB",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_COREKS_B_YZ_04_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/YZ",
+        "@type": "Faction",
+        "color": "#764891",
+        "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+        "name": "Yzmir",
+        "reference": "YZ"
+    },
+    "name": "Studious Disciple",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_04_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_COREKS_B_YZ_04_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_YZ_04_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/de_DE/0168312cb2dedc53eaa835a45de9a609.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/en_US/47c917dc96687b9ec5ed727a95797a40.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/es_ES/f39b22b8cfeb5bd90bc06c23ade48d48.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/fr_FR/530ef88edb8884d01a608bdb29e14954.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/it_IT/9f1cfa98fb94417b422c1872e989c529.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/ALT_CORE_B_YZ_04_C_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/ALT_CORE_B_YZ_04_R_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_04/ALT_CORE_B_YZ_04_U_WEB.jpg"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/79cf35f81fb2b4e372ce",
+                    "@type": "CardRuling",
+                    "answer": "\"This Afternoon\" refers to the Afternoon of the current day, so there are two possibilities : 1. The card is played before, such as during Noon, in which case it will apply to the next corresponding card of the Afternoon. 2. The card is played after, such as during Dusk or Night, in which case it won't have any effect.",
+                    "createdAt": "2024-10-02T10:37:56+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If a card that has an effect over the next card played \"this Afternoon\" is somehow played outside of the Afternoon, what happens?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/04e01ba6a67603978fc1",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
+                    "name": "Apprenti",
+                    "reference": "APPRENTICE"
+                },
+                {
+                    "@id": "/.well-known/genid/4f176c60d8999d616681",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mage",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : Le prochain Sort que vous jouez ce tour coûte {1} de moins. (Défaussez-moi de la Réserve pour ça.)",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "#{R} Le prochain Sort que vous jouez cet Après-midi coûte {1} de moins.#",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "1"
+            },
+            "id": "01HN5TXRJ6D2MNEYQ2970RMP3V",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_YZ_04/JPG/fr_FR/530ef88edb8884d01a608bdb29e14954.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB79BSF75DRA0R3NQYVQWJ",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB79BSF75DRA0R3NQYVQWJ",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME89S9KJJDC724QCY7WK8B",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME89S9KJJDC724QCY7WK8B",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "En retard, et encore tant de choses à apprendre !"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME89TN1KPKZWWGQQFZCG1W",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME89TN1KPKZWWGQQFZCG1W",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Le portail s'entrouvre sur les jardins du Kadigir. Aux étendues côtières battues par les vents succède la quiétude du sanctuaire Yzmir. Mais la tempête fait toujours rage en moi. Colère, culpabilité, deuil... les émotions se meuvent en moi comme des couleuvres. Je me mets à marcher le long des allées bucoliques, que d'autres pourraient trouver bien étranges. L'arboretum accueille de nombreux végétaux qui ont été transmués par le Tumulte : des arbres aux formes et aux couleurs invraisemblables, des fleurs pour le moins exotiques... Des oiseaux insolites pépient sur les branches. Mais rien ne parvient à apaiser le trouble que je ressens. Je me retrouve soudain devant les portes de la bibliothèque occulte, hésite avant d'en pousser les battants. Ce que j'ai à faire n'a rien d'agréable. Serrant les dents, je pénètre au sein de l'édifice, cherchant du regard le jeune Disciple que je suis venu trouver.\n\nJe m'incline devant le réceptionniste, et il me rend mon salut en traçant quelques Signes dans les airs. Le silence est de mise ici, comme l'exigent les convenances, mais tout en moi n'aspire qu'à crier. Je trouve Fasano en train de porter une lourde pile de livres. Comme d'habitude, il veut bien faire, quitte à se précipiter pour prouver sa valeur. Un grimoire tombe au sol, puis un deuxième, et il se démène pour les récupérer, sous les regards courroucés des Initiés alentour. Je ramasse l'un des livres et le pose sur le dessus de sa pile. Son regard s'illumine quand il me reconnaît, mais se ternit vite en voyant mon expression peinée. Je vois son sourire se faner sur son visage alors qu'il comprend. Je n'ai même pas à lui annoncer la mauvaise nouvelle. Sa grande sœur ne rentrera pas. Ses genoux chancellent et ses mains lâchent tous les grimoires, qui s'éparpillent sur le sol."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME89T0CF3MJ810C1934WF7",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME89T0CF3MJ810C1934WF7",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME89QM93P534HA9DYZFDQF",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME89QM93P534HA9DYZFDQF",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME89RKVRHQRQSHK26WTZWB",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME89RKVRHQRQSHK26WTZWB",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_COREKS_B_YZ_04_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Disciple Studieux",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_YZ_04_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_COREKS_B_YZ_04_R1"
+        }
+    }
+}

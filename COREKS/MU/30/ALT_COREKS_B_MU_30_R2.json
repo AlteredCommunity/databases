@@ -1,0 +1,346 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_COREKS_B_MU_30_R2",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/de_DE/62c4f3ec72b7574ae7de5a6741d95b05.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/en_US/d7479b3ee55c53b4bf2064558855c16c.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/es_ES/f16dc9550ef4ce0662dfa343fdfad4e5.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/fr_FR/97f966b36b5d342fc0b8818aa2e4f524.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/it_IT/57af4e51c4e092d6b1cdc96d6503f691.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_30/WEB_b727e511c9933fd15eb0f248038ce4f1",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_30/WEB_cd61c302b8e1d3d3dbc53ccc0701e68f"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/8f271e12422431eb1942",
+            "@type": "CardRuling",
+            "answer": "When your opponent casts a Spell or resolve an ability that can target one of your Tough Characters, they decide if they want to pay the extra mana to make one of your Tough Character a valid target. If they choose not to (because they don't have enough mana, or because they don't want to), the effect resolves as if your Characters were untargettable.  Depending on the effect, it might mean the effect may simply do nothing, or it might mean they must target one of their own Characters.",
+            "createdAt": "2024-10-28T10:38:05+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If my opponent uses a Spell or ability talking about \"target Character\" and all my Characters are Tough, what happens? "
+        },
+        {
+            "@id": "/.well-known/genid/0b29c8e72e6cf791959b",
+            "@type": "CardRuling",
+            "answer": "The effects stack! If you have 2 \"the Spindle, Muna Bastion\" in your Landmarks, your cards have Tough 4.",
+            "createdAt": "2024-03-01T10:38:05+00:00",
+            "eventFormat": "STANDARD",
+            "question": "What happens if a card gets Tough from different sources?"
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/COREKS",
+        "@type": "CardSet",
+        "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+        "name": "Beyond the Gates - KS Edition",
+        "reference": "COREKS"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/f0afe3524cffe56e08ef",
+            "@type": "CardSubType",
+            "id": "01HKAGPK6DPRTGYCYJG9XHTRXG",
+            "name": "Landmark",
+            "reference": "LANDMARK"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01GE7AC9X78DXSNKNB15KCF69Z",
+        "@type": "CardType",
+        "id": "01GE7AC9X78DXSNKNB15KCF69Z",
+        "name": "Permanent",
+        "reference": "PERMANENT"
+    },
+    "elements": {
+        "FOREST_POWER": "",
+        "MAIN_COST": "3",
+        "MAIN_EFFECT": "Characters you control are [Tough 2]. (Opponents must pay {2} to target them. Cards in Reserve are not controlled.)",
+        "MOUNTAIN_POWER": "",
+        "OCEAN_POWER": "",
+        "RECALL_COST": "3"
+    },
+    "id": "01HN5TXRT8V61V1Y38P3KYW6NA",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/en_EN/808be8bac525af67bfb1a7da0d04cd42.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HPMB798EFSQ7YNRC7HQ00DCM",
+            "@type": "LoreEntry",
+            "id": "01HPMB798EFSQ7YNRC7HQ00DCM",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HPME85CFA8Z1RTAJYD3SWZC8",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME85CFA8Z1RTAJYD3SWZC8",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "Within the Spindle's trunk is the Bark Refuge, the sanctuary where the Muna converse with sentient plants."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME85DPR9NZRA5D5H3MR82K",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME85DPR9NZRA5D5H3MR82K",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "Once we make it to the very top of the steep hill, the Spindle Tree spreads out before us in all its magnificence. I've noticed its pink foliage between the treetops for a few hours, but finally seeing it in its full splendor leaves me breathless. Next to me, Bokang smiles at my stunned expression. My professor has always been playful with me, all throughout my apprenticeship. But soon we'll become peers, no longer a teacher and his pupil. Up there in the branches of the world tree, scores of birds flit about like little specks of white and various colors. They say the Spindle Tree is a whole separate ecosystem of its own, practically cut off from the rest of the Katkera. Seeing it like this, I get why the Asgarthans consider it the Bastion of the Faction, even though the Muna don't have an assigned headquarters.\n\nI realize this is the end of my pilgrimage, the final stage of my apprenticeship before I officially become a Muna as well. In a few days, I'll be fasting to purify my being. I'll have to ascend the Spindle Tree and collect samples of roots and vines. And when I finish my Namkha knot, it will signify that I'm fully part of the Faction. I pet Nauraa's nose, and he yelps excitedly. Yes, I know. Next comes the time for us to hold the Musubi, the ceremony whereby he and I will be bound in mind and spirit. I stick my tongue out at Bokang, who responds with a hearty laugh. Even now, I don't know if he chose me as a student on instinct, or because he knew the Faction would need Nauraa and me as an Exalt."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME85D49NVBVW88RG9Z1V08",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME85D49NVBVW88RG9Z1V08",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME85BAY51J3DT37S9J48MS",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME85BAY51J3DT37S9J48MS",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HPME85BWR5CHF2EW2VAR37WS",
+                    "@type": "LoreEntryElement",
+                    "id": "01HPME85BWR5CHF2EW2VAR37WS",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": ""
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4Z2EX56Q0HANCMJDSZN6",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4Z2EX56Q0HANCMJDSZN6",
+                "name": "Permanent",
+                "reference": "PERMANENT"
+            },
+            "reference": "ALT_COREKS_B_MU_30_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/BR",
+        "@type": "Faction",
+        "color": "#c32637",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+        "name": "Bravos",
+        "reference": "BR"
+    },
+    "name": "The Spindle, Muna Bastion",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_30_R2",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_COREKS_B_MU_30_R2",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_MU_30_R2",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/de_DE/62c4f3ec72b7574ae7de5a6741d95b05.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/en_US/d7479b3ee55c53b4bf2064558855c16c.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/es_ES/f16dc9550ef4ce0662dfa343fdfad4e5.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/fr_FR/97f966b36b5d342fc0b8818aa2e4f524.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/it_IT/57af4e51c4e092d6b1cdc96d6503f691.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_30/WEB_b727e511c9933fd15eb0f248038ce4f1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_30/WEB_cd61c302b8e1d3d3dbc53ccc0701e68f"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/5505252d8dd6c51e72ca",
+                    "@type": "CardRuling",
+                    "answer": "When your opponent casts a Spell or resolve an ability that can target one of your Tough Characters, they decide if they want to pay the extra mana to make one of your Tough Character a valid target. If they choose not to (because they don't have enough mana, or because they don't want to), the effect resolves as if your Characters were untargettable.  Depending on the effect, it might mean the effect may simply do nothing, or it might mean they must target one of their own Characters.",
+                    "createdAt": "2024-10-28T10:38:05+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If my opponent uses a Spell or ability talking about \"target Character\" and all my Characters are Tough, what happens? "
+                },
+                {
+                    "@id": "/.well-known/genid/8f328550ac00eb775fa9",
+                    "@type": "CardRuling",
+                    "answer": "The effects stack! If you have 2 \"the Spindle, Muna Bastion\" in your Landmarks, your cards have Tough 4.",
+                    "createdAt": "2024-03-01T10:38:05+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "What happens if a card gets Tough from different sources?"
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Au-delà des portes - Édition KS",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/e1d45e029111e418cac5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPK6DPRTGYCYJG9XHTRXG",
+                    "name": "Repère",
+                    "reference": "LANDMARK"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9X78DXSNKNB15KCF69Z",
+                "@type": "CardType",
+                "id": "01GE7AC9X78DXSNKNB15KCF69Z",
+                "name": "Permanent",
+                "reference": "PERMANENT"
+            },
+            "elements": {
+                "FOREST_POWER": "",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "Les Personnages que vous contrôlez sont [Coriaces 2]. (Les adversaires doivent payer {2} pour les cibler. Les cartes en Réserve ne sont pas contrôlées.)",
+                "MOUNTAIN_POWER": "",
+                "OCEAN_POWER": "",
+                "RECALL_COST": "3"
+            },
+            "id": "01HN5TXRT8V61V1Y38P3KYW6NA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_MU_30/JPG/fr_FR/97f966b36b5d342fc0b8818aa2e4f524.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB798EFSQ7YNRC7HQ00DCM",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB798EFSQ7YNRC7HQ00DCM",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME85CFA8Z1RTAJYD3SWZC8",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME85CFA8Z1RTAJYD3SWZC8",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Le Refuge de l'Écorce, le sanctuaire où les Muna conversent avec les plantes sentientes."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME85DPR9NZRA5D5H3MR82K",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME85DPR9NZRA5D5H3MR82K",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Arrivés tout en haut de la colline escarpée, le Fuseau se déploie devant nous dans toute sa magnificence. Ça fait quelques heures que j'aperçois son feuillage rose entre les cimes des arbres, mais le voir enfin dans toute sa splendeur me laisse pantoise. À côté de moi, Bokang esquisse un sourire devant mon air hébété. Mon professeur a toujours fait preuve d'espièglerie à mon égard, tout au long de mon apprentissage. Mais bientôt, nous deviendrons des pairs, et non plus un maître et son élève. Là-haut, dans les branchages de l'arbre-monde, des myriades d'oiseaux volettent telles de petites taches blanches ou colorées. D'après ce qu'on dit, le Fuseau est un écosystème à part, presque isolé du reste de la Katkera. À le voir ainsi, je comprends pourquoi les Asgarthi le considèrent comme le Bastion de la Faction, même si les Muna ne se sont pas attribués de quartier général proprement dit.\n\nJe réalise que c'est la fin de mon pèlerinage, la dernière étape de mon apprentissage avant de devenir officiellement une Muna, moi aussi. Dans quelques jours, je ferai un jeûne pour purifier mon être. Je devrai gravir le Fuseau et collecter des échantillons de lianes et de racines. Et lorsque je finirai mon nœud Namkha, ce sera le signe que je ferai pleinement partie de la Faction. Je caresse le museau de Nauraa, qui glapit d'excitation. Oui, je sais. Ensuite, ce sera le moment pour nous de célébrer le Musubi, la cérémonie par laquelle lui et moi allons nous lier par l'âme et l'esprit. Je tire la langue en direction de Bokang, qui se contente de rire à gorge déployée. Même aujourd'hui, je ne sais pas s'il m'a choisie comme élève par instinct, ou parce qu'il savait que la Faction allait avoir besoin de Nauraa et moi en tant qu'Exalt."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME85D49NVBVW88RG9Z1V08",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME85D49NVBVW88RG9Z1V08",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME85BAY51J3DT37S9J48MS",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME85BAY51J3DT37S9J48MS",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME85BWR5CHF2EW2VAR37WS",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME85BWR5CHF2EW2VAR37WS",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4Z2EX56Q0HANCMJDSZN6",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4Z2EX56Q0HANCMJDSZN6",
+                        "name": "Permanent",
+                        "reference": "PERMANENT"
+                    },
+                    "reference": "ALT_COREKS_B_MU_30_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Le Fuseau, Bastion Muna",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_MU_30_R2",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_COREKS_B_MU_30_R2"
+        }
+    }
+}

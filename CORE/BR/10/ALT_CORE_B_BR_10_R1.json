@@ -1,0 +1,348 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_CORE_B_BR_10_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/de_DE/f72e6416d536b9fce5b954bdadc6e716.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/en_US/c61cc56e0b10a947b96f53a50fc0e0c3.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/es_ES/c0bb100fbb0f7aec1a900d5880b8dc6a.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/fr_FR/7becd16e7c6cccc7642ac4b33818aa58.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/it_IT/6e8f006533a3080fdcfbb2c776701564.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/ALT_CORE_B_BR_10_C_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/ALT_CORE_B_BR_10_R_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/ALT_CORE_B_BR_10_U_WEB.jpg"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/f2b52b1985ff162ad548",
+            "@type": "CardRuling",
+            "answer": "The first printing of Red (Rare) said:\n[SEASONED].  At Dusk, if I have 3 or more boosts — Draw a card.\n\nFuture printings will say:\n\"[SEASONED].  At Dusk — If I have 3 or more boosts, draw a card.\"",
+            "createdAt": "2024-09-06T10:37:52+00:00",
+            "eventFormat": "STANDARD",
+            "question": "Did the wording of this card change?"
+        },
+        {
+            "@id": "/.well-known/genid/21e11846e2cb8f2fbeed",
+            "@type": "CardRuling",
+            "answer": "Yes. Red effect should read \"At Dusk — If I have 3 or more boosts, draw a card.\" indicating that the check of the number of boosts is happening when her effect is resolved, not when it's triggered.",
+            "createdAt": "2024-08-23T10:37:52+00:00",
+            "eventFormat": "STANDARD",
+            "question": "Can I draw a card thanks to Red (Rare) ability if she gains her 3rd boost at Dusk, thanks to another effect? "
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/CORE",
+        "@type": "CardSet",
+        "id": "01HKAFJN3HG3TWKYV0E014K01G",
+        "name": "Beyond the Gates",
+        "reference": "CORE"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/8044d2aa24b78ada136b",
+            "@type": "CardSubType",
+            "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+            "name": "Adventurer",
+            "reference": "ADVENTURER"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "FOREST_POWER": "2",
+        "MAIN_COST": "2",
+        "MAIN_EFFECT": "[Seasoned]. (I keep my boosts when I go to Reserve.)  #At Dusk — If I have 3 or more boosts, draw a card.#",
+        "MOUNTAIN_POWER": "2",
+        "OCEAN_POWER": "2",
+        "RECALL_COST": "#3#"
+    },
+    "id": "01HKAFJNNMZNJEJTKQDQWJCHC3",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/en_EN/44364aaf632a86de654b7cc664335f51.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HNGY4Z9PWC2K854RJ5GTK25D",
+            "@type": "LoreEntry",
+            "id": "01HNGY4Z9PWC2K854RJ5GTK25D",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HNJH5RSCM24D7WH63FH0EQTC",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5RSCM24D7WH63FH0EQTC",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "Grandma would be proud."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5RSWZ6RMJ06ADQ55RTCF",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5RSWZ6RMJ06ADQ55RTCF",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "\"The true nature of stories is to be intrinsically changeable. A story is a chameleon, a shapeshifter. Through being told, stories transform. With additions, removals, different morals, and endings either cruel or diluted. Stories, like ideas, need to live and breathe. That's why some die, while others adapt. And sometimes, they even come back to life. This was already true in ancient times, before the Confluence shuffled things around to confusion. And it's still true today, as we slowly start telling them again. Even the end of the world hasn't stopped them from spreading, despite what amounts to a terrible extinction.\n\nOriginally, Little Red Riding Hood's life ended in the belly of the wolf. Then other authors came along, and through them she survived, by way of a huntsman who suddenly came to free her. And when the survivors of the calamity got hold of the story, they made it a reflection of humanity itself, which had been torn apart by an invisible monster. The Tumult, in the guise of the wolf. But then other storytellers added their own twists to the tale. In the most recent versions, Red has recovered from her injuries. She's taken up arms to put a stop to the Big Bad Wolf's devastation. The moral of the new story is clear: we Asgarthans are just like her. We've been at the mercy of the Tumult, but we must realize it is by no means an inevitability. Using our imagination, we can defeat it—by calling on the huntsman, or simply by rewriting the story.\"\n\nYezdan Nand, Humanitas Fabularum, \"Preface\", 372 AC"
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5RSMMPVRM6WPP8MKYEFW",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5RSMMPVRM6WPP8MKYEFW",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": "Little Red Riding Hood is the main protagonist of the popular French tale of the same name. While delivering a basket to her grandmother, she discovers that the Big Bad Wolf has eaten the old woman and taken her place to try and eat the girl next. In one version of the story, she is saved by a huntsman, whereas in others, she overcomes her opponent with a ruse similar to the one he used."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5RRVTW9FZ41WC1SKM2ZB",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5RRVTW9FZ41WC1SKM2ZB",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5RS47RD72DAWE5DX4N38",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5RS47RD72DAWE5DX4N38",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": "372 AC"
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_CORE_B_BR_10_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/BR",
+        "@type": "Faction",
+        "color": "#c32637",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+        "name": "Bravos",
+        "reference": "BR"
+    },
+    "name": "Red",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_10_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_CORE_B_BR_10_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CORE_B_BR_10_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/de_DE/f72e6416d536b9fce5b954bdadc6e716.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/en_US/c61cc56e0b10a947b96f53a50fc0e0c3.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/es_ES/c0bb100fbb0f7aec1a900d5880b8dc6a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/fr_FR/7becd16e7c6cccc7642ac4b33818aa58.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/it_IT/6e8f006533a3080fdcfbb2c776701564.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/ALT_CORE_B_BR_10_C_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/ALT_CORE_B_BR_10_R_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/ALT_CORE_B_BR_10_U_WEB.jpg"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/ffd50856a57fab6a5d65",
+                    "@type": "CardRuling",
+                    "answer": "The first printing of Red (Rare) said:\n[SEASONED].  At Dusk, if I have 3 or more boosts — Draw a card.\n\nFuture printings will say:\n\"[SEASONED].  At Dusk — If I have 3 or more boosts, draw a card.\"",
+                    "createdAt": "2024-09-06T10:37:52+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "Did the wording of this card change?"
+                },
+                {
+                    "@id": "/.well-known/genid/fde8fa9220467f0e586f",
+                    "@type": "CardRuling",
+                    "answer": "Yes. Red effect should read \"At Dusk — If I have 3 or more boosts, draw a card.\" indicating that the check of the number of boosts is happening when her effect is resolved, not when it's triggered.",
+                    "createdAt": "2024-08-23T10:37:52+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "Can I draw a card thanks to Red (Rare) ability if she gains her 3rd boost at Dusk, thanks to another effect? "
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/CORE",
+                "@type": "CardSet",
+                "id": "01HKAFJN3HG3TWKYV0E014K01G",
+                "name": "Au-delà des portes",
+                "reference": "CORE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/36c53c4ebc4518dfd482",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurier",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "[Aguerrie]. (Je conserve mes boosts lorsque je vais en Réserve.)  #Au Crépuscule — Si j'ai au moins 3 boosts, piochez une carte.#",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "#3#"
+            },
+            "id": "01HKAFJNNMZNJEJTKQDQWJCHC3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/fr_FR/7becd16e7c6cccc7642ac4b33818aa58.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HNGY4Z9PWC2K854RJ5GTK25D",
+                    "@type": "LoreEntry",
+                    "id": "01HNGY4Z9PWC2K854RJ5GTK25D",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5RSCM24D7WH63FH0EQTC",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5RSCM24D7WH63FH0EQTC",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Mère-grand serait fière."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5RSWZ6RMJ06ADQ55RTCF",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5RSWZ6RMJ06ADQ55RTCF",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "\"La véritable nature des histoires est d'être par essence changeante. Un récit est un caméléon, un métamorphe. À force d'être racontées, les histoires se transforment. Par des ajouts, des retraits, des morales différentes, des conclusions cruelles ou au contraire édulcorées. Les histoires, tout comme les idées, vivent et respirent. C'est pourquoi certaines meurent, tandis que d'autres s'adaptent. Et parfois, certaines d'entre elles reviennent même à la vie. C'était déjà vrai dans les temps anciens, avant que la Confluence ne brouille les pistes et ne mélange les cartes. Et c'est encore vrai aujourd'hui, au fur et à mesure que nous nous remettons à les raconter. Même la fin du monde ne les a pas empêchées de continuer à se propager, malgré ce qui s'apparente à une terrible extinction.\n\nAutrefois, le Petit Chaperon Rouge finissait sa vie dans le ventre du loup. Puis d'autres auteurs sont passés, et à travers eux, elle a survécu, par le biais d'un chasseur soudain venu la délivrer. Et quand les survivants du cataclysme se sont emparés de l'histoire, ils ont fait d'elle le reflet de l'humanité, qui avait été déchiquetée par la gueule d'un monstre invisible. Le Tumulte, sous l'apparence du loup. Mais d'autres fabulistes ajoutèrent ensuite leur pierre à l'édifice. Dans les plus récentes versions, Red s'est remise de ses blessures. Elle a pris les armes pour mettre un terme aux ravages du Grand Méchant Loup. La morale de cette nouvelle histoire est limpide : nous autres Asgarthi sommes comme elle. Nous avons été à la merci du Tumulte, mais nous devons nous rendre compte que ce n'est nullement une fatalité. Grâce à notre imagination, nous pouvons le vaincre, en appelant le chasseur, ou tout simplement en réécrivant l'histoire.\"\n\nYezdan Nand, Humanitas Fabularum, \"Préface\", 372 AC"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5RSMMPVRM6WPP8MKYEFW",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5RSMMPVRM6WPP8MKYEFW",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": "Le Petit Chaperon Rouge est la protagoniste principale du conte populaire français éponyme. Alors qu'elle livre un panier à sa Mère-Grand, elle réalise que le Grand Méchant Loup l'a dévorée et a usurpé sa place dans le but de la croquer à son tour. Dans l'une des versions de l'histoire, elle est sauvée par un chasseur, alors que dans d'autres, elle vient à bout de son adversaire par une ruse similaire à celle qu'il a employée."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5RRVTW9FZ41WC1SKM2ZB",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5RRVTW9FZ41WC1SKM2ZB",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5RS47RD72DAWE5DX4N38",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5RS47RD72DAWE5DX4N38",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": "372 AC"
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_CORE_B_BR_10_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Red",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_BR_10_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_CORE_B_BR_10_R1"
+        }
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "@context": "/contexts/Card",
+    "@id": "/cards/ALT_CORE_B_MU_22_R1",
+    "@type": "Card",
+    "allImagePath": {
+        "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/de_DE/5c85b92f4cd80aeba36ce1750bb8b113.jpg",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/en_US/cb9dd141bca4d043240f45dc419ec393.jpg",
+        "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/es_ES/900de3ebb086079ed70be81feb257661.jpg",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/fr_FR/932e6d4f491c30fcc926694007864fb2.jpg",
+        "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/it_IT/1a5bb4542d56f583f9f97802ec06ae44.jpg"
+    },
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/ALT_CORE_B_MU_22_C_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/ALT_CORE_B_MU_22_R_WEB.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/ALT_CORE_B_MU_22_U_WEB.jpg"
+        ]
+    },
+    "cardRulings": [
+        {
+            "@id": "/.well-known/genid/086077b993e790776921",
+            "@type": "CardRuling",
+            "answer": "When your opponent casts a Spell or resolve an ability that can target one of your Tough Characters, they decide if they want to pay the extra mana to make one of your Tough Character a valid target. If they choose not to (because they don't have enough mana, or because they don't want to), the effect resolves as if your Characters were untargettable.  Depending on the effect, it might mean the effect may simply do nothing, or it might mean they must target one of their own Characters.",
+            "createdAt": "2024-10-28T10:37:40+00:00",
+            "eventFormat": "STANDARD",
+            "question": "If my opponent uses a Spell or ability talking about \"target Character\" and all my Characters are Tough, what happens? "
+        }
+    ],
+    "cardSet": {
+        "@id": "/card_sets/CORE",
+        "@type": "CardSet",
+        "id": "01HKAFJN3HG3TWKYV0E014K01G",
+        "name": "Beyond the Gates",
+        "reference": "CORE"
+    },
+    "cardSubTypes": [
+        {
+            "@id": "/.well-known/genid/5b290ebe7a2e517f3c57",
+            "@type": "CardSubType",
+            "id": "01HKAGQCSK17FMGRQDPCFZZ4GB",
+            "name": "Dragon",
+            "reference": "DRAGON"
+        },
+        {
+            "@id": "/.well-known/genid/33c59e121a47b85ec0d7",
+            "@type": "CardSubType",
+            "id": "01HKAGSB49H24XWW17AAY441MT",
+            "name": "Plant",
+            "reference": "PLANT"
+        }
+    ],
+    "cardType": {
+        "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+        "@type": "CardType",
+        "id": "01H19NWA92A4ERAC4ATMSZNASS",
+        "name": "Character",
+        "reference": "CHARACTER"
+    },
+    "elements": {
+        "FOREST_POWER": "0",
+        "MAIN_COST": "7",
+        "MAIN_EFFECT": "[Eternal]. (During Rest, I don't go to Reserve.)  #[Tough X], where X is the number of plants you control.# (Opponents must pay {X} to target me.)  {J} I gain 4 boosts.  At Noon — I gain 4 boosts.",
+        "MOUNTAIN_POWER": "0",
+        "OCEAN_POWER": "0",
+        "RECALL_COST": "7"
+    },
+    "id": "01HKAFJP8F4TSDVNKK3P6THSYZ",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/en_EN/602a5eb8132f49744c049d756bf4eef5.jpg",
+    "isSuspended": false,
+    "loreEntries": [
+        {
+            "@id": "/lore_entries/01HNGY507J4SE5MKVMGQRZN1XV",
+            "@type": "LoreEntry",
+            "id": "01HNGY507J4SE5MKVMGQRZN1XV",
+            "loreEntryElements": [
+                {
+                    "@id": "/lore_entry_elements/01HNJH5Y1FWWSPWJCBQ7ABXBNZ",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5Y1FWWSPWJCBQ7ABXBNZ",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                        "reference": "FLAVOR_TEXT",
+                        "subject": "Flavor Text"
+                    },
+                    "text": "When they reach adult size, it's clear that the Dracaenas have really thrived on all that rest and relaxation."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5Y2B77AF3PS09Z1G8G9T",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5Y2B77AF3PS09Z1G8G9T",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                        "reference": "STORY",
+                        "subject": "Story"
+                    },
+                    "text": "I climb the hill, relying ever more on my staff as I near the summit. The straps of my bag rub against my shoulders, and with each step, it almost seems to be getting heavier. Perhaps I'm inadvertently attaching the idea of \"Heaviness\" to it, or — much more likely — I'm simply tired. I set my pack down on the grassy ground and open my shirt partway. Even though, after three weeks on the road, my body is getting used to this new pace, I suppose I may have overdone it a bit. I lean back against a lichen-covered rock and open my pouch to grab a treat. The old woman I helped by digging her well rewarded me with quite a few provisions, but they're beginning to run out.\n\nOkay, let's go. I take a swig of water and haul my gear onto my back again. Maybe it's time to visit a human enclave to stock up? Though deep in thought, I still remember to leave a piece of biscuit for the little Chimaera that must still be following me. But just as I'm about to leave, a shadow falls from the sky. The creature perches on the rock I just left, spreading its plant wings. My eyes go wide as I recognize a dracaena, its size so imposing that merely batting its wings makes my legs wobble. It has grown so much that it now has multiple heads... all of them are turned toward me, and looking a tad hungry. I know I have nothing to fear, as they're far more partial to fruit than to meat. It must have gotten a whiff of my last apple. Well... life on the road is certainly full of surprises..."
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5Y1XF7E83VW4TNMN6JX7",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5Y1XF7E83VW4TNMN6JX7",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                        "reference": "INSPIRATION",
+                        "subject": "Inspiration"
+                    },
+                    "text": ""
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5Y0KKPYCEBENPAJSJZ0J",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5Y0KKPYCEBENPAJSJZ0J",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                        "@type": "LoreEntryElementType",
+                        "id": "01H19024M31D80P12EJCYX9GB0",
+                        "reference": "NARRATOR",
+                        "subject": "Narrator"
+                    },
+                    "text": "Arjun"
+                },
+                {
+                    "@id": "/lore_entry_elements/01HNJH5Y11TSFHQZWQNRBBZADG",
+                    "@type": "LoreEntryElement",
+                    "id": "01HNJH5Y11TSFHQZWQNRBBZADG",
+                    "loreEntryElementType": {
+                        "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "@type": "LoreEntryElementType",
+                        "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                        "reference": "DATE",
+                        "subject": "Date"
+                    },
+                    "text": "382 AC"
+                }
+            ],
+            "loreEntryType": {
+                "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "@type": "LoreEntryType",
+                "description": "",
+                "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                "name": "Character",
+                "reference": "CHARACTER"
+            },
+            "reference": "ALT_CORE_B_MU_22_C"
+        }
+    ],
+    "lowerPrice": 0,
+    "mainFaction": {
+        "@id": "/factions/MU",
+        "@type": "Faction",
+        "color": "#3d6b42",
+        "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+        "name": "Muna",
+        "reference": "MU"
+    },
+    "name": "Hydracaena",
+    "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_MU_22_R1",
+    "rarity": {
+        "@id": "/rarities/RARE",
+        "@type": "Rarity",
+        "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+        "name": "Rare",
+        "reference": "RARE"
+    },
+    "reference": "ALT_CORE_B_MU_22_R1",
+    "translations": {
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CORE_B_MU_22_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/de_DE/5c85b92f4cd80aeba36ce1750bb8b113.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/en_US/cb9dd141bca4d043240f45dc419ec393.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/es_ES/900de3ebb086079ed70be81feb257661.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/fr_FR/932e6d4f491c30fcc926694007864fb2.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/it_IT/1a5bb4542d56f583f9f97802ec06ae44.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/ALT_CORE_B_MU_22_C_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/ALT_CORE_B_MU_22_R_WEB.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/ALT_CORE_B_MU_22_U_WEB.jpg"
+                ]
+            },
+            "cardRulings": [
+                {
+                    "@id": "/.well-known/genid/add7244168467e14d78e",
+                    "@type": "CardRuling",
+                    "answer": "When your opponent casts a Spell or resolve an ability that can target one of your Tough Characters, they decide if they want to pay the extra mana to make one of your Tough Character a valid target. If they choose not to (because they don't have enough mana, or because they don't want to), the effect resolves as if your Characters were untargettable.  Depending on the effect, it might mean the effect may simply do nothing, or it might mean they must target one of their own Characters.",
+                    "createdAt": "2024-10-28T10:37:40+00:00",
+                    "eventFormat": "STANDARD",
+                    "question": "If my opponent uses a Spell or ability talking about \"target Character\" and all my Characters are Tough, what happens? "
+                }
+            ],
+            "cardSet": {
+                "@id": "/card_sets/CORE",
+                "@type": "CardSet",
+                "id": "01HKAFJN3HG3TWKYV0E014K01G",
+                "name": "Au-delà des portes",
+                "reference": "CORE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/9fa71d5352c3b58b1b35",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQCSK17FMGRQDPCFZZ4GB",
+                    "name": "Dragon",
+                    "reference": "DRAGON"
+                },
+                {
+                    "@id": "/.well-known/genid/243516a1af6bffe700ef",
+                    "@type": "CardSubType",
+                    "id": "01HKAGSB49H24XWW17AAY441MT",
+                    "name": "Plante",
+                    "reference": "PLANT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personnage",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "0",
+                "MAIN_COST": "7",
+                "MAIN_EFFECT": "[Éternel]. (Au Repos, je ne vais pas en Réserve.)  #[Coriace X], X étant le nombre de Plantes que vous contrôlez.# (Les Sorts et capacités d'un adversaire qui me ciblent coûtent {X} de plus.)  {J} Je gagne 4 boosts.  À Midi — Je gagne 4 boosts.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "7"
+            },
+            "id": "01HKAFJP8F4TSDVNKK3P6THSYZ",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_22/JPG/fr_FR/932e6d4f491c30fcc926694007864fb2.jpg",
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HNGY507J4SE5MKVMGQRZN1XV",
+                    "@type": "LoreEntry",
+                    "id": "01HNGY507J4SE5MKVMGQRZN1XV",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5Y1FWWSPWJCBQ7ABXBNZ",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5Y1FWWSPWJCBQ7ABXBNZ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Quand on voit un dracaena de taille adulte, on se dit que végéter lui a réussi."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5Y2B77AF3PS09Z1G8G9T",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5Y2B77AF3PS09Z1G8G9T",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Histoire"
+                            },
+                            "text": "Je gravis la colline, m'appuyant de plus en plus sur mon bâton au fur et à mesure que j'approche du sommet. Les lanières de mon sac frottent sur mes épaules, et à chacun de mes pas, j'ai l'impression qu'il se fait de plus en plus lourd. Peut-être est-ce moi qui y appose sans faire exprès une idée de \"Lourdeur\", ou alors —hypothèse bien plus probable — je suis exténué·e, voilà tout. Je pose mon paquetage sur le sol herbeux et entrouvre ma chemise. Même si, après trois semaines sur les routes, mon corps commence à s'habituer à ce nouveau rythme, je suppose que j'ai un peu trop tiré sur la corde. Je m'adosse à un rocher couvert de lichen et ouvre mon pochon pour y saisir un biscuit. La vieille femme que j'ai aidée à creuser son puits m'a offert pas mal de vivres en récompense, mais ces derniers commencent à s'épuiser.\n\nAllez, en route. Je bois une gorgée d'eau et hisse de nouveau mon barda sur mon dos. Peut-être est-il temps de faire un tour par une enclave humaine pour me ravitailler ? Tout à mes réflexions, je ne manque pas de laisser un bout de gâteau sec à l'intention de la petite Chimère qui continue sûrement de me suivre. Mais alors que je m'apprête à partir, une ombre tombe depuis le ciel. La créature se juche sur le rocher que je viens d'abandonner, déployant ses ailes végétales. J'écarquille les yeux en reconnaissant un dracaena, mais dont la taille est si imposante qu'un simple battement d'ailes fait flageoler mes jambes. Il a tellement grandi qu'il a développé plusieurs têtes, et toutes sont tournées vers moi, avec un soupçon de gourmandise. Je sais que je ne crains rien vu qu'ils préfèrent de loin les fruits à la viande. Il a probablement humé ma dernière pomme. Eh bien... la vie sur les routes réserve décidément bien des surprises..."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5Y1XF7E83VW4TNMN6JX7",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5Y1XF7E83VW4TNMN6JX7",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5Y0KKPYCEBENPAJSJZ0J",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5Y0KKPYCEBENPAJSJZ0J",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narré par"
+                            },
+                            "text": "Arjun"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HNJH5Y11TSFHQZWQNRBBZADG",
+                            "@type": "LoreEntryElement",
+                            "id": "01HNJH5Y11TSFHQZWQNRBBZADG",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": "382 AC"
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "description": "",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_CORE_B_MU_22_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Hydracaena",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_B_MU_22_R1",
+            "rarity": {
+                "@id": "/rarities/RARE",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_CORE_B_MU_22_R1"
+        }
+    }
+}
