@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_MU_72_U_4892",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/fr_FR/14971245e111a6fd7e8668b2999e8c4d.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_3ff3ef77096f09dfa80a22079ef7a05a"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/9316e0dbf5a940107dc5",
+            "@id": "/.well-known/genid/147b69453b3a836ca5a7",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{J} If you have two or more cards in Reserve: Target Character in play or in Reserve gains 1 boost.  {H} Unless I'm facing two or more Characters: I gain [[Asleep]].  When a Character joins the Expedition facing me — []I gain 1 boost.",
+        "MAIN_EFFECT": "{J} If there are two or more cards in your Reserve: Target Character in play or in Reserve gains 1 boost.  {H} If I'm facing zero or one Character: I gain [[Asleep]].  When a Character joins the Expedition facing me — []I gain 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "2",
         "RECALL_COST": "3"
     },
     "id": "4DHMF621E58838TXWJC94NQDG1",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Drowsy Dodo",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_72_U_4892",
     "rarity": {
-        "@id": "/.well-known/genid/f13ec198dc2840ffecce",
+        "@id": "/.well-known/genid/56adb8263f336a37ab11",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,16 +76,16 @@
     },
     "reference": "ALT_CYCLONE_B_MU_72_U_4892",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_72_U_4892",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/fr_FR/14971245e111a6fd7e8668b2999e8c4d.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_3ff3ef77096f09dfa80a22079ef7a05a"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/bd8d534eaf9bb412699f",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Falls sich mindestens zwei Karten in deiner Reserve befinden: Ein Charakter deiner Wahl im Spiel oder in der Reserve erhält 1 Verstärkung.  {H} Falls ich keinem oder einem Charakter gegenüberstehe: Ich erhalte [[Schlafend]].  Wenn sich ein Charakter der mir gegenüberstehenden Expedition anschließt — []Ich erhalte 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "3"
+            },
+            "id": "4DHMF621E58838TXWJC94NQDG1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Schläfriger Dodo",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_72_U_4892",
+            "rarity": {
+                "@id": "/.well-known/genid/e89d40d67a07b1a03f12",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_72_U_4892"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_72_U_4892",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/fr_FR/14971245e111a6fd7e8668b2999e8c4d.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_7abdf178ebcccad7f0e4cd201803063f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_ba10df8372875538ddd627a443c609fe",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_3ff3ef77096f09dfa80a22079ef7a05a"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/5b685ef75dddd2755a4d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Si tienes dos o más cartas en reserva: Un personaje objetivo en juego o en reserva gana 1 potenciador.  {H} Si estoy enfrentado a un personaje o ninguno: Gano [[Sueño]].  Cuando un personaje se incorpore a la expedición enfrentada a mí — []Gano 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "3"
+            },
+            "id": "4DHMF621E58838TXWJC94NQDG1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Dodo somnoliento",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_72_U_4892",
+            "rarity": {
+                "@id": "/.well-known/genid/a6c4c6deadc9c69d21ff",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_72_U_4892"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_72_U_4892",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/fr_FR/14971245e111a6fd7e8668b2999e8c4d.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_7abdf178ebcccad7f0e4cd201803063f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_ba10df8372875538ddd627a443c609fe",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_3ff3ef77096f09dfa80a22079ef7a05a"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/80f5cbf52a9e1ea5a6c2",
+                    "@id": "/.well-known/genid/b66d3007c198ce73354d",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{J} Si vous avez au moins deux cartes en Réserve : Un Personnage ciblé en jeu ou en Réserve gagne 1 boost.  {H} Sauf si je suis face à au moins deux Personnages : Je gagne [[Endormi]].  Lorsqu'un Personnage rejoint l'Expédition qui me fait face — []Je gagne 1 boost.",
+                "MAIN_EFFECT": "{J} S'il y a au moins deux cartes dans votre Réserve : Un Personnage ciblé en jeu ou en Réserve gagne 1 boost.  {H} Si je suis face à aucun ou un seul Personnage : Je gagne [[Endormi]].  Lorsqu'un Personnage rejoint l'Expédition qui me fait face — []Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "2",
                 "RECALL_COST": "3"
             },
             "id": "4DHMF621E58838TXWJC94NQDG1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/fr_FR/14971245e111a6fd7e8668b2999e8c4d.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Dodo Dormeur",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_72_U_4892",
             "rarity": {
-                "@id": "/.well-known/genid/a5fd98739cde5ab306d3",
+                "@id": "/.well-known/genid/7b5036debfe87ebd7eec",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_72_U_4892"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_72_U_4892",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/fr_FR/14971245e111a6fd7e8668b2999e8c4d.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_7abdf178ebcccad7f0e4cd201803063f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_ba10df8372875538ddd627a443c609fe",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/WEB_3ff3ef77096f09dfa80a22079ef7a05a"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/41c141b443c8d1f27f8d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Se ci sono due o più carte nella tua Riserva: Un personaggio bersaglio in gioco o nella Riserva ottiene 1 rinforzo.  {H} Se sto affrontando zero personaggi o uno: Ottengo [[Dormiente]].  Quando un personaggio si unisce alla spedizione che mi affronta — []Ottengo 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "3"
+            },
+            "id": "4DHMF621E58838TXWJC94NQDG1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_72/UNIQUE/JPG/en_US/4edb37b1e799928bcff84bdfd1de0012.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Dodo Assonnato",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_72_U_4892",
+            "rarity": {
+                "@id": "/.well-known/genid/c063462110cd3a4d4645",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_72_U_4892"
         }
-    }
+    },
+    "updated": "2026-03-31 20:44:40"
 }

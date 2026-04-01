@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_LY_76_U_4653",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/8df6658bfe2e161772c5498847032403.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/ccdd8d38e46b6d0d0287",
+            "@id": "/.well-known/genid/3fbfb474e12cc405a3cb",
             "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
             "name": "Deity",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []You may target a Character, it gains [[Fleeting]].",
         "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{J} []Each player draws a card.  {H} Unless I'm facing two or more Characters: Target opponent may immediately play a Spell for free.",
+        "MAIN_EFFECT": "{J} []Each player draws a card.  {H} If I'm facing zero or one Character: Target opponent may immediately play a Spell for free.",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "4",
         "RECALL_COST": "3"
     },
     "id": "2GG4WKZN7B8D2BN847QEXHZ9P2",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Daikokuten",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_4653",
     "rarity": {
-        "@id": "/.well-known/genid/ea326d83e010e46c2f27",
+        "@id": "/.well-known/genid/9f4e74ab274a9d946856",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,16 +77,16 @@
     },
     "reference": "ALT_CYCLONE_B_LY_76_U_4653",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_LY_76_U_4653",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/8df6658bfe2e161772c5498847032403.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/afc09a63e84bc612cef7",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Gottheit",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst einen Charakter wählen, er erhält [[Vergänglich]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} []Jeder Spieler zieht eine Karte.  {H} Falls ich keinem oder einem Charakter gegenüberstehe: Ein Gegner deiner Wahl darf sofort kostenlos einen Zauber spielen.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "2GG4WKZN7B8D2BN847QEXHZ9P2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikoku",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_4653",
+            "rarity": {
+                "@id": "/.well-known/genid/7e643bac81d5c15717d6",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_4653"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_4653",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/8df6658bfe2e161772c5498847032403.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/411da2f659ced5319bda",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Deidad",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un personaje. Gana [[Fugacidad]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} []Cada jugador roba una carta.  {H} Si estoy enfrentado a un personaje o ninguno: El oponente objetivo puede jugar inmediatamente sin coste un hechizo.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "2GG4WKZN7B8D2BN847QEXHZ9P2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikokuten",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_4653",
+            "rarity": {
+                "@id": "/.well-known/genid/87677920dcf7ed945cdf",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_4653"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_4653",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/8df6658bfe2e161772c5498847032403.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/c568b3f7b6e720783ca1",
+                    "@id": "/.well-known/genid/f0bd399ed39c3734ce8a",
                     "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
                     "name": "Divinité",
@@ -120,14 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Personnage. Il gagne [[Fugace]].",
                 "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{J} []Chaque joueur pioche une carte.  {H} Sauf si je suis face à au moins deux Personnages : Un adversaire ciblé peut immédiatement jouer un Sort gratuitement.",
+                "MAIN_EFFECT": "{J} []Chaque joueur pioche une carte.  {H} Si je suis face à aucun ou un seul Personnage : Un adversaire ciblé peut immédiatement jouer un Sort gratuitement.",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "4",
                 "RECALL_COST": "3"
             },
             "id": "2GG4WKZN7B8D2BN847QEXHZ9P2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/8df6658bfe2e161772c5498847032403.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -142,7 +306,86 @@
             "name": "Daikokuten",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_4653",
             "rarity": {
-                "@id": "/.well-known/genid/2a8a481fb3d1c22b8cce",
+                "@id": "/.well-known/genid/06c0c2d083ca71f53988",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_4653"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_4653",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/8df6658bfe2e161772c5498847032403.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/938ff7acc42669cde2a7",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinità",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un personaggio e fargli ottenere [[Fugace]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} []Ogni giocatore pesca una carta.  {H} Se sto affrontando zero personaggi o uno: Un avversario bersaglio può giocare immediatamente un incantesimo senza pagarne il costo.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "2GG4WKZN7B8D2BN847QEXHZ9P2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/2d0479d96eeaee3589a5ccec0ce9d609.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikokuten",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_4653",
+            "rarity": {
+                "@id": "/.well-known/genid/905760369cd1e9b0d6e3",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_LY_76_U_4653"
         }
-    }
+    },
+    "updated": "2026-03-31 20:00:37"
 }

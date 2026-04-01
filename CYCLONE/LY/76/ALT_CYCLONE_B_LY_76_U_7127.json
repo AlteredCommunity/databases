@@ -4,7 +4,7 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "",
-        "en-us": "",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
         "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/ec4d04b11525f7f5dff24fc1cf1bf1dc.jpg",
         "it-it": ""
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/96c32034c0e962baae8d",
+            "@id": "/.well-known/genid/42328a1d526d56c204e6",
             "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
             "name": "Deity",
@@ -44,16 +43,18 @@
         "ECHO_EFFECT": "{D} : []Pay {1} less for the next card you play this turn.",
         "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{J} If an opponent's Reserve contains more cards than yours: [Resupply], otherwise create an [Aerolith] token in your Landmarks.  {H} Unless I'm facing two or more Characters: Target opponent may immediately play a Spell for free.",
+        "MAIN_EFFECT": "{J} If an opponent's Reserve contains more cards than yours: [Resupply], otherwise create an [Aerolith] token in your Landmarks.  {H} If I'm facing zero or one Character: Target opponent may immediately play a Spell for free.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
         "RECALL_COST": "3"
     },
     "id": "3T50EY55YS99F8ZT9Z4J57H8XN",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/ec4d04b11525f7f5dff24fc1cf1bf1dc.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -68,7 +69,7 @@
     "name": "Daikokuten",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7127",
     "rarity": {
-        "@id": "/.well-known/genid/85b607ce605165c82aab",
+        "@id": "/.well-known/genid/ae6e386a971c73cd77de",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -76,13 +77,13 @@
     },
     "reference": "ALT_CYCLONE_B_LY_76_U_7127",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7127",
             "@type": "Card",
             "allImagePath": {
                 "de-de": "",
-                "en-us": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
                 "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/ec4d04b11525f7f5dff24fc1cf1bf1dc.jpg",
                 "it-it": ""
@@ -94,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/9f96bad5fd03edbb257a",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Gottheit",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Zahle {1} weniger für die nächste Karte, die du in dieser Runde spielst.",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Falls die Reserve eines Gegners mehr Karten als deine enthält: [Nachschub], andernfalls erschaffe eine [Aerolit]-Marke in deinem Wahrzeichen-Bereich.  {H} Falls ich keinem oder einem Charakter gegenüberstehe: Ein Gegner deiner Wahl darf sofort kostenlos einen Zauber spielen.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "3T50EY55YS99F8ZT9Z4J57H8XN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikoku",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7127",
+            "rarity": {
+                "@id": "/.well-known/genid/238837d9c8ca5256aab5",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_7127"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7127",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/ec4d04b11525f7f5dff24fc1cf1bf1dc.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/01cb9935c0ba30baab41",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Deidad",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Paga {1} menos por la siguiente carta que juegues este turno.",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Si la reserva de un oponente contiene más cartas que la tuya: [reabastece]. De lo contrario, crea una ficha de [Aerolito] en tus hitos.  {H} Si estoy enfrentado a un personaje o ninguno: El oponente objetivo puede jugar inmediatamente sin coste un hechizo.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "3T50EY55YS99F8ZT9Z4J57H8XN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikokuten",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7127",
+            "rarity": {
+                "@id": "/.well-known/genid/34a53a98c2826a41bc07",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_7127"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7127",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/ec4d04b11525f7f5dff24fc1cf1bf1dc.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -104,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/9d6bbdb09c4a00f06053",
+                    "@id": "/.well-known/genid/8a271db515457e97bba0",
                     "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
                     "name": "Divinité",
@@ -122,7 +280,7 @@
                 "ECHO_EFFECT": "{D} : []Payez {1} de moins pour la prochaine carte que vous jouez ce tour-ci.",
                 "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{J} Si la Réserve d'un adversaire contient plus de cartes que la vôtre : [Ravitaillez]. Sinon, créez un jeton [Aérolithe] dans vos Repères.  {H} Sauf si je suis face à au moins deux Personnages : Un adversaire ciblé peut immédiatement jouer un Sort gratuitement.",
+                "MAIN_EFFECT": "{J} Si la Réserve d'un adversaire contient plus de cartes que la vôtre : [Ravitaillez]. Sinon, créez un jeton [Aérolithe] dans vos Repères.  {H} Si je suis face à aucun ou un seul Personnage : Un adversaire ciblé peut immédiatement jouer un Sort gratuitement.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "3"
@@ -132,6 +290,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -146,7 +306,86 @@
             "name": "Daikokuten",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7127",
             "rarity": {
-                "@id": "/.well-known/genid/a2dfc3239fdd12cb11d2",
+                "@id": "/.well-known/genid/803eadf152c59538f1f2",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_7127"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7127",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/ec4d04b11525f7f5dff24fc1cf1bf1dc.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/813ab65d7e8d4122b206",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinità",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Paga {1} in meno per la prossima carta che giochi in questo turno.",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Se la Riserva di un avversario contiene più carte della tua: [Rifornisci], altrimenti crea una pedina [Aerolite] nei tuoi fulcri.  {H} Se sto affrontando zero personaggi o uno: Un avversario bersaglio può giocare immediatamente un incantesimo senza pagarne il costo.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "3T50EY55YS99F8ZT9Z4J57H8XN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/6e1266dd67776a791e15cfe14292e7da.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikokuten",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7127",
+            "rarity": {
+                "@id": "/.well-known/genid/ed37764dc95f282a08d1",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -154,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_LY_76_U_7127"
         }
-    }
+    },
+    "updated": "2026-03-31 20:04:05"
 }

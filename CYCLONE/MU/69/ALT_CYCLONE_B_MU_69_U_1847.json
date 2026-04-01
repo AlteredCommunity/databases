@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_MU_69_U_1847",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/6407159412ff5319b019cc3040e51972.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/dc920cebb9af2b1180a7",
+            "@id": "/.well-known/genid/dcbf943504147016bc8c",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []You may target a Character, it gains [[Fleeting]].",
         "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "[]Unless I'm facing two or more Characters: I am [Defender].  When another Character joins your Expeditions — If an opponent's hand contains more cards than yours: You may target a Character other than me, it gains 1 boost.",
+        "MAIN_EFFECT": "[]If I'm facing zero or one Character: I am [Defender].  When another Character joins your Expeditions — If an opponent's hand contains more cards than yours: You may target a Character other than me, it gains 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "3",
         "RECALL_COST": "3"
     },
     "id": "4Z3XPP1K2C801TYN10PD006VTV",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Armored Bird",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_1847",
     "rarity": {
-        "@id": "/.well-known/genid/4dd8a36f03afa3736ff0",
+        "@id": "/.well-known/genid/2997f24c21fe6ce5a480",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,16 +77,16 @@
     },
     "reference": "ALT_CYCLONE_B_MU_69_U_1847",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_69_U_1847",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/6407159412ff5319b019cc3040e51972.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/46a8855de9fb94d03a29",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst einen Charakter wählen, er erhält [[Vergänglich]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[]Falls ich keinem oder einem Charakter gegenüberstehe: Ich bin [Verteidiger].  Wenn ein anderer Charakter sich deinen Expeditionen anschließt — Falls die Hand eines Gegners mehr Karten als deine enthält: Du darfst einen Charakter außer mir selbst wählen, er erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "4Z3XPP1K2C801TYN10PD006VTV",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Gepanzerter Vogel",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_1847",
+            "rarity": {
+                "@id": "/.well-known/genid/b8c26783d0fdfa24d4ad",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_69_U_1847"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_69_U_1847",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/6407159412ff5319b019cc3040e51972.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ce757491fb57f841c6f4f0ad24428f91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ecc524708ec9875f1b76dd8cedd6e85c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ded5f274f737828f47ff",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un personaje. Gana [[Fugacidad]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[]Si estoy enfrentado a un personaje o ninguno: Soy [Defensor].  Cuando otro personaje se incorpore a tus expediciones — Si la mano de un oponente contiene más cartas que la tuya: Puedes hacer objetivo a un personaje aparte de mí. Gana 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "4Z3XPP1K2C801TYN10PD006VTV",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Ave blindada",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_1847",
+            "rarity": {
+                "@id": "/.well-known/genid/db78eb38d7b964df3fc0",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_69_U_1847"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_69_U_1847",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/6407159412ff5319b019cc3040e51972.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ce757491fb57f841c6f4f0ad24428f91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ecc524708ec9875f1b76dd8cedd6e85c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/8b928889faaaf32bf11c",
+                    "@id": "/.well-known/genid/9e345a66700f8a107899",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -120,7 +280,7 @@
                 "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Personnage. Il gagne [[Fugace]].",
                 "FOREST_POWER": "4",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "[]Sauf si je suis face à au moins deux Personnages : Je suis [Défenseur].  Lorsqu'un autre Personnage rejoint vos Expéditions — Si la main d'un adversaire contient plus de cartes que la vôtre : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
+                "MAIN_EFFECT": "[]Si je suis face à aucun ou un seul Personnage : Je suis [Défenseur].  Lorsqu'un autre Personnage rejoint vos Expéditions — Si la main d'un adversaire contient plus de cartes que la vôtre : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "3"
@@ -129,6 +289,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/6407159412ff5319b019cc3040e51972.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -143,7 +306,86 @@
             "name": "Oiseau Cuirassé",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_1847",
             "rarity": {
-                "@id": "/.well-known/genid/0eefb5358a2c624f24af",
+                "@id": "/.well-known/genid/e72444678c5f82ce2715",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_69_U_1847"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_69_U_1847",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/6407159412ff5319b019cc3040e51972.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ce757491fb57f841c6f4f0ad24428f91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ecc524708ec9875f1b76dd8cedd6e85c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/d04a55d18967752349a7",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un personaggio e fargli ottenere [[Fugace]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[]Se sto affrontando zero personaggi o uno: Ho [Difensore].  Quando un altro personaggio si unisce alle tue spedizioni — Se la mano di un avversario contiene più carte della tua: Puoi scegliere come bersaglio un personaggio eccetto me e fargli ottenere 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "4Z3XPP1K2C801TYN10PD006VTV",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/44bae00f095d449f82a06bd51876cd11.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Uccello Corazzato",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_1847",
+            "rarity": {
+                "@id": "/.well-known/genid/f87f6fde3bd1fad73bdd",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -151,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_69_U_1847"
         }
-    }
+    },
+    "updated": "2026-04-01 01:24:20"
 }

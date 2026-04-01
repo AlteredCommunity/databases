@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_MU_77_U_1546",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/fr_FR/b5bbd6dbd1893967d2bf56248b576268.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_868a2675eb02b7281c2c43ecdb85e246"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/2fcfadff35e92dad5c44",
+            "@id": "/.well-known/genid/a7cea2f117310ec9b80c",
             "@type": "CardSubType",
             "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
             "name": "Druid",
             "reference": "DRUID"
         },
         {
-            "@id": "/.well-known/genid/e19b83acc4033af6bcf2",
+            "@id": "/.well-known/genid/060902d28a0d78439bd0",
             "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
             "name": "Deity",
@@ -56,8 +55,12 @@
         "RECALL_COST": "6"
     },
     "id": "68WYZQ16RD8DHAHWAYEPAKER8K",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Tāne",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_77_U_1546",
     "rarity": {
-        "@id": "/.well-known/genid/b4cda0d43a0d3220438c",
+        "@id": "/.well-known/genid/6b3c3ad679aa2d181fdc",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_CYCLONE_B_MU_77_U_1546",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_77_U_1546",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/fr_FR/b5bbd6dbd1893967d2bf56248b576268.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_868a2675eb02b7281c2c43ecdb85e246"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ac32bf18a37453c741e2",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druide",
+                    "reference": "DRUID"
+                },
+                {
+                    "@id": "/.well-known/genid/5fd750c102c5484dc5c5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Gottheit",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "{J} []Ich erhalte [[Verankert]].  {J} Du darfst eine Karte aus deiner Hand in die Reserve legen. Falls du das tust: Charaktere, die du kontrollierst, erhalten je 1 Verstärkung.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "6"
+            },
+            "id": "68WYZQ16RD8DHAHWAYEPAKER8K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Tāne",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_77_U_1546",
+            "rarity": {
+                "@id": "/.well-known/genid/e1b3c1009abef7341406",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_77_U_1546"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_77_U_1546",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/fr_FR/b5bbd6dbd1893967d2bf56248b576268.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_8d2ec28366cafc42e38afac12d099459",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_e0980881da540c36aee61f78ee60c700",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_868a2675eb02b7281c2c43ecdb85e246"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/fb2b6ce6c84aac1aa0e6",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druida",
+                    "reference": "DRUID"
+                },
+                {
+                    "@id": "/.well-known/genid/fa2c4d2727bd8884c0ef",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Deidad",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "{J} []Gano [[Anclaje]].  {J} Puedes colocar una carta de tu mano en la reserva. Si lo haces: Los personajes que controles ganan 1 potenciador.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "6"
+            },
+            "id": "68WYZQ16RD8DHAHWAYEPAKER8K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Tāne",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_77_U_1546",
+            "rarity": {
+                "@id": "/.well-known/genid/a82e129252c962334db7",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_77_U_1546"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_77_U_1546",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/fr_FR/b5bbd6dbd1893967d2bf56248b576268.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_8d2ec28366cafc42e38afac12d099459",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_e0980881da540c36aee61f78ee60c700",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_868a2675eb02b7281c2c43ecdb85e246"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/71580093b01bd3b235c3",
+                    "@id": "/.well-known/genid/30e42f7afc8d4d973fa5",
                     "@type": "CardSubType",
                     "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
                     "name": "Druide",
                     "reference": "DRUID"
                 },
                 {
-                    "@id": "/.well-known/genid/c18ebb49d9aac6218547",
+                    "@id": "/.well-known/genid/79fbc42fda259b370838",
                     "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
                     "name": "Divinité",
@@ -138,8 +310,12 @@
                 "RECALL_COST": "6"
             },
             "id": "68WYZQ16RD8DHAHWAYEPAKER8K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/fr_FR/b5bbd6dbd1893967d2bf56248b576268.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -154,7 +330,92 @@
             "name": "Tāne",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_77_U_1546",
             "rarity": {
-                "@id": "/.well-known/genid/957bb457c9f8ac47187b",
+                "@id": "/.well-known/genid/a159cced6775a6f5f0c2",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_77_U_1546"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_77_U_1546",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/fr_FR/b5bbd6dbd1893967d2bf56248b576268.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_8d2ec28366cafc42e38afac12d099459",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_e0980881da540c36aee61f78ee60c700",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/WEB_868a2675eb02b7281c2c43ecdb85e246"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/38a5b1dd0ac1830b290e",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druido",
+                    "reference": "DRUID"
+                },
+                {
+                    "@id": "/.well-known/genid/c68a26d8ed32c7942e93",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinità",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "{J} []Ottengo [[Ancorato]].  {J} Puoi mettere una carta dalla tua mano nella Riserva. Se lo fai: I personaggi che controlli ottengono 1 rinforzo.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "6"
+            },
+            "id": "68WYZQ16RD8DHAHWAYEPAKER8K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_77/UNIQUE/JPG/en_US/a717e1476ee1d7ee808eca219b14d244.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Tāne",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_77_U_1546",
+            "rarity": {
+                "@id": "/.well-known/genid/1dacfc1d807b5fc07393",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -162,5 +423,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_77_U_1546"
         }
-    }
+    },
+    "updated": "2026-03-31 13:29:54"
 }

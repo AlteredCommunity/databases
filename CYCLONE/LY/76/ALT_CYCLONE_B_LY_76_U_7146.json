@@ -4,7 +4,7 @@
     "@type": "Card",
     "allImagePath": {
         "de-de": "",
-        "en-us": "",
+        "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
         "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/010f051e8f61e2c66280cd5b9587feba.jpg",
         "it-it": ""
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/8aa60b429bd03ba3af8f",
+            "@id": "/.well-known/genid/37e37cbc89dcff41f57b",
             "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
             "name": "Deity",
@@ -43,16 +42,18 @@
     "elements": {
         "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: You may exhaust target card in Reserve.  {H} Unless I'm facing two or more Characters: Target opponent may immediately play a Spell for free.  When another Character joins your Expeditions — If an opponent controls three Characters or more: I gain 1 boost.",
+        "MAIN_EFFECT": "{J} You may put a card from your hand in Reserve. If you do: You may exhaust target card in Reserve.  {H} If I'm facing zero or one Character: Target opponent may immediately play a Spell for free.  When another Character joins your Expeditions — If an opponent controls three Characters or more: I gain 1 boost.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "6",
         "RECALL_COST": "4"
     },
     "id": "6GEDAYT0DG8SXV3ZXR7N90Y21K",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/010f051e8f61e2c66280cd5b9587feba.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -67,7 +68,7 @@
     "name": "Daikokuten",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7146",
     "rarity": {
-        "@id": "/.well-known/genid/23cdc66fd9f2f5d2fbe9",
+        "@id": "/.well-known/genid/cf38eb473e4c3d38dc60",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -75,13 +76,13 @@
     },
     "reference": "ALT_CYCLONE_B_LY_76_U_7146",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7146",
             "@type": "Card",
             "allImagePath": {
                 "de-de": "",
-                "en-us": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
                 "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/010f051e8f61e2c66280cd5b9587feba.jpg",
                 "it-it": ""
@@ -93,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/087a1419d642a463cc02",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Gottheit",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{J} Du darfst eine Karte aus deiner Hand in die Reserve legen. Falls du das tust: Du darfst eine Karte deiner Wahl in der Reserve erschöpfen.  {H} Falls ich keinem oder einem Charakter gegenüberstehe: Ein Gegner deiner Wahl darf sofort kostenlos einen Zauber spielen.  Wenn ein anderer Charakter sich deinen Expeditionen anschließt — Falls ein Gegner mindestens drei Charaktere kontrolliert: Ich erhalte 1 Verstärkung.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "6",
+                "RECALL_COST": "4"
+            },
+            "id": "6GEDAYT0DG8SXV3ZXR7N90Y21K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikoku",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7146",
+            "rarity": {
+                "@id": "/.well-known/genid/3e70a43ed2ec7158e5c7",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_7146"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7146",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/010f051e8f61e2c66280cd5b9587feba.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a2b2e42d1b83d87c4785",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Deidad",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{J} Puedes colocar una carta de tu mano en la reserva. Si lo haces: Puedes agotar una carta objetivo en reserva.  {H} Si estoy enfrentado a un personaje o ninguno: El oponente objetivo puede jugar inmediatamente sin coste un hechizo.  Cuando otro personaje se incorpore a tus expediciones — Si un oponente controla tres personajes o más: Gano 1 potenciador.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "6",
+                "RECALL_COST": "4"
+            },
+            "id": "6GEDAYT0DG8SXV3ZXR7N90Y21K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikokuten",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7146",
+            "rarity": {
+                "@id": "/.well-known/genid/22469887b28e523fae64",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_7146"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7146",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/010f051e8f61e2c66280cd5b9587feba.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -103,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/8552d6ef1ddf90881848",
+                    "@id": "/.well-known/genid/e175e6992dbec3f6bacc",
                     "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
                     "name": "Divinité",
@@ -120,7 +276,7 @@
             "elements": {
                 "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez épuiser une carte ciblée en Réserve.  {H} Sauf si je suis face à au moins deux Personnages : Un adversaire ciblé peut immédiatement jouer un Sort gratuitement.  Lorsqu'un autre Personnage rejoint vos Expéditions — Si un adversaire contrôle au moins trois Personnages : Je gagne 1 boost.",
+                "MAIN_EFFECT": "{J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez épuiser une carte ciblée en Réserve.  {H} Si je suis face à aucun ou un seul Personnage : Un adversaire ciblé peut immédiatement jouer un Sort gratuitement.  Lorsqu'un autre Personnage rejoint vos Expéditions — Si un adversaire contrôle au moins trois Personnages : Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "6",
                 "RECALL_COST": "4"
@@ -130,6 +286,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -144,7 +302,85 @@
             "name": "Daikokuten",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7146",
             "rarity": {
-                "@id": "/.well-known/genid/d41353f6ccc8886006f3",
+                "@id": "/.well-known/genid/689a240baf5671668544",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_LY_76_U_7146"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_LY_76_U_7146",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/fr_FR/010f051e8f61e2c66280cd5b9587feba.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_715d1f9cd33a80d41117931c2ecaef79",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_0ea2710513e3bb314e7cc6459713f94b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/WEB_9261ea4d1011279738fa4ff98f3ef5c9"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/8be27c27ab8be14f122f",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinità",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{J} Puoi mettere una carta dalla tua mano nella Riserva. Se lo fai: Puoi consumare una carta bersaglio nella Riserva.  {H} Se sto affrontando zero personaggi o uno: Un avversario bersaglio può giocare immediatamente un incantesimo senza pagarne il costo.  Quando un altro personaggio si unisce alle tue spedizioni — Se un avversario controlla tre o più personaggi: Ottengo 1 rinforzo.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "6",
+                "RECALL_COST": "4"
+            },
+            "id": "6GEDAYT0DG8SXV3ZXR7N90Y21K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_LY_76/UNIQUE/JPG/en_US/c674a5fb9c1f953ca90457fd2b8562dd.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Daikokuten",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_LY_76_U_7146",
+            "rarity": {
+                "@id": "/.well-known/genid/e3755186a524aed68655",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -152,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_LY_76_U_7146"
         }
-    }
+    },
+    "updated": "2026-03-31 20:21:19"
 }

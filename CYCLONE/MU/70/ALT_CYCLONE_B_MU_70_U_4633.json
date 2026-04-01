@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_MU_70_U_4633",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/fr_FR/1c0640537081b124dc66b9e1d2a19258.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_3de8e415d60befe62cf46bff0c0f887c"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/d147393d107bb25278e7",
+            "@id": "/.well-known/genid/c0b5c1f7be1ed603e53d",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []Create a [Woollyback 1/1/1] Animal token in target Expedition.",
         "FOREST_POWER": "1",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{H} Unless I'm facing two or more Characters: I gain [[Asleep]].  {H} If I'm facing a Character: Each Character you control other than me gains 1 boost.  When a Character joins the Expedition facing me — []I gain 1 boost.",
+        "MAIN_EFFECT": "{H} If I'm facing zero or one Character: I gain [[Asleep]].  {H} If I'm facing a Character: Each Character you control other than me gains 1 boost.  When a Character joins the Expedition facing me — []I gain 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
         "RECALL_COST": "2"
     },
     "id": "2B9YFB0AHC9FVBFRDBWY4VWFWS",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Colorful Cuckoo",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_70_U_4633",
     "rarity": {
-        "@id": "/.well-known/genid/95863b79c82334c30b7c",
+        "@id": "/.well-known/genid/ce6d7b49921229226533",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,16 +77,16 @@
     },
     "reference": "ALT_CYCLONE_B_MU_70_U_4633",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_70_U_4633",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/fr_FR/1c0640537081b124dc66b9e1d2a19258.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_3de8e415d60befe62cf46bff0c0f887c"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/af0d3d4cab11851f28ea",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Erschaffe eine [Wollrücken 1/1/1]-Tiermarke in einer Expedition deiner Wahl.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{H} Falls ich keinem oder einem Charakter gegenüberstehe: Ich erhalte [[Schlafend]].  {H} Falls ich einem Charakter gegenüberstehe: Jeder Charakter, den du außer mir selbst kontrollierst, erhält 1 Verstärkung.  Wenn sich ein Charakter der mir gegenüberstehenden Expedition anschließt — []Ich erhalte 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "2B9YFB0AHC9FVBFRDBWY4VWFWS",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Bunter Kuckuck",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_70_U_4633",
+            "rarity": {
+                "@id": "/.well-known/genid/c9267f19e101313ae4a3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_70_U_4633"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_70_U_4633",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/fr_FR/1c0640537081b124dc66b9e1d2a19258.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_d85a687dac237cf5ae99101b4f902931",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_f5c3b16248d927b933c211cf4445cf9b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_3de8e415d60befe62cf46bff0c0f887c"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/465877ee92c125e4ac32",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Crea una ficha de animal [Lanudo 1/1/1] en una expedición objetivo.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{H} Si estoy enfrentado a un personaje o ninguno: Gano [[Sueño]].  {H} Si hay un personaje enfrentado a mí: Cada personaje que controles aparte de mí gana 1 potenciador.  Cuando un personaje se incorpore a la expedición enfrentada a mí — []Gano 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "2B9YFB0AHC9FVBFRDBWY4VWFWS",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Cuco colorido",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_70_U_4633",
+            "rarity": {
+                "@id": "/.well-known/genid/ffb7d2f4d8a0eba72a87",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_70_U_4633"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_70_U_4633",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/fr_FR/1c0640537081b124dc66b9e1d2a19258.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_d85a687dac237cf5ae99101b4f902931",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_f5c3b16248d927b933c211cf4445cf9b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_3de8e415d60befe62cf46bff0c0f887c"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/cb564847d12f47c7f3a1",
+                    "@id": "/.well-known/genid/015cb55c8848b6fffcfa",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -120,14 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Créez un jeton Animal [Dotouffu 1/1/1] dans une Expédition ciblée.",
                 "FOREST_POWER": "1",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{H} Sauf si je suis face à au moins deux Personnages : Je gagne [[Endormi]].  {H} Si je suis face à un Personnage : Chaque Personnage que vous contrôlez autre que moi gagne 1 boost.  Lorsqu'un Personnage rejoint l'Expédition qui me fait face — []Je gagne 1 boost.",
+                "MAIN_EFFECT": "{H} Si je suis face à aucun ou un seul Personnage : Je gagne [[Endormi]].  {H} Si je suis face à un Personnage : Chaque Personnage que vous contrôlez autre que moi gagne 1 boost.  Lorsqu'un Personnage rejoint l'Expédition qui me fait face — []Je gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
                 "RECALL_COST": "2"
             },
             "id": "2B9YFB0AHC9FVBFRDBWY4VWFWS",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/fr_FR/1c0640537081b124dc66b9e1d2a19258.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -142,7 +306,86 @@
             "name": "Coucou Chamarré",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_70_U_4633",
             "rarity": {
-                "@id": "/.well-known/genid/5a2744cc3709a9db8a31",
+                "@id": "/.well-known/genid/566eab54dbcee5cfdb08",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_70_U_4633"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_70_U_4633",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/fr_FR/1c0640537081b124dc66b9e1d2a19258.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_d85a687dac237cf5ae99101b4f902931",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_f5c3b16248d927b933c211cf4445cf9b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/WEB_3de8e415d60befe62cf46bff0c0f887c"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/b3d978bdb555f901217c",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Crea una pedina Animale [Lanuvola 1/1/1] in una spedizione bersaglio.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{H} Se sto affrontando zero personaggi o uno: Ottengo [[Dormiente]].  {H} Se sto affrontando un personaggio: Ogni personaggio che controlli eccetto me ottiene 1 rinforzo.  Quando un personaggio si unisce alla spedizione che mi affronta — []Ottengo 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "2B9YFB0AHC9FVBFRDBWY4VWFWS",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_70/UNIQUE/JPG/en_US/fbc5e35983c6899bcce8257bc3461dee.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Cuculo Colorato",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_70_U_4633",
+            "rarity": {
+                "@id": "/.well-known/genid/2de073813f2dbe752a79",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_70_U_4633"
         }
-    }
+    },
+    "updated": "2026-03-31 19:23:38"
 }

@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_YZ_72_U_2156",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/fr_FR/570944a0a90281019213264ff4582d3a.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_57463cc53d1f56a5958dcabb74687578"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/21d1969f264235819a85",
+            "@id": "/.well-known/genid/923c722e407d2b770aa4",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []Create a [Woollyback 1/1/1] Animal token in target Expedition.",
         "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "{H} []You may discard target Character or Permanent with Hand Cost {2} or less.  {H} Unless I'm facing two or more Characters: Target opponent may [Exhausted Resupply].",
+        "MAIN_EFFECT": "{H} []You may discard target Character or Permanent with Hand Cost {2} or less.  {H} If I'm facing zero or one Character: Target opponent may [Exhausted Resupply].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
         "RECALL_COST": "2"
     },
     "id": "7GWX064BB69SJV8RHQADMTR73X",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Caladrius",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_72_U_2156",
     "rarity": {
-        "@id": "/.well-known/genid/b0361aa518de13859418",
+        "@id": "/.well-known/genid/73651389fdcc5255b01c",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,16 +77,16 @@
     },
     "reference": "ALT_CYCLONE_B_YZ_72_U_2156",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_YZ_72_U_2156",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/fr_FR/570944a0a90281019213264ff4582d3a.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_57463cc53d1f56a5958dcabb74687578"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/f216a730b4a22561bf55",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Erschaffe eine [Wollrücken 1/1/1]-Tiermarke in einer Expedition deiner Wahl.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{H} []Du darfst einen Charakter oder eine Bleibende Karte deiner Wahl mit Handkosten {2} oder weniger ablegen.  {H} Falls ich keinem oder einem Charakter gegenüberstehe: Ein Gegner deiner Wahl darf [Erschöpfter Nachschub] nutzen.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "2"
+            },
+            "id": "7GWX064BB69SJV8RHQADMTR73X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Caladrius",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_72_U_2156",
+            "rarity": {
+                "@id": "/.well-known/genid/2b6a6ae8fb0e8b5d59b7",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_YZ_72_U_2156"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_YZ_72_U_2156",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/fr_FR/570944a0a90281019213264ff4582d3a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_7817fb911f0de501004b0d50cd6f503f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_35a79934f3895f50bab9d8315cebb50c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_57463cc53d1f56a5958dcabb74687578"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/3a4f9a43473fbbc196ef",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Crea una ficha de animal [Lanudo 1/1/1] en una expedición objetivo.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{H} []Puedes descartar un personaje o permanente objetivo con coste desde la mano de {2} o menos.  {H} Si estoy enfrentado a un personaje o ninguno: El oponente objetivo puede [reabastecer y agotar].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "2"
+            },
+            "id": "7GWX064BB69SJV8RHQADMTR73X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Caladrius",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_72_U_2156",
+            "rarity": {
+                "@id": "/.well-known/genid/1430d07bcf4b62f54514",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_YZ_72_U_2156"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_YZ_72_U_2156",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/fr_FR/570944a0a90281019213264ff4582d3a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_7817fb911f0de501004b0d50cd6f503f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_35a79934f3895f50bab9d8315cebb50c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_57463cc53d1f56a5958dcabb74687578"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/49369f2034cd2405d0b8",
+                    "@id": "/.well-known/genid/c8e32086606ab8463f07",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -120,14 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Créez un jeton Animal [Dotouffu 1/1/1] dans une Expédition ciblée.",
                 "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "{H} []Vous pouvez défausser un Personnage ou un Permanent ciblé de Coût de Main {2} ou moins.  {H} Sauf si je suis face à au moins deux Personnages : Un adversaire ciblé peut [Ravitailler Épuisé].",
+                "MAIN_EFFECT": "{H} []Vous pouvez défausser un Personnage ou un Permanent ciblé de Coût de Main {2} ou moins.  {H} Si je suis face à aucun ou un seul Personnage : Un adversaire ciblé peut [Ravitailler Épuisé].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "2"
             },
             "id": "7GWX064BB69SJV8RHQADMTR73X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/fr_FR/570944a0a90281019213264ff4582d3a.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -142,7 +306,86 @@
             "name": "Caladrius",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_72_U_2156",
             "rarity": {
-                "@id": "/.well-known/genid/77210462079735e9e1e3",
+                "@id": "/.well-known/genid/08a2ed63667749d0f81a",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_YZ_72_U_2156"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_YZ_72_U_2156",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/fr_FR/570944a0a90281019213264ff4582d3a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_7817fb911f0de501004b0d50cd6f503f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_35a79934f3895f50bab9d8315cebb50c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/WEB_57463cc53d1f56a5958dcabb74687578"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/6f44e75b34e93fc1895d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Crea una pedina Animale [Lanuvola 1/1/1] in una spedizione bersaglio.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{H} []Puoi scartare un personaggio o un permanente bersaglio con costo dalla mano pari o inferiore a {2}.  {H} Se sto affrontando zero personaggi o uno: Un avversario bersaglio può [Rifornire-Consumare].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "2"
+            },
+            "id": "7GWX064BB69SJV8RHQADMTR73X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_72/UNIQUE/JPG/en_US/2d39814fe55febbf9f50524675a6dbfb.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Caradrio",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_72_U_2156",
+            "rarity": {
+                "@id": "/.well-known/genid/47a958ab399335712e8d",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_YZ_72_U_2156"
         }
-    }
+    },
+    "updated": "2026-03-31 17:55:11"
 }

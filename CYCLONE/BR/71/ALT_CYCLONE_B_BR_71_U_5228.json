@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_BR_71_U_5228",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/8ee8e26d9514e52464c5abc2578fc141.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/f875c744409e1b274e41",
+            "@id": "/.well-known/genid/1760affe8e76477041e0",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []You may target a Character, it gains [[Fleeting]].",
         "FOREST_POWER": "4",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "{J} []Target Permanent you control activates its {j} abilities.  {H} You may immediately pass. If you do: Create an [Aerolith] token in target player's Landmarks.",
+        "MAIN_EFFECT": "{J} []Target Permanent you control activates its {j} abilities.  {H} You may pass. If you do: Create an [Aerolith] token in target player's Landmarks.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
         "RECALL_COST": "3"
     },
     "id": "0C8K1G6YXW80DSKSJ74VBPYSRX",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
     "isBanned": false,
-    "isErrated": false,
+    "isErrated": true,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Phileas Fogg",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_5228",
     "rarity": {
-        "@id": "/.well-known/genid/6094d7d0d74c6080d8ec",
+        "@id": "/.well-known/genid/b048f8ebe988ef7d3103",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,16 +77,16 @@
     },
     "reference": "ALT_CYCLONE_B_BR_71_U_5228",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_BR_71_U_5228",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/8ee8e26d9514e52464c5abc2578fc141.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/b5e1f7bf420a1000e425",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst einen Charakter wählen, er erhält [[Vergänglich]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{J} []Eine Bleibende Karte deiner Wahl, die du kontrollierst, aktiviert ihre {j} Fähigkeiten.  {H} Du darfst passen. Falls du das tust: Erschaffe eine [Aerolit]-Marke im Wahrzeichen-Bereich eines Spielers deiner Wahl.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "3"
+            },
+            "id": "0C8K1G6YXW80DSKSJ74VBPYSRX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
+            "isBanned": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Phileas Fogg",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_5228",
+            "rarity": {
+                "@id": "/.well-known/genid/62b8d8ad79308fb7dde3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_71_U_5228"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_71_U_5228",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/8ee8e26d9514e52464c5abc2578fc141.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_b12df631fa081042abf2151b4a94bcec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_94fb743ecfa3e6f3b54ecf93c12aea9f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a4f0adef192244ca149b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un personaje. Gana [[Fugacidad]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{J} []El permanente objetivo que controlas activa sus habilidades {j}.  {H} Puedes pasar inmediatamente. Si lo haces: Crea una ficha de [Aerolito] en los hitos del jugador objetivo.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "3"
+            },
+            "id": "0C8K1G6YXW80DSKSJ74VBPYSRX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
+            "isBanned": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Phileas Fogg",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_5228",
+            "rarity": {
+                "@id": "/.well-known/genid/121a7f8521e59ebca584",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_71_U_5228"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_71_U_5228",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/8ee8e26d9514e52464c5abc2578fc141.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_b12df631fa081042abf2151b4a94bcec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_94fb743ecfa3e6f3b54ecf93c12aea9f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/4c77d072730cbb14cf24",
+                    "@id": "/.well-known/genid/6f24db8fd08e7893be5f",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
@@ -120,14 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Personnage. Il gagne [[Fugace]].",
                 "FOREST_POWER": "4",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "{J} []Un Permanent ciblé que vous contrôlez active ses capacités {j}.  {H} Vous pouvez passer immédiatement. Si vous le faites : Créez un jeton [Aérolithe] dans les Repères d'un joueur ciblé.",
+                "MAIN_EFFECT": "{J} []Un Permanent ciblé que vous contrôlez active ses capacités {j}.  {H} Vous pouvez passer. Si vous le faites : Créez un jeton [Aérolithe] dans les Repères d'un joueur ciblé.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
                 "RECALL_COST": "3"
             },
             "id": "0C8K1G6YXW80DSKSJ74VBPYSRX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/8ee8e26d9514e52464c5abc2578fc141.jpg",
             "isBanned": false,
-            "isErrated": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -142,7 +306,86 @@
             "name": "Phileas Fogg",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_5228",
             "rarity": {
-                "@id": "/.well-known/genid/80bf6ef1f204e15e557a",
+                "@id": "/.well-known/genid/9bf935b1fde9f4e0a0fa",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_71_U_5228"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_71_U_5228",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/8ee8e26d9514e52464c5abc2578fc141.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_b12df631fa081042abf2151b4a94bcec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_94fb743ecfa3e6f3b54ecf93c12aea9f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/46402065d17bbd56752f",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un personaggio e fargli ottenere [[Fugace]].",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{J} []Un permanente bersaglio che controlli attiva le sue abilità {j}.  {H} Puoi passare. Se lo fai: Crea una pedina [Aerolite] nei fulcri di un giocatore bersaglio.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "3"
+            },
+            "id": "0C8K1G6YXW80DSKSJ74VBPYSRX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/a5c1b87fbd046e997aaa6e32aa0efb64.jpg",
+            "isBanned": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Phileas Fogg",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_5228",
+            "rarity": {
+                "@id": "/.well-known/genid/aa43b019eeedbf86ac20",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_BR_71_U_5228"
         }
-    }
+    },
+    "updated": "2026-03-30 13:16:54"
 }

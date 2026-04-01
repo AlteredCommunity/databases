@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_BR_71_U_2187",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/0d1b55ef7c9a1733a063803470b49551.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/6d787dfc076cb0ecc571",
+            "@id": "/.well-known/genid/5ea3fdbcdedc8758baac",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{H} You may sacrifice another Robot or Permanent. If you do: [Resupply].  {R} You may immediately pass. If you do: Pay {2} less for the next Permanent you play this Afternoon.",
+        "MAIN_EFFECT": "{H} You may sacrifice another Robot or Permanent. If you do: [Resupply].  {R} You may pass. If you do: You may immediately play a Permanent for {2} less.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "4",
         "RECALL_COST": "3"
     },
     "id": "0DZNXWNQG88D9R5EYKT9SAY22G",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
     "isBanned": false,
-    "isErrated": false,
+    "isErrated": true,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Phileas Fogg",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_2187",
     "rarity": {
-        "@id": "/.well-known/genid/5e5c8414788411923167",
+        "@id": "/.well-known/genid/e3b071465fb1d32629a7",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,16 +76,16 @@
     },
     "reference": "ALT_CYCLONE_B_BR_71_U_2187",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_BR_71_U_2187",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/0d1b55ef7c9a1733a063803470b49551.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ad19e4b426b0a6785e19",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{H} Du darfst einen anderen Roboter oder eine Bleibende Karte opfern. Falls du das tust: [Nachschub].  {R} Du darfst passen. Falls du das tust: Du darfst sofort eine Bleibende Karte für {2} weniger spielen.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "0DZNXWNQG88D9R5EYKT9SAY22G",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
+            "isBanned": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Phileas Fogg",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_2187",
+            "rarity": {
+                "@id": "/.well-known/genid/db379e0d23d5a7c7964c",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_71_U_2187"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_71_U_2187",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/0d1b55ef7c9a1733a063803470b49551.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_b12df631fa081042abf2151b4a94bcec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_94fb743ecfa3e6f3b54ecf93c12aea9f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/3a10428daabab6f11170",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{H} Puedes sacrificar otro robot o permanente. Si lo haces: [Reabastece].  {R} Puedes pasar inmediatamente. Si lo haces: Puedes jugar inmediatamente un permanente por {2} menos.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "0DZNXWNQG88D9R5EYKT9SAY22G",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
+            "isBanned": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Phileas Fogg",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_2187",
+            "rarity": {
+                "@id": "/.well-known/genid/82be6ba910d9eaeb2046",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_71_U_2187"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_71_U_2187",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/0d1b55ef7c9a1733a063803470b49551.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_b12df631fa081042abf2151b4a94bcec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_94fb743ecfa3e6f3b54ecf93c12aea9f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/0e8cf105d9824e9b760e",
+                    "@id": "/.well-known/genid/635eb4125be5129af7be",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{H} Vous pouvez sacrifier un autre Robot ou Permanent. Si vous le faites : [Ravitaillez].  {R} Vous pouvez passer immédiatement. Si vous le faites : Payez {2} de moins pour le prochain Permanent que vous jouez cet Après-midi.",
+                "MAIN_EFFECT": "{H} Vous pouvez sacrifier un autre Robot ou Permanent. Si vous le faites : [Ravitaillez].  {R} Vous pouvez passer. Si vous le faites : Vous pouvez immédiatement jouer un Permanent pour {2} de moins.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "4",
                 "RECALL_COST": "3"
             },
             "id": "0DZNXWNQG88D9R5EYKT9SAY22G",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/0d1b55ef7c9a1733a063803470b49551.jpg",
             "isBanned": false,
-            "isErrated": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Phileas Fogg",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_2187",
             "rarity": {
-                "@id": "/.well-known/genid/d154015de60d715a735c",
+                "@id": "/.well-known/genid/968689746acae78795a1",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_71_U_2187"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_71_U_2187",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/fr_FR/0d1b55ef7c9a1733a063803470b49551.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_b12df631fa081042abf2151b4a94bcec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_94fb743ecfa3e6f3b54ecf93c12aea9f",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/WEB_e4e580197560d6ca3eb3ab16a95116d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ff6a4a439c3caeb69c06",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{H} Puoi sacrificare un altro Robot o permanente. Se lo fai: [Rifornisci].  {R} Puoi passare. Se lo fai: Puoi giocare immediatamente un permanente per {2} in meno.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "0DZNXWNQG88D9R5EYKT9SAY22G",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_71/UNIQUE/JPG/en_US/2526211f91abafd886e3a51ffc3c8e04.jpg",
+            "isBanned": false,
+            "isErrated": true,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Phileas Fogg",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_71_U_2187",
+            "rarity": {
+                "@id": "/.well-known/genid/28ea4251ab8551d41bf3",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_BR_71_U_2187"
         }
-    }
+    },
+    "updated": "2026-03-30 12:50:10"
 }

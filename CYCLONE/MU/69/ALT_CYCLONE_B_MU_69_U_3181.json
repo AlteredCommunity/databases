@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_MU_69_U_3181",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/0d4107f9a93cd54a4a7405d585f74a75.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/3a08c1c66619904f5053",
+            "@id": "/.well-known/genid/1df9ca603aa99aac2f33",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "3",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "[]Unless I'm facing two or more Characters: I am [Defender].  {J} You may put a card from your hand in Reserve. If you do: You may target a Character facing me, it gains [[Asleep]].",
+        "MAIN_EFFECT": "[]If I'm facing zero or one Character: I am [Defender].  {J} You may put a card from your hand in Reserve. If you do: You may target a Character facing me, it gains [[Asleep]].",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "4",
         "RECALL_COST": "3"
     },
     "id": "5RZVBQSGZD9QH9SK1RDRPP9T7S",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Armored Bird",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_3181",
     "rarity": {
-        "@id": "/.well-known/genid/84f82a22b70e4da2f2c0",
+        "@id": "/.well-known/genid/428101d89a1738dfafba",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,16 +76,16 @@
     },
     "reference": "ALT_CYCLONE_B_MU_69_U_3181",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_69_U_3181",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/0d4107f9a93cd54a4a7405d585f74a75.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/7def0b3619bec9430a8d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[]Falls ich keinem oder einem Charakter gegenüberstehe: Ich bin [Verteidiger].  {J} Du darfst eine Karte aus deiner Hand in die Reserve legen. Falls du das tust: Du darfst einen mir gegenüberstehenden Charakter wählen, er erhält [[Schlafend]].",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "5RZVBQSGZD9QH9SK1RDRPP9T7S",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Gepanzerter Vogel",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_3181",
+            "rarity": {
+                "@id": "/.well-known/genid/84dbe5c2782bbf3f7abc",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_69_U_3181"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_69_U_3181",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/0d4107f9a93cd54a4a7405d585f74a75.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ce757491fb57f841c6f4f0ad24428f91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ecc524708ec9875f1b76dd8cedd6e85c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/426bbd5aa7b077ca18ef",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[]Si estoy enfrentado a un personaje o ninguno: Soy [Defensor].  {J} Puedes colocar una carta de tu mano en la reserva. Si lo haces: Puedes hacer objetivo a un personaje enfrentado a mí. Gana [[Sueño]].",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "5RZVBQSGZD9QH9SK1RDRPP9T7S",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Ave blindada",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_3181",
+            "rarity": {
+                "@id": "/.well-known/genid/537c72cd06f82d298b2c",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_69_U_3181"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_69_U_3181",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/0d4107f9a93cd54a4a7405d585f74a75.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ce757491fb57f841c6f4f0ad24428f91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ecc524708ec9875f1b76dd8cedd6e85c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/4c215e74e070b4c43bdb",
+                    "@id": "/.well-known/genid/93543f22d000dfdce69f",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "3",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "[]Sauf si je suis face à au moins deux Personnages : Je suis [Défenseur].  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez cibler un Personnage qui me fait face. Il gagne [[Endormi]].",
+                "MAIN_EFFECT": "[]Si je suis face à aucun ou un seul Personnage : Je suis [Défenseur].  {J} Vous pouvez mettre une carte de votre main en Réserve. Si vous le faites : Vous pouvez cibler un Personnage qui me fait face. Il gagne [[Endormi]].",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "4",
                 "RECALL_COST": "3"
             },
             "id": "5RZVBQSGZD9QH9SK1RDRPP9T7S",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/0d4107f9a93cd54a4a7405d585f74a75.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Oiseau Cuirassé",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_3181",
             "rarity": {
-                "@id": "/.well-known/genid/ff259486030b179d1090",
+                "@id": "/.well-known/genid/64bd3259c8e7fda2a5e5",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_69_U_3181"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_69_U_3181",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/fr_FR/0d4107f9a93cd54a4a7405d585f74a75.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ce757491fb57f841c6f4f0ad24428f91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_ecc524708ec9875f1b76dd8cedd6e85c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/WEB_d4da1d93806876a80221d0d3670ea3f1"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/db4a25162db450d6e110",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[]Se sto affrontando zero personaggi o uno: Ho [Difensore].  {J} Puoi mettere una carta dalla tua mano nella Riserva. Se lo fai: Puoi scegliere come bersaglio un personaggio che mi affronta e fargli ottenere [[Dormiente]].",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "5RZVBQSGZD9QH9SK1RDRPP9T7S",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_69/UNIQUE/JPG/en_US/9f5ae4a0a28babfa60f6d2272e7b7b8e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Uccello Corazzato",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_69_U_3181",
+            "rarity": {
+                "@id": "/.well-known/genid/333312760a163f38e375",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_69_U_3181"
         }
-    }
+    },
+    "updated": "2026-04-01 01:30:02"
 }

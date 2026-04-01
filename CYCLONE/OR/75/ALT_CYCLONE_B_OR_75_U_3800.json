@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_OR_75_U_3800",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/fr_FR/88f54bfaabcb383b058aac08df914c8a.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_1bd0afa8e5b5a68ae9ba570c363bc1e4"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/d16fa22d1f1b2fb410d3",
+            "@id": "/.well-known/genid/3ead6535f0860096a84a",
             "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
             "name": "Bureaucrat",
             "reference": "BUREAUCRAT"
         },
         {
-            "@id": "/.well-known/genid/df475ab5cde38fd925e1",
+            "@id": "/.well-known/genid/ac9868df7a7f7fe35e8f",
             "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
             "name": "Mage",
@@ -56,8 +55,12 @@
         "RECALL_COST": "4"
     },
     "id": "650XGB1NYE8CMVPN6H0JV4D7K7",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Yanna, Qorgan Agent",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_75_U_3800",
     "rarity": {
-        "@id": "/.well-known/genid/768b7269e173194da1c7",
+        "@id": "/.well-known/genid/0d4e44d7a9172afb83b7",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_CYCLONE_B_OR_75_U_3800",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_OR_75_U_3800",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/fr_FR/88f54bfaabcb383b058aac08df914c8a.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_1bd0afa8e5b5a68ae9ba570c363bc1e4"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/06070578fb6822744e6b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Bürokrat",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/b779fe3e7041a51528c4",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Magier",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Du darfst einen Charakter wählen, er erhält [[Schlafend]]. Falls er mir gegenübersteht, nutze [Sabotage].  Wenn ein Charakter, den du kontrollierst, [[Vergänglich]] erhält — Falls ich nicht [[Vergänglich]] bin: Bis zu zwei Charaktere deiner Wahl erhalten je 1 Verstärkung.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "650XGB1NYE8CMVPN6H0JV4D7K7",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Yanna, Qorgan-Agentin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_75_U_3800",
+            "rarity": {
+                "@id": "/.well-known/genid/a654c9d8b1aec1088bfa",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_75_U_3800"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_75_U_3800",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/fr_FR/88f54bfaabcb383b058aac08df914c8a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_b5aade3f5211c24ce0da459b9093b2b0",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_88ef90f3d839101643c0747c8aeb86f7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_1bd0afa8e5b5a68ae9ba570c363bc1e4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/4394495b55627461e94d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burócrata",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/fe56359128579e7a71e2",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mago",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Puedes hacer objetivo a un personaje. Gana [[Sueño]]. Si está enfrentado a mí, [sabotea].  Cuando un personaje que controles gane [[Fugacidad]] — Si no tengo [[Fugacidad]]: Hasta dos personajes objetivo ganan 1 potenciador cada uno.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "650XGB1NYE8CMVPN6H0JV4D7K7",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Yanna, agente del Qorgan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_75_U_3800",
+            "rarity": {
+                "@id": "/.well-known/genid/a03e473ee10d13c5a83e",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_75_U_3800"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_75_U_3800",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/fr_FR/88f54bfaabcb383b058aac08df914c8a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_b5aade3f5211c24ce0da459b9093b2b0",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_88ef90f3d839101643c0747c8aeb86f7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_1bd0afa8e5b5a68ae9ba570c363bc1e4"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/b9bba80446e92c055ff4",
+                    "@id": "/.well-known/genid/1b8703ca392b4976f7a6",
                     "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
                     "name": "Bureaucrate",
                     "reference": "BUREAUCRAT"
                 },
                 {
-                    "@id": "/.well-known/genid/ca0d8b8cac3f80d9363f",
+                    "@id": "/.well-known/genid/ac6f495bb182b3c39f49",
                     "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
                     "name": "Mage",
@@ -141,6 +313,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/fr_FR/88f54bfaabcb383b058aac08df914c8a.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -155,7 +330,92 @@
             "name": "Yanna, Agent du Qorgan",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_75_U_3800",
             "rarity": {
-                "@id": "/.well-known/genid/5e34ed161c6c9cfa7bc6",
+                "@id": "/.well-known/genid/987f207d93bd4b7b260f",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_75_U_3800"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_75_U_3800",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/fr_FR/88f54bfaabcb383b058aac08df914c8a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_b5aade3f5211c24ce0da459b9093b2b0",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_88ef90f3d839101643c0747c8aeb86f7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/WEB_1bd0afa8e5b5a68ae9ba570c363bc1e4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/3eccbeca74e02eb816d5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burocrate",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/7fddeb9584d4a7b24832",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mago",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Puoi scegliere come bersaglio un personaggio e fargli ottenere [[Dormiente]]. Se mi affronta, [Sabota].  Quando un personaggio che controlli ottiene [[Fugace]] — Se non ho [[Fugace]]: Fino a due personaggi bersaglio ottengono 1 rinforzo ciascuno.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "650XGB1NYE8CMVPN6H0JV4D7K7",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_75/UNIQUE/JPG/en_US/5238f5ffd2ef2f4098cd2871e1a88664.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Yanna, Agente del Qorgan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_75_U_3800",
+            "rarity": {
+                "@id": "/.well-known/genid/b0ef68448c122719b7da",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -163,5 +423,6 @@
             },
             "reference": "ALT_CYCLONE_B_OR_75_U_3800"
         }
-    }
+    },
+    "updated": "2026-03-31 14:26:14"
 }
