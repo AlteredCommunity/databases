@@ -13,28 +13,14 @@
         "HERO_THUMB": [
             "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_THUMB.jpg"
         ],
+        "HERO_WIDE": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_ALTERATOR_WIDE.jpg",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_WIDE.jpg"
+        ],
         "WEB": [
             "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_WEB.jpg"
         ]
     },
-    "cardRulings": [
-        {
-            "@id": "/.well-known/genid/d2294cbaab28cd3e117a",
-            "@type": "CardRuling",
-            "answer": "No. Characters in Reserve are not controlled.",
-            "createdAt": "2024-09-06T10:37:48+00:00",
-            "eventFormat": "STANDARD",
-            "question": "Can I target a Character in my Reserve?"
-        },
-        {
-            "@id": "/.well-known/genid/ecdaaad6b8c489b1be30",
-            "@type": "CardRuling",
-            "answer": "A (balanced) six-sided die.  \"On a 6+\" is there because some cards, such as Martengale, allow you to increase the result of the die, possibly beyond 6.",
-            "createdAt": "2024-10-25T10:37:48+00:00",
-            "eventFormat": "STANDARD",
-            "question": "What kind of dice should I use ?"
-        }
-    ],
     "cardSet": {
         "@id": "/card_sets/COREKS",
         "@type": "CardSet",
@@ -50,7 +36,6 @@
         "name": "Hero",
         "reference": "HERO"
     },
-    "created": "2025-06-02 08:00:00",
     "elements": {
         "MAIN_COST": "0",
         "MAIN_EFFECT": "{T} : Target a Character you control, then roll a die. On a:  • 6+, it gains [[Anchored]]. (During Rest, it doesn't go to Reserve and it loses Anchored.)  • 2-5, it gains 1 boost. (A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)  • 1, send it to Reserve.",
@@ -59,7 +44,12 @@
         "RESERVE": "2"
     },
     "id": "01HN5TXRA0YNP8DF971HDV7RX6",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/en_EN/75105e6f155b227dc6b7ec9f14c1cdd8.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/en_US/a154eadec509fefb845f7dc8adf5bf81.jpg",
+    "isBanned": false,
+    "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [
         {
@@ -136,7 +126,6 @@
             "loreEntryType": {
                 "@id": "/lore_entry_types/01HNE2ZDSBVNHKJ8P47G3GACVQ",
                 "@type": "LoreEntryType",
-                "description": "",
                 "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
                 "name": "Hero",
                 "reference": "HERO"
@@ -156,7 +145,7 @@
     "name": "Nevenka & Blotch",
     "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_01_C",
     "rarity": {
-        "@id": "/rarities/COMMON",
+        "@id": "/.well-known/genid/b36b7eac0227277b85d5",
         "@type": "Rarity",
         "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
         "name": "Common",
@@ -164,6 +153,316 @@
     },
     "reference": "ALT_COREKS_B_LY_01_C",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_LY_01_C",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/de_DE/9a80f62c6c5c4e3e2b035d041c6eff5c.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/en_US/a154eadec509fefb845f7dc8adf5bf81.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/es_ES/10c9612657bb540bd6c655b406b8a5fc.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/fr_FR/1738a0134f3291b4fc2d2fb9197b8f76.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/it_IT/3de6ed566f6828a54a72cb0535ac03c4.jpg"
+            },
+            "assets": {
+                "HERO_THUMB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_THUMB.jpg"
+                ],
+                "HERO_WIDE": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_ALTERATOR_WIDE.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_WIDE.jpg"
+                ],
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_WEB.jpg"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Beyond the Gates - KS Edition",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9WGQTNRP28T63FH8TZD",
+                "@type": "CardType",
+                "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+                "name": "Held",
+                "reference": "HERO"
+            },
+            "elements": {
+                "MAIN_COST": "0",
+                "MAIN_EFFECT": "{T} : Wähle einen Charakter, den du kontrollierst, und würfle dann einmal. Bei:  • 6+ erhält er [[Verankert]]. (Während der Ruhepause geht er nicht in die Reserve und verliert Verankert.)  • 2–5 erhält er 1 Verstärkung. (Eine Verstärkung ist ein +1/+1/+1-Zähler. Entferne sie, wenn sie die Expeditionszone verlässt.)  • 1 geht er in die Reserve.",
+                "PERMANENT": "2",
+                "RECALL_COST": "0",
+                "RESERVE": "2"
+            },
+            "id": "01HN5TXRA0YNP8DF971HDV7RX6",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/de_DE/9a80f62c6c5c4e3e2b035d041c6eff5c.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB781GQEA4QKWVXZX8VV15",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB781GQEA4QKWVXZX8VV15",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z31FF6XEEE7BH7GRQ60",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z31FF6XEEE7BH7GRQ60",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Chaos kann Enttäuschungen mit sich bringen, aber es ist auch der Ort, an dem man die wunderbarsten Schätze entdeckt!"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z41GAZAF48W9XZ4ZN96",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z41GAZAF48W9XZ4ZN96",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": "392 AC - Come on! There's no time to lose. Sierra's Eidolon will soon pop out of its paint prison. And obviously it will be a bit annoyed. Cheating? What do you mean? Hey, all I'm doing is just spicing the contest up a bit! Isn't that right, Blotch? Oh. Er… Well, thanks for your support. I'm not the one that made the rules, and frankly, it doesn't say anywhere that you can't throw a wrench into your opponent's gears! Huh? What's that? The Covenant? Cooperation between the Factions, good relationships… blah blah blah. Yeah, OK, but this is just for fun. There's no Covenant for this! Wait, whose side are you on, Blotch? Whose Alter Ego are you? Yeah, well, it's not my fault if you're no good at choosing allies, especially when it's FOR-EVER!\n\nOK, OK. Fine. How about you drop the issue, and I'll send you something to help. Does that work? OK, consider it done. I just need to summon a little rainbow road! I get out my cans and start to spray the ground. Suddenly, an iridescent pink ribbon begins to unwind in the air, twirling toward the sky and through clouds like a writhing eel. Come on! Into the starting blocks and off we go! Using Alteration, I create skates on the Hatter's feet and a sand yacht for Tanuki! By following the Bifröst, they'll reach Blotch in no time. See that, old friend? You see how we should help each other out? That's how you're supposed to support each other in an Exalt! Not by contradicting your partner, especially on small details! Vroom vroom! Choo choo! Well, have the reinforcements arrived, old buddy?"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z3GZSP1KYMB9X0EHPC5",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z3GZSP1KYMB9X0EHPC5",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z23Q5ZZ63KB9CTXY00Y",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z23Q5ZZ63KB9CTXY00Y",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z2NQ7ZWVJTQJSN91TXQ",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z2NQ7ZWVJTQJSN91TXQ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNE2ZDSBVNHKJ8P47G3GACVQ",
+                        "@type": "LoreEntryType",
+                        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+                        "name": "Hero",
+                        "reference": "HERO"
+                    },
+                    "reference": "ALT_COREKS_B_LY_01_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Nevenka & Klecks",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_01_C",
+            "rarity": {
+                "@id": "/.well-known/genid/80fda2ebbe074d19b693",
+                "@type": "Rarity",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+                "name": "Common",
+                "reference": "COMMON"
+            },
+            "reference": "ALT_COREKS_B_LY_01_C"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_LY_01_C",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/de_DE/9a80f62c6c5c4e3e2b035d041c6eff5c.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/en_US/a154eadec509fefb845f7dc8adf5bf81.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/es_ES/10c9612657bb540bd6c655b406b8a5fc.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/fr_FR/1738a0134f3291b4fc2d2fb9197b8f76.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/it_IT/3de6ed566f6828a54a72cb0535ac03c4.jpg"
+            },
+            "assets": {
+                "HERO_THUMB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_THUMB.jpg"
+                ],
+                "HERO_WIDE": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_ALTERATOR_WIDE.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_WIDE.jpg"
+                ],
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_WEB.jpg"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Beyond the Gates - KS Edition",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9WGQTNRP28T63FH8TZD",
+                "@type": "CardType",
+                "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+                "name": "Héroe de",
+                "reference": "HERO"
+            },
+            "elements": {
+                "MAIN_COST": "0",
+                "MAIN_EFFECT": "{T}: Haz objetivo a un personaje que controles y luego tira un dado. Si sacas:  • 6+, gana [[Anclaje]]. (Durante el descanso, no va a la reserva y pierde anclaje.)  • 2-5, gana 1 potenciador. (Un potenciador es un contador +1/+1/+1. Retíralo cuando abandone la zona de expedición.)  • 1, envíalo a la reserva.",
+                "PERMANENT": "2",
+                "RECALL_COST": "0",
+                "RESERVE": "2"
+            },
+            "id": "01HN5TXRA0YNP8DF971HDV7RX6",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/es_ES/10c9612657bb540bd6c655b406b8a5fc.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB781GQEA4QKWVXZX8VV15",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB781GQEA4QKWVXZX8VV15",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z31FF6XEEE7BH7GRQ60",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z31FF6XEEE7BH7GRQ60",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Sí, el caos puede ser una lata, ¡pero también contiene las gemas ocultas más maravillásticas!"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z41GAZAF48W9XZ4ZN96",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z41GAZAF48W9XZ4ZN96",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": "392 AC - Come on! There's no time to lose. Sierra's Eidolon will soon pop out of its paint prison. And obviously it will be a bit annoyed. Cheating? What do you mean? Hey, all I'm doing is just spicing the contest up a bit! Isn't that right, Blotch? Oh. Er… Well, thanks for your support. I'm not the one that made the rules, and frankly, it doesn't say anywhere that you can't throw a wrench into your opponent's gears! Huh? What's that? The Covenant? Cooperation between the Factions, good relationships… blah blah blah. Yeah, OK, but this is just for fun. There's no Covenant for this! Wait, whose side are you on, Blotch? Whose Alter Ego are you? Yeah, well, it's not my fault if you're no good at choosing allies, especially when it's FOR-EVER!\n\nOK, OK. Fine. How about you drop the issue, and I'll send you something to help. Does that work? OK, consider it done. I just need to summon a little rainbow road! I get out my cans and start to spray the ground. Suddenly, an iridescent pink ribbon begins to unwind in the air, twirling toward the sky and through clouds like a writhing eel. Come on! Into the starting blocks and off we go! Using Alteration, I create skates on the Hatter's feet and a sand yacht for Tanuki! By following the Bifröst, they'll reach Blotch in no time. See that, old friend? You see how we should help each other out? That's how you're supposed to support each other in an Exalt! Not by contradicting your partner, especially on small details! Vroom vroom! Choo choo! Well, have the reinforcements arrived, old buddy?"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z3GZSP1KYMB9X0EHPC5",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z3GZSP1KYMB9X0EHPC5",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z23Q5ZZ63KB9CTXY00Y",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z23Q5ZZ63KB9CTXY00Y",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z2NQ7ZWVJTQJSN91TXQ",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z2NQ7ZWVJTQJSN91TXQ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNE2ZDSBVNHKJ8P47G3GACVQ",
+                        "@type": "LoreEntryType",
+                        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+                        "name": "Hero",
+                        "reference": "HERO"
+                    },
+                    "reference": "ALT_COREKS_B_LY_01_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Nevenka y Mancha",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_01_C",
+            "rarity": {
+                "@id": "/.well-known/genid/5309bc9cf523403485cd",
+                "@type": "Rarity",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+                "name": "Common",
+                "reference": "COMMON"
+            },
+            "reference": "ALT_COREKS_B_LY_01_C"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_COREKS_B_LY_01_C",
@@ -179,28 +478,14 @@
                 "HERO_THUMB": [
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_THUMB.jpg"
                 ],
+                "HERO_WIDE": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_ALTERATOR_WIDE.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_WIDE.jpg"
+                ],
                 "WEB": [
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_WEB.jpg"
                 ]
             },
-            "cardRulings": [
-                {
-                    "@id": "/.well-known/genid/f10cdd1b8cd37eba0514",
-                    "@type": "CardRuling",
-                    "answer": "No. Characters in Reserve are not controlled.",
-                    "createdAt": "2024-09-06T10:37:48+00:00",
-                    "eventFormat": "STANDARD",
-                    "question": "Can I target a Character in my Reserve?"
-                },
-                {
-                    "@id": "/.well-known/genid/36a5616510e89bd03bc8",
-                    "@type": "CardRuling",
-                    "answer": "A (balanced) six-sided die.  \"On a 6+\" is there because some cards, such as Martengale, allow you to increase the result of the die, possibly beyond 6.",
-                    "createdAt": "2024-10-25T10:37:48+00:00",
-                    "eventFormat": "STANDARD",
-                    "question": "What kind of dice should I use ?"
-                }
-            ],
             "cardSet": {
                 "@id": "/card_sets/COREKS",
                 "@type": "CardSet",
@@ -225,6 +510,11 @@
             },
             "id": "01HN5TXRA0YNP8DF971HDV7RX6",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/fr_FR/1738a0134f3291b4fc2d2fb9197b8f76.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [
                 {
@@ -301,7 +591,6 @@
                     "loreEntryType": {
                         "@id": "/lore_entry_types/01HNE2ZDSBVNHKJ8P47G3GACVQ",
                         "@type": "LoreEntryType",
-                        "description": "",
                         "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
                         "name": "Hero",
                         "reference": "HERO"
@@ -321,14 +610,169 @@
             "name": "Nevenka & Blotch",
             "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_01_C",
             "rarity": {
-                "@id": "/rarities/COMMON",
+                "@id": "/.well-known/genid/c59fa0f9f3ee7317c460",
                 "@type": "Rarity",
                 "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
                 "name": "Commun",
                 "reference": "COMMON"
             },
             "reference": "ALT_COREKS_B_LY_01_C"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_COREKS_B_LY_01_C",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/de_DE/9a80f62c6c5c4e3e2b035d041c6eff5c.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/en_US/a154eadec509fefb845f7dc8adf5bf81.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/es_ES/10c9612657bb540bd6c655b406b8a5fc.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/fr_FR/1738a0134f3291b4fc2d2fb9197b8f76.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/it_IT/3de6ed566f6828a54a72cb0535ac03c4.jpg"
+            },
+            "assets": {
+                "HERO_THUMB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_THUMB.jpg"
+                ],
+                "HERO_WIDE": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_ALTERATOR_WIDE.jpg",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_HERO_WIDE.jpg"
+                ],
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_01/ALT_CORE_B_LY_01_C_WEB.jpg"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/COREKS",
+                "@type": "CardSet",
+                "id": "01HN5TWSSVYM93FHCEC3K8NNCM",
+                "name": "Beyond the Gates - KS Edition",
+                "reference": "COREKS"
+            },
+            "cardSubTypes": [],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9WGQTNRP28T63FH8TZD",
+                "@type": "CardType",
+                "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+                "name": "Eroe",
+                "reference": "HERO"
+            },
+            "elements": {
+                "MAIN_COST": "0",
+                "MAIN_EFFECT": "{T}: Scegli come bersaglio un personaggio che controlli, poi tira un dado. Con:  • 6+, ottiene [[Ancorato]]. (Durante il riposo, non va nella Riserva e perde Ancorato.)  • 2-5, ottiene 1 rinforzo. (Un rinforzo è un segnalino +1/+1/+1. Rimuovilo quando lascia l'area delle spedizioni.)  • 1, mandalo nella Riserva.",
+                "PERMANENT": "2",
+                "RECALL_COST": "0",
+                "RESERVE": "2"
+            },
+            "id": "01HN5TXRA0YNP8DF971HDV7RX6",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/COREKS/CARDS/ALT_CORE_B_LY_01/JPG/it_IT/3de6ed566f6828a54a72cb0535ac03c4.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/01HPMB781GQEA4QKWVXZX8VV15",
+                    "@type": "LoreEntry",
+                    "id": "01HPMB781GQEA4QKWVXZX8VV15",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z31FF6XEEE7BH7GRQ60",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z31FF6XEEE7BH7GRQ60",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Il caos può portare delusione, certo, ma è lì che troverai le gemme nascoste più spettacolose!"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z41GAZAF48W9XZ4ZN96",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z41GAZAF48W9XZ4ZN96",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": "392 AC - Come on! There's no time to lose. Sierra's Eidolon will soon pop out of its paint prison. And obviously it will be a bit annoyed. Cheating? What do you mean? Hey, all I'm doing is just spicing the contest up a bit! Isn't that right, Blotch? Oh. Er… Well, thanks for your support. I'm not the one that made the rules, and frankly, it doesn't say anywhere that you can't throw a wrench into your opponent's gears! Huh? What's that? The Covenant? Cooperation between the Factions, good relationships… blah blah blah. Yeah, OK, but this is just for fun. There's no Covenant for this! Wait, whose side are you on, Blotch? Whose Alter Ego are you? Yeah, well, it's not my fault if you're no good at choosing allies, especially when it's FOR-EVER!\n\nOK, OK. Fine. How about you drop the issue, and I'll send you something to help. Does that work? OK, consider it done. I just need to summon a little rainbow road! I get out my cans and start to spray the ground. Suddenly, an iridescent pink ribbon begins to unwind in the air, twirling toward the sky and through clouds like a writhing eel. Come on! Into the starting blocks and off we go! Using Alteration, I create skates on the Hatter's feet and a sand yacht for Tanuki! By following the Bifröst, they'll reach Blotch in no time. See that, old friend? You see how we should help each other out? That's how you're supposed to support each other in an Exalt! Not by contradicting your partner, especially on small details! Vroom vroom! Choo choo! Well, have the reinforcements arrived, old buddy?"
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z3GZSP1KYMB9X0EHPC5",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z3GZSP1KYMB9X0EHPC5",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z23Q5ZZ63KB9CTXY00Y",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z23Q5ZZ63KB9CTXY00Y",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01HPME7Z2NQ7ZWVJTQJSN91TXQ",
+                            "@type": "LoreEntryElement",
+                            "id": "01HPME7Z2NQ7ZWVJTQJSN91TXQ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNE2ZDSBVNHKJ8P47G3GACVQ",
+                        "@type": "LoreEntryType",
+                        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+                        "name": "Hero",
+                        "reference": "HERO"
+                    },
+                    "reference": "ALT_COREKS_B_LY_01_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Nevenka e Macchia",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_COREKS_B_LY_01_C",
+            "rarity": {
+                "@id": "/.well-known/genid/91a49834b4cf92a4d4ee",
+                "@type": "Rarity",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+                "name": "Common",
+                "reference": "COMMON"
+            },
+            "reference": "ALT_COREKS_B_LY_01_C"
         }
     },
-    "updated": null
+    "updated": "2026-04-02 13:24:25"
 }

@@ -15,7 +15,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_1e2af3197b6e16172270756879d7be5f"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CORE",
         "@type": "CardSet",
@@ -25,7 +24,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/722940fcc24dd080cecb",
+            "@id": "/.well-known/genid/227532bb427ed341ce4a",
             "@type": "CardSubType",
             "id": "01HKAGPHVVK20XKBXKCZNGRTFD",
             "name": "Boon",
@@ -39,7 +38,6 @@
         "name": "Spell",
         "reference": "SPELL"
     },
-    "created": "2025-06-02 08:00:00",
     "elements": {
         "ECHO_EFFECT": "#{D} : The next Character you play this turn gains 1 boost.# (Discard me from Reserve to do this.)",
         "MAIN_COST": "2",
@@ -47,7 +45,12 @@
         "RECALL_COST": "#2#"
     },
     "id": "01JH0V0NJ8CKDDXQV57V239347",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/en_EN/890a2fe67c01ec6d4f2a8c49acb6a7e0.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/en_US/7d41f26343913975c4fd1f54912da7d0.jpg",
+    "isBanned": false,
+    "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [
         {
@@ -124,7 +127,6 @@
             "loreEntryType": {
                 "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
                 "@type": "LoreEntryType",
-                "description": "",
                 "id": "01HNGY4YWDQJMHNXV999HX7V1P",
                 "name": "Spell",
                 "reference": "SPELL"
@@ -144,7 +146,7 @@
     "name": "Meditation Training",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_A_MU_25_R1",
     "rarity": {
-        "@id": "/rarities/RARE",
+        "@id": "/.well-known/genid/e3266e96e71fa883ba96",
         "@type": "Rarity",
         "id": "01GE7AC9WY6PK56RADXXD6P1T5",
         "name": "Rare",
@@ -152,6 +154,318 @@
     },
     "reference": "ALT_CORE_A_MU_25_R1",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CORE_A_MU_25_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/de_DE/5c42d7e359897b940a8b97d7d66129c2.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/en_US/7d41f26343913975c4fd1f54912da7d0.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/es_ES/bcc179e81d0ce839a504d4e491f15f35.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/fr_FR/36b7fb61bfa05d6798d745a8e90fad4d.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/it_IT/2a9ef0581fa7b23fb98c485136805f6a.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_750456ba6e179080361751c99046dcb5",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_1e2af3197b6e16172270756879d7be5f"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CORE",
+                "@type": "CardSet",
+                "id": "01HKAFJN3HG3TWKYV0E014K01G",
+                "name": "Beyond the Gates",
+                "reference": "CORE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/07d1d7cc823efc9a0dee",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPHVVK20XKBXKCZNGRTFD",
+                    "name": "Segen",
+                    "reference": "BOON"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9X35JXEQZJBBD6E4BKX",
+                "@type": "CardType",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+                "name": "Zauber",
+                "reference": "SPELL"
+            },
+            "elements": {
+                "ECHO_EFFECT": "#{D} : Der nächste Charakter, den du in dieser Runde spielst, erhält 1 Verstärkung.# (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Ein Charakter deiner Wahl mit Handkosten {3} oder weniger erhält [[Verankert]]. (Während der Ruhepause geht er nicht in die Reserve und verliert Verankert.)",
+                "RECALL_COST": "#2#"
+            },
+            "id": "01JH0V0NJ8CKDDXQV57V239347",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/de_DE/5c42d7e359897b940a8b97d7d66129c2.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/4TCWJ47P3H94RRNJF367FPQ081",
+                    "@type": "LoreEntry",
+                    "id": "4TCWJ47P3H94RRNJF367FPQ081",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9WEBFTSKY6EWMXQB12",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9WEBFTSKY6EWMXQB12",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Du musst nicht glauben, dass du existierst. Du musst es wissen."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAEA6N1PYQ0H9JJTSZN40",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAEA6N1PYQ0H9JJTSZN40",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAEA1171XKHX048S0PNMB",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAEA1171XKHX048S0PNMB",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9GJ2Q5VVAQMRHGWSQQ",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9GJ2Q5VVAQMRHGWSQQ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9QWRDWNKPKYHPG0BNG",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9QWRDWNKPKYHPG0BNG",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
+                        "@type": "LoreEntryType",
+                        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+                        "name": "Spell",
+                        "reference": "SPELL"
+                    },
+                    "reference": "ALT_CORE_A_MU_25_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Meditationstraining",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_A_MU_25_R1",
+            "rarity": {
+                "@id": "/.well-known/genid/7118657c0c030aa212fd",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_CORE_A_MU_25_R1"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CORE_A_MU_25_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/de_DE/5c42d7e359897b940a8b97d7d66129c2.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/en_US/7d41f26343913975c4fd1f54912da7d0.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/es_ES/bcc179e81d0ce839a504d4e491f15f35.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/fr_FR/36b7fb61bfa05d6798d745a8e90fad4d.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/it_IT/2a9ef0581fa7b23fb98c485136805f6a.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_750456ba6e179080361751c99046dcb5",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_1e2af3197b6e16172270756879d7be5f"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CORE",
+                "@type": "CardSet",
+                "id": "01HKAFJN3HG3TWKYV0E014K01G",
+                "name": "Beyond the Gates",
+                "reference": "CORE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/175fcd996d0eec5e2ad7",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPHVVK20XKBXKCZNGRTFD",
+                    "name": "Ayuda",
+                    "reference": "BOON"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9X35JXEQZJBBD6E4BKX",
+                "@type": "CardType",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+                "name": "Hechizo",
+                "reference": "SPELL"
+            },
+            "elements": {
+                "ECHO_EFFECT": "#{D}: El siguiente personaje que juegues este turno gana 1 potenciador.# (Descártame de la reserva para hacer esto.)",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Un personaje objetivo con coste desde la mano de {3} o menos gana [[Anclaje]]. (Durante el descanso, no va a la reserva y pierde anclaje.)",
+                "RECALL_COST": "#2#"
+            },
+            "id": "01JH0V0NJ8CKDDXQV57V239347",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/es_ES/bcc179e81d0ce839a504d4e491f15f35.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/4TCWJ47P3H94RRNJF367FPQ081",
+                    "@type": "LoreEntry",
+                    "id": "4TCWJ47P3H94RRNJF367FPQ081",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9WEBFTSKY6EWMXQB12",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9WEBFTSKY6EWMXQB12",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "No basta con creer que eres lo que eres, debes saber que lo eres."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAEA6N1PYQ0H9JJTSZN40",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAEA6N1PYQ0H9JJTSZN40",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAEA1171XKHX048S0PNMB",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAEA1171XKHX048S0PNMB",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9GJ2Q5VVAQMRHGWSQQ",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9GJ2Q5VVAQMRHGWSQQ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9QWRDWNKPKYHPG0BNG",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9QWRDWNKPKYHPG0BNG",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
+                        "@type": "LoreEntryType",
+                        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+                        "name": "Spell",
+                        "reference": "SPELL"
+                    },
+                    "reference": "ALT_CORE_A_MU_25_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Entrenamiento de meditación",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_A_MU_25_R1",
+            "rarity": {
+                "@id": "/.well-known/genid/f0118f27f564c484f852",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_CORE_A_MU_25_R1"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CORE_A_MU_25_R1",
@@ -169,7 +483,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_1e2af3197b6e16172270756879d7be5f"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/CORE",
                 "@type": "CardSet",
@@ -179,7 +492,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/9a82c2b7ed5fddad7489",
+                    "@id": "/.well-known/genid/da400affd3dd046fcfd6",
                     "@type": "CardSubType",
                     "id": "01HKAGPHVVK20XKBXKCZNGRTFD",
                     "name": "Bénédiction",
@@ -201,6 +514,11 @@
             },
             "id": "01JH0V0NJ8CKDDXQV57V239347",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/fr_FR/36b7fb61bfa05d6798d745a8e90fad4d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [
                 {
@@ -277,7 +595,6 @@
                     "loreEntryType": {
                         "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
                         "@type": "LoreEntryType",
-                        "description": "",
                         "id": "01HNGY4YWDQJMHNXV999HX7V1P",
                         "name": "Spell",
                         "reference": "SPELL"
@@ -297,7 +614,163 @@
             "name": "Entraînement à la Méditation",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_A_MU_25_R1",
             "rarity": {
-                "@id": "/rarities/RARE",
+                "@id": "/.well-known/genid/23c1730b8652980b1c62",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_CORE_A_MU_25_R1"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CORE_A_MU_25_R1",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/de_DE/5c42d7e359897b940a8b97d7d66129c2.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/en_US/7d41f26343913975c4fd1f54912da7d0.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/es_ES/bcc179e81d0ce839a504d4e491f15f35.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/fr_FR/36b7fb61bfa05d6798d745a8e90fad4d.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/it_IT/2a9ef0581fa7b23fb98c485136805f6a.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_750456ba6e179080361751c99046dcb5",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/WEB_1e2af3197b6e16172270756879d7be5f"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CORE",
+                "@type": "CardSet",
+                "id": "01HKAFJN3HG3TWKYV0E014K01G",
+                "name": "Beyond the Gates",
+                "reference": "CORE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/2c8b7731b304adcc259d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPHVVK20XKBXKCZNGRTFD",
+                    "name": "Vantaggio",
+                    "reference": "BOON"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01GE7AC9X35JXEQZJBBD6E4BKX",
+                "@type": "CardType",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+                "name": "Incantesimo",
+                "reference": "SPELL"
+            },
+            "elements": {
+                "ECHO_EFFECT": "#{D}: Il prossimo personaggio che giochi in questo turno ottiene 1 rinforzo.# (Scartami dalla Riserva per eseguire questa azione.)",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Un personaggio bersaglio con costo dalla mano pari o inferiore a {3} ottiene [[Ancorato]]. (Durante il riposo, non va nella Riserva e perde Ancorato.)",
+                "RECALL_COST": "#2#"
+            },
+            "id": "01JH0V0NJ8CKDDXQV57V239347",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_A_MU_25/JPG/it_IT/2a9ef0581fa7b23fb98c485136805f6a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/4TCWJ47P3H94RRNJF367FPQ081",
+                    "@type": "LoreEntry",
+                    "id": "4TCWJ47P3H94RRNJF367FPQ081",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9WEBFTSKY6EWMXQB12",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9WEBFTSKY6EWMXQB12",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Non pensare di essere, sappi di essere."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAEA6N1PYQ0H9JJTSZN40",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAEA6N1PYQ0H9JJTSZN40",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAEA1171XKHX048S0PNMB",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAEA1171XKHX048S0PNMB",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9GJ2Q5VVAQMRHGWSQQ",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9GJ2Q5VVAQMRHGWSQQ",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JH1KAE9QWRDWNKPKYHPG0BNG",
+                            "@type": "LoreEntryElement",
+                            "id": "01JH1KAE9QWRDWNKPKYHPG0BNG",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YWDQJMHNXV999HX7V1P",
+                        "@type": "LoreEntryType",
+                        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+                        "name": "Spell",
+                        "reference": "SPELL"
+                    },
+                    "reference": "ALT_CORE_A_MU_25_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Addestramento di Meditazione",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CORE_A_MU_25_R1",
+            "rarity": {
+                "@id": "/.well-known/genid/7ad58709fc81ea45c323",
                 "@type": "Rarity",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T5",
                 "name": "Rare",
@@ -306,5 +779,5 @@
             "reference": "ALT_CORE_A_MU_25_R1"
         }
     },
-    "updated": null
+    "updated": "2026-04-02 14:07:24"
 }

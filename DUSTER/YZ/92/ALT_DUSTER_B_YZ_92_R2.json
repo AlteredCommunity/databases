@@ -9,8 +9,13 @@
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/fr_FR/6f571875811a6f7b7e53b757a4c59574.jpg",
         "it-it": ""
     },
-    "assets": [],
-    "cardRulings": [],
+    "assets": {
+        "WEB": [
+            "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_cce3c33a573860571f289161f564238b",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_09e1960235c8e3bc810e375a342a023c",
+            "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_93118235f01040d3f3b6f85207b7ef5d"
+        ]
+    },
     "cardSet": {
         "@id": "/card_sets/DUSTER",
         "@type": "CardSet",
@@ -20,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/4cd53eb59edd22416d0e",
+            "@id": "/.well-known/genid/22755631e82f70246a03",
             "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
             "name": "Soldier",
             "reference": "SOLDIER"
         },
         {
-            "@id": "/.well-known/genid/8be2f8e10e590f4639bf",
+            "@id": "/.well-known/genid/03d269cf12f9c98ba1f4",
             "@type": "CardSubType",
             "id": "01JZ2K0A1NZSGT69DP1WS2917B",
             "name": "Rogue",
@@ -55,6 +60,8 @@
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [
         {
@@ -150,7 +157,7 @@
     "name": "Mochizuki Chiyome",
     "qrUrlDetail": "https://qr.altered.gg/ALT_DUSTER_B_YZ_92_R2",
     "rarity": {
-        "@id": "/.well-known/genid/08edc219f4955e3b6b33",
+        "@id": "/.well-known/genid/221577c7a4099f55e5ff",
         "@type": "Rarity",
         "id": "01GE7AC9WY6PK56RADXXD6P1T5",
         "name": "Rare",
@@ -158,6 +165,340 @@
     },
     "reference": "ALT_DUSTER_B_YZ_92_R2",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_DUSTER_B_YZ_92_R2",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/fr_FR/6f571875811a6f7b7e53b757a4c59574.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_cce3c33a573860571f289161f564238b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_09e1960235c8e3bc810e375a342a023c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_93118235f01040d3f3b6f85207b7ef5d"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/DUSTER",
+                "@type": "CardSet",
+                "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+                "name": "Saat der Eintracht",
+                "reference": "DUSTER"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/7d58995a0bd9aa8cab3b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
+                },
+                {
+                    "@id": "/.well-known/genid/b1b4f1cbe87589a9be0a",
+                    "@type": "CardSubType",
+                    "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+                    "name": "Rebell",
+                    "reference": "ROGUE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : Zahle {1} weniger für den nächsten Zauber, den du in dieser Runde spielst, aber mindestens {1}. (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "#{J} Falls ich [in Kontakt] bin, zahle {1} weniger für den nächsten Zauber, den du an diesem Nachmittag spielst, aber mindestens {1}.# (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist. Andere Effekte können die Kosten weiter senken.)",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "01JYP9SVQQ77MRBTN00YYV9NT2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/5KMZS8X6TN9XSAVWWC3AEDQDDH",
+                    "@type": "LoreEntry",
+                    "id": "5KMZS8X6TN9XSAVWWC3AEDQDDH",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "Die Kunst der Überraschung besteht darin, dort aufzutauchen, wo man am wenigsten erwartet wird."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZX09SSSXEN6CF1Y65TQ7",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZX09SSSXEN6CF1Y65TQ7",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWYYYZJ0J8HHFBDVPRT6",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWYYYZJ0J8HHFBDVPRT6",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWWYAG4937D0TG3X4H3R",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWWYAG4937D0TG3X4H3R",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWXRMRDVRHD6XVHD750G",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWXRMRDVRHD6XVHD750G",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_DUSTER_B_YZ_92_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Mochizuki Chiyome",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_DUSTER_B_YZ_92_R2",
+            "rarity": {
+                "@id": "/.well-known/genid/531446472334968e37b9",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_DUSTER_B_YZ_92_R2"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_DUSTER_B_YZ_92_R2",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/fr_FR/6f571875811a6f7b7e53b757a4c59574.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_cce3c33a573860571f289161f564238b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_09e1960235c8e3bc810e375a342a023c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_93118235f01040d3f3b6f85207b7ef5d"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/DUSTER",
+                "@type": "CardSet",
+                "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+                "name": "Semillas de la unidad",
+                "reference": "DUSTER"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/2c1558a2762047903bba",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldado",
+                    "reference": "SOLDIER"
+                },
+                {
+                    "@id": "/.well-known/genid/80fe480abab2b1995a5d",
+                    "@type": "CardSubType",
+                    "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+                    "name": "Pícaro",
+                    "reference": "ROGUE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: Paga {1} menos por el siguiente hechizo que juegues este turno, hasta un mínimo de {1}. (Descártame de la reserva para hacer esto.)",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "#{J} Si estoy [En contacto], paga {1} menos por el siguiente hechizo que juegues esta tarde, hasta un mínimo de {1}.# (Estoy en contacto si la expedición de otro jugador está en mi región. Otros efectos pueden reducir el coste aún más.)",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "01JYP9SVQQ77MRBTN00YYV9NT2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/5KMZS8X6TN9XSAVWWC3AEDQDDH",
+                    "@type": "LoreEntry",
+                    "id": "5KMZS8X6TN9XSAVWWC3AEDQDDH",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "El arte de la sorpresa consiste en aparecer donde no se te espera."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZX09SSSXEN6CF1Y65TQ7",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZX09SSSXEN6CF1Y65TQ7",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWYYYZJ0J8HHFBDVPRT6",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWYYYZJ0J8HHFBDVPRT6",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWWYAG4937D0TG3X4H3R",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWWYAG4937D0TG3X4H3R",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWXRMRDVRHD6XVHD750G",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWXRMRDVRHD6XVHD750G",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_DUSTER_B_YZ_92_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Mochizuki Chiyome",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_DUSTER_B_YZ_92_R2",
+            "rarity": {
+                "@id": "/.well-known/genid/7fabe692f288256435c2",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_DUSTER_B_YZ_92_R2"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_DUSTER_B_YZ_92_R2",
@@ -169,8 +510,13 @@
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/fr_FR/6f571875811a6f7b7e53b757a4c59574.jpg",
                 "it-it": ""
             },
-            "assets": [],
-            "cardRulings": [],
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_cce3c33a573860571f289161f564238b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_09e1960235c8e3bc810e375a342a023c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_93118235f01040d3f3b6f85207b7ef5d"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/DUSTER",
                 "@type": "CardSet",
@@ -180,14 +526,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/1d29d56d87a9f168da93",
+                    "@id": "/.well-known/genid/14712ec4e24744519135",
                     "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
                     "name": "Soldat",
                     "reference": "SOLDIER"
                 },
                 {
-                    "@id": "/.well-known/genid/0c7d136620e559fa5656",
+                    "@id": "/.well-known/genid/6f2e25ef034544415f41",
                     "@type": "CardSubType",
                     "id": "01JZ2K0A1NZSGT69DP1WS2917B",
                     "name": "Gredin",
@@ -202,7 +548,7 @@
                 "reference": "CHARACTER"
             },
             "elements": {
-                "ECHO_EFFECT": "{D} : Payez {1} de moins pour le prochain Sort que vous jouez ce tour-ci, jusqu'à un minimum de {1}.",
+                "ECHO_EFFECT": "{D} : Payez {1} de moins pour le prochain Sort que vous jouez ce tour-ci, jusqu'à un minimum de {1}. (Défaussez-moi de la Réserve pour ça.)",
                 "FOREST_POWER": "3",
                 "MAIN_COST": "3",
                 "MAIN_EFFECT": "#{J} Si je suis [En Contact], payez {1} de moins pour le prochain Sort que vous jouez cet Après-midi, jusqu'à un minimum de {1}.# (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région. D'autres effets peuvent réduire davantage le coût.)",
@@ -215,6 +561,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [
                 {
@@ -310,7 +658,174 @@
             "name": "Mochizuki Chiyome",
             "qrUrlDetail": "https://qr.altered.gg/ALT_DUSTER_B_YZ_92_R2",
             "rarity": {
-                "@id": "/.well-known/genid/1267643c7f9ba7cf3fb6",
+                "@id": "/.well-known/genid/116d00f00ebc53e0db4a",
+                "@type": "Rarity",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+                "name": "Rare",
+                "reference": "RARE"
+            },
+            "reference": "ALT_DUSTER_B_YZ_92_R2"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_DUSTER_B_YZ_92_R2",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/fr_FR/6f571875811a6f7b7e53b757a4c59574.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_cce3c33a573860571f289161f564238b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_09e1960235c8e3bc810e375a342a023c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/WEB_93118235f01040d3f3b6f85207b7ef5d"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/DUSTER",
+                "@type": "CardSet",
+                "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+                "name": "Semi di Unità",
+                "reference": "DUSTER"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/18ab9111b9f09ed61be2",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldato",
+                    "reference": "SOLDIER"
+                },
+                {
+                    "@id": "/.well-known/genid/d5ba176da1ca05de4696",
+                    "@type": "CardSubType",
+                    "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+                    "name": "Ribelle",
+                    "reference": "ROGUE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: paga {1} in meno per il prossimo incantesimo che giochi in questo turno, fino a un minimo di {1}. (Scartami dalla Riserva per eseguire questa azione.)",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "#{J} Se sono [In contatto], paga {1} in meno per il prossimo incantesimo che giochi questo pomeriggio, fino a un minimo di {1}.# (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione. Altri effetti possono ridurre il costo ulteriormente.)",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "01JYP9SVQQ77MRBTN00YYV9NT2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/DUSTER/CARDS/ALT_DUSTER_B_YZ_92/JPG/en_US/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [
+                {
+                    "@id": "/lore_entries/5KMZS8X6TN9XSAVWWC3AEDQDDH",
+                    "@type": "LoreEntry",
+                    "id": "5KMZS8X6TN9XSAVWWC3AEDQDDH",
+                    "loreEntryElements": [
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AENPX6HQP8G16KNV7BNA2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+                                "reference": "FLAVOR_TEXT",
+                                "subject": "Flavor Text"
+                            },
+                            "text": "L'arte della sorpresa è presentarsi dove nessuno ti aspetta."
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZX09SSSXEN6CF1Y65TQ7",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZX09SSSXEN6CF1Y65TQ7",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+                                "reference": "STORY",
+                                "subject": "Story"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWYYYZJ0J8HHFBDVPRT6",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWYYYZJ0J8HHFBDVPRT6",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+                                "reference": "INSPIRATION",
+                                "subject": "Inspiration"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWWYAG4937D0TG3X4H3R",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWWYAG4937D0TG3X4H3R",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01H19024M31D80P12EJCYX9GB0",
+                                "@type": "LoreEntryElementType",
+                                "id": "01H19024M31D80P12EJCYX9GB0",
+                                "reference": "NARRATOR",
+                                "subject": "Narrator"
+                            },
+                            "text": ""
+                        },
+                        {
+                            "@id": "/lore_entry_elements/01JZ37ZWXRMRDVRHD6XVHD750G",
+                            "@type": "LoreEntryElement",
+                            "id": "01JZ37ZWXRMRDVRHD6XVHD750G",
+                            "loreEntryElementType": {
+                                "@id": "/lore_entry_element_types/01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "@type": "LoreEntryElementType",
+                                "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+                                "reference": "DATE",
+                                "subject": "Date"
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "loreEntryType": {
+                        "@id": "/lore_entry_types/01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "@type": "LoreEntryType",
+                        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+                        "name": "Character",
+                        "reference": "CHARACTER"
+                    },
+                    "reference": "ALT_DUSTER_B_YZ_92_C"
+                }
+            ],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Mochizuki Chiyome",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_DUSTER_B_YZ_92_R2",
+            "rarity": {
+                "@id": "/.well-known/genid/6745745e52ad47838bd1",
                 "@type": "Rarity",
                 "id": "01GE7AC9WY6PK56RADXXD6P1T5",
                 "name": "Rare",
@@ -318,5 +833,6 @@
             },
             "reference": "ALT_DUSTER_B_YZ_92_R2"
         }
-    }
+    },
+    "updated": "2026-04-02 15:54:56"
 }
