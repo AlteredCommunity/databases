@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_AX_72_U_8938",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/fr_FR/431abc0b5259fe4cfa98fe3fab965a74.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_40467d5ad0ec187095cd5791a55e1001"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/74c66b4e68691f79c2e7",
+            "@id": "/.well-known/genid/cef632ba1dc2938caf9c",
             "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
             "name": "Engineer",
             "reference": "ENGINEER"
         },
         {
-            "@id": "/.well-known/genid/f74009a7eec1b740fe8e",
+            "@id": "/.well-known/genid/02aef731aef234a615d9",
             "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
             "name": "Robot",
@@ -56,8 +55,12 @@
         "RECALL_COST": "3"
     },
     "id": "5YTSVW8R0S900SRGJG722VTARG",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Axiom Puppeteer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_72_U_8938",
     "rarity": {
-        "@id": "/.well-known/genid/85c4dbdd829c03e3e400",
+        "@id": "/.well-known/genid/8a32b692fdce05b65c0d",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_CYCLONE_B_AX_72_U_8938",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_AX_72_U_8938",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/fr_FR/431abc0b5259fe4cfa98fe3fab965a74.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_40467d5ad0ec187095cd5791a55e1001"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/05a39a2e982d019480c1",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingenieur",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/f2a86987ffa3503a71e6",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Roboter",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "4",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{H} Du darfst einen Charakter oder eine Bleibende Karte opfern. Falls du das tust: [Sabotage], andernfalls darfst du eine Karte deiner Wahl in der Reserve erschöpfen.  {R} Falls ein Gegner der Startspieler ist: Du darfst einen Charakter deiner Wahl mit Handkosten {2} oder weniger in die Reserve schicken.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "3"
+            },
+            "id": "5YTSVW8R0S900SRGJG722VTARG",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Axiom-Puppenspieler",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_72_U_8938",
+            "rarity": {
+                "@id": "/.well-known/genid/ab95ef31370959701ae7",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_AX_72_U_8938"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_AX_72_U_8938",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/fr_FR/431abc0b5259fe4cfa98fe3fab965a74.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_0f423bd62d0ca25985cc086d300f1d0b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_05c939ba2118be270d4be81431ecb01c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_40467d5ad0ec187095cd5791a55e1001"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/cf615263d43b6d4c2574",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingeniero",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/b49d41619460311212c7",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "4",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{H} Puedes sacrificar un personaje o permanente. Si lo haces: [sabotea]. De lo contrario, puedes agotar una carta objetivo en reserva.  {R} Si un oponente es el primer jugador: Puedes enviar a la reserva un personaje objetivo con coste desde la mano de {2} o menos.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "3"
+            },
+            "id": "5YTSVW8R0S900SRGJG722VTARG",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Titiritero de Axiom",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_72_U_8938",
+            "rarity": {
+                "@id": "/.well-known/genid/a5ca59c257f7b536a3ee",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_AX_72_U_8938"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_AX_72_U_8938",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/fr_FR/431abc0b5259fe4cfa98fe3fab965a74.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_0f423bd62d0ca25985cc086d300f1d0b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_05c939ba2118be270d4be81431ecb01c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_40467d5ad0ec187095cd5791a55e1001"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/a2eaf2641c81ad1fa986",
+                    "@id": "/.well-known/genid/8d3a971959b763fa96d7",
                     "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
                     "name": "Ingénieur",
                     "reference": "ENGINEER"
                 },
                 {
-                    "@id": "/.well-known/genid/96d2ed21e4e772a3af8e",
+                    "@id": "/.well-known/genid/65877e9f285c64c61404",
                     "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
                     "name": "Robot",
@@ -138,8 +310,12 @@
                 "RECALL_COST": "3"
             },
             "id": "5YTSVW8R0S900SRGJG722VTARG",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/fr_FR/431abc0b5259fe4cfa98fe3fab965a74.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -154,7 +330,92 @@
             "name": "Marionnettiste Axiom",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_72_U_8938",
             "rarity": {
-                "@id": "/.well-known/genid/977281a1e84cd346c98f",
+                "@id": "/.well-known/genid/dc8e32e5ecc5bc6fcceb",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_AX_72_U_8938"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_AX_72_U_8938",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/fr_FR/431abc0b5259fe4cfa98fe3fab965a74.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_0f423bd62d0ca25985cc086d300f1d0b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_05c939ba2118be270d4be81431ecb01c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/WEB_40467d5ad0ec187095cd5791a55e1001"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/bcf45bb305a4264aa073",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingegnere",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/75f7b21b1e898cdd063e",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "4",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{H} Puoi sacrificare un personaggio o un permanente. Se lo fai: [Sabota], altrimenti puoi consumare una carta bersaglio nella Riserva.  {R} Se un avversario è il primo giocatore: Puoi mandare nella Riserva un personaggio bersaglio con costo dalla mano pari o inferiore a {2}.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "3"
+            },
+            "id": "5YTSVW8R0S900SRGJG722VTARG",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_72/UNIQUE/JPG/en_US/685231fad7f50c28b4212b0f5fc743e1.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Burattinaio Axiom",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_72_U_8938",
+            "rarity": {
+                "@id": "/.well-known/genid/c04165a0d109948cc54a",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -162,5 +423,6 @@
             },
             "reference": "ALT_CYCLONE_B_AX_72_U_8938"
         }
-    }
+    },
+    "updated": "2026-04-02 08:02:04"
 }

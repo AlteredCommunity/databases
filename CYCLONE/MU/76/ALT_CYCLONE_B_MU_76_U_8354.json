@@ -6,7 +6,7 @@
         "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
         "es-es": "",
-        "fr-fr": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/fr_FR/19e02a3eb45877e39501d619ddeb7ce1.jpg",
         "it-it": ""
     },
     "assets": {
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_210f4703237b7fcf1c70cf7d3d48f998"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/7c85185ce3ff715f3bf1",
+            "@id": "/.well-known/genid/44b70c1bc68a08b200b1",
             "@type": "CardSubType",
             "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
             "name": "Druid",
@@ -40,12 +39,11 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2025-12-20 02:10:38",
     "elements": {
         "ECHO_EFFECT": "{D} : []Create an [Aerolith] token in your Landmarks.",
         "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "When I leave the Expedition zone — [][Sabotage]. If you discarded a card this way, create a [Woollyback 1/1/1] Animal token in its owner's Companion Expedition.  When you create one or more tokens — If I'm in an Ascended Expedition: You may target a Character other than me, it gains 1 boost.",
+        "MAIN_EFFECT": "When I leave the Expedition zone — [][Sabotage]. If you discarded a card this way, create a [Woollyback 1/1/1] Animal token in its owner's Companion Expedition.  When you create one or more tokens — If I'm in an [[Ascended]] Expedition: You may target a Character other than me, it gains 1 boost.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
         "RECALL_COST": "3"
@@ -55,6 +53,8 @@
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -69,7 +69,7 @@
     "name": "Pan",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_76_U_8354",
     "rarity": {
-        "@id": "/.well-known/genid/02f52dfad9f98c73aba0",
+        "@id": "/.well-known/genid/f41ba4d162c28107a310",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -77,7 +77,7 @@
     },
     "reference": "ALT_CYCLONE_B_MU_76_U_8354",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_76_U_8354",
             "@type": "Card",
@@ -85,7 +85,7 @@
                 "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
                 "es-es": "",
-                "fr-fr": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/fr_FR/19e02a3eb45877e39501d619ddeb7ce1.jpg",
                 "it-it": ""
             },
             "assets": {
@@ -95,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_210f4703237b7fcf1c70cf7d3d48f998"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/529c0b66335d60b42b38",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druide",
+                    "reference": "DRUID"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Erschaffe eine [Aerolit]-Marke in deinem Wahrzeichen-Bereich.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "Wenn ich die Expeditionszone verlasse — [][Sabotage]. Falls du eine Karte auf diese Weise abgelegt hast, erschaffe eine [Wollrücken 1/1/1]-Tiermarke in der Gefährten-Expedition ihres Besitzers.  Wenn du eine oder mehrere Marken erschaffst — Falls ich in einer Expedition bin, die [[Aufgestiegen]] ist: Du darfst einen Charakter außer mir selbst wählen, er erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "48H81JZYE38ECTBP73FHP2JB4Q",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Pan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_76_U_8354",
+            "rarity": {
+                "@id": "/.well-known/genid/89da69dc58649984045a",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_76_U_8354"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_76_U_8354",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/fr_FR/19e02a3eb45877e39501d619ddeb7ce1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_d2bca6f3f4f4e18bbc9f197cb79f2b3e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_fd485e9c9875cf84bf04051bc27dd777",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_210f4703237b7fcf1c70cf7d3d48f998"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/d559526eb3461f05bd55",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druida",
+                    "reference": "DRUID"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Crea una ficha de [Aerolito] en tus hitos.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "Cuando abandone la zona de expedición — [][Sabotea]. Si descartaste una carta de esta manera, crea una ficha de animal [Lanudo 1/1/1] en la expedición del compañero de su propietario.  Cuando crees una o más fichas — Si estoy en una expedición [[Ascendida]]: Puedes hacer objetivo a un personaje aparte de mí. Gana 1 potenciador.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "48H81JZYE38ECTBP73FHP2JB4Q",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Pan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_76_U_8354",
+            "rarity": {
+                "@id": "/.well-known/genid/03f12125fe7c1641afe3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_76_U_8354"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_76_U_8354",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/fr_FR/19e02a3eb45877e39501d619ddeb7ce1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_d2bca6f3f4f4e18bbc9f197cb79f2b3e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_fd485e9c9875cf84bf04051bc27dd777",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_210f4703237b7fcf1c70cf7d3d48f998"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -105,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/c347c78449ac2066e517",
+                    "@id": "/.well-known/genid/6ef8084455ff25070bbc",
                     "@type": "CardSubType",
                     "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
                     "name": "Druide",
@@ -123,16 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Créez un jeton [Aérolithe] dans vos Repères.",
                 "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "Lorsque je quitte la zone d'Expédition — [][Sabotez]. Si vous avez défaussé une carte de cette façon, créez un jeton Animal [Dotouffu 1/1/1] dans l'Expédition Compagnon de son propriétaire.  Lorsque vous créez au moins un jeton — Si je suis dans une Expédition Élevée : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
+                "MAIN_EFFECT": "Lorsque je quitte la zone d'Expédition — [][Sabotez]. Si vous avez défaussé une carte de cette façon, créez un jeton Animal [Dotouffu 1/1/1] dans l'Expédition Compagnon de son propriétaire.  Lorsque vous créez au moins un jeton — Si je suis dans une Expédition [[Élevée]] : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "3"
             },
             "id": "48H81JZYE38ECTBP73FHP2JB4Q",
-            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/fr_FR/19e02a3eb45877e39501d619ddeb7ce1.jpg",
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -147,7 +306,86 @@
             "name": "Pan",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_76_U_8354",
             "rarity": {
-                "@id": "/.well-known/genid/e29c2514e70eb881e82a",
+                "@id": "/.well-known/genid/3dfaede34320650bbf6e",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_76_U_8354"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_76_U_8354",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/fr_FR/19e02a3eb45877e39501d619ddeb7ce1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_d2bca6f3f4f4e18bbc9f197cb79f2b3e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_fd485e9c9875cf84bf04051bc27dd777",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/WEB_210f4703237b7fcf1c70cf7d3d48f998"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ad587c7d1010cc3af2c5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druido",
+                    "reference": "DRUID"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Crea una pedina [Aerolite] nei tuoi fulcri.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "Quando lascio l'area delle spedizioni — [][Sabota]. Se hai scartato una carta in questo modo, crea una pedina Animale [Lanuvola 1/1/1] nella spedizione del compagno del suo proprietario.  Quando crei una o più pedine — Se sono in una spedizione [[Ascesa]]: Puoi scegliere come bersaglio un personaggio eccetto me e fargli ottenere 1 rinforzo.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "48H81JZYE38ECTBP73FHP2JB4Q",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_76/UNIQUE/JPG/en_US/337859370a43c45f6eb4a3db44b275e3.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Pan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_76_U_8354",
+            "rarity": {
+                "@id": "/.well-known/genid/5d146a70143e0f60b6c4",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -156,5 +394,5 @@
             "reference": "ALT_CYCLONE_B_MU_76_U_8354"
         }
     },
-    "updated": null
+    "updated": "2026-04-01 22:19:52"
 }

@@ -6,7 +6,7 @@
         "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
         "es-es": "",
-        "fr-fr": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/fr_FR/e742c32334ce6e9619d962aa066df829.jpg",
         "it-it": ""
     },
     "assets": {
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_431ccd505e00249bd64faf0fba30f6c0"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/1ef1436c6150c1bd0b26",
+            "@id": "/.well-known/genid/32b70d0bc3920f0af2d2",
             "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
             "name": "Bureaucrat",
             "reference": "BUREAUCRAT"
         },
         {
-            "@id": "/.well-known/genid/549ac249e5bfaae55deb",
+            "@id": "/.well-known/genid/fe7b5452c628243acd6e",
             "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
             "name": "Mage",
@@ -47,7 +46,6 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2025-10-20 02:12:02",
     "elements": {
         "FOREST_POWER": "2",
         "MAIN_COST": "3",
@@ -57,8 +55,12 @@
         "RECALL_COST": "3"
     },
     "id": "6JQEKXQ8G29DWSBWPN6117K059",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -73,7 +75,7 @@
     "name": "Suha, Qorgan Operative",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_70_U_9460",
     "rarity": {
-        "@id": "/.well-known/genid/1c07d4e1fd4a5d546edd",
+        "@id": "/.well-known/genid/512f638f9a28598c0670",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -81,7 +83,7 @@
     },
     "reference": "ALT_CYCLONE_B_YZ_70_U_9460",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_YZ_70_U_9460",
             "@type": "Card",
@@ -89,7 +91,7 @@
                 "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
                 "es-es": "",
-                "fr-fr": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/fr_FR/e742c32334ce6e9619d962aa066df829.jpg",
                 "it-it": ""
             },
             "assets": {
@@ -99,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_431ccd505e00249bd64faf0fba30f6c0"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/948497577ee7d80fb4c3",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Bürokrat",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/068b9c54875f4e01cb9d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Magier",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Du darfst einen Charakter oder eine Bleibende Karte opfern. Falls du das tust: Erschaffe eine [Aerolit]-Marke in deinem Wahrzeichen-Bereich.  Wenn ich die Expeditionszone verlasse — [][Sabotage].",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "6JQEKXQ8G29DWSBWPN6117K059",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Suha, Qorgan-Spionin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_70_U_9460",
+            "rarity": {
+                "@id": "/.well-known/genid/86cca75aec7aff1ca5cb",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_YZ_70_U_9460"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_YZ_70_U_9460",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/fr_FR/e742c32334ce6e9619d962aa066df829.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_642a407cb95fc4cda1c9bec091c06bec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_1d7c1c1eb580e60041059672788650f4",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_431ccd505e00249bd64faf0fba30f6c0"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ed5e0befa04ac263a26e",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burócrata",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/b020556a09ab33ce4765",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mago",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Puedes sacrificar un personaje o permanente. Si lo haces: Crea una ficha de [Aerolito] en tus hitos.  Cuando abandone la zona de expedición — [][Sabotea].",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "6JQEKXQ8G29DWSBWPN6117K059",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Suha, enviada del Qorgan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_70_U_9460",
+            "rarity": {
+                "@id": "/.well-known/genid/dd523949c81350d2e815",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_YZ_70_U_9460"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_YZ_70_U_9460",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/fr_FR/e742c32334ce6e9619d962aa066df829.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_642a407cb95fc4cda1c9bec091c06bec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_1d7c1c1eb580e60041059672788650f4",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_431ccd505e00249bd64faf0fba30f6c0"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -109,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/3bea90801099d21bd8e5",
+                    "@id": "/.well-known/genid/d6f7196524ac43333015",
                     "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
                     "name": "Bureaucrate",
                     "reference": "BUREAUCRAT"
                 },
                 {
-                    "@id": "/.well-known/genid/ff1482ac89279a7c4c41",
+                    "@id": "/.well-known/genid/8dcba14a3b25b6b8772d",
                     "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
                     "name": "Mage",
@@ -139,8 +310,12 @@
                 "RECALL_COST": "3"
             },
             "id": "6JQEKXQ8G29DWSBWPN6117K059",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/fr_FR/e742c32334ce6e9619d962aa066df829.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -155,7 +330,92 @@
             "name": "Suha, Opératrice du Qorgan",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_70_U_9460",
             "rarity": {
-                "@id": "/.well-known/genid/5ec21536216bfb22d7e6",
+                "@id": "/.well-known/genid/2a8330383ad61a9bd44c",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_YZ_70_U_9460"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_YZ_70_U_9460",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/fr_FR/e742c32334ce6e9619d962aa066df829.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_642a407cb95fc4cda1c9bec091c06bec",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_1d7c1c1eb580e60041059672788650f4",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/WEB_431ccd505e00249bd64faf0fba30f6c0"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/9c944f65a6cf1fbb1b27",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burocrate",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/39271b0c15c4d2700b95",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mago",
+                    "reference": "MAGE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Puoi sacrificare un personaggio o un permanente. Se lo fai: Crea una pedina [Aerolite] nei tuoi fulcri.  Quando lascio l'area delle spedizioni — [][Sabota].",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "6JQEKXQ8G29DWSBWPN6117K059",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_YZ_70/UNIQUE/JPG/en_US/79ea1775a9c96f2839788c1c04eb8f5f.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/YZ",
+                "@type": "Faction",
+                "color": "#764891",
+                "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+                "name": "Yzmir",
+                "reference": "YZ"
+            },
+            "name": "Suha, Spia del Qorgan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_YZ_70_U_9460",
+            "rarity": {
+                "@id": "/.well-known/genid/82f39657919616f18677",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -164,5 +424,5 @@
             "reference": "ALT_CYCLONE_B_YZ_70_U_9460"
         }
     },
-    "updated": null
+    "updated": "2026-04-02 09:57:32"
 }

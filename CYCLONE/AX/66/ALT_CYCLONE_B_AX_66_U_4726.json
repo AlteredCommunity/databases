@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_AX_66_U_4726",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/fr_FR/984f407476e84f075506c252a2fc52e1.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_549ec6ab76a7538f4368d30801b74608"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/cb28713ced5ed0b10ba5",
+            "@id": "/.well-known/genid/f44889118794ec7d6363",
             "@type": "CardSubType",
             "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
             "name": "Citizen",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "MAIN_EFFECT": "{H} If you have two or more cards in Reserve: Create an [Aerolith] token in your Landmarks.  When I leave the Expedition zone — Roll a die. On a 4+: You may return a card other than me from your Reserve to your hand.",
+        "MAIN_EFFECT": "{H} If there are two or more cards in your Reserve: Create an [Aerolith] token in your Landmarks.  When I leave the Expedition zone — Roll a die. On a 4+: You may return a card other than me from your Reserve to your hand.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
         "RECALL_COST": "2"
     },
     "id": "7M00MAG63P8T0970AYFMCKZTCB",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Gavroche",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_66_U_4726",
     "rarity": {
-        "@id": "/.well-known/genid/e83695e3ee06cdec5b49",
+        "@id": "/.well-known/genid/69be0420d535bb3f9f02",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,16 +76,16 @@
     },
     "reference": "ALT_CYCLONE_B_AX_66_U_4726",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_AX_66_U_4726",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/fr_FR/984f407476e84f075506c252a2fc52e1.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_549ec6ab76a7538f4368d30801b74608"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a5ad334295f5fc1f1449",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+                    "name": "Bürger",
+                    "reference": "CITIZEN"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Falls sich mindestens zwei Karten in deiner Reserve befinden: Erschaffe eine [Aerolit]-Marke in deinem Wahrzeichen-Bereich.  Wenn ich die Expeditionszone verlasse — Würfle einmal. Bei 4+: Du darfst eine Karte außer mir selbst aus deiner Reserve wieder in deine Hand zurückholen.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "7M00MAG63P8T0970AYFMCKZTCB",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Gavroche",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_66_U_4726",
+            "rarity": {
+                "@id": "/.well-known/genid/59056d3a167da97fcece",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_AX_66_U_4726"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_AX_66_U_4726",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/fr_FR/984f407476e84f075506c252a2fc52e1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_8670c396adb770c57aa0d6c68586204d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_06a7d130ece5013bbc63df74c6ced9d5",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_549ec6ab76a7538f4368d30801b74608"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/c04cf059533b7e180523",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+                    "name": "Ciudadano",
+                    "reference": "CITIZEN"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Si tienes dos o más cartas en reserva: Crea una ficha de [Aerolito] en tus hitos.  Cuando abandone la zona de expedición — Tira un dado. Si sacas 4+: Puedes devolver una carta aparte de mí de tu reserva a tu mano.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "7M00MAG63P8T0970AYFMCKZTCB",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Gavroche",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_66_U_4726",
+            "rarity": {
+                "@id": "/.well-known/genid/e9e2d9781e3d3406e7a7",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_AX_66_U_4726"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_AX_66_U_4726",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/fr_FR/984f407476e84f075506c252a2fc52e1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_8670c396adb770c57aa0d6c68586204d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_06a7d130ece5013bbc63df74c6ced9d5",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_549ec6ab76a7538f4368d30801b74608"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/b7df74e03a9359cdcb17",
+                    "@id": "/.well-known/genid/7ef7f8d7c0109bdc17f3",
                     "@type": "CardSubType",
                     "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
                     "name": "Citoyen",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "MAIN_EFFECT": "{H} Si vous avez au moins deux cartes en Réserve : Créez un jeton [Aérolithe] dans vos Repères.  Lorsque je quitte la zone d'Expédition — Lancez un dé. Sur 4+ : Vous pouvez renvoyer dans votre main une carte de votre Réserve autre que moi.",
+                "MAIN_EFFECT": "{H} S'il y a au moins deux cartes dans votre Réserve : Créez un jeton [Aérolithe] dans vos Repères.  Lorsque je quitte la zone d'Expédition — Lancez un dé. Sur 4+ : Vous pouvez renvoyer dans votre main une carte de votre Réserve autre que moi.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
                 "RECALL_COST": "2"
             },
             "id": "7M00MAG63P8T0970AYFMCKZTCB",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/fr_FR/984f407476e84f075506c252a2fc52e1.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Gavroche",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_66_U_4726",
             "rarity": {
-                "@id": "/.well-known/genid/d62f7a670ab1eaf0cdb8",
+                "@id": "/.well-known/genid/f8e4ac02f0822f8135a2",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_AX_66_U_4726"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_AX_66_U_4726",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/fr_FR/984f407476e84f075506c252a2fc52e1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_8670c396adb770c57aa0d6c68586204d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_06a7d130ece5013bbc63df74c6ced9d5",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/WEB_549ec6ab76a7538f4368d30801b74608"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/da599dcef77a0616032f",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+                    "name": "Cittadino",
+                    "reference": "CITIZEN"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Se ci sono due o più carte nella tua Riserva: Crea una pedina [Aerolite] nei tuoi fulcri.  Quando lascio l'area delle spedizioni — Tira un dado. Con 4+: Puoi riprendere in mano una carta eccetto me dalla tua Riserva.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "7M00MAG63P8T0970AYFMCKZTCB",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_AX_66/UNIQUE/JPG/en_US/0308bac4a654f91ebac4d5d52a3436bf.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Gavroche",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_AX_66_U_4726",
+            "rarity": {
+                "@id": "/.well-known/genid/4a19bb77dfa688b40021",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_AX_66_U_4726"
         }
-    }
+    },
+    "updated": "2026-04-01 07:36:33"
 }

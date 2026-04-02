@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_MU_68_U_551",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/fr_FR/c319a7a5feba86818a2c8ea4bb88ba81.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_41d26d3dbcaa768267b7a67862b5df30"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/4f5edb2589f2724cfe3c",
+            "@id": "/.well-known/genid/31cb0c29d8f050c4fe77",
             "@type": "CardSubType",
             "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
             "name": "Druid",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "MAIN_EFFECT": "{R} You may have target Character facing me gain [[Anchored]]. If you do: Characters you control gain 1 boost.  {R} If one or more of your Expeditions is Ascended: Each player sacrifices a Character.",
+        "MAIN_EFFECT": "{R} You may have target Character facing me gain [[Anchored]]. If you do: Characters you control gain 1 boost.  {R} If one or more of your Expeditions is [[Ascended]]: Each player sacrifices a Character.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
         "RECALL_COST": "4"
     },
     "id": "0TQZEHCBSW8W5A5F1KPRYKPEMX",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Eru, Emissary of the Wild",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_68_U_551",
     "rarity": {
-        "@id": "/.well-known/genid/f8731e945996fd0c42cd",
+        "@id": "/.well-known/genid/814e651a217d3394102f",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,16 +76,16 @@
     },
     "reference": "ALT_CYCLONE_B_MU_68_U_551",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_68_U_551",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/fr_FR/c319a7a5feba86818a2c8ea4bb88ba81.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_41d26d3dbcaa768267b7a67862b5df30"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/916d867f3b96910a725c",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druide",
+                    "reference": "DRUID"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Du darfst einen mir gegenüberstehenden Charakter deiner Wahl [[Verankert]] erhalten lassen. Falls du das tust: Charaktere, die du kontrollierst, erhalten je 1 Verstärkung.  {R} Falls mindestens eine deiner Expeditionen [[Aufgestiegen]] ist: Jeder Spieler opfert einen Charakter.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "0TQZEHCBSW8W5A5F1KPRYKPEMX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Eru, Botschafter der Wildnis",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_68_U_551",
+            "rarity": {
+                "@id": "/.well-known/genid/d7fbf98f463e8260cfd9",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_68_U_551"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_68_U_551",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/fr_FR/c319a7a5feba86818a2c8ea4bb88ba81.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_1af07d71130511e538d6d404fd50ea5c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_b4418ac77c03999bc09c46d801703604",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_41d26d3dbcaa768267b7a67862b5df30"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/9a97c95845e125ccf3e9",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druida",
+                    "reference": "DRUID"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Puedes hacer que un personaje objetivo enfrentado a mí gane [[Anclaje]]. Si lo haces: Los personajes que controles ganan 1 potenciador.  {R} Si una o más de tus expediciones están [[Ascendida]]: Cada jugador sacrifica un personaje.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "0TQZEHCBSW8W5A5F1KPRYKPEMX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Eru, emisario de la naturaleza",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_68_U_551",
+            "rarity": {
+                "@id": "/.well-known/genid/e1b434b4c3d41c37ec2f",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_68_U_551"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_68_U_551",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/fr_FR/c319a7a5feba86818a2c8ea4bb88ba81.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_1af07d71130511e538d6d404fd50ea5c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_b4418ac77c03999bc09c46d801703604",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_41d26d3dbcaa768267b7a67862b5df30"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/4efbe21dc6bf7206b408",
+                    "@id": "/.well-known/genid/55b1964ed4d7778380fd",
                     "@type": "CardSubType",
                     "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
                     "name": "Druide",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "MAIN_EFFECT": "{R} Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé qui me fait face. Si vous le faites : Les Personnages que vous contrôlez gagnent 1 boost.  {R} Si au moins une de vos Expéditions est Élevée : Chaque joueur sacrifie un Personnage.",
+                "MAIN_EFFECT": "{R} Vous pouvez faire gagner [[Ancré]] à un Personnage ciblé qui me fait face. Si vous le faites : Les Personnages que vous contrôlez gagnent 1 boost.  {R} Si au moins une de vos Expéditions est [[Élevée]] : Chaque joueur sacrifie un Personnage.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "4"
             },
             "id": "0TQZEHCBSW8W5A5F1KPRYKPEMX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/fr_FR/c319a7a5feba86818a2c8ea4bb88ba81.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Eru, Émissaire de la Nature",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_68_U_551",
             "rarity": {
-                "@id": "/.well-known/genid/27278f39dff60c999682",
+                "@id": "/.well-known/genid/097bd1386aa1d0fdf306",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_68_U_551"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_68_U_551",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/fr_FR/c319a7a5feba86818a2c8ea4bb88ba81.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_1af07d71130511e538d6d404fd50ea5c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_b4418ac77c03999bc09c46d801703604",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/WEB_41d26d3dbcaa768267b7a67862b5df30"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/7d3207b0039f0b44cb03",
+                    "@type": "CardSubType",
+                    "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+                    "name": "Druido",
+                    "reference": "DRUID"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Puoi far ottenere [[Ancorato]] a un personaggio bersaglio che mi affronta. Se lo fai: I personaggi che controlli ottengono 1 rinforzo.  {R} Se una o più delle tue spedizioni sono Ascese: Ogni giocatore sacrifica un personaggio.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "0TQZEHCBSW8W5A5F1KPRYKPEMX",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_68/UNIQUE/JPG/en_US/cd5cb69fbd1f38b26ed3f5935db2a803.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Eru, Emissario della Selva",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_68_U_551",
+            "rarity": {
+                "@id": "/.well-known/genid/b1a1e365222ab12125e5",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_68_U_551"
         }
-    }
+    },
+    "updated": "2026-04-01 17:36:36"
 }

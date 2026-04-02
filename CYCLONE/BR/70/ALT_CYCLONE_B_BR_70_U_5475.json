@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_CYCLONE_B_BR_70_U_5475",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
-        "es-es": null,
-        "fr-fr": null,
-        "it-it": null
+        "es-es": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/fr_FR/52c9f233cf43bd46d8caa7e7a3b521e8.jpg",
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_6abc39223a346a4a18b08a7144497a40"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/2eed91fb7e257e3c3f47",
+            "@id": "/.well-known/genid/cd5d7b1cd6df6fc7dc27",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "MAIN_EFFECT": "{H} You may [Rush]. If you do: Target Expedition [Ascends].  When another non-token Character joins your Expeditions — If I'm in an Ascended Expedition: You may target a Character other than me, it gains 1 boost.",
+        "MAIN_EFFECT": "{H} You may [Rush]. If you do: Target Expedition [Ascends].  When a non-token Character other than me joins your Expeditions — If I'm in an [[Ascended]] Expedition: You may target a Character other than me, it gains 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
         "RECALL_COST": "2"
     },
     "id": "4QZ93M6B769YH996PWGXE41Q69",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Tengu",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_70_U_5475",
     "rarity": {
-        "@id": "/.well-known/genid/d77eebb85b40daf2de60",
+        "@id": "/.well-known/genid/952f701a77460cdef7f9",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,16 +76,16 @@
     },
     "reference": "ALT_CYCLONE_B_BR_70_U_5475",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_BR_70_U_5475",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
-                "es-es": null,
-                "fr-fr": null,
-                "it-it": null
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/fr_FR/52c9f233cf43bd46d8caa7e7a3b521e8.jpg",
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_6abc39223a346a4a18b08a7144497a40"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/bd1aba2da975a534761a",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Du darfst [Forcieren] nutzen. Falls du das tust: Eine Expedition deiner Wahl ist [Aufsteigend].  Wenn ein Nicht-Marken-Charakter außer mir selbst sich einer deiner Expeditionen anschließt — Falls ich in einer Expedition bin, die [[Aufgestiegen]] ist: Du darfst einen Charakter außer mir selbst wählen, er erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "4QZ93M6B769YH996PWGXE41Q69",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Tengu",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_70_U_5475",
+            "rarity": {
+                "@id": "/.well-known/genid/8badb926d7ccf6950c71",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_70_U_5475"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_70_U_5475",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/fr_FR/52c9f233cf43bd46d8caa7e7a3b521e8.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_840e9a93513195cf74368d0fcec2e813",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_ae810d74d3339e49df5f01e0604f7c47",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_6abc39223a346a4a18b08a7144497a40"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a3fefe9fda1b7038bbe5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Puedes [Presionar]. Si lo haces: La expedición objetivo [Asciende].  Cuando un personaje que no sea ficha aparte de mí se incorpore a tus expediciones — Si estoy en una expedición [[Ascendida]]: Puedes hacer objetivo a un personaje aparte de mí. Gana 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "4QZ93M6B769YH996PWGXE41Q69",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Tengu",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_70_U_5475",
+            "rarity": {
+                "@id": "/.well-known/genid/acae0a91ce9479524efd",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_70_U_5475"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_70_U_5475",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/fr_FR/52c9f233cf43bd46d8caa7e7a3b521e8.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_840e9a93513195cf74368d0fcec2e813",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_ae810d74d3339e49df5f01e0604f7c47",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_6abc39223a346a4a18b08a7144497a40"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/cef97db7bbba322f6053",
+                    "@id": "/.well-known/genid/3c7dadac45a5421a10ec",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "MAIN_EFFECT": "{H} Vous pouvez [Foncer]. Si vous le faites : Une Expédition ciblée [s'Élève].  Lorsqu'un autre Personnage non-jeton rejoint vos Expéditions — Si je suis dans une Expédition Élevée : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
+                "MAIN_EFFECT": "{H} Vous pouvez [Foncer]. Si vous le faites : Une Expédition ciblée [s'Élève].  Lorsqu'un Personnage non-jeton autre que moi rejoint vos Expéditions — Si je suis dans une Expédition [[Élevée]] : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
                 "RECALL_COST": "2"
             },
             "id": "4QZ93M6B769YH996PWGXE41Q69",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/fr_FR/52c9f233cf43bd46d8caa7e7a3b521e8.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Tengu",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_70_U_5475",
             "rarity": {
-                "@id": "/.well-known/genid/390930e01d757e512459",
+                "@id": "/.well-known/genid/dad3ab6b04328030c740",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_BR_70_U_5475"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_BR_70_U_5475",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/fr_FR/52c9f233cf43bd46d8caa7e7a3b521e8.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_840e9a93513195cf74368d0fcec2e813",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_ae810d74d3339e49df5f01e0604f7c47",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/WEB_6abc39223a346a4a18b08a7144497a40"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/f079c7f61ae7d2f37907",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Puoi [Incalzare]. Se lo fai: Una spedizione bersaglio [Ascende].  Quando un personaggio non pedina eccetto me si unisce alle tue spedizioni — Se sono in una spedizione [[Ascesa]]: Puoi scegliere come bersaglio un personaggio eccetto me e fargli ottenere 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "4QZ93M6B769YH996PWGXE41Q69",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_BR_70/UNIQUE/JPG/en_US/4cb73f2093747f29758dbc3f062e3204.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Tengu",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_BR_70_U_5475",
+            "rarity": {
+                "@id": "/.well-known/genid/56b23adbb7210ee915cc",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_BR_70_U_5475"
         }
-    }
+    },
+    "updated": "2026-04-01 23:30:12"
 }

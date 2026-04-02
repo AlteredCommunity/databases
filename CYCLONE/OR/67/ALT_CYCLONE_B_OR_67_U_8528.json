@@ -6,7 +6,7 @@
         "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
         "es-es": "",
-        "fr-fr": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/fr_FR/703940c3404cfc00f1293f3843cde4c1.jpg",
         "it-it": ""
     },
     "assets": {
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_a132211fd01066104dd4deb47017b544"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/1f151765bc42a53be958",
+            "@id": "/.well-known/genid/66079efa4e9dfa0e2d1c",
             "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
             "name": "Soldier",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []You may exhaust target card in Reserve.",
         "FOREST_POWER": "1",
         "MAIN_COST": "2",
-        "MAIN_EFFECT": "{R} If one or more of your Expeditions is Ascended: Target Character gains 1 boost, otherwise my Expedition [Ascends].  When another non-token Character joins your Expeditions — If your Companion Expedition is behind: You may target a Character other than me, it gains 1 boost.",
+        "MAIN_EFFECT": "{R} If one or more of your Expeditions is [[Ascended]]: Target Character gains 1 boost, otherwise my Expedition [Ascends].  When a non-token Character other than me joins your Expeditions — If your Companion Expedition is behind: You may target a Character other than me, it gains 1 boost.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
         "RECALL_COST": "2"
     },
     "id": "3EE2QPVBJH9PEVBJPEN674ADD2",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Ascended Trooper",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_67_U_8528",
     "rarity": {
-        "@id": "/.well-known/genid/a068efd9b4dcf92d58e4",
+        "@id": "/.well-known/genid/65e143d7149607a655f2",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,7 +77,7 @@
     },
     "reference": "ALT_CYCLONE_B_OR_67_U_8528",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_OR_67_U_8528",
             "@type": "Card",
@@ -82,7 +85,7 @@
                 "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
                 "es-es": "",
-                "fr-fr": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/fr_FR/703940c3404cfc00f1293f3843cde4c1.jpg",
                 "it-it": ""
             },
             "assets": {
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_a132211fd01066104dd4deb47017b544"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/7dde2090022d96c640e3",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst eine Karte deiner Wahl in der Reserve erschöpfen.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Falls mindestens eine deiner Expeditionen [[Aufgestiegen]] ist: Ein Charakter deiner Wahl erhält 1 Verstärkung, andernfalls ist meine Expedition [Aufsteigend].  Wenn ein Nicht-Marken-Charakter außer mir selbst sich einer deiner Expeditionen anschließt — Falls deine Gefährten-Expedition hinten liegt: Du darfst einen Charakter außer mir selbst wählen, er erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "3EE2QPVBJH9PEVBJPEN674ADD2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Aufgestiegene Kämpferin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_67_U_8528",
+            "rarity": {
+                "@id": "/.well-known/genid/67a01d734040fe994007",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_67_U_8528"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_67_U_8528",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/fr_FR/703940c3404cfc00f1293f3843cde4c1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_ae496504faa51aa34776009fd531eb31",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_294583459cc4e5514de04a088e1f039d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_a132211fd01066104dd4deb47017b544"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a2b3252ea3fd43bb991c",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldado",
+                    "reference": "SOLDIER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes agotar una carta objetivo en reserva.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Si una o más de tus expediciones están [[Ascendida]]: Un personaje objetivo gana 1 potenciador. De lo contrario, mi expedición [Asciende].  Cuando un personaje que no sea ficha aparte de mí se incorpore a tus expediciones — Si tu expedición del compañero va por detrás: Puedes hacer objetivo a un personaje aparte de mí. Gana 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "3EE2QPVBJH9PEVBJPEN674ADD2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Tropa ascendida",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_67_U_8528",
+            "rarity": {
+                "@id": "/.well-known/genid/469c093ad977ce7122ce",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_67_U_8528"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_67_U_8528",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/fr_FR/703940c3404cfc00f1293f3843cde4c1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_ae496504faa51aa34776009fd531eb31",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_294583459cc4e5514de04a088e1f039d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_a132211fd01066104dd4deb47017b544"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/1f1aa1dcc3a71762245d",
+                    "@id": "/.well-known/genid/f19b06e8902530255ad9",
                     "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
                     "name": "Soldat",
@@ -120,14 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Vous pouvez épuiser une carte ciblée en Réserve.",
                 "FOREST_POWER": "1",
                 "MAIN_COST": "2",
-                "MAIN_EFFECT": "{R} Si au moins une de vos Expéditions est Élevée : Un Personnage ciblé gagne 1 boost. Sinon, mon Expédition [s'Élève].  Lorsqu'un autre Personnage non-jeton rejoint vos Expéditions — Si votre Expédition Compagnon est en retard : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
+                "MAIN_EFFECT": "{R} Si au moins une de vos Expéditions est [[Élevée]] : Un Personnage ciblé gagne 1 boost. Sinon, mon Expédition [s'Élève].  Lorsqu'un Personnage non-jeton autre que moi rejoint vos Expéditions — Si votre Expédition Compagnon est en retard : Vous pouvez cibler un Personnage autre que moi. Il gagne 1 boost.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
                 "RECALL_COST": "2"
             },
             "id": "3EE2QPVBJH9PEVBJPEN674ADD2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/fr_FR/703940c3404cfc00f1293f3843cde4c1.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -142,7 +306,86 @@
             "name": "Troupière Élevée",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_67_U_8528",
             "rarity": {
-                "@id": "/.well-known/genid/1f788313601dc22cf53c",
+                "@id": "/.well-known/genid/2b92958f7e06ec5a16c4",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_67_U_8528"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_67_U_8528",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/fr_FR/703940c3404cfc00f1293f3843cde4c1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_ae496504faa51aa34776009fd531eb31",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_294583459cc4e5514de04a088e1f039d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/WEB_a132211fd01066104dd4deb47017b544"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ee3d5f122bcd8e83027b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldato",
+                    "reference": "SOLDIER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi consumare una carta bersaglio nella Riserva.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{R} Se una o più delle tue spedizioni sono Ascese: Un personaggio bersaglio ottiene 1 rinforzo, altrimenti la mia spedizione [Ascende].  Quando un personaggio non pedina eccetto me si unisce alle tue spedizioni — Se la spedizione del tuo compagno è indietro: Puoi scegliere come bersaglio un personaggio eccetto me e fargli ottenere 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "3EE2QPVBJH9PEVBJPEN674ADD2",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_67/UNIQUE/JPG/en_US/416116fcb13044d58c31de18b8c8800d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Fante Asceso",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_67_U_8528",
+            "rarity": {
+                "@id": "/.well-known/genid/849360725eba78402b83",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_OR_67_U_8528"
         }
-    }
+    },
+    "updated": "2026-04-01 23:58:31"
 }

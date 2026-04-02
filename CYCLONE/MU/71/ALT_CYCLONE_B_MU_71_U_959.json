@@ -6,7 +6,7 @@
         "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
         "es-es": "",
-        "fr-fr": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/fr_FR/bc4f3a12cb61bc22895cff1973835e1a.jpg",
         "it-it": ""
     },
     "assets": {
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_8fbdbc1f06a06d928fdeaa6891a0d754"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/05a6654640fa150e9938",
+            "@id": "/.well-known/genid/46a1fa4a5d29f2810ab0",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -44,14 +43,18 @@
         "ECHO_EFFECT": "{D} : []Target Character you control with Hand Cost {4} or less gains [[Asleep]].",
         "FOREST_POWER": "2",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{J} If I'm in an Ascended Expedition: Create two [Ordis Recruit 1/1/1] Soldier tokens in your other Expedition (the one I'm not in).  When a Character joins the Expedition facing me — []You may have me switch Expeditions.",
+        "MAIN_EFFECT": "{J} If I'm in an [[Ascended]] Expedition: Create two [Ordis Recruit 1/1/1] Soldier tokens in your other Expedition (the one I'm not in).  When a Character joins the Expedition facing me — []You may have me switch Expeditions.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
         "RECALL_COST": "3"
     },
     "id": "7D7R4P2RH699JSWK0WJT261SAA",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Migratory Crane",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_71_U_959",
     "rarity": {
-        "@id": "/.well-known/genid/6b91cfd10da6d0750fff",
+        "@id": "/.well-known/genid/98cedae251b10188d5f5",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,7 +77,7 @@
     },
     "reference": "ALT_CYCLONE_B_MU_71_U_959",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_MU_71_U_959",
             "@type": "Card",
@@ -82,7 +85,7 @@
                 "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
                 "es-es": "",
-                "fr-fr": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/fr_FR/bc4f3a12cb61bc22895cff1973835e1a.jpg",
                 "it-it": ""
             },
             "assets": {
@@ -92,7 +95,164 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_8fbdbc1f06a06d928fdeaa6891a0d754"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/77c6c498219b4a9df57f",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Ein Charakter deiner Wahl, den du kontrollierst, mit Handkosten {4} oder weniger erhält [[Schlafend]].",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Falls ich in einer Expedition bin, die [[Aufgestiegen]] ist: Erschaffe zwei [Ordis-Rekrut 1/1/1]-Soldatenmarken in deiner anderen Expedition (in der ich nicht bin).  Wenn sich ein Charakter der mir gegenüberstehenden Expedition anschließt — []Du darfst mich Expeditionen wechseln lassen.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "7D7R4P2RH699JSWK0WJT261SAA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Wanderkranich",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_71_U_959",
+            "rarity": {
+                "@id": "/.well-known/genid/804b34fb80d69ac4f748",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_71_U_959"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_71_U_959",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/fr_FR/bc4f3a12cb61bc22895cff1973835e1a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_6337607740a20005493988caf308f248",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_22478b35c576a618410af168d4391d60",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_8fbdbc1f06a06d928fdeaa6891a0d754"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/3c01b91bdb7545c3155b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Un personaje objetivo que controles con coste desde la mano de {4} o menos gana [[Sueño]].",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Si estoy en una expedición [[Ascendida]]: Crea dos fichas de soldado [Recluta de Ordis 1/1/1] en tu otra expedición (en la que no estoy yo.)  Cuando un personaje se incorpore a la expedición enfrentada a mí — []Puedes hacer que me traslade de expedición.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "7D7R4P2RH699JSWK0WJT261SAA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Grulla migratoria",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_71_U_959",
+            "rarity": {
+                "@id": "/.well-known/genid/a16a53bc991ae3d03174",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_71_U_959"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_71_U_959",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/fr_FR/bc4f3a12cb61bc22895cff1973835e1a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_6337607740a20005493988caf308f248",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_22478b35c576a618410af168d4391d60",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_8fbdbc1f06a06d928fdeaa6891a0d754"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/e4a3e190ce237f855659",
+                    "@id": "/.well-known/genid/3716ec069f7dfd214ae0",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -120,14 +280,18 @@
                 "ECHO_EFFECT": "{D} : []Un Personnage ciblé que vous contrôlez de Coût de Main {4} ou moins gagne [[Endormi]].",
                 "FOREST_POWER": "2",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{J} Si je suis dans une Expédition Élevée : Créez deux jetons Soldat [1/1/1 Recrue Ordis] dans votre autre Expédition (celle où je ne suis pas).  Lorsqu'un Personnage rejoint l'Expédition qui me fait face — []Vous pouvez me faire changer d'Expédition.",
+                "MAIN_EFFECT": "{J} Si je suis dans une Expédition [[Élevée]] : Créez deux jetons Soldat [1/1/1 Recrue Ordis] dans votre autre Expédition (celle où je ne suis pas).  Lorsqu'un Personnage rejoint l'Expédition qui me fait face — []Vous pouvez me faire changer d'Expédition.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
                 "RECALL_COST": "3"
             },
             "id": "7D7R4P2RH699JSWK0WJT261SAA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/fr_FR/bc4f3a12cb61bc22895cff1973835e1a.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -142,7 +306,86 @@
             "name": "Grue Migratrice",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_71_U_959",
             "rarity": {
-                "@id": "/.well-known/genid/58879dd39468fc7b6bbf",
+                "@id": "/.well-known/genid/c9cc73718496ff630c97",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_MU_71_U_959"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_MU_71_U_959",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/fr_FR/bc4f3a12cb61bc22895cff1973835e1a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_6337607740a20005493988caf308f248",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_22478b35c576a618410af168d4391d60",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/WEB_8fbdbc1f06a06d928fdeaa6891a0d754"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/44546ab08ae87fa77247",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Un personaggio bersaglio che controlli con costo dalla mano pari o inferiore a {4} ottiene [[Dormiente]].",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} Se sono in una spedizione [[Ascesa]]: Crea due pedine Soldato [Recluta Ordis 1/1/1] nell'altra tua spedizione (quella in cui non sono io).  Quando un personaggio si unisce alla spedizione che mi affronta — []Puoi farmi cambiare spedizione.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "7D7R4P2RH699JSWK0WJT261SAA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_MU_71/UNIQUE/JPG/en_US/4978fee15be4b52819027e0c1e29fa57.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Gru Migratrice",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_MU_71_U_959",
+            "rarity": {
+                "@id": "/.well-known/genid/a8f2cd21b670f0541146",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +393,6 @@
             },
             "reference": "ALT_CYCLONE_B_MU_71_U_959"
         }
-    }
+    },
+    "updated": "2026-04-01 19:17:12"
 }

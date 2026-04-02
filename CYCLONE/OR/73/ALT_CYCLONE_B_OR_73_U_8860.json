@@ -6,7 +6,7 @@
         "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
         "es-es": "",
-        "fr-fr": "",
+        "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/fr_FR/5391ffddd55483273345c385e7909c44.jpg",
         "it-it": ""
     },
     "assets": {
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_deb4968d18189974a96275ee4bb97e02"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/CYCLONE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/7f9cbbf65ba91f5ef4c2",
+            "@id": "/.well-known/genid/eeda8be8805f61aee095",
             "@type": "CardSubType",
             "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
             "name": "Elemental",
@@ -43,14 +42,18 @@
     "elements": {
         "FOREST_POWER": "0",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "[][][Seasoned].  {H} Target a Character facing me. I gain its subtype and X boosts, where X equals its highest statistic.  {J} []Pay {2} less for the next Permanent you play this Afternoon.  When I leave the Expedition zone — If one or more of your Expeditions is Ascended: Create an [Aerolith] token in target player's Landmarks.",
+        "MAIN_EFFECT": "[][][Seasoned].  {H} Target a Character facing me. I gain its subtype and X boosts, where X equals its highest statistic.  {J} []Pay {2} less for the next Permanent you play this Afternoon.  When I leave the Expedition zone — If one or more of your Expeditions is [[Ascended]]: Create an [Aerolith] token in target player's Landmarks.",
         "MOUNTAIN_POWER": "0",
         "OCEAN_POWER": "0",
         "RECALL_COST": "4"
     },
     "id": "4600K56W1X93TT39PA5XV9STQF",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -65,7 +68,7 @@
     "name": "Doppelgänger",
     "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_73_U_8860",
     "rarity": {
-        "@id": "/.well-known/genid/72d22810dbe8dab352cd",
+        "@id": "/.well-known/genid/2f7d62784faef8c40cc5",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -73,7 +76,7 @@
     },
     "reference": "ALT_CYCLONE_B_OR_73_U_8860",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_CYCLONE_B_OR_73_U_8860",
             "@type": "Card",
@@ -81,7 +84,7 @@
                 "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
                 "es-es": "",
-                "fr-fr": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/fr_FR/5391ffddd55483273345c385e7909c44.jpg",
                 "it-it": ""
             },
             "assets": {
@@ -91,7 +94,162 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_deb4968d18189974a96275ee4bb97e02"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/d33bbd5e6c9d2c523500",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+                    "name": "Elementar",
+                    "reference": "ELEMENTAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "0",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Erfahren].  {H} Wähle einen mir gegenüberstehenden Charakter. Ich erhalte seinen Subtyp und X Verstärkungen, wobei X seiner höchsten Statistik entspricht.  {J} []Zahle {2} weniger für die nächste Bleibende Karte, die du an diesem Nachmittag spielst.  Wenn ich die Expeditionszone verlasse — Falls mindestens eine deiner Expeditionen [[Aufgestiegen]] ist: Erschaffe eine [Aerolit]-Marke im Wahrzeichen-Bereich eines Spielers deiner Wahl.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "4"
+            },
+            "id": "4600K56W1X93TT39PA5XV9STQF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Doppelgänger",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_73_U_8860",
+            "rarity": {
+                "@id": "/.well-known/genid/00b3a53f70f369e02eb3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_73_U_8860"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_73_U_8860",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/fr_FR/5391ffddd55483273345c385e7909c44.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_191edc3cb30177396b8c18a35971ab1a",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_36e0148afe3030ec9e3a0f28b1a5e876",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_deb4968d18189974a96275ee4bb97e02"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/baa14efbc63c6c076538",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+                    "name": "Elemental",
+                    "reference": "ELEMENTAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "0",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Avezado].  {H} Haz objetivo a un personaje enfrentado a mí. Gano su subtipo y X potenciadores, donde X equivale a su estadística más alta.  {J} []Paga {2} menos por el siguiente permanente que juegues esta tarde.  Cuando abandone la zona de expedición — Si una o más de tus expediciones están [[Ascendida]]: Crea una ficha de [Aerolito] en los hitos del jugador objetivo.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "4"
+            },
+            "id": "4600K56W1X93TT39PA5XV9STQF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Doppelgänger",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_73_U_8860",
+            "rarity": {
+                "@id": "/.well-known/genid/c5eaa2b88b1a4c8739f6",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_73_U_8860"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_73_U_8860",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/fr_FR/5391ffddd55483273345c385e7909c44.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_191edc3cb30177396b8c18a35971ab1a",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_36e0148afe3030ec9e3a0f28b1a5e876",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_deb4968d18189974a96275ee4bb97e02"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/CYCLONE",
                 "@type": "CardSet",
@@ -101,7 +259,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/548db44f44b0688d44ba",
+                    "@id": "/.well-known/genid/63d709a448ca68a1613b",
                     "@type": "CardSubType",
                     "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
                     "name": "Élémentaire",
@@ -118,14 +276,18 @@
             "elements": {
                 "FOREST_POWER": "0",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "[][][Aguerri].  {H} Ciblez un Personnage qui me fait face. Je gagne son sous-type et X boosts, X étant la valeur de sa statistique la plus élevée.  {J} []Payez {2} de moins pour le prochain Permanent que vous jouez cet Après-midi.  Lorsque je quitte la zone d'Expédition — Si au moins une de vos Expéditions est Élevée : Créez un jeton [Aérolithe] dans les Repères d'un joueur ciblé.",
+                "MAIN_EFFECT": "[][][Aguerri].  {H} Ciblez un Personnage qui me fait face. Je gagne son sous-type et X boosts, X étant la valeur de sa statistique la plus élevée.  {J} []Payez {2} de moins pour le prochain Permanent que vous jouez cet Après-midi.  Lorsque je quitte la zone d'Expédition — Si au moins une de vos Expéditions est [[Élevée]] : Créez un jeton [Aérolithe] dans les Repères d'un joueur ciblé.",
                 "MOUNTAIN_POWER": "0",
                 "OCEAN_POWER": "0",
                 "RECALL_COST": "4"
             },
             "id": "4600K56W1X93TT39PA5XV9STQF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/fr_FR/5391ffddd55483273345c385e7909c44.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -140,7 +302,85 @@
             "name": "Doppelgänger",
             "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_73_U_8860",
             "rarity": {
-                "@id": "/.well-known/genid/804f936055360ff8c9e3",
+                "@id": "/.well-known/genid/e4bfa476ebb0a7d4b7cf",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_CYCLONE_B_OR_73_U_8860"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_CYCLONE_B_OR_73_U_8860",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/fr_FR/5391ffddd55483273345c385e7909c44.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_191edc3cb30177396b8c18a35971ab1a",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_36e0148afe3030ec9e3a0f28b1a5e876",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/WEB_deb4968d18189974a96275ee4bb97e02"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/CYCLONE",
+                "@type": "CardSet",
+                "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+                "name": "Skybound Odyssey",
+                "reference": "CYCLONE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/f18a152d7843e9dc5d86",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+                    "name": "Elementale",
+                    "reference": "ELEMENTAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "0",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Temprato].  {H} Scegli come bersaglio un personaggio che mi affronta. Ottengo il suo sottotipo e X rinforzi, dove X equivale alla sua statistica più alta.  {J} []Paga {2} in meno per il prossimo permanente che giochi questo pomeriggio.  Quando lascio l'area delle spedizioni — Se una o più delle tue spedizioni sono Ascese: Crea una pedina [Aerolite] nei fulcri di un giocatore bersaglio.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "0",
+                "RECALL_COST": "4"
+            },
+            "id": "4600K56W1X93TT39PA5XV9STQF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/CYCLONE/CARDS/ALT_CYCLONE_B_OR_73/UNIQUE/JPG/en_US/d498c54813256dcb45d14a0a99882724.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Doppelgänger",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_CYCLONE_B_OR_73_U_8860",
+            "rarity": {
+                "@id": "/.well-known/genid/5ab44eb5628482f78ee5",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -148,5 +388,6 @@
             },
             "reference": "ALT_CYCLONE_B_OR_73_U_8860"
         }
-    }
+    },
+    "updated": "2026-04-01 16:58:49"
 }
