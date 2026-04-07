@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_OR_57_U_14027",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/786e065e3f68dbeb6540109ae0b4fcbf.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_f38ea681e036940f5da89155a9b3d247"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/76bab2a9d0cb678a1727",
+            "@id": "/.well-known/genid/7428bdbcffa711c580f7",
             "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
             "name": "Bureaucrat",
             "reference": "BUREAUCRAT"
         },
         {
-            "@id": "/.well-known/genid/e3fd2f49055f56c29edf",
+            "@id": "/.well-known/genid/24165e5c54c22d6a79ec",
             "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
             "name": "Noble",
@@ -56,8 +55,12 @@
         "RECALL_COST": "4"
     },
     "id": "7D6MK7EG978DZR553ENM30FZVW",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Ariadne",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_14027",
     "rarity": {
-        "@id": "/.well-known/genid/b0bed0bbb7b6c66787b7",
+        "@id": "/.well-known/genid/c292349708dc14231c4a",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_BISE_B_OR_57_U_14027",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_OR_57_U_14027",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/786e065e3f68dbeb6540109ae0b4fcbf.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_f38ea681e036940f5da89155a9b3d247"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/1e28dcf29bc26b2286d0",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Bürokrat",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/e33d7659f912e37cc03a",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Adliger",
+                    "reference": "NOBLE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "Wenn ein Gegner einen Charakter spielt — []Falls es keine Charaktere in der mir gegenüberstehenden Expedition gibt, wechselt dieser Charakter die Expeditionen.  Wenn ich aus der Expeditionszone in die Reserve gehe — Falls du mindestens zwei Bleibende Karten kontrollierst: Erschaffe eine [Ordis-Rekrut 1/1/1]-Soldatenmarke in deiner Gefährten-Expedition.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "7D6MK7EG978DZR553ENM30FZVW",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Ariadne",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_14027",
+            "rarity": {
+                "@id": "/.well-known/genid/9dc78827d500f747ec59",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_57_U_14027"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_57_U_14027",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/786e065e3f68dbeb6540109ae0b4fcbf.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_69b0b6d2c2fd5a747a27db81cd24a6a7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_cb967882be578b00f7a2e72b8027cb22",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_f38ea681e036940f5da89155a9b3d247"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/b7b3bc00d4c7c769f5db",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burócrata",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/199920aa2699c3d6b23d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Noble",
+                    "reference": "NOBLE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "Cuando un oponente juegue un personaje — []Si no hay ningún personaje en la expedición enfrentada a mí, ese personaje se traslada de expedición.  Cuando vaya a la reserva desde la zona de expedición — Si controlas dos permanentes o más: Crea una ficha de soldado [Recluta de Ordis 1/1/1] en tu expedición del compañero.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "7D6MK7EG978DZR553ENM30FZVW",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Ariadna",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_14027",
+            "rarity": {
+                "@id": "/.well-known/genid/c2911c4e06dc894b5606",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_57_U_14027"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_57_U_14027",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/786e065e3f68dbeb6540109ae0b4fcbf.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_69b0b6d2c2fd5a747a27db81cd24a6a7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_cb967882be578b00f7a2e72b8027cb22",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_f38ea681e036940f5da89155a9b3d247"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/9442f020b2b4406aac96",
+                    "@id": "/.well-known/genid/ca4fbd3a766fe7890fa5",
                     "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
                     "name": "Bureaucrate",
                     "reference": "BUREAUCRAT"
                 },
                 {
-                    "@id": "/.well-known/genid/690a160855d9b559e227",
+                    "@id": "/.well-known/genid/e09b38de2fed96a5e382",
                     "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
                     "name": "Noble",
@@ -141,6 +313,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/786e065e3f68dbeb6540109ae0b4fcbf.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -155,7 +330,92 @@
             "name": "Ariane",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_14027",
             "rarity": {
-                "@id": "/.well-known/genid/16f8fe9ddf40799f32a3",
+                "@id": "/.well-known/genid/79cb20df3fa63abc65ad",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_57_U_14027"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_57_U_14027",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/fr_FR/786e065e3f68dbeb6540109ae0b4fcbf.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_69b0b6d2c2fd5a747a27db81cd24a6a7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_cb967882be578b00f7a2e72b8027cb22",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/WEB_f38ea681e036940f5da89155a9b3d247"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ab0121378a2d1c9fe526",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burocrate",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/fd1b7044eff3c323c26d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Nobile",
+                    "reference": "NOBLE"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "Quando un avversario gioca un personaggio — []Se non c'è alcun personaggio nella spedizione che mi affronta, quel personaggio cambia spedizione.  Quando vado nella Riserva dall'area delle spedizioni — Se controlli due o più permanenti: Crea una pedina Soldato [Recluta Ordis 1/1/1] nella spedizione del tuo compagno.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "7D6MK7EG978DZR553ENM30FZVW",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_57/UNIQUE/JPG/en_US/eabfa68f2f38a63fdff5b1b2a9e83450.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Arianna",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_57_U_14027",
+            "rarity": {
+                "@id": "/.well-known/genid/cbb7c42c79726edf98fc",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -163,5 +423,6 @@
             },
             "reference": "ALT_BISE_B_OR_57_U_14027"
         }
-    }
+    },
+    "updated": "2026-04-05 01:49:04"
 }

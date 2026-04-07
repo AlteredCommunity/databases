@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_19f60f2e3c9a49cd754bcd74dba598ca"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/eb4b2c35dbb3610f2f3e",
+            "@id": "/.well-known/genid/74ccf7f5b85a36079c76",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
             "reference": "ANIMAL"
         },
         {
-            "@id": "/.well-known/genid/a2d5b0dfb279979c7db9",
+            "@id": "/.well-known/genid/f251da9c22ddf12c010a",
             "@type": "CardSubType",
             "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
             "name": "Spirit",
@@ -56,9 +55,12 @@
         "RECALL_COST": "4"
     },
     "id": "2Y0F6JT4HK8ZTT0WR885RM1FQ3",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/en_US/a1f45bee0b083e895d2ed14b8013222d.jpg",
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -73,7 +75,7 @@
     "name": "Akhlut",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_38_U_6207",
     "rarity": {
-        "@id": "/.well-known/genid/242d2ff85f8241b3dc90",
+        "@id": "/.well-known/genid/e150848c9b667d1efa49",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -81,6 +83,176 @@
     },
     "reference": "ALT_ALIZE_B_BR_38_U_6207",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_38_U_6207",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/de_DE/2c6f0671f5d14a5544399f5fde79a7b9.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/en_US/a1f45bee0b083e895d2ed14b8013222d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/es_ES/ffc6a2d2fea163db15edf09cda30571a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/fr_FR/330619d968340960dc71880c7ef212b4.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/it_IT/26a62e48b03c3adb7b29de3c508dc35b.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_f798d55df97d4aade5bc2bbcfc5894b6",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_e697573a2210993c9f37f625fb0a79c3",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_19f60f2e3c9a49cd754bcd74dba598ca"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/941ca8566efc165a6610",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                },
+                {
+                    "@id": "/.well-known/genid/8caf19c8e5c5e9a2b16b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+                    "name": "Geist",
+                    "reference": "SPIRIT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} Falls deine Hand leer ist: Ich erhalte 2 Verstärkungen.  Wenn ich mindestens 1 Verstärkung erhalte — []Du darfst einen Charakter wählen, er erhält [[Vergänglich]].  Wenn sich meine Expedition aufgrund von {V} vorwärts bewegt — []Ziehe eine Karte.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "2Y0F6JT4HK8ZTT0WR885RM1FQ3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/de_DE/2c6f0671f5d14a5544399f5fde79a7b9.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Akhlut",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_38_U_6207",
+            "rarity": {
+                "@id": "/.well-known/genid/c66db1a04e247d7963d1",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_38_U_6207"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_38_U_6207",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/de_DE/2c6f0671f5d14a5544399f5fde79a7b9.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/en_US/a1f45bee0b083e895d2ed14b8013222d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/es_ES/ffc6a2d2fea163db15edf09cda30571a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/fr_FR/330619d968340960dc71880c7ef212b4.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/it_IT/26a62e48b03c3adb7b29de3c508dc35b.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_f798d55df97d4aade5bc2bbcfc5894b6",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_e697573a2210993c9f37f625fb0a79c3",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_19f60f2e3c9a49cd754bcd74dba598ca"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/7ff89dbd5b94e411ebf3",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                },
+                {
+                    "@id": "/.well-known/genid/5d95d76683ff9bf7996d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+                    "name": "Espíritu",
+                    "reference": "SPIRIT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} Si tu mano está vacía: Gano 2 potenciadores.  Cuando gane 1 potenciador o más — []Puedes hacer objetivo a un personaje. Gana [[Fugacidad]].  Cuando mi expedición avance debido a {V} — []Roba una carta.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "2Y0F6JT4HK8ZTT0WR885RM1FQ3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/es_ES/ffc6a2d2fea163db15edf09cda30571a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Akhlut",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_38_U_6207",
+            "rarity": {
+                "@id": "/.well-known/genid/2e2f2ee255b8577c9178",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_38_U_6207"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_BR_38_U_6207",
@@ -99,7 +271,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_19f60f2e3c9a49cd754bcd74dba598ca"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -109,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/a1720d18889fc68cfc17",
+                    "@id": "/.well-known/genid/4011740280f50c2b6427",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
                     "reference": "ANIMAL"
                 },
                 {
-                    "@id": "/.well-known/genid/24713d362db89889dea5",
+                    "@id": "/.well-known/genid/dd2fc18c47fb373cf22f",
                     "@type": "CardSubType",
                     "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
                     "name": "Esprit",
@@ -143,6 +314,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -157,7 +330,92 @@
             "name": "Akhlut",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_38_U_6207",
             "rarity": {
-                "@id": "/.well-known/genid/4eb36e90c065334ddf9e",
+                "@id": "/.well-known/genid/a8a79385b68b1cee1a88",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_38_U_6207"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_38_U_6207",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/de_DE/2c6f0671f5d14a5544399f5fde79a7b9.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/en_US/a1f45bee0b083e895d2ed14b8013222d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/es_ES/ffc6a2d2fea163db15edf09cda30571a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/fr_FR/330619d968340960dc71880c7ef212b4.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/it_IT/26a62e48b03c3adb7b29de3c508dc35b.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_f798d55df97d4aade5bc2bbcfc5894b6",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_e697573a2210993c9f37f625fb0a79c3",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/WEB_19f60f2e3c9a49cd754bcd74dba598ca"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/d5406120433bcef30581",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                },
+                {
+                    "@id": "/.well-known/genid/10eecd813588b71ed9cb",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+                    "name": "Spirito",
+                    "reference": "SPIRIT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} Se la tua mano è vuota: Ottengo 2 rinforzi.  Quando ottengo 1 o più rinforzi — []Puoi scegliere come bersaglio un personaggio e fargli ottenere [[Fugace]].  Quando la mia spedizione avanza per via di {V} — []Pesca una carta.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "2Y0F6JT4HK8ZTT0WR885RM1FQ3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_38/UNIQUE/JPG/it_IT/26a62e48b03c3adb7b29de3c508dc35b.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Akhlut",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_38_U_6207",
+            "rarity": {
+                "@id": "/.well-known/genid/f283c32b6d33fbe0e414",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -165,5 +423,6 @@
             },
             "reference": "ALT_ALIZE_B_BR_38_U_6207"
         }
-    }
+    },
+    "updated": "2026-04-07 19:16:30"
 }

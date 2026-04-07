@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_BR_49_U_13037",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/78d050630cf304e5ae3dcac286f97f7a.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_b0f501ca92f33a154b21a74cb6b057d0"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/cf1d1eb3099ae57f5031",
+            "@id": "/.well-known/genid/08a17372ee5e219d9bca",
             "@type": "CardSubType",
             "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
             "name": "Apprentice",
             "reference": "APPRENTICE"
         },
         {
-            "@id": "/.well-known/genid/af36638a8996f17a8c3e",
+            "@id": "/.well-known/genid/92ddc9a4aa743edf3b12",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -57,8 +56,12 @@
         "RECALL_COST": "4"
     },
     "id": "1WS00RAKZR8AF81FFQZMX276Y3",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -73,7 +76,7 @@
     "name": "Junior Chef",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_13037",
     "rarity": {
-        "@id": "/.well-known/genid/6439253db823db57d73b",
+        "@id": "/.well-known/genid/1b3b3ee29fb50d907ec0",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -81,16 +84,16 @@
     },
     "reference": "ALT_BISE_B_BR_49_U_13037",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_BR_49_U_13037",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/78d050630cf304e5ae3dcac286f97f7a.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -99,7 +102,178 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_b0f501ca92f33a154b21a74cb6b057d0"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/4017bf1c02e22bc7d492",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
+                    "name": "Lehrling",
+                    "reference": "APPRENTICE"
+                },
+                {
+                    "@id": "/.well-known/genid/a74a91c56382339b9f2b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{I} Wenn du einen anderen Charakter spielst — []Ich erhalte 1 Verstärkung, bis maximal 3.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Wenn sich meine Expedition vorwärts bewegt — Du darfst {1} bezahlen. Falls du das tust: Du darfst eine Bleibende Karte deiner Wahl mit Handkosten {3} oder weniger ablegen.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "4"
+            },
+            "id": "1WS00RAKZR8AF81FFQZMX276Y3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Nachwuchskoch",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_13037",
+            "rarity": {
+                "@id": "/.well-known/genid/6658854e02b03356ab40",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_BR_49_U_13037"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_BR_49_U_13037",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/78d050630cf304e5ae3dcac286f97f7a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_2e46dda5c5e39f98db5832840160e5f1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_5d50885e0f9da2e3ba0c9ab1dc128ba7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_b0f501ca92f33a154b21a74cb6b057d0"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/f9d277df93261c80c6d9",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
+                    "name": "Aprendiz",
+                    "reference": "APPRENTICE"
+                },
+                {
+                    "@id": "/.well-known/genid/534840af2d3f3776503e",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{I} Cuando juegues otro personaje — []Gano 1 potenciador, hasta un máximo de 3.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Cuando mi expedición avance — Puedes pagar {1}. Si lo haces: Puedes descartar un permanente objetivo con coste desde la mano de {3} o menos.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "4"
+            },
+            "id": "1WS00RAKZR8AF81FFQZMX276Y3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Chef novato",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_13037",
+            "rarity": {
+                "@id": "/.well-known/genid/19463b17d4a60894697b",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_BR_49_U_13037"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_BR_49_U_13037",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/78d050630cf304e5ae3dcac286f97f7a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_2e46dda5c5e39f98db5832840160e5f1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_5d50885e0f9da2e3ba0c9ab1dc128ba7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_b0f501ca92f33a154b21a74cb6b057d0"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -109,14 +283,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/202d2d7cb9e37514c92b",
+                    "@id": "/.well-known/genid/0fb69c22dbaf72234efd",
                     "@type": "CardSubType",
                     "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
                     "name": "Apprenti",
                     "reference": "APPRENTICE"
                 },
                 {
-                    "@id": "/.well-known/genid/f893a3e66dd10e6fd704",
+                    "@id": "/.well-known/genid/2115c844b1859d5d8ebc",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -143,6 +317,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/78d050630cf304e5ae3dcac286f97f7a.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -157,7 +334,93 @@
             "name": "Petit Cuistot",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_13037",
             "rarity": {
-                "@id": "/.well-known/genid/2bad5487b78ab173b62c",
+                "@id": "/.well-known/genid/bdd34ab4a7c65890db24",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_BR_49_U_13037"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_BR_49_U_13037",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/fr_FR/78d050630cf304e5ae3dcac286f97f7a.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_2e46dda5c5e39f98db5832840160e5f1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_5d50885e0f9da2e3ba0c9ab1dc128ba7",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/WEB_b0f501ca92f33a154b21a74cb6b057d0"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/fe6e5138052d88fb0a29",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPXW29DSBJ0DPFEPFVESC",
+                    "name": "Apprendista",
+                    "reference": "APPRENTICE"
+                },
+                {
+                    "@id": "/.well-known/genid/2cc16bdca780af369c2b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{I} Quando giochi un altro personaggio — []Ottengo 1 rinforzo, fino a un massimo di 3.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "Quando la mia spedizione avanza — Puoi pagare {1}. Se lo fai: Puoi scartare un permanente bersaglio con costo dalla mano pari o inferiore a {3}.",
+                "MOUNTAIN_POWER": "0",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "4"
+            },
+            "id": "1WS00RAKZR8AF81FFQZMX276Y3",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_49/UNIQUE/JPG/en_US/ecb5c890e30911bdb1ae99f107f70b3d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Apprendista Cuoco",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_49_U_13037",
+            "rarity": {
+                "@id": "/.well-known/genid/f00bafe8fb7bf3bbf408",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -165,5 +428,6 @@
             },
             "reference": "ALT_BISE_B_BR_49_U_13037"
         }
-    }
+    },
+    "updated": "2026-04-03 14:38:25"
 }

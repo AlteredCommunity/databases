@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_4cd72a4f90eaea49e74b44445bbbc457"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/73b6832367311437e061",
+            "@id": "/.well-known/genid/4ab8d24e8d48daf732b2",
             "@type": "CardSubType",
             "id": "01HKAGQS36Z3DP166MZW8KRAEK",
             "name": "Animal",
@@ -40,18 +39,22 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2025-06-02 08:00:00",
     "elements": {
-        "ECHO_EFFECT": "{D} : []You may activate the {j} abilities of target Permanent you control.",
+        "ECHO_EFFECT": "{D} : []You may target a Permanent you control, it activates its {j} abilities.",
         "FOREST_POWER": "0",
         "MAIN_COST": "2",
-        "MAIN_EFFECT": "{H} If there are two or more exhausted cards in Reserve: I gain 1 boost per Landmark you control.  {R} If you control a token: Draw a card.",
+        "MAIN_EFFECT": "{H} If there are two or more exhausted cards in Reserve: I gain 1 boost per card in your Landmarks.  {R} If you control a token: Draw a card.",
         "MOUNTAIN_POWER": "2",
         "OCEAN_POWER": "1",
         "RECALL_COST": "2"
     },
     "id": "28GRH7TQEE987SDN96B01V7SZF",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/JPG/en_EN/73c364d76a02b2566398897a2451b5e8.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/en_US/ee7409bdf09ec8eddb4dddf9879db8d7.jpg",
+    "isBanned": false,
+    "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Moth Larva",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_11602",
     "rarity": {
-        "@id": "/rarities/UNIQUE",
+        "@id": "/.well-known/genid/90b1f2ec850bc5702414",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_YZ_32_U_11602",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_YZ_32_U_11602",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/de_DE/870090323a345308b3b22b9baafda754.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/en_US/ee7409bdf09ec8eddb4dddf9879db8d7.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/es_ES/fffcb2670e06abeaf29a56de9eda2aab.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/b0a0e5da204de4d560e84cf85422cff0.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/it_IT/cd9bc6463bf26707fb26dd60e77be3c9.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_cbc5f7c37d558c0887887c9cc7ee3841",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_1634df5fb3ac2d716b10d538b747e43c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_4cd72a4f90eaea49e74b44445bbbc457"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/d29d2dfde084ff8cb6e3",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Tier",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst eine Bleibende Karte wählen, die du kontrollierst. Sie aktiviert ihre {j} Fähigkeiten.",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Falls mindestens zwei erschöpfte Karten in der Reserve sind: Ich erhalte 1 Verstärkung pro Karte in deinem Wahrzeichen-Bereich.  {R} Falls du eine Marke kontrollierst: Ziehe eine Karte.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "28GRH7TQEE987SDN96B01V7SZF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/de_DE/870090323a345308b3b22b9baafda754.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Mottenlarve",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_11602",
+            "rarity": {
+                "@id": "/.well-known/genid/00bc0de14c46a18aef40",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_YZ_32_U_11602"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_YZ_32_U_11602",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/de_DE/870090323a345308b3b22b9baafda754.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/en_US/ee7409bdf09ec8eddb4dddf9879db8d7.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/es_ES/fffcb2670e06abeaf29a56de9eda2aab.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/b0a0e5da204de4d560e84cf85422cff0.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/it_IT/cd9bc6463bf26707fb26dd60e77be3c9.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_cbc5f7c37d558c0887887c9cc7ee3841",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_1634df5fb3ac2d716b10d538b747e43c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_4cd72a4f90eaea49e74b44445bbbc457"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a31a10f58d26d7feeb82",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animal",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un permanente que controlas. Activa sus habilidades {j}.",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Si hay dos o más cartas agotadas en reserva: Gano 1 potenciador por cada carta que haya en tus hitos.  {R} Si controlas una ficha: Roba una carta.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "28GRH7TQEE987SDN96B01V7SZF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/es_ES/fffcb2670e06abeaf29a56de9eda2aab.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Larva de polilla",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_11602",
+            "rarity": {
+                "@id": "/.well-known/genid/3c33cbc985049fb88278",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_YZ_32_U_11602"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_YZ_32_U_11602",
@@ -92,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_4cd72a4f90eaea49e74b44445bbbc457"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/540dba007255dd50a3c7",
+                    "@id": "/.well-known/genid/dd4c9ec8a7e92e06d3ac",
                     "@type": "CardSubType",
                     "id": "01HKAGQS36Z3DP166MZW8KRAEK",
                     "name": "Animal",
@@ -117,16 +277,21 @@
                 "reference": "CHARACTER"
             },
             "elements": {
-                "ECHO_EFFECT": "{D} : []Vous pouvez activer les capacités {j} d'un Permanent ciblé que vous contrôlez.",
+                "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Permanent que vous contrôlez. Il active ses capacités {j}.",
                 "FOREST_POWER": "0",
                 "MAIN_COST": "2",
-                "MAIN_EFFECT": "{H} S'il y a au moins deux cartes épuisées en Réserve : Je gagne 1 boost par Repère que vous contrôlez.  {R} Si vous contrôlez un jeton : Piochez une carte.",
+                "MAIN_EFFECT": "{H} S'il y a au moins deux cartes épuisées en Réserve : Je gagne 1 boost par carte dans vos Repères.  {R} Si vous contrôlez un jeton : Piochez une carte.",
                 "MOUNTAIN_POWER": "2",
                 "OCEAN_POWER": "1",
                 "RECALL_COST": "2"
             },
             "id": "28GRH7TQEE987SDN96B01V7SZF",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/b0a0e5da204de4d560e84cf85422cff0.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -141,7 +306,86 @@
             "name": "Larve de Phalène",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_11602",
             "rarity": {
-                "@id": "/rarities/UNIQUE",
+                "@id": "/.well-known/genid/2ea950853f6b8f4765ca",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_YZ_32_U_11602"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_YZ_32_U_11602",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/de_DE/870090323a345308b3b22b9baafda754.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/en_US/ee7409bdf09ec8eddb4dddf9879db8d7.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/es_ES/fffcb2670e06abeaf29a56de9eda2aab.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/fr_FR/b0a0e5da204de4d560e84cf85422cff0.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/it_IT/cd9bc6463bf26707fb26dd60e77be3c9.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_cbc5f7c37d558c0887887c9cc7ee3841",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_1634df5fb3ac2d716b10d538b747e43c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/WEB_4cd72a4f90eaea49e74b44445bbbc457"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/6abd2697ee0de35f6e52",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+                    "name": "Animale",
+                    "reference": "ANIMAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un permanente che controlli e fargli attivare le sue abilità {j}.",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Se ci sono due o più carte consumate nella Riserva: Ottengo 1 rinforzo per ogni carta nei tuoi fulcri.  {R} Se controlli una pedina: Pesca una carta.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "2"
+            },
+            "id": "28GRH7TQEE987SDN96B01V7SZF",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_YZ_32/UNIQUE/JPG/it_IT/cd9bc6463bf26707fb26dd60e77be3c9.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Larva di Falena",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_YZ_32_U_11602",
+            "rarity": {
+                "@id": "/.well-known/genid/88495e1f37f3f3aa5d2e",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +394,5 @@
             "reference": "ALT_ALIZE_B_YZ_32_U_11602"
         }
     },
-    "updated": null
+    "updated": "2026-04-06 05:54:01"
 }

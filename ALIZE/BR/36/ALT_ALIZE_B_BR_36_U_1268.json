@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/e172b0f49e93d7543fcb",
+            "@id": "/.well-known/genid/37041b41a28bab2230e3",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
@@ -40,18 +39,22 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2025-06-02 08:00:00",
     "elements": {
-        "ECHO_EFFECT": "{D} : []You may activate the {j} abilities of target Permanent you control.",
+        "ECHO_EFFECT": "{D} : []You may target a Permanent you control, it activates its {j} abilities.",
         "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "{R} []You may have target Character other than me lose [[Fleeting]].  {R} If there are two or more exhausted cards in Reserve: Draw a card, otherwise [Resupply].",
+        "MAIN_EFFECT": "{R} []You may target a Character other than me, it loses [[Fleeting]].  {R} If there are two or more exhausted cards in Reserve: Draw a card, otherwise [Resupply].",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "4",
         "RECALL_COST": "3"
     },
     "id": "0776SE9HN09VJ911XFJNFQBVZ6",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/JPG/en_EN/b6a0cd5689a40e225576864246b17f54.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/09678d0237ff35405b6bc0937af5ec3d.jpg",
+    "isBanned": false,
+    "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Bravos Rescuer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_1268",
     "rarity": {
-        "@id": "/rarities/UNIQUE",
+        "@id": "/.well-known/genid/0aec411e27511d4e2adf",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_BR_36_U_1268",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_36_U_1268",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/64bd76dd79909ea62bff723cd571fd07.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/09678d0237ff35405b6bc0937af5ec3d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/a7e09b3fed78884db43f9dc0c7f9c36e.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/b587da43312698f20b3a46e491fa2054.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/37cc110ad662389577c4273a32d611ae.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_7d12689d4a40063df30beb0bf9ece902",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_939ef3ed4617f3cd30dca7093809cd4e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/574e83d9a4c6e9473d37",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst eine Bleibende Karte wählen, die du kontrollierst. Sie aktiviert ihre {j} Fähigkeiten.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Du darfst einen Charakter außer mir selbst wählen, er verliert [[Vergänglich]].  {R} Falls mindestens zwei erschöpfte Karten in der Reserve sind: Ziehe eine Karte, andernfalls [Nachschub].",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "0776SE9HN09VJ911XFJNFQBVZ6",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/64bd76dd79909ea62bff723cd571fd07.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Bravos-Retterin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_1268",
+            "rarity": {
+                "@id": "/.well-known/genid/e95e834d34e1f441feba",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_36_U_1268"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_36_U_1268",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/64bd76dd79909ea62bff723cd571fd07.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/09678d0237ff35405b6bc0937af5ec3d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/a7e09b3fed78884db43f9dc0c7f9c36e.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/b587da43312698f20b3a46e491fa2054.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/37cc110ad662389577c4273a32d611ae.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_7d12689d4a40063df30beb0bf9ece902",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_939ef3ed4617f3cd30dca7093809cd4e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/07357f56a0cd8d32492d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un permanente que controlas. Activa sus habilidades {j}.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Puedes hacer objetivo a un personaje aparte de mí. Pierde [[Fugacidad]].  {R} Si hay dos o más cartas agotadas en reserva: Roba una carta. De lo contrario, [reabastece].",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "0776SE9HN09VJ911XFJNFQBVZ6",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/a7e09b3fed78884db43f9dc0c7f9c36e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Rescatista de Bravos",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_1268",
+            "rarity": {
+                "@id": "/.well-known/genid/d2a71062ad21b24e906f",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_36_U_1268"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_BR_36_U_1268",
@@ -92,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/7008c7796d78f514c4a0",
+                    "@id": "/.well-known/genid/607172ba9d5f8ae13025",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
@@ -117,16 +277,21 @@
                 "reference": "CHARACTER"
             },
             "elements": {
-                "ECHO_EFFECT": "{D} : []Vous pouvez activer les capacités {j} d'un Permanent ciblé que vous contrôlez.",
+                "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Permanent que vous contrôlez. Il active ses capacités {j}.",
                 "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "{R} []Vous pouvez faire perdre [[Fugace]] à un Personnage ciblé autre que moi.  {R} S'il y a au moins deux cartes épuisées en Réserve : Piochez une carte. Sinon, [Ravitaillez].",
+                "MAIN_EFFECT": "{R} []Vous pouvez cibler un Personnage autre que moi. Il perd [[Fugace]].  {R} S'il y a au moins deux cartes épuisées en Réserve : Piochez une carte. Sinon, [Ravitaillez].",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "4",
                 "RECALL_COST": "3"
             },
             "id": "0776SE9HN09VJ911XFJNFQBVZ6",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/b587da43312698f20b3a46e491fa2054.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -141,7 +306,86 @@
             "name": "Secouriste Bravos",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_1268",
             "rarity": {
-                "@id": "/rarities/UNIQUE",
+                "@id": "/.well-known/genid/94a06c48e4c3d3ec4f60",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_36_U_1268"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_36_U_1268",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/64bd76dd79909ea62bff723cd571fd07.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/09678d0237ff35405b6bc0937af5ec3d.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/a7e09b3fed78884db43f9dc0c7f9c36e.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/b587da43312698f20b3a46e491fa2054.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/37cc110ad662389577c4273a32d611ae.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_7d12689d4a40063df30beb0bf9ece902",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_939ef3ed4617f3cd30dca7093809cd4e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/3d152483b8b99a2efd95",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un permanente che controlli e fargli attivare le sue abilità {j}.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Puoi scegliere come bersaglio un personaggio eccetto me e fargli perdere [[Fugace]].  {R} Se ci sono due o più carte consumate nella Riserva: Pesca una carta, altrimenti [Rifornisci].",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "0776SE9HN09VJ911XFJNFQBVZ6",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/37cc110ad662389577c4273a32d611ae.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Soccorritrice Bravos",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_1268",
+            "rarity": {
+                "@id": "/.well-known/genid/e7ca5d831223fe4aee82",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +394,5 @@
             "reference": "ALT_ALIZE_B_BR_36_U_1268"
         }
     },
-    "updated": null
+    "updated": "2026-04-06 14:23:18"
 }

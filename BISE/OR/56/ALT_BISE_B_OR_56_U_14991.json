@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_OR_56_U_14991",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/2f035743561c7d4534fb1b67330128c9.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_959364673289ff53c068e81c2a889e99"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/d30a9601eccb3fc0a450",
+            "@id": "/.well-known/genid/d127ea1f0b0dbdce6f2a",
             "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
             "name": "Noble",
             "reference": "NOBLE"
         },
         {
-            "@id": "/.well-known/genid/379c50bc156427bdd7fd",
+            "@id": "/.well-known/genid/65d7601060662e124b67",
             "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
             "name": "Soldier",
@@ -56,8 +55,12 @@
         "RECALL_COST": "5"
     },
     "id": "0V7VQ2TDKB98XVQ0JPEYV1C0AT",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Fiore dei Liberi",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_14991",
     "rarity": {
-        "@id": "/.well-known/genid/c7f44f3a9535804dba8e",
+        "@id": "/.well-known/genid/1ba4ed9f26392ce8847f",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_BISE_B_OR_56_U_14991",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_OR_56_U_14991",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/2f035743561c7d4534fb1b67330128c9.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_959364673289ff53c068e81c2a889e99"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/974c9b27796dcf6d6547",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Adliger",
+                    "reference": "NOBLE"
+                },
+                {
+                    "@id": "/.well-known/genid/1d9d3a00a10b96475e67",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "5",
+                "MAIN_EFFECT": "[]Falls ich mindestens 1 Verstärkung habe: Ich bin [Ewig].  Zur Nacht — Ich verliere 1 Verstärkung.  {J} []Ich erhalte 1 Verstärkung für jeden Charakter außer mir selbst in meiner Expedition, dann schicke sie in die Reserve.  Wenn ein anderer Charakter sich deinen Expeditionen anschließt — Falls die Reserve eines Gegners mehr Karten als deine enthält: Ein Charakter deiner Wahl außer mir selbst erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "5"
+            },
+            "id": "0V7VQ2TDKB98XVQ0JPEYV1C0AT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Fiore dei Liberi",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_14991",
+            "rarity": {
+                "@id": "/.well-known/genid/61fc0c7a912466fa37a3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_56_U_14991"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_56_U_14991",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/2f035743561c7d4534fb1b67330128c9.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_d6c16bd898b52bb7e196f809cce39286",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_cc8b61a5aea54b4e2679816c5b90fcbb",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_959364673289ff53c068e81c2a889e99"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/1b6bf5ecebd94748d4b8",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Noble",
+                    "reference": "NOBLE"
+                },
+                {
+                    "@id": "/.well-known/genid/d9a97f76ccb6179360dd",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldado",
+                    "reference": "SOLDIER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "5",
+                "MAIN_EFFECT": "[]Si tengo 1 potenciador o más: Soy [Eterno].  A la noche — Pierdo 1 potenciador.  {J} []Gano 1 potenciador por cada personaje aparte de mí en mi expedición, y luego envíalos a la reserva.  Cuando otro personaje se incorpore a tus expediciones — Si la reserva de un oponente contiene más cartas que la tuya: Un personaje objetivo aparte de mí gana 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "5"
+            },
+            "id": "0V7VQ2TDKB98XVQ0JPEYV1C0AT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Fiore dei Liberi",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_14991",
+            "rarity": {
+                "@id": "/.well-known/genid/b8e37b0e96abb91de525",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_56_U_14991"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_56_U_14991",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/2f035743561c7d4534fb1b67330128c9.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_d6c16bd898b52bb7e196f809cce39286",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_cc8b61a5aea54b4e2679816c5b90fcbb",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_959364673289ff53c068e81c2a889e99"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/d4336b8138b5ef02ca29",
+                    "@id": "/.well-known/genid/53bb89be0f058ed505da",
                     "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
                     "name": "Noble",
                     "reference": "NOBLE"
                 },
                 {
-                    "@id": "/.well-known/genid/4852c8b0423abe825dff",
+                    "@id": "/.well-known/genid/4aa939ce4339e20e0b6e",
                     "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
                     "name": "Soldat",
@@ -141,6 +313,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/2f035743561c7d4534fb1b67330128c9.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -155,7 +330,92 @@
             "name": "Fiore dei Liberi",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_14991",
             "rarity": {
-                "@id": "/.well-known/genid/0b4743a76d9869a45d88",
+                "@id": "/.well-known/genid/4bc7df22d418e365f379",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_56_U_14991"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_56_U_14991",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/fr_FR/2f035743561c7d4534fb1b67330128c9.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_d6c16bd898b52bb7e196f809cce39286",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_cc8b61a5aea54b4e2679816c5b90fcbb",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/WEB_959364673289ff53c068e81c2a889e99"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/0023015c1a329c89a9dc",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Nobile",
+                    "reference": "NOBLE"
+                },
+                {
+                    "@id": "/.well-known/genid/45c284ed2db986c6b1c0",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldato",
+                    "reference": "SOLDIER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "5",
+                "MAIN_EFFECT": "[]Se ho 1 o più rinforzi: Ho [Eterno].  Di notte — Perdo 1 rinforzo.  {J} []Ottengo 1 rinforzo per ogni personaggio eccetto me nella mia spedizione. Poi, manda i personaggi nella Riserva.  Quando un altro personaggio si unisce alle tue spedizioni — Se la Riserva di un avversario contiene più carte della tua: Un personaggio bersaglio eccetto me ottiene 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "5"
+            },
+            "id": "0V7VQ2TDKB98XVQ0JPEYV1C0AT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_56/UNIQUE/JPG/en_US/c62ce1ca15161b3336aff3793f8b1898.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Fiore dei Liberi",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_56_U_14991",
+            "rarity": {
+                "@id": "/.well-known/genid/1edda1d2093ec4b3cff2",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -163,5 +423,6 @@
             },
             "reference": "ALT_BISE_B_OR_56_U_14991"
         }
-    }
+    },
+    "updated": "2026-04-05 06:06:23"
 }

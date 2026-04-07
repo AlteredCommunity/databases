@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/add4b38f8cacf68d86af",
+            "@id": "/.well-known/genid/c26e2d6980a6c97814cf",
             "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
             "name": "Robot",
@@ -44,15 +43,18 @@
         "ECHO_EFFECT": "{D} : [][Exhausted Resupply].",
         "FOREST_POWER": "2",
         "MAIN_COST": "2",
-        "MAIN_EFFECT": "{H} Unless there are two or more cards in your Landmarks: Send me to Reserve.  When you exhaust a card in Reserve — []You may target a Character, it gains [[Fleeting]].",
+        "MAIN_EFFECT": "{H} If there's at most one card in your Landmarks: Send me to Reserve.  When you exhaust a card in Reserve — []You may target a Character, it gains [[Fleeting]].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
         "RECALL_COST": "2"
     },
     "id": "36ZJR23TS796YR20MXMVEWV69X",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/096ac58e361ec79cf19a88b239357914.jpg",
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -67,7 +69,7 @@
     "name": "The Machine in the Ice",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_431",
     "rarity": {
-        "@id": "/.well-known/genid/1e28ee7cab4542db4509",
+        "@id": "/.well-known/genid/45bb5b28aa0a21cac53e",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -75,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_AX_32_U_431",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_32_U_431",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/2db136dba0c3f5171cd5cb4cab3efb7a.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/096ac58e361ec79cf19a88b239357914.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/19b42162d45f5ac3f1026e2230b8d441.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/2ba0b5f9be167a8de4172bf6dbe3be7a.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/27f612aa01c8e962312346e60c06039b.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_9cb2810aa3a22c03af54da620086f2cf",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_aee6e5c21388d55b2e3e324e45b5328c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/ce1c408ff012e4271465",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Roboter",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : [][Erschöpfter Nachschub].",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Falls sich höchstens eine Karte in deinem Wahrzeichen-Bereich befindet: Schicke mich in die Reserve.  Wenn du eine Karte in der Reserve erschöpfst — []Du darfst einen Charakter wählen, er erhält [[Vergänglich]].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "2"
+            },
+            "id": "36ZJR23TS796YR20MXMVEWV69X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/2db136dba0c3f5171cd5cb4cab3efb7a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Die Maschine im Eis",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_431",
+            "rarity": {
+                "@id": "/.well-known/genid/e12d657756fcb922e57f",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_32_U_431"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_32_U_431",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/2db136dba0c3f5171cd5cb4cab3efb7a.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/096ac58e361ec79cf19a88b239357914.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/19b42162d45f5ac3f1026e2230b8d441.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/2ba0b5f9be167a8de4172bf6dbe3be7a.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/27f612aa01c8e962312346e60c06039b.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_9cb2810aa3a22c03af54da620086f2cf",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_aee6e5c21388d55b2e3e324e45b5328c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/45bace8362189d5fb766",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : [][Reabastece y agota].",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Si hay como máximo una carta en tus hitos: Envíame a la reserva.  Cuando agotes una carta en reserva — []Puedes hacer objetivo a un personaje. Gana [[Fugacidad]].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "2"
+            },
+            "id": "36ZJR23TS796YR20MXMVEWV69X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/19b42162d45f5ac3f1026e2230b8d441.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "El gigante del hielo",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_431",
+            "rarity": {
+                "@id": "/.well-known/genid/71dd722fbd31df7164f9",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_32_U_431"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_AX_32_U_431",
@@ -93,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -103,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/d6d2406105f87a809342",
+                    "@id": "/.well-known/genid/1c7336bdfdfcaff2ad88",
                     "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
                     "name": "Robot",
@@ -121,7 +280,7 @@
                 "ECHO_EFFECT": "{D} : [][Ravitaillez Épuisé].",
                 "FOREST_POWER": "2",
                 "MAIN_COST": "2",
-                "MAIN_EFFECT": "{H} Sauf s'il y a au moins deux cartes dans vos Repères : Envoyez-moi en Réserve.  Lorsque vous épuisez une carte en Réserve — []Vous pouvez cibler un Personnage. Il gagne [[Fugace]].",
+                "MAIN_EFFECT": "{H} S'il y a une carte ou moins dans vos Repères : Envoyez-moi en Réserve.  Lorsque vous épuisez une carte en Réserve — []Vous pouvez cibler un Personnage. Il gagne [[Fugace]].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "2"
@@ -131,6 +290,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -145,7 +306,86 @@
             "name": "La Machine dans la Glace",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_431",
             "rarity": {
-                "@id": "/.well-known/genid/fad7515d46be20a2e829",
+                "@id": "/.well-known/genid/ada6c1f9a88a71ae1cad",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_32_U_431"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_32_U_431",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/2db136dba0c3f5171cd5cb4cab3efb7a.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/096ac58e361ec79cf19a88b239357914.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/19b42162d45f5ac3f1026e2230b8d441.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/2ba0b5f9be167a8de4172bf6dbe3be7a.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/27f612aa01c8e962312346e60c06039b.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_9cb2810aa3a22c03af54da620086f2cf",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_aee6e5c21388d55b2e3e324e45b5328c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/0a46c8ef520a7f9496b8",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: [][Rifornisci-Consuma].",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "2",
+                "MAIN_EFFECT": "{H} Se c'è al massimo una carta nei tuoi fulcri: Mandami nella Riserva.  Quando consumi una carta nella Riserva — []Puoi scegliere come bersaglio un personaggio e fargli ottenere [[Fugace]].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "2"
+            },
+            "id": "36ZJR23TS796YR20MXMVEWV69X",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/27f612aa01c8e962312346e60c06039b.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/AX",
+                "@type": "Faction",
+                "color": "#8c432a",
+                "id": "01GE7AC9XBG707G19F03A95TH1",
+                "name": "Axiom",
+                "reference": "AX"
+            },
+            "name": "Macchina nel Ghiaccio",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_431",
+            "rarity": {
+                "@id": "/.well-known/genid/99ae69edb6a4f9f7ed11",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -153,5 +393,6 @@
             },
             "reference": "ALT_ALIZE_B_AX_32_U_431"
         }
-    }
+    },
+    "updated": "2026-04-06 05:23:12"
 }

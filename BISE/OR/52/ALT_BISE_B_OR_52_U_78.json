@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_OR_52_U_78",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/fr_FR/1fcd350b5b71c45fa93b6ecd2cc5f47e.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_b76422b8599cdacb4fd09bcca34dc948"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/37f0bffabd6ad44d0a66",
+            "@id": "/.well-known/genid/5907a66d110419d02f4f",
             "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
             "name": "Bureaucrat",
             "reference": "BUREAUCRAT"
         },
         {
-            "@id": "/.well-known/genid/b34de42d13dcec60cddb",
+            "@id": "/.well-known/genid/7dd54873e2efb739063b",
             "@type": "CardSubType",
             "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
             "name": "Scholar",
@@ -57,8 +56,12 @@
         "RECALL_COST": "3"
     },
     "id": "5CK3T4P5FF80BS9Q575ATDSE1F",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -73,7 +76,7 @@
     "name": "Leo, Relic Expert",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_52_U_78",
     "rarity": {
-        "@id": "/.well-known/genid/bb53bc3fd6c1a110977a",
+        "@id": "/.well-known/genid/1ad6a535ac24c7311540",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -81,16 +84,16 @@
     },
     "reference": "ALT_BISE_B_OR_52_U_78",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_OR_52_U_78",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/fr_FR/1fcd350b5b71c45fa93b6ecd2cc5f47e.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -99,7 +102,178 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_b76422b8599cdacb4fd09bcca34dc948"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/10ec2227780288dd1a4c",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Bürokrat",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/04a139c6464c1056a42e",
+                    "@type": "CardSubType",
+                    "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+                    "name": "Gelehrter",
+                    "reference": "SCHOLAR"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Zahle {1} weniger für den nächsten Bürokraten, den du in dieser Runde spielst.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{R} Falls deine Gefährten-Expedition hinten liegt: Zahle {1} weniger für den nächsten Charakter, den du an diesem Nachmittag spielst.  Wenn ich aus der Expeditionszone in die Reserve gehe — [][Sabotage].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "5CK3T4P5FF80BS9Q575ATDSE1F",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Leo, Reliktexperte",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_52_U_78",
+            "rarity": {
+                "@id": "/.well-known/genid/83cb5cde49733af9183e",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_52_U_78"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_52_U_78",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/fr_FR/1fcd350b5b71c45fa93b6ecd2cc5f47e.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_0f4a356d4f65aa35d807a64787f6386e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_6650adda98b6a20a1e143911612cab91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_b76422b8599cdacb4fd09bcca34dc948"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a8f5102202587f159e4b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burócrata",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/c2af984b53b7e6faa0ad",
+                    "@type": "CardSubType",
+                    "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+                    "name": "Erudito",
+                    "reference": "SCHOLAR"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Paga {1} menos por el siguiente burócrata que juegues este turno.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{R} Si tu expedición del compañero va por detrás: Paga {1} menos por el siguiente personaje que juegues esta tarde.  Cuando vaya a la reserva desde la zona de expedición — [][Sabotea].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "5CK3T4P5FF80BS9Q575ATDSE1F",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Leo, experto en reliquias",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_52_U_78",
+            "rarity": {
+                "@id": "/.well-known/genid/a2a0b589c346b736fc4b",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_52_U_78"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_52_U_78",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/fr_FR/1fcd350b5b71c45fa93b6ecd2cc5f47e.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_0f4a356d4f65aa35d807a64787f6386e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_6650adda98b6a20a1e143911612cab91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_b76422b8599cdacb4fd09bcca34dc948"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -109,14 +283,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/e0a55408b873f04d8be4",
+                    "@id": "/.well-known/genid/dab493a2655c262505bc",
                     "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
                     "name": "Bureaucrate",
                     "reference": "BUREAUCRAT"
                 },
                 {
-                    "@id": "/.well-known/genid/5bcc712897ebaee05757",
+                    "@id": "/.well-known/genid/83bc93ca73a3fdfdd23b",
                     "@type": "CardSubType",
                     "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
                     "name": "Érudit",
@@ -143,6 +317,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/fr_FR/1fcd350b5b71c45fa93b6ecd2cc5f47e.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -157,7 +334,93 @@
             "name": "Leo, Expert en Reliques",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_52_U_78",
             "rarity": {
-                "@id": "/.well-known/genid/9859001d62d1366e7b9f",
+                "@id": "/.well-known/genid/2765591c292053ad16b2",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_OR_52_U_78"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_OR_52_U_78",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/fr_FR/1fcd350b5b71c45fa93b6ecd2cc5f47e.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_0f4a356d4f65aa35d807a64787f6386e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_6650adda98b6a20a1e143911612cab91",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/WEB_b76422b8599cdacb4fd09bcca34dc948"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a7ff565d35094b23348c",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burocrate",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/818425114e66608a1f11",
+                    "@type": "CardSubType",
+                    "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+                    "name": "Studioso",
+                    "reference": "SCHOLAR"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Paga {1} in meno per il prossimo Burocrate che giochi in questo turno.",
+                "FOREST_POWER": "3",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{R} Se la spedizione del tuo compagno è indietro: Paga {1} in meno per il prossimo personaggio che giochi questo pomeriggio.  Quando vado nella Riserva dall'area delle spedizioni — [][Sabota].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "5CK3T4P5FF80BS9Q575ATDSE1F",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_OR_52/UNIQUE/JPG/en_US/acb9fd535a6e736cd20a168eaf9b3b10.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Leo, Esperto di Cimeli",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_OR_52_U_78",
+            "rarity": {
+                "@id": "/.well-known/genid/97a68a548eb04bc48220",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -165,5 +428,6 @@
             },
             "reference": "ALT_BISE_B_OR_52_U_78"
         }
-    }
+    },
+    "updated": "2026-04-05 09:26:01"
 }

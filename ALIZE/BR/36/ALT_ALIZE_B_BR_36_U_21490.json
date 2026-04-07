@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/9616a05eeec02a24d5b6",
+            "@id": "/.well-known/genid/eea9966c090c90c23445",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
@@ -40,18 +39,22 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2025-06-02 08:00:00",
     "elements": {
-        "ECHO_EFFECT": "{D} : []You may have target Character other than me lose [[Fleeting]].",
+        "ECHO_EFFECT": "{D} : []You may target a Character other than me, it loses [[Fleeting]].",
         "FOREST_POWER": "1",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "At Dusk — If you control one or more Landmarks: Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).",
+        "MAIN_EFFECT": "At Dusk — If there's a card in your Landmarks: Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).",
         "MOUNTAIN_POWER": "4",
         "OCEAN_POWER": "4",
         "RECALL_COST": "4"
     },
     "id": "59TH0K4X309E0B1E2P0B035DEJ",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/JPG/en_EN/c4bc9a5e2ef6f0536387f239555ef0be.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/3a0c4804c5b89104f8148580a81a67d1.jpg",
+    "isBanned": false,
+    "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "Bravos Rescuer",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_21490",
     "rarity": {
-        "@id": "/rarities/UNIQUE",
+        "@id": "/.well-known/genid/a0aeb64efb4fd2d5fc14",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_BR_36_U_21490",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_36_U_21490",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/0ed0fa465b3be4da722e8f9ffbdf2016.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/3a0c4804c5b89104f8148580a81a67d1.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/65608d0e9bb08f5da4a69a5d3f116be2.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/0d42e64db8c09f35b66ca8659ca28edd.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/524e816037dd857ef9e0bca50e006283.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_7d12689d4a40063df30beb0bf9ece902",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_939ef3ed4617f3cd30dca7093809cd4e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/4312742e49395df62205",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst einen Charakter außer mir selbst wählen, er verliert [[Vergänglich]].",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "Zum Abend — Falls sich mindestens eine Karte in deinem Wahrzeichen-Bereich befindet: Lege die oberste Karte deines Decks in deine Manazone (als erschöpfte Manakugel).",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "59TH0K4X309E0B1E2P0B035DEJ",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/0ed0fa465b3be4da722e8f9ffbdf2016.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Bravos-Retterin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_21490",
+            "rarity": {
+                "@id": "/.well-known/genid/cabc7e47c68fd4d5cd7a",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_36_U_21490"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_36_U_21490",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/0ed0fa465b3be4da722e8f9ffbdf2016.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/3a0c4804c5b89104f8148580a81a67d1.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/65608d0e9bb08f5da4a69a5d3f116be2.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/0d42e64db8c09f35b66ca8659ca28edd.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/524e816037dd857ef9e0bca50e006283.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_7d12689d4a40063df30beb0bf9ece902",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_939ef3ed4617f3cd30dca7093809cd4e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/f6ec4f23aed0b57b32a9",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un personaje aparte de mí. Pierde [[Fugacidad]].",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "Al anochecer — Si hay una o más cartas en tus hitos: Coloca la primera carta de tu mazo en tu zona de maná (como orbe de maná agotado).",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "59TH0K4X309E0B1E2P0B035DEJ",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/65608d0e9bb08f5da4a69a5d3f116be2.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Rescatista de Bravos",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_21490",
+            "rarity": {
+                "@id": "/.well-known/genid/4e308a843ef7c8da1f73",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_36_U_21490"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_BR_36_U_21490",
@@ -92,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/cd979a63f0f68dfb671c",
+                    "@id": "/.well-known/genid/271c66ed6e549ebec23b",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
@@ -117,16 +277,21 @@
                 "reference": "CHARACTER"
             },
             "elements": {
-                "ECHO_EFFECT": "{D} : []Vous pouvez faire perdre [[Fugace]] à un Personnage ciblé autre que moi.",
+                "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Personnage autre que moi. Il perd [[Fugace]].",
                 "FOREST_POWER": "1",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "Au Crépuscule — Si vous contrôlez au moins un Repère : Mettez la première carte de votre deck dans votre zone de Mana (en tant qu'Orbe de Mana épuisé).",
+                "MAIN_EFFECT": "Au Crépuscule — S'il y a au moins une carte dans vos Repères : Mettez la première carte de votre deck dans votre zone de Mana (en tant qu'Orbe de Mana épuisé).",
                 "MOUNTAIN_POWER": "4",
                 "OCEAN_POWER": "4",
                 "RECALL_COST": "4"
             },
             "id": "59TH0K4X309E0B1E2P0B035DEJ",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/0d42e64db8c09f35b66ca8659ca28edd.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -141,7 +306,86 @@
             "name": "Secouriste Bravos",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_21490",
             "rarity": {
-                "@id": "/rarities/UNIQUE",
+                "@id": "/.well-known/genid/d7a161415b912710433c",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_36_U_21490"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_36_U_21490",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/de_DE/0ed0fa465b3be4da722e8f9ffbdf2016.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/en_US/3a0c4804c5b89104f8148580a81a67d1.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/es_ES/65608d0e9bb08f5da4a69a5d3f116be2.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/fr_FR/0d42e64db8c09f35b66ca8659ca28edd.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/524e816037dd857ef9e0bca50e006283.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_7d12689d4a40063df30beb0bf9ece902",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_939ef3ed4617f3cd30dca7093809cd4e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/WEB_160a421ab9230aae2d52bc2d8422ef17"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/c42d4459b65c957ef2fc",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un personaggio eccetto me e fargli perdere [[Fugace]].",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "Al crepuscolo — Se ci sono una o più carte nei tuoi fulcri: Metti la prima carta del tuo mazzo nella tua area del mana (come una sfera di mana consumata).",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "59TH0K4X309E0B1E2P0B035DEJ",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_36/UNIQUE/JPG/it_IT/524e816037dd857ef9e0bca50e006283.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Soccorritrice Bravos",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_36_U_21490",
+            "rarity": {
+                "@id": "/.well-known/genid/c793f7f6cc27b19d7175",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +394,5 @@
             "reference": "ALT_ALIZE_B_BR_36_U_21490"
         }
     },
-    "updated": null
+    "updated": "2026-04-07 03:20:29"
 }

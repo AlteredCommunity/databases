@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_BR_56_U_6839",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/1cdc3f881789cc6c9702a3685c622ae7.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_d7c82fb230458eb492bff04b43815cae"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/9529e2a9afd2efea8dd4",
+            "@id": "/.well-known/genid/89629dab05e6bb7237e2",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
             "reference": "ADVENTURER"
         },
         {
-            "@id": "/.well-known/genid/dcbd9fec87cbdddbfc64",
+            "@id": "/.well-known/genid/e76bce32d4f603a1c55d",
             "@type": "CardSubType",
             "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
             "name": "Elemental",
@@ -56,8 +55,12 @@
         "RECALL_COST": "4"
     },
     "id": "0XYQQVG6GG8YK83TT3DJV2ZKP9",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Aoife, Fire Avatar",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_6839",
     "rarity": {
-        "@id": "/.well-known/genid/7cf60867d8bc140c1c36",
+        "@id": "/.well-known/genid/bd52eb0237ff2758521e",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_BISE_B_BR_56_U_6839",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_BR_56_U_6839",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/1cdc3f881789cc6c9702a3685c622ae7.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_d7c82fb230458eb492bff04b43815cae"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/cd51fd60d72784919e2d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                },
+                {
+                    "@id": "/.well-known/genid/328d3db69440801715c0",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+                    "name": "Elementar",
+                    "reference": "ELEMENTAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Spähen] {1}.  {H} []Du darfst einen Charakter außer mir selbst wählen, er verliert [[Vergänglich]].  Wenn eine Karte aus deinem Deck oder deiner Hand in die Reserve geht — []Ein Charakter deiner Wahl im Spiel oder in der Reserve erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "0XYQQVG6GG8YK83TT3DJV2ZKP9",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Aoife, Feuer-Avatar",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_6839",
+            "rarity": {
+                "@id": "/.well-known/genid/412eca3d2ea06d9be46b",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_BR_56_U_6839"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_BR_56_U_6839",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/1cdc3f881789cc6c9702a3685c622ae7.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_1dcd3412738a1f3331740291e9d37328",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_fb133a2f714cabd71c98056e5a488ea4",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_d7c82fb230458eb492bff04b43815cae"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/66c653f4971451b70ae4",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                },
+                {
+                    "@id": "/.well-known/genid/2f83d8af4d90780e4bee",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+                    "name": "Elemental",
+                    "reference": "ELEMENTAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Explorar] {1}.  {H} []Puedes hacer objetivo a un personaje aparte de mí. Pierde [[Fugacidad]].  Cuando una carta vaya de tu mazo o de tu mano a la reserva — []Un personaje objetivo en juego o en reserva gana 1 potenciador.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "0XYQQVG6GG8YK83TT3DJV2ZKP9",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Aoife, avatar del fuego",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_6839",
+            "rarity": {
+                "@id": "/.well-known/genid/fedd0d29411883796c37",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_BR_56_U_6839"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_BR_56_U_6839",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/1cdc3f881789cc6c9702a3685c622ae7.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_1dcd3412738a1f3331740291e9d37328",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_fb133a2f714cabd71c98056e5a488ea4",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_d7c82fb230458eb492bff04b43815cae"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/7d8a40cd39e84c348ac2",
+                    "@id": "/.well-known/genid/3b401af93efbfc14f969",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
                     "reference": "ADVENTURER"
                 },
                 {
-                    "@id": "/.well-known/genid/96ab492952c355ca88b3",
+                    "@id": "/.well-known/genid/2c7f1b9e5286bfb87d23",
                     "@type": "CardSubType",
                     "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
                     "name": "Élémentaire",
@@ -141,6 +313,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/1cdc3f881789cc6c9702a3685c622ae7.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -155,7 +330,92 @@
             "name": "Aoife, Avatar de Feu",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_6839",
             "rarity": {
-                "@id": "/.well-known/genid/628c4a0c1345c2792776",
+                "@id": "/.well-known/genid/4f193f2f6a58a171b2f4",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_BR_56_U_6839"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_BR_56_U_6839",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/fr_FR/1cdc3f881789cc6c9702a3685c622ae7.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_1dcd3412738a1f3331740291e9d37328",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_fb133a2f714cabd71c98056e5a488ea4",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/WEB_d7c82fb230458eb492bff04b43815cae"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/70072af1e5c742e6ad9e",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                },
+                {
+                    "@id": "/.well-known/genid/c649b22ca1c58b16c6af",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+                    "name": "Elementale",
+                    "reference": "ELEMENTAL"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Esploratore] {1}.  {H} []Puoi scegliere come bersaglio un personaggio eccetto me e fargli perdere [[Fugace]].  Quando una carta va dal tuo mazzo o dalla tua mano nella Riserva — []Un personaggio bersaglio in gioco o nella Riserva ottiene 1 rinforzo.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "4"
+            },
+            "id": "0XYQQVG6GG8YK83TT3DJV2ZKP9",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_BR_56/UNIQUE/JPG/en_US/a339223b59946ba4439ac34a1b6a3a37.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Aoife, Avatar del Fuoco",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_BR_56_U_6839",
+            "rarity": {
+                "@id": "/.well-known/genid/eae0157426d067e740a5",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -163,5 +423,6 @@
             },
             "reference": "ALT_BISE_B_BR_56_U_6839"
         }
-    }
+    },
+    "updated": "2026-04-04 03:55:54"
 }

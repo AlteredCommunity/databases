@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_0e776ebc0e30bf2fc909eb8f35728348"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,21 +25,21 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/2ce944c85d3cd2bdc250",
+            "@id": "/.well-known/genid/25a6a6851b664798cb4c",
             "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
             "name": "Bureaucrat",
             "reference": "BUREAUCRAT"
         },
         {
-            "@id": "/.well-known/genid/df1ea8d2067e875b4023",
+            "@id": "/.well-known/genid/ac5531aa329cf2242aad",
             "@type": "CardSubType",
             "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
             "name": "Mage",
             "reference": "MAGE"
         },
         {
-            "@id": "/.well-known/genid/55621f8e74d3261d8c01",
+            "@id": "/.well-known/genid/e25ae1083c45a79b19cb",
             "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
             "name": "Messenger",
@@ -57,7 +56,7 @@
     "elements": {
         "FOREST_POWER": "3",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "{R} []Remove up to 2 counters from target card in play or in Reserve.  When another non-token Character joins your Expeditions — If an opponent's Reserve contains more cards than yours: Target Character other than me gains 1 boost.",
+        "MAIN_EFFECT": "{R} []Remove up to 2 counters from target card in play or in Reserve.  When a non-token Character other than me joins your Expeditions — If an opponent's Reserve contains more cards than yours: Target Character other than me gains 1 boost.",
         "MOUNTAIN_POWER": "5",
         "OCEAN_POWER": "5",
         "RECALL_COST": "4"
@@ -67,6 +66,8 @@
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -81,7 +82,7 @@
     "name": "Qorgan Informant",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_18091",
     "rarity": {
-        "@id": "/.well-known/genid/66c635e92230c08b458d",
+        "@id": "/.well-known/genid/527a3bbbabbd32da2bfe",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -89,6 +90,190 @@
     },
     "reference": "ALT_BISE_B_YZ_53_U_18091",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_YZ_53_U_18091",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/30675ee80ffc7132973dcc0eda2de95a.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/433d5383717412c6b0a8ce3fd9ef00b5.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_5b7d227ded645fa688f2f753aeb72b01",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_beacf345e1aebbee43477559f5dbe84e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_0e776ebc0e30bf2fc909eb8f35728348"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/adf05df896e3801b47ae",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Bürokrat",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/dcae99367b15e4fa9dfe",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Magier",
+                    "reference": "MAGE"
+                },
+                {
+                    "@id": "/.well-known/genid/63a2a0e8db0afe1ff2f2",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+                    "name": "Bote",
+                    "reference": "MESSENGER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Entferne bis zu 2 Zähler von einer Karte deiner Wahl im Spiel oder in der Reserve.  Wenn ein Nicht-Marken-Charakter außer mir selbst sich einer deiner Expeditionen anschließt — Falls die Reserve eines Gegners mehr Karten als deine enthält: Ein Charakter deiner Wahl außer mir selbst erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "5",
+                "RECALL_COST": "4"
+            },
+            "id": "0DDG36049P94TVMWWGSTR87JKT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/30675ee80ffc7132973dcc0eda2de95a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Qorgan-Informantin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_18091",
+            "rarity": {
+                "@id": "/.well-known/genid/137f98de4fd91df4fbce",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_YZ_53_U_18091"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_YZ_53_U_18091",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/30675ee80ffc7132973dcc0eda2de95a.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/433d5383717412c6b0a8ce3fd9ef00b5.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_5b7d227ded645fa688f2f753aeb72b01",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_beacf345e1aebbee43477559f5dbe84e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_0e776ebc0e30bf2fc909eb8f35728348"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/8f33e6a0337a75a58da6",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burócrata",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/dca7c7b35ad39c57e9e8",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mago",
+                    "reference": "MAGE"
+                },
+                {
+                    "@id": "/.well-known/genid/c323b5137943a29c09b0",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+                    "name": "Mensajero",
+                    "reference": "MESSENGER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Retira hasta 2 contadores de una carta objetivo en juego o en reserva.  Cuando un personaje que no sea ficha aparte de mí se incorpore a tus expediciones — Si la reserva de un oponente contiene más cartas que la tuya: Un personaje objetivo aparte de mí gana 1 potenciador.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "5",
+                "RECALL_COST": "4"
+            },
+            "id": "0DDG36049P94TVMWWGSTR87JKT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/30675ee80ffc7132973dcc0eda2de95a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Informante de Qorgan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_18091",
+            "rarity": {
+                "@id": "/.well-known/genid/f334369920082a1e98be",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_YZ_53_U_18091"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_YZ_53_U_18091",
@@ -107,7 +292,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_0e776ebc0e30bf2fc909eb8f35728348"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -117,21 +301,21 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/798e0424259cc439be79",
+                    "@id": "/.well-known/genid/a569405744c21c578c6b",
                     "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
                     "name": "Bureaucrate",
                     "reference": "BUREAUCRAT"
                 },
                 {
-                    "@id": "/.well-known/genid/4f6cd84b10a2b2f5846b",
+                    "@id": "/.well-known/genid/7302d9a602f3cd2e5bc2",
                     "@type": "CardSubType",
                     "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
                     "name": "Mage",
                     "reference": "MAGE"
                 },
                 {
-                    "@id": "/.well-known/genid/bb3c173c9c6b067dcaa8",
+                    "@id": "/.well-known/genid/e2995e015d9472bec060",
                     "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
                     "name": "Émissaire",
@@ -148,7 +332,7 @@
             "elements": {
                 "FOREST_POWER": "3",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "{R} []Retirez jusqu'à 2 compteurs d'une carte ciblée en jeu ou en Réserve.  Lorsqu'un autre Personnage non-jeton rejoint vos Expéditions — Si la Réserve d'un adversaire contient plus de cartes que la vôtre : Un Personnage ciblé autre que moi gagne 1 boost.",
+                "MAIN_EFFECT": "{R} []Retirez jusqu'à 2 compteurs d'une carte ciblée en jeu ou en Réserve.  Lorsqu'un Personnage non-jeton autre que moi rejoint vos Expéditions — Si la Réserve d'un adversaire contient plus de cartes que la vôtre : Un Personnage ciblé autre que moi gagne 1 boost.",
                 "MOUNTAIN_POWER": "5",
                 "OCEAN_POWER": "5",
                 "RECALL_COST": "4"
@@ -158,6 +342,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -172,7 +358,99 @@
             "name": "Indic du Qorgan",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_18091",
             "rarity": {
-                "@id": "/.well-known/genid/d5a735d8ef576b39f5a2",
+                "@id": "/.well-known/genid/9a24b3dd99eadb9088ac",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_YZ_53_U_18091"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_YZ_53_U_18091",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/30675ee80ffc7132973dcc0eda2de95a.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/fr_FR/433d5383717412c6b0a8ce3fd9ef00b5.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_5b7d227ded645fa688f2f753aeb72b01",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_beacf345e1aebbee43477559f5dbe84e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/WEB_0e776ebc0e30bf2fc909eb8f35728348"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/f8b5e82d5008b503a1e2",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burocrate",
+                    "reference": "BUREAUCRAT"
+                },
+                {
+                    "@id": "/.well-known/genid/fd38bf2c56995654a651",
+                    "@type": "CardSubType",
+                    "id": "01HKAGXDF5A4KJW7GVC25YQS3H",
+                    "name": "Mago",
+                    "reference": "MAGE"
+                },
+                {
+                    "@id": "/.well-known/genid/7020ed87053651789ecb",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+                    "name": "Messaggero",
+                    "reference": "MESSENGER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "3",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "{R} []Rimuovi fino a 2 segnalini da una carta bersaglio in gioco o nella Riserva.  Quando un personaggio non pedina eccetto me si unisce alle tue spedizioni — Se la Riserva di un avversario contiene più carte della tua: Un personaggio bersaglio eccetto me ottiene 1 rinforzo.",
+                "MOUNTAIN_POWER": "5",
+                "OCEAN_POWER": "5",
+                "RECALL_COST": "4"
+            },
+            "id": "0DDG36049P94TVMWWGSTR87JKT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_YZ_53/UNIQUE/JPG/en_US/30675ee80ffc7132973dcc0eda2de95a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Informatrice del Qorgan",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_YZ_53_U_18091",
+            "rarity": {
+                "@id": "/.well-known/genid/43efbc0fee8a6336a27b",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -180,5 +458,6 @@
             },
             "reference": "ALT_BISE_B_YZ_53_U_18091"
         }
-    }
+    },
+    "updated": "2026-04-05 13:18:30"
 }

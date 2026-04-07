@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_AX_54_U_2170",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/a388b8c01c8795edb21acd4776cab4f0.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_6e48df53becbacf1bb4a63b98b2bc109"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/cdec1c40470309002ff2",
+            "@id": "/.well-known/genid/88138f995ac6d917b35e",
             "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
             "name": "Engineer",
             "reference": "ENGINEER"
         },
         {
-            "@id": "/.well-known/genid/e0b7bbe07730fd47883c",
+            "@id": "/.well-known/genid/0a792a28e7e8ab613db5",
             "@type": "CardSubType",
             "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
             "name": "Messenger",
@@ -56,8 +55,12 @@
         "RECALL_COST": "3"
     },
     "id": "7FRCQ4766F8N092FQ9CWVY405K",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -72,7 +75,7 @@
     "name": "Aby, Sap Courier",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_2170",
     "rarity": {
-        "@id": "/.well-known/genid/b87c1f8c80dd5a95157b",
+        "@id": "/.well-known/genid/0b1b7b57985ecc6d06e3",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -80,16 +83,16 @@
     },
     "reference": "ALT_BISE_B_AX_54_U_2170",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_AX_54_U_2170",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/a388b8c01c8795edb21acd4776cab4f0.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -98,7 +101,176 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_6e48df53becbacf1bb4a63b98b2bc109"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/974903b0f4df4584f4a6",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingenieur",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/1e1298fbb18a3249e194",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+                    "name": "Bote",
+                    "reference": "MESSENGER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Spähen] {1}.  {H} []Du darfst eine Karte deiner Wahl im Spiel oder in der Reserve [Erweitern].  Wenn ein anderer Charakter sich deinen Expeditionen anschließt — Falls sich mindestens eine Karte in deinem Wahrzeichen-Bereich befindet: Ein Charakter deiner Wahl im Spiel oder in der Reserve erhält 1 Verstärkung.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "7FRCQ4766F8N092FQ9CWVY405K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Aby, Harzlieferantin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_2170",
+            "rarity": {
+                "@id": "/.well-known/genid/8e65f2623451555fe488",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_AX_54_U_2170"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_AX_54_U_2170",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/a388b8c01c8795edb21acd4776cab4f0.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_dcde621b2c4e694c1db0036954f44c0b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_bf32ce54b7b09d5585ab9a5d8e20a965",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_6e48df53becbacf1bb4a63b98b2bc109"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/632ddf6286e16757c524",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingeniero",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/50ce663b9262978db5ac",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+                    "name": "Mensajero",
+                    "reference": "MESSENGER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Explorar] {1}.  {H} []Puedes [Aumentar] una carta objetivo en juego o en reserva.  Cuando otro personaje se incorpore a tus expediciones — Si hay una o más cartas en tus hitos: Un personaje objetivo en juego o en reserva gana 1 potenciador.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "7FRCQ4766F8N092FQ9CWVY405K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Aby, repartidora de savia",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_2170",
+            "rarity": {
+                "@id": "/.well-known/genid/527b8a4d22377bf91153",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_AX_54_U_2170"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_AX_54_U_2170",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/a388b8c01c8795edb21acd4776cab4f0.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_dcde621b2c4e694c1db0036954f44c0b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_bf32ce54b7b09d5585ab9a5d8e20a965",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_6e48df53becbacf1bb4a63b98b2bc109"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -108,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/6557cf2cc630a6f22dc2",
+                    "@id": "/.well-known/genid/3b1814b64bc5c1544354",
                     "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
                     "name": "Ingénieur",
                     "reference": "ENGINEER"
                 },
                 {
-                    "@id": "/.well-known/genid/2d331575ed13aa6e1b07",
+                    "@id": "/.well-known/genid/40e19582e69edd88f388",
                     "@type": "CardSubType",
                     "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
                     "name": "Émissaire",
@@ -141,6 +313,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/a388b8c01c8795edb21acd4776cab4f0.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -155,7 +330,92 @@
             "name": "Aby, Livreuse de Sève",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_2170",
             "rarity": {
-                "@id": "/.well-known/genid/d14f0915415b8156df9e",
+                "@id": "/.well-known/genid/2af1782bedf5e64a6173",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_AX_54_U_2170"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_AX_54_U_2170",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/fr_FR/a388b8c01c8795edb21acd4776cab4f0.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_dcde621b2c4e694c1db0036954f44c0b",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_bf32ce54b7b09d5585ab9a5d8e20a965",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/WEB_6e48df53becbacf1bb4a63b98b2bc109"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/8cea59185155b2b1a175",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingegnere",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/4425b1a54706846c9acc",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+                    "name": "Messaggero",
+                    "reference": "MESSENGER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "1",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[][][Esploratore] {1}.  {H} []Puoi [Accrescere] una carta bersaglio in gioco o nella Riserva.  Quando un altro personaggio si unisce alle tue spedizioni — Se ci sono una o più carte nei tuoi fulcri: Un personaggio bersaglio in gioco o nella Riserva ottiene 1 rinforzo.",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "3"
+            },
+            "id": "7FRCQ4766F8N092FQ9CWVY405K",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_54/UNIQUE/JPG/en_US/526648ad3d49a032a18a0b1c830a0f4d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Aby, Corriera della Linfa",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_54_U_2170",
+            "rarity": {
+                "@id": "/.well-known/genid/fe20588154c39249baae",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -163,5 +423,6 @@
             },
             "reference": "ALT_BISE_B_AX_54_U_2170"
         }
-    }
+    },
+    "updated": "2026-04-04 23:54:58"
 }

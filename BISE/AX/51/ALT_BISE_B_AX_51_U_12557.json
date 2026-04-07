@@ -3,11 +3,11 @@
     "@id": "/cards/ALT_BISE_B_AX_51_U_12557",
     "@type": "Card",
     "allImagePath": {
-        "de-de": null,
+        "de-de": "",
         "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
-        "es-es": null,
+        "es-es": "",
         "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/657bf530357035bcd24da5c437237ed1.jpg",
-        "it-it": null
+        "it-it": ""
     },
     "assets": {
         "WEB": [
@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_cbfccd6d5176aa3bf42775e40340e1a8"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/BISE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/44f8f834f96779583c98",
+            "@id": "/.well-known/genid/c782a52f2a252cc71c0c",
             "@type": "CardSubType",
             "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
             "name": "Engineer",
             "reference": "ENGINEER"
         },
         {
-            "@id": "/.well-known/genid/16141998a642b4d3103d",
+            "@id": "/.well-known/genid/f3b9e05190fcb3f25c9b",
             "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
             "name": "Robot",
@@ -57,8 +56,12 @@
         "RECALL_COST": "4"
     },
     "id": "7PQY5HYRNK9A38K6RM76X0N1DN",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
     "isBanned": false,
     "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -73,7 +76,7 @@
     "name": "Designer Drone",
     "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_12557",
     "rarity": {
-        "@id": "/.well-known/genid/9e368f6dbfeb1bd752a0",
+        "@id": "/.well-known/genid/52f18cfed1ccd23508c1",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -81,16 +84,16 @@
     },
     "reference": "ALT_BISE_B_AX_51_U_12557",
     "translations": {
-        "fr-fr": {
+        "de-de": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_BISE_B_AX_51_U_12557",
             "@type": "Card",
             "allImagePath": {
-                "de-de": null,
+                "de-de": "",
                 "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
-                "es-es": null,
+                "es-es": "",
                 "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/657bf530357035bcd24da5c437237ed1.jpg",
-                "it-it": null
+                "it-it": ""
             },
             "assets": {
                 "WEB": [
@@ -99,7 +102,178 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_cbfccd6d5176aa3bf42775e40340e1a8"
                 ]
             },
-            "cardRulings": [],
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/b2b54af5eac579c8512b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingenieur",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/1407bcecc87424f69c0c",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Roboter",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{I} Wenn ein anderer Charakter sich deinen Expeditionen anschließt — []Ich erhalte 1 Verstärkung, bis maximal 2.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "{R} Du darfst einen Charakter aus deiner Reserve ablegen. Falls du das tust: Bis zu ein Charakter deiner Wahl erhält [[Schlafend]]. Du darfst ihm 2 Verstärkungen geben.  {R} Falls du eine Marke kontrollierst: Erschaffe eine [Ordis-Rekrut 1/1/1]-Soldatenmarke in deiner anderen Expedition (in der ich nicht bin).",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "4"
+            },
+            "id": "7PQY5HYRNK9A38K6RM76X0N1DN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Designer-Drohne",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_12557",
+            "rarity": {
+                "@id": "/.well-known/genid/1cc0a43419e323cddee2",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_AX_51_U_12557"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_AX_51_U_12557",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/657bf530357035bcd24da5c437237ed1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_70b9d2617d7cb71b447301e3fc6791e9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_c6b7c8648fd30b527e1f9bf93e709cc9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_cbfccd6d5176aa3bf42775e40340e1a8"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/cee947f6da0ea3b3d231",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingeniero",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/1d408fb584c41c291bae",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{I} Cuando otro personaje se incorpore a tus expediciones — []Gano 1 potenciador, hasta un máximo de 2.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "{R} Puedes descartar un personaje de tu reserva. Si lo haces: Hasta un personaje objetivo gana [[Sueño]]. Puedes darle 2 potenciadores.  {R} Si controlas una ficha: Crea una ficha de soldado [Recluta de Ordis 1/1/1] en tu otra expedición (en la que no estoy yo).",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "4"
+            },
+            "id": "7PQY5HYRNK9A38K6RM76X0N1DN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Dron de diseño",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_12557",
+            "rarity": {
+                "@id": "/.well-known/genid/709cd1b18987540c44f3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_AX_51_U_12557"
+        },
+        "fr-fr": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_AX_51_U_12557",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/657bf530357035bcd24da5c437237ed1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_70b9d2617d7cb71b447301e3fc6791e9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_c6b7c8648fd30b527e1f9bf93e709cc9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_cbfccd6d5176aa3bf42775e40340e1a8"
+                ]
+            },
             "cardSet": {
                 "@id": "/card_sets/BISE",
                 "@type": "CardSet",
@@ -109,14 +283,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/2b5d0dad5c70ebdaceb4",
+                    "@id": "/.well-known/genid/eec7669f2d35cd513410",
                     "@type": "CardSubType",
                     "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
                     "name": "Ingénieur",
                     "reference": "ENGINEER"
                 },
                 {
-                    "@id": "/.well-known/genid/8e84892c8f4fdd23eb2c",
+                    "@id": "/.well-known/genid/a1f0b78cd72eea44f253",
                     "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
                     "name": "Robot",
@@ -143,6 +317,9 @@
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/657bf530357035bcd24da5c437237ed1.jpg",
             "isBanned": false,
             "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -157,7 +334,93 @@
             "name": "Drone Designer",
             "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_12557",
             "rarity": {
-                "@id": "/.well-known/genid/32b6cae4fee00bf97131",
+                "@id": "/.well-known/genid/b7c90169cc713754ffdf",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_BISE_B_AX_51_U_12557"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_BISE_B_AX_51_U_12557",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
+                "es-es": "",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/fr_FR/657bf530357035bcd24da5c437237ed1.jpg",
+                "it-it": ""
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_70b9d2617d7cb71b447301e3fc6791e9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_c6b7c8648fd30b527e1f9bf93e709cc9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/WEB_cbfccd6d5176aa3bf42775e40340e1a8"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/BISE",
+                "@type": "CardSet",
+                "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+                "name": "Whispers from the Maze",
+                "reference": "BISE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/9598925421a67d18dc46",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+                    "name": "Ingegnere",
+                    "reference": "ENGINEER"
+                },
+                {
+                    "@id": "/.well-known/genid/02c696534033568755f5",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{I} Quando un altro personaggio si unisce alle tue spedizioni — []Ottengo 1 rinforzo, fino a un massimo di 2.",
+                "FOREST_POWER": "1",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "{R} Puoi scartare un personaggio dalla tua Riserva. Se lo fai: Fino a un personaggio bersaglio ottiene [[Dormiente]]. Puoi conferirgli 2 rinforzi.  {R} Se controlli una pedina: Crea una pedina Soldato [Recluta Ordis 1/1/1] nell'altra tua spedizione (quella in cui non sono io).",
+                "MOUNTAIN_POWER": "2",
+                "OCEAN_POWER": "1",
+                "RECALL_COST": "4"
+            },
+            "id": "7PQY5HYRNK9A38K6RM76X0N1DN",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/BISE/CARDS/ALT_BISE_B_AX_51/UNIQUE/JPG/en_US/00ef4fd9fa84b804b204eed4cefcd63e.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/OR",
+                "@type": "Faction",
+                "color": "#0f6593",
+                "id": "01GE7AC9X78DXSNKNB15KCF69X",
+                "name": "Ordis",
+                "reference": "OR"
+            },
+            "name": "Drone Progettista",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_BISE_B_AX_51_U_12557",
+            "rarity": {
+                "@id": "/.well-known/genid/668539e93b99adc310cc",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -165,5 +428,6 @@
             },
             "reference": "ALT_BISE_B_AX_51_U_12557"
         }
-    }
+    },
+    "updated": "2026-04-05 03:44:59"
 }

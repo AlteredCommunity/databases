@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_b4d1091b60e80de4e02a43fbac01437c"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/f5964a3782f5985c5d2f",
+            "@id": "/.well-known/genid/7e1590d7e8e8e105dfd8",
             "@type": "CardSubType",
             "id": "01HKAGPC92CGHANVSRSC8R8ES6",
             "name": "Adventurer",
@@ -40,12 +39,11 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2026-01-21 02:22:55",
     "elements": {
-        "ECHO_EFFECT": "{D} : []The next Character you play from your hand this turn activates its {r} abilities.",
+        "ECHO_EFFECT": "{D} : []The next Character you play from your hand this turn activates its {r} abilities.",
         "FOREST_POWER": "4",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "[][]If I would gain [[]], I gain 1 boost instead.  {R} You may discard a Character from your Reserve. If you do: [].",
+        "MAIN_EFFECT": "[][]If I would gain [[Fleeting]], I gain 1 boost instead.  {R} You may discard a Character from your Reserve. If you do: [Exhausted Resupply].",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "4",
         "RECALL_COST": "4"
@@ -55,6 +53,8 @@
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -69,7 +69,7 @@
     "name": "Gericht, Revered Duelist",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_37_U_3870",
     "rarity": {
-        "@id": "/.well-known/genid/40d3ee1c2ac345229797",
+        "@id": "/.well-known/genid/b8b8c88054241f0c22f3",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -77,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_BR_37_U_3870",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_37_U_3870",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/de_DE/b7138982eb7da862a89d5daddf2ce47d.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/en_US/6c5f78d0726dc678ae6f383b588b24a6.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/es_ES/128f708995a189145ca8f09d9c6db0fa.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/fr_FR/0cf146d8076c333b8cb85420e4d0ae03.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/it_IT/45d41472fbd8848996d458b775c74bcc.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_a477e8714effca6d21e0e4352d77c88c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_3a1fa859f2bc4925d6dfef9e5547b0a1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_b4d1091b60e80de4e02a43fbac01437c"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/01ce1be4c67bbde517dc",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Abenteurer",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Der nächste Charakter, den du in dieser Runde aus deiner Hand spielst, aktiviert seine {r} Fähigkeiten.",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[][]Falls ich [[Vergänglich]] erhalten würde, erhalte ich stattdessen 1 Verstärkung.  {R} Du darfst einen Charakter aus deiner Reserve ablegen. Falls du das tust: [Erschöpfter Nachschub].",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "3S3JNM21GD8G8AH3NX9ES32JXA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/de_DE/b7138982eb7da862a89d5daddf2ce47d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Gericht, verehrter Duellant",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_37_U_3870",
+            "rarity": {
+                "@id": "/.well-known/genid/22cfb539174f69fafb3b",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_37_U_3870"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_37_U_3870",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/de_DE/b7138982eb7da862a89d5daddf2ce47d.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/en_US/6c5f78d0726dc678ae6f383b588b24a6.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/es_ES/128f708995a189145ca8f09d9c6db0fa.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/fr_FR/0cf146d8076c333b8cb85420e4d0ae03.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/it_IT/45d41472fbd8848996d458b775c74bcc.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_a477e8714effca6d21e0e4352d77c88c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_3a1fa859f2bc4925d6dfef9e5547b0a1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_b4d1091b60e80de4e02a43fbac01437c"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/cc3c08a2c4a4230468ca",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Aventurero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []El siguiente personaje que juegues desde tu mano este turno activa sus habilidades {r}.",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[][]Si fuese a ganar [[Fugacidad]], en vez de eso, gano 1 potenciador.  {R} Puedes descartar un personaje de tu reserva. Si lo haces: [Reabastece y agota].",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "3S3JNM21GD8G8AH3NX9ES32JXA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/es_ES/128f708995a189145ca8f09d9c6db0fa.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Gericht, duelista venerado",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_37_U_3870",
+            "rarity": {
+                "@id": "/.well-known/genid/eaff761b7686b59f32c3",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_37_U_3870"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_BR_37_U_3870",
@@ -95,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_b4d1091b60e80de4e02a43fbac01437c"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -105,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/b71c2e9a78b7177d6e66",
+                    "@id": "/.well-known/genid/15ae76c91767838505ab",
                     "@type": "CardSubType",
                     "id": "01HKAGPC92CGHANVSRSC8R8ES6",
                     "name": "Aventurier",
@@ -120,7 +277,7 @@
                 "reference": "CHARACTER"
             },
             "elements": {
-                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez de votre main ce tour-ci active ses capacités {r}.",
+                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez de votre main ce tour-ci active ses capacités {r}.",
                 "FOREST_POWER": "4",
                 "MAIN_COST": "3",
                 "MAIN_EFFECT": "[][]Si je devais gagner [[Fugace]], je gagne 1 boost à la place.  {R} Vous pouvez défausser un Personnage de votre Réserve. Si vous le faites : [Ravitaillez Épuisé].",
@@ -133,6 +290,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -147,7 +306,86 @@
             "name": "Gericht, Bretteur Honoré",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_37_U_3870",
             "rarity": {
-                "@id": "/.well-known/genid/a9584cb623c3a4b31d04",
+                "@id": "/.well-known/genid/eeae2f44cee992eacde2",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_BR_37_U_3870"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_BR_37_U_3870",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/de_DE/b7138982eb7da862a89d5daddf2ce47d.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/en_US/6c5f78d0726dc678ae6f383b588b24a6.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/es_ES/128f708995a189145ca8f09d9c6db0fa.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/fr_FR/0cf146d8076c333b8cb85420e4d0ae03.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/it_IT/45d41472fbd8848996d458b775c74bcc.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_a477e8714effca6d21e0e4352d77c88c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_3a1fa859f2bc4925d6dfef9e5547b0a1",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/WEB_b4d1091b60e80de4e02a43fbac01437c"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/632e0c7d399ef6e90b47",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+                    "name": "Avventuriero",
+                    "reference": "ADVENTURER"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Il prossimo personaggio che giochi dalla tua mano in questo turno attiva le sue abilità {r}.",
+                "FOREST_POWER": "4",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "[][]Se sto per ottenere [[Fugace]], ottengo invece 1 rinforzo.  {R} Puoi scartare un personaggio dalla tua Riserva. Se lo fai: [Rifornisci-Consuma].",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "4"
+            },
+            "id": "3S3JNM21GD8G8AH3NX9ES32JXA",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_BR_37/UNIQUE/JPG/it_IT/45d41472fbd8848996d458b775c74bcc.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/BR",
+                "@type": "Faction",
+                "color": "#c32637",
+                "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+                "name": "Bravos",
+                "reference": "BR"
+            },
+            "name": "Gericht, Stimato Duellante",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_BR_37_U_3870",
+            "rarity": {
+                "@id": "/.well-known/genid/bb46cbafe70ef3871339",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -156,5 +394,5 @@
             "reference": "ALT_ALIZE_B_BR_37_U_3870"
         }
     },
-    "updated": null
+    "updated": "2026-04-07 05:05:21"
 }
