@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_2e86ca1aa12cc4244ba21c29372c890d"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/17c8ad2c6a75bd3a3b7b",
+            "@id": "/.well-known/genid/9ce20d9d2eab7ba18ad1",
             "@type": "CardSubType",
             "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
             "name": "Noble",
             "reference": "NOBLE"
         },
         {
-            "@id": "/.well-known/genid/4c7cd7d3cf6ef9ad9eac",
+            "@id": "/.well-known/genid/c267aab0f8b29a6ad87b",
             "@type": "CardSubType",
             "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
             "name": "Scholar",
@@ -56,9 +55,12 @@
         "RECALL_COST": "5"
     },
     "id": "63J62K7TY386H9DFAZX8SBYD5N",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/en_US/e43fb7cb9a6ceeb536f77b486474464e.jpg",
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -73,7 +75,7 @@
     "name": "Lord Kelvin",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_44_U_10096",
     "rarity": {
-        "@id": "/.well-known/genid/d7b78e7faca06a2a6081",
+        "@id": "/.well-known/genid/07a1cfa40ca3c3ae2a99",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -81,6 +83,176 @@
     },
     "reference": "ALT_ALIZE_B_AX_44_U_10096",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_44_U_10096",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/de_DE/e3f1ec9abec10e2c2f4a894fa12ec4a6.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/en_US/e43fb7cb9a6ceeb536f77b486474464e.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/es_ES/077b7a481c38a96800d5923e40d3977a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/fr_FR/403139ced0a80165f96bac73174f52df.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/it_IT/c4fe90954f2ffb5a77e79573ecbac402.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_46e0a383c8144b5a5d8b3a5f613c70d9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_091c92dbbeebfb9d5bde2f41e2f473db",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_2e86ca1aa12cc4244ba21c29372c890d"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/766bb78f0d7608f7861a",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Adliger",
+                    "reference": "NOBLE"
+                },
+                {
+                    "@id": "/.well-known/genid/f87256a493265269fecb",
+                    "@type": "CardSubType",
+                    "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+                    "name": "Gelehrter",
+                    "reference": "SCHOLAR"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "{J} Du darfst {1} bezahlen. Falls du das tust: Jeder Charakter, den du außer mir selbst kontrollierst, darf seine {j} Fähigkeiten aktivieren.  {J} Falls du mindestens drei Charaktere kontrollierst: Ein Charakter deiner Wahl erhält 2 Verstärkungen.  Wenn ein Charakter, den du kontrollierst, mindestens 1 Verstärkung erhält — Falls deine Reserve leer ist: Du darfst eine Karte deiner Wahl in der Reserve erschöpfen.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "5"
+            },
+            "id": "63J62K7TY386H9DFAZX8SBYD5N",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/de_DE/e3f1ec9abec10e2c2f4a894fa12ec4a6.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Lord Kelvin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_44_U_10096",
+            "rarity": {
+                "@id": "/.well-known/genid/84c186d978284c8a66c1",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_44_U_10096"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_44_U_10096",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/de_DE/e3f1ec9abec10e2c2f4a894fa12ec4a6.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/en_US/e43fb7cb9a6ceeb536f77b486474464e.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/es_ES/077b7a481c38a96800d5923e40d3977a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/fr_FR/403139ced0a80165f96bac73174f52df.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/it_IT/c4fe90954f2ffb5a77e79573ecbac402.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_46e0a383c8144b5a5d8b3a5f613c70d9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_091c92dbbeebfb9d5bde2f41e2f473db",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_2e86ca1aa12cc4244ba21c29372c890d"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/da9a758570c8d5f45f64",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Noble",
+                    "reference": "NOBLE"
+                },
+                {
+                    "@id": "/.well-known/genid/5a0a6ec16f26e4267657",
+                    "@type": "CardSubType",
+                    "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+                    "name": "Erudito",
+                    "reference": "SCHOLAR"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "{J} Puedes pagar {1}. Si lo haces: Cada personaje que controles aparte de mí puede activar sus habilidades {j}.  {J} Si controlas tres personajes o más: Un personaje objetivo gana 2 potenciadores.  Cuando un personaje que controles gane 1 potenciador o más — Si tu reserva está vacía: Puedes agotar una carta objetivo en reserva.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "5"
+            },
+            "id": "63J62K7TY386H9DFAZX8SBYD5N",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/es_ES/077b7a481c38a96800d5923e40d3977a.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Lord Kelvin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_44_U_10096",
+            "rarity": {
+                "@id": "/.well-known/genid/45608ac590a82b735698",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_44_U_10096"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_AX_44_U_10096",
@@ -99,7 +271,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_2e86ca1aa12cc4244ba21c29372c890d"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -109,14 +280,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/9d0bfbf37423018e1fbb",
+                    "@id": "/.well-known/genid/bb658a7c174bec3eb304",
                     "@type": "CardSubType",
                     "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
                     "name": "Noble",
                     "reference": "NOBLE"
                 },
                 {
-                    "@id": "/.well-known/genid/44213995c998b1290d47",
+                    "@id": "/.well-known/genid/dad3483315d3602a2207",
                     "@type": "CardSubType",
                     "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
                     "name": "Érudit",
@@ -143,6 +314,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -157,7 +330,92 @@
             "name": "Lord Kelvin",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_44_U_10096",
             "rarity": {
-                "@id": "/.well-known/genid/2df3d0b8f9cd78bcc148",
+                "@id": "/.well-known/genid/2ad32a4e33e5470adc73",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_44_U_10096"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_44_U_10096",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/de_DE/e3f1ec9abec10e2c2f4a894fa12ec4a6.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/en_US/e43fb7cb9a6ceeb536f77b486474464e.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/es_ES/077b7a481c38a96800d5923e40d3977a.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/fr_FR/403139ced0a80165f96bac73174f52df.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/it_IT/c4fe90954f2ffb5a77e79573ecbac402.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_46e0a383c8144b5a5d8b3a5f613c70d9",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_091c92dbbeebfb9d5bde2f41e2f473db",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/WEB_2e86ca1aa12cc4244ba21c29372c890d"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/cc067fe5bb5df652d88b",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+                    "name": "Nobile",
+                    "reference": "NOBLE"
+                },
+                {
+                    "@id": "/.well-known/genid/f5e1234e6a8be7e500af",
+                    "@type": "CardSubType",
+                    "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+                    "name": "Studioso",
+                    "reference": "SCHOLAR"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "FOREST_POWER": "5",
+                "MAIN_COST": "6",
+                "MAIN_EFFECT": "{J} Puoi pagare {1}. Se lo fai: Ogni personaggio che controlli eccetto me può attivare le sue abilità {j}.  {J} Se controlli tre o più personaggi: Un personaggio bersaglio ottiene 2 rinforzi.  Quando un personaggio che controlli ottiene 1 o più rinforzi — Se la tua Riserva è vuota: Puoi consumare una carta bersaglio nella Riserva.",
+                "MOUNTAIN_POWER": "4",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "5"
+            },
+            "id": "63J62K7TY386H9DFAZX8SBYD5N",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_44/UNIQUE/JPG/it_IT/c4fe90954f2ffb5a77e79573ecbac402.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Lord Kelvin",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_44_U_10096",
+            "rarity": {
+                "@id": "/.well-known/genid/b6445f39d13683ede4cf",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -165,5 +423,6 @@
             },
             "reference": "ALT_ALIZE_B_AX_44_U_10096"
         }
-    }
+    },
+    "updated": "2026-04-08 08:29:32"
 }

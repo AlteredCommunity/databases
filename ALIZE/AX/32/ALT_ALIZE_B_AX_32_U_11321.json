@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/4589255f3d2fcfb9218e",
+            "@id": "/.well-known/genid/6a2941ba753554956501",
             "@type": "CardSubType",
             "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
             "name": "Robot",
@@ -40,18 +39,22 @@
         "name": "Character",
         "reference": "CHARACTER"
     },
-    "created": "2025-06-02 08:00:00",
     "elements": {
-        "ECHO_EFFECT": "{D} : []The next Character you play this turn costs {1} less.",
+        "ECHO_EFFECT": "{D} : []Pay {1} less for the next Character you play this turn.",
         "FOREST_POWER": "2",
         "MAIN_COST": "1",
-        "MAIN_EFFECT": "{H} Unless you control two or more Plants other than me: Send me to Reserve.  {R} If you control one or more Landmarks: Draw a card, otherwise [Resupply].",
+        "MAIN_EFFECT": "{H} Unless you control two or more Plants other than me: Send me to Reserve.  {R} If there's a card in your Landmarks: Draw a card, otherwise [Resupply].",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "3",
         "RECALL_COST": "3"
     },
     "id": "2JPYZ5XF3689FRX9Z08TXQ4EVT",
-    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/JPG/en_EN/82a238abec0aeb38cf8434dd929e8953.jpg",
+    "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/abb1acbb82db842f149d89a79fd14596.jpg",
+    "isBanned": false,
+    "isErrated": false,
+    "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -66,7 +69,7 @@
     "name": "The Machine in the Ice",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_11321",
     "rarity": {
-        "@id": "/rarities/UNIQUE",
+        "@id": "/.well-known/genid/bf8a454e23e2ab73ab05",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -74,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_AX_32_U_11321",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_32_U_11321",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/0236382875f915c913fd7d3b36d336e8.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/abb1acbb82db842f149d89a79fd14596.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/89c04f0572c78a2894bb072f7aa10f54.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/c899208a15c133a321a7ebd90b166aaf.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/eff230c816ed4a26779c30636b3a4489.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_9cb2810aa3a22c03af54da620086f2cf",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_aee6e5c21388d55b2e3e324e45b5328c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/10d189197c47c117f09d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Roboter",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Zahle {1} weniger für den nächsten Charakter, den du in dieser Runde spielst.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "{H} Es sei denn, du kontrollierst mindestens zwei Pflanzen außer mir selbst: Schicke mich in die Reserve.  {R} Falls sich mindestens eine Karte in deinem Wahrzeichen-Bereich befindet: Ziehe eine Karte, andernfalls [Nachschub].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "2JPYZ5XF3689FRX9Z08TXQ4EVT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/0236382875f915c913fd7d3b36d336e8.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Die Maschine im Eis",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_11321",
+            "rarity": {
+                "@id": "/.well-known/genid/9b00c8dbcb84e5cc1569",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_32_U_11321"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_32_U_11321",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/0236382875f915c913fd7d3b36d336e8.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/abb1acbb82db842f149d89a79fd14596.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/89c04f0572c78a2894bb072f7aa10f54.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/c899208a15c133a321a7ebd90b166aaf.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/eff230c816ed4a26779c30636b3a4489.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_9cb2810aa3a22c03af54da620086f2cf",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_aee6e5c21388d55b2e3e324e45b5328c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/90a6a932ed5c151eb4bc",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Paga {1} menos por el siguiente personaje que juegues este turno.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "{H} A menos que controles dos plantas o más aparte de mí: Envíame a la reserva.  {R} Si hay una o más cartas en tus hitos: Roba una carta. De lo contrario, [reabastece].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "2JPYZ5XF3689FRX9Z08TXQ4EVT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/89c04f0572c78a2894bb072f7aa10f54.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "El gigante del hielo",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_11321",
+            "rarity": {
+                "@id": "/.well-known/genid/dda68307a7097090e2a7",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_32_U_11321"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_AX_32_U_11321",
@@ -92,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -102,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/4443dcfacb05236bff61",
+                    "@id": "/.well-known/genid/9fabf4a7d8691a3e3802",
                     "@type": "CardSubType",
                     "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
                     "name": "Robot",
@@ -117,16 +277,21 @@
                 "reference": "CHARACTER"
             },
             "elements": {
-                "ECHO_EFFECT": "{D} : []Le prochain Personnage que vous jouez ce tour coûte {1} de moins.",
+                "ECHO_EFFECT": "{D} : []Payez {1} de moins pour le prochain Personnage que vous jouez ce tour-ci.",
                 "FOREST_POWER": "2",
                 "MAIN_COST": "1",
-                "MAIN_EFFECT": "{H} À moins que vous ne contrôliez au moins deux Plantes autres que moi : Envoyez-moi en Réserve.  {R} Si vous contrôlez au moins un Repère : Piochez une carte. Sinon, [Ravitaillez].",
+                "MAIN_EFFECT": "{H} À moins que vous ne contrôliez au moins deux Plantes autres que moi : Envoyez-moi en Réserve.  {R} S'il y a au moins une carte dans vos Repères : Piochez une carte. Sinon, [Ravitaillez].",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "3",
                 "RECALL_COST": "3"
             },
             "id": "2JPYZ5XF3689FRX9Z08TXQ4EVT",
             "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/c899208a15c133a321a7ebd90b166aaf.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -141,7 +306,86 @@
             "name": "La Machine dans la Glace",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_11321",
             "rarity": {
-                "@id": "/rarities/UNIQUE",
+                "@id": "/.well-known/genid/553beeb244aed8686321",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_AX_32_U_11321"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_AX_32_U_11321",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/de_DE/0236382875f915c913fd7d3b36d336e8.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/en_US/abb1acbb82db842f149d89a79fd14596.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/es_ES/89c04f0572c78a2894bb072f7aa10f54.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/fr_FR/c899208a15c133a321a7ebd90b166aaf.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/eff230c816ed4a26779c30636b3a4489.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_9cb2810aa3a22c03af54da620086f2cf",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_aee6e5c21388d55b2e3e324e45b5328c",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/WEB_deeca5bfb5bf3eb9bd985d02b921c44b"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/2171e4ba12ab83f002db",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+                    "name": "Robot",
+                    "reference": "ROBOT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Paga {1} in meno per il prossimo personaggio che giochi in questo turno.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "1",
+                "MAIN_EFFECT": "{H} A meno che non controlli due o più Piante eccetto me: Mandami nella Riserva.  {R} Se ci sono una o più carte nei tuoi fulcri: Pesca una carta, altrimenti [Rifornisci].",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "3",
+                "RECALL_COST": "3"
+            },
+            "id": "2JPYZ5XF3689FRX9Z08TXQ4EVT",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_AX_32/UNIQUE/JPG/it_IT/eff230c816ed4a26779c30636b3a4489.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Macchina nel Ghiaccio",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_AX_32_U_11321",
+            "rarity": {
+                "@id": "/.well-known/genid/0abcc0a5c44c3a18c4d2",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -150,5 +394,5 @@
             "reference": "ALT_ALIZE_B_AX_32_U_11321"
         }
     },
-    "updated": null
+    "updated": "2026-04-08 03:45:12"
 }

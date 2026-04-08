@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_532d9459fc297f9b2fc67ad06413ff6a"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,7 +25,7 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/7bd5eb32125ae51479b5",
+            "@id": "/.well-known/genid/7e070d8d79fbc897490d",
             "@type": "CardSubType",
             "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
             "name": "Bureaucrat",
@@ -44,7 +43,7 @@
         "ECHO_EFFECT": "{D} : []Each player draws a card.",
         "FOREST_POWER": "2",
         "MAIN_COST": "4",
-        "MAIN_EFFECT": "[]If you have two or more cards in Reserve: Cards other than me cost {1} less to play from Reserve, down to a minimum of {1}.  {H} If there's a card in your Landmarks: Up to one target Character gains [[Asleep]]. You may give it 2 boosts.",
+        "MAIN_EFFECT": "[]If there are two or more cards in your Reserve: Cards other than me cost {1} less to play from Reserve, down to a minimum of {1}.  {H} If there's a card in your Landmarks: Up to one target Character gains [[Asleep]]. You may give it 2 boosts.",
         "MOUNTAIN_POWER": "3",
         "OCEAN_POWER": "2",
         "RECALL_COST": "2"
@@ -54,6 +53,8 @@
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -68,7 +69,7 @@
     "name": "Ebenezer Scrooge",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_OR_37_U_10112",
     "rarity": {
-        "@id": "/.well-known/genid/d21865e81819ef6a8146",
+        "@id": "/.well-known/genid/09b04d12cac3f949ec6a",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -76,6 +77,164 @@
     },
     "reference": "ALT_ALIZE_B_OR_37_U_10112",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_OR_37_U_10112",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/de_DE/c85b8dc0ee24d25485614934b8dffccc.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/en_US/b8c7fe8e951d1f499276efa5735e2231.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/es_ES/579e98258155161a463eeb1bba3fb93d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/fr_FR/f785733af73741f99bed6ca0f5488cab.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/it_IT/b8e3a4d1868f6d67036a853537833b80.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_195d80606dff7c55a70d02777edcf205",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_7bad8dfb0195fa4ecc99da1a2b6d1f3e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_532d9459fc297f9b2fc67ad06413ff6a"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/801415be573b16a3c2d1",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Bürokrat",
+                    "reference": "BUREAUCRAT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Jeder Spieler zieht eine Karte.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[]Falls sich mindestens zwei Karten in deiner Reserve befinden: Karten außer mir selbst kosten {1} weniger, wenn sie aus der Reserve gespielt werden, mindestens aber {1}.  {H} Falls sich mindestens eine Karte in deinem Wahrzeichen-Bereich befindet: Bis zu ein Charakter deiner Wahl erhält [[Schlafend]]. Du darfst ihm 2 Verstärkungen geben.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "2"
+            },
+            "id": "7VM65KHZGC9H18KR66BRC00EJ1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/de_DE/c85b8dc0ee24d25485614934b8dffccc.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Ebenezer Scrooge",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_OR_37_U_10112",
+            "rarity": {
+                "@id": "/.well-known/genid/6204652367490bd1bd97",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_OR_37_U_10112"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_OR_37_U_10112",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/de_DE/c85b8dc0ee24d25485614934b8dffccc.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/en_US/b8c7fe8e951d1f499276efa5735e2231.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/es_ES/579e98258155161a463eeb1bba3fb93d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/fr_FR/f785733af73741f99bed6ca0f5488cab.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/it_IT/b8e3a4d1868f6d67036a853537833b80.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_195d80606dff7c55a70d02777edcf205",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_7bad8dfb0195fa4ecc99da1a2b6d1f3e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_532d9459fc297f9b2fc67ad06413ff6a"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/33f82ec65f24493ae29d",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burócrata",
+                    "reference": "BUREAUCRAT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Cada jugador roba una carta.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[]Si tienes dos o más cartas en reserva: Cuesta {1} menos jugar cartas aparte de mí desde la reserva, hasta un mínimo de {1}.  {H} Si hay una o más cartas en tus hitos: Hasta un personaje objetivo gana [[Sueño]]. Puedes darle 2 potenciadores.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "2"
+            },
+            "id": "7VM65KHZGC9H18KR66BRC00EJ1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/es_ES/579e98258155161a463eeb1bba3fb93d.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Ebenezer Scrooge",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_OR_37_U_10112",
+            "rarity": {
+                "@id": "/.well-known/genid/a2e8774d11dbe158cab8",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_OR_37_U_10112"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_OR_37_U_10112",
@@ -94,7 +253,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_532d9459fc297f9b2fc67ad06413ff6a"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -104,7 +262,7 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/55d12acb6d6340e625f6",
+                    "@id": "/.well-known/genid/b01b6b9e2e366429aea5",
                     "@type": "CardSubType",
                     "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
                     "name": "Bureaucrate",
@@ -122,7 +280,7 @@
                 "ECHO_EFFECT": "{D} : []Chaque joueur pioche une carte.",
                 "FOREST_POWER": "2",
                 "MAIN_COST": "4",
-                "MAIN_EFFECT": "[]Si vous avez au moins deux cartes en Réserve : Les cartes autres que moi coûtent {1} de moins à jouer depuis la Réserve, jusqu'à un minimum de {1}.  {H} S'il y a au moins une carte dans vos Repères : Jusqu'à un Personnage ciblé gagne [[Endormi]]. Vous pouvez lui donner 2 boosts.",
+                "MAIN_EFFECT": "[]S'il y a au moins deux cartes dans votre Réserve : Les cartes autres que moi coûtent {1} de moins à jouer depuis la Réserve, jusqu'à un minimum de {1}.  {H} S'il y a au moins une carte dans vos Repères : Jusqu'à un Personnage ciblé gagne [[Endormi]]. Vous pouvez lui donner 2 boosts.",
                 "MOUNTAIN_POWER": "3",
                 "OCEAN_POWER": "2",
                 "RECALL_COST": "2"
@@ -132,6 +290,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -146,7 +306,86 @@
             "name": "Ebenezer Scrooge",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_OR_37_U_10112",
             "rarity": {
-                "@id": "/.well-known/genid/9e0d66ee89ebad023119",
+                "@id": "/.well-known/genid/d14bbda39109fd94233e",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_OR_37_U_10112"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_OR_37_U_10112",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/de_DE/c85b8dc0ee24d25485614934b8dffccc.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/en_US/b8c7fe8e951d1f499276efa5735e2231.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/es_ES/579e98258155161a463eeb1bba3fb93d.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/fr_FR/f785733af73741f99bed6ca0f5488cab.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/it_IT/b8e3a4d1868f6d67036a853537833b80.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_195d80606dff7c55a70d02777edcf205",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_7bad8dfb0195fa4ecc99da1a2b6d1f3e",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/WEB_532d9459fc297f9b2fc67ad06413ff6a"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/227a831cec9576a471d6",
+                    "@type": "CardSubType",
+                    "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+                    "name": "Burocrate",
+                    "reference": "BUREAUCRAT"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Ogni giocatore pesca una carta.",
+                "FOREST_POWER": "2",
+                "MAIN_COST": "4",
+                "MAIN_EFFECT": "[]Se ci sono due o più carte nella tua Riserva: Tutte le carte eccetto me costano {1} in meno se giocate dalla Riserva, con un costo minimo di {1}.  {H} Se ci sono una o più carte nei tuoi fulcri: Fino a un personaggio bersaglio ottiene [[Dormiente]]. Puoi conferirgli 2 rinforzi.",
+                "MOUNTAIN_POWER": "3",
+                "OCEAN_POWER": "2",
+                "RECALL_COST": "2"
+            },
+            "id": "7VM65KHZGC9H18KR66BRC00EJ1",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_OR_37/UNIQUE/JPG/it_IT/b8e3a4d1868f6d67036a853537833b80.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/MU",
+                "@type": "Faction",
+                "color": "#3d6b42",
+                "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+                "name": "Muna",
+                "reference": "MU"
+            },
+            "name": "Ebenezer Scrooge",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_OR_37_U_10112",
+            "rarity": {
+                "@id": "/.well-known/genid/05ee307a7ccfa620f799",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -154,5 +393,6 @@
             },
             "reference": "ALT_ALIZE_B_OR_37_U_10112"
         }
-    }
+    },
+    "updated": "2026-04-08 00:59:09"
 }
