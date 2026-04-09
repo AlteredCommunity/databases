@@ -16,7 +16,6 @@
             "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c77d6de55d9fd325e292dbf60a3890d4"
         ]
     },
-    "cardRulings": [],
     "cardSet": {
         "@id": "/card_sets/ALIZE",
         "@type": "CardSet",
@@ -26,14 +25,14 @@
     },
     "cardSubTypes": [
         {
-            "@id": "/.well-known/genid/79310a63d2afe40931f3",
+            "@id": "/.well-known/genid/707d646a10766dbf0cee",
             "@type": "CardSubType",
             "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
             "name": "Soldier",
             "reference": "SOLDIER"
         },
         {
-            "@id": "/.well-known/genid/2de397ea42188cbd5475",
+            "@id": "/.well-known/genid/035e904ec0e47fcb5d5c",
             "@type": "CardSubType",
             "id": "01HKAGPAJFS4YDQVKY6AB16614",
             "name": "Deity",
@@ -51,7 +50,7 @@
         "ECHO_EFFECT": "{D} : []You may target a Character other than me, it loses [[Fleeting]].",
         "FOREST_POWER": "0",
         "MAIN_COST": "3",
-        "MAIN_EFFECT": "{J} []You may target a Character or an Expedition Permanent, it switches Expeditions.  {H} If you have two or more cards in Reserve: Target Character gains 1 boost and [[Fleeting]].",
+        "MAIN_EFFECT": "{J} []You may target a Character or an Expedition Permanent, it switches Expeditions.  {H} If there are two or more cards in your Reserve: Target Character gains 1 boost and [[Fleeting]].",
         "MOUNTAIN_POWER": "1",
         "OCEAN_POWER": "4",
         "RECALL_COST": "3"
@@ -61,6 +60,8 @@
     "isBanned": false,
     "isErrated": false,
     "isOwnerless": false,
+    "isParentSerialized": false,
+    "isSerialized": false,
     "isSuspended": false,
     "loreEntries": [],
     "lowerPrice": 0,
@@ -75,7 +76,7 @@
     "name": "Heimdall",
     "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_38_U_19257",
     "rarity": {
-        "@id": "/.well-known/genid/fde8ac22fb15d9a1c4f4",
+        "@id": "/.well-known/genid/dff9c9e7edcdc426c1ab",
         "@type": "Rarity",
         "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
         "name": "Unique",
@@ -83,6 +84,178 @@
     },
     "reference": "ALT_ALIZE_B_LY_38_U_19257",
     "translations": {
+        "de-de": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_LY_38_U_19257",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/de_DE/ffeca3f783fd59858d5c3f3eabfbbc08.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/en_US/917bfa8c48b6b2bfe159cecede8b714b.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/es_ES/0814f0552cd071a06177510c5f425888.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/fr_FR/179ce4b99b877ef57249787cea617438.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/it_IT/aedc1d7a53dc8023d5cb5c49693d00da.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_9207577aa48ea126cc345ac85550d439",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c04651d7f573cb5c152d08eecea4cd0d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c77d6de55d9fd325e292dbf60a3890d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/a2102c1c94557f52c05a",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldat",
+                    "reference": "SOLDIER"
+                },
+                {
+                    "@id": "/.well-known/genid/d78ab914ad888e0a9892",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Gottheit",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Charakter",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Du darfst einen Charakter außer mir selbst wählen, er verliert [[Vergänglich]].",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} []Du darfst einen Charakter oder eine Bleibende Expeditionskarte wählen, er/sie wechselt Expeditionen.  {H} Falls sich mindestens zwei Karten in deiner Reserve befinden: Ein Charakter deiner Wahl erhält 1 Verstärkung und [[Vergänglich]].",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "4AAXTFBFM29FYR08KFQ5CQZ66P",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/de_DE/ffeca3f783fd59858d5c3f3eabfbbc08.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Heimdall",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_38_U_19257",
+            "rarity": {
+                "@id": "/.well-known/genid/1fcda750e2ccb990b048",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_LY_38_U_19257"
+        },
+        "es-es": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_LY_38_U_19257",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/de_DE/ffeca3f783fd59858d5c3f3eabfbbc08.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/en_US/917bfa8c48b6b2bfe159cecede8b714b.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/es_ES/0814f0552cd071a06177510c5f425888.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/fr_FR/179ce4b99b877ef57249787cea617438.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/it_IT/aedc1d7a53dc8023d5cb5c49693d00da.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_9207577aa48ea126cc345ac85550d439",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c04651d7f573cb5c152d08eecea4cd0d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c77d6de55d9fd325e292dbf60a3890d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/14b8336c7f04c9b85343",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldado",
+                    "reference": "SOLDIER"
+                },
+                {
+                    "@id": "/.well-known/genid/e9a1b9879aef5b903962",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Deidad",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaje",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D} : []Puedes hacer objetivo a un personaje aparte de mí. Pierde [[Fugacidad]].",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} []Puedes hacer objetivo a un personaje o a un permanente de expedición. Se traslada de expedición.  {H} Si tienes dos o más cartas en reserva: Un personaje objetivo gana 1 potenciador y [[Fugacidad]].",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "4AAXTFBFM29FYR08KFQ5CQZ66P",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/es_ES/0814f0552cd071a06177510c5f425888.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Heimdall",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_38_U_19257",
+            "rarity": {
+                "@id": "/.well-known/genid/34d4705ca7748631a518",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_LY_38_U_19257"
+        },
         "fr-fr": {
             "@context": "/contexts/Card",
             "@id": "/cards/ALT_ALIZE_B_LY_38_U_19257",
@@ -101,7 +274,6 @@
                     "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c77d6de55d9fd325e292dbf60a3890d4"
                 ]
             },
-            "cardRulings": [],
             "cardSet": {
                 "@id": "/card_sets/ALIZE",
                 "@type": "CardSet",
@@ -111,14 +283,14 @@
             },
             "cardSubTypes": [
                 {
-                    "@id": "/.well-known/genid/c563eee58d2de5de01ee",
+                    "@id": "/.well-known/genid/9a7aa8f1932f72359ed6",
                     "@type": "CardSubType",
                     "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
                     "name": "Soldat",
                     "reference": "SOLDIER"
                 },
                 {
-                    "@id": "/.well-known/genid/1228bdec7152fe866e1a",
+                    "@id": "/.well-known/genid/aae090ab1ae583538f8e",
                     "@type": "CardSubType",
                     "id": "01HKAGPAJFS4YDQVKY6AB16614",
                     "name": "Divinité",
@@ -136,7 +308,7 @@
                 "ECHO_EFFECT": "{D} : []Vous pouvez cibler un Personnage autre que moi. Il perd [[Fugace]].",
                 "FOREST_POWER": "0",
                 "MAIN_COST": "3",
-                "MAIN_EFFECT": "{J} []Vous pouvez cibler un Personnage ou un Permanent d'Expédition. Il change d'Expédition.  {H} Si vous avez au moins deux cartes en Réserve : Un Personnage ciblé gagne 1 boost et [[Fugace]].",
+                "MAIN_EFFECT": "{J} []Vous pouvez cibler un Personnage ou un Permanent d'Expédition. Il change d'Expédition.  {H} S'il y a au moins deux cartes dans votre Réserve : Un Personnage ciblé gagne 1 boost et [[Fugace]].",
                 "MOUNTAIN_POWER": "1",
                 "OCEAN_POWER": "4",
                 "RECALL_COST": "3"
@@ -146,6 +318,8 @@
             "isBanned": false,
             "isErrated": false,
             "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
             "isSuspended": false,
             "loreEntries": [],
             "lowerPrice": 0,
@@ -160,7 +334,93 @@
             "name": "Heimdall",
             "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_38_U_19257",
             "rarity": {
-                "@id": "/.well-known/genid/484f59d548bc6c4ef0db",
+                "@id": "/.well-known/genid/eda940e9abeaa4e4cd1c",
+                "@type": "Rarity",
+                "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
+                "name": "Unique",
+                "reference": "UNIQUE"
+            },
+            "reference": "ALT_ALIZE_B_LY_38_U_19257"
+        },
+        "it-it": {
+            "@context": "/contexts/Card",
+            "@id": "/cards/ALT_ALIZE_B_LY_38_U_19257",
+            "@type": "Card",
+            "allImagePath": {
+                "de-de": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/de_DE/ffeca3f783fd59858d5c3f3eabfbbc08.jpg",
+                "en-us": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/en_US/917bfa8c48b6b2bfe159cecede8b714b.jpg",
+                "es-es": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/es_ES/0814f0552cd071a06177510c5f425888.jpg",
+                "fr-fr": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/fr_FR/179ce4b99b877ef57249787cea617438.jpg",
+                "it-it": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/it_IT/aedc1d7a53dc8023d5cb5c49693d00da.jpg"
+            },
+            "assets": {
+                "WEB": [
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_9207577aa48ea126cc345ac85550d439",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c04651d7f573cb5c152d08eecea4cd0d",
+                    "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/WEB_c77d6de55d9fd325e292dbf60a3890d4"
+                ]
+            },
+            "cardSet": {
+                "@id": "/card_sets/ALIZE",
+                "@type": "CardSet",
+                "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+                "name": "Trial by Frost",
+                "reference": "ALIZE"
+            },
+            "cardSubTypes": [
+                {
+                    "@id": "/.well-known/genid/8167745d0756a3fccab2",
+                    "@type": "CardSubType",
+                    "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+                    "name": "Soldato",
+                    "reference": "SOLDIER"
+                },
+                {
+                    "@id": "/.well-known/genid/3bad3075d2468bee7b09",
+                    "@type": "CardSubType",
+                    "id": "01HKAGPAJFS4YDQVKY6AB16614",
+                    "name": "Divinità",
+                    "reference": "DEITY"
+                }
+            ],
+            "cardType": {
+                "@id": "/card_types/01H19NWA92A4ERAC4ATMSZNASS",
+                "@type": "CardType",
+                "id": "01H19NWA92A4ERAC4ATMSZNASS",
+                "name": "Personaggio",
+                "reference": "CHARACTER"
+            },
+            "elements": {
+                "ECHO_EFFECT": "{D}: []Puoi scegliere come bersaglio un personaggio eccetto me e fargli perdere [[Fugace]].",
+                "FOREST_POWER": "0",
+                "MAIN_COST": "3",
+                "MAIN_EFFECT": "{J} []Puoi scegliere come bersaglio un personaggio o un permanente della spedizione e fargli cambiare spedizione.  {H} Se ci sono due o più carte nella tua Riserva: Un personaggio bersaglio ottiene 1 rinforzo e [[Fugace]].",
+                "MOUNTAIN_POWER": "1",
+                "OCEAN_POWER": "4",
+                "RECALL_COST": "3"
+            },
+            "id": "4AAXTFBFM29FYR08KFQ5CQZ66P",
+            "imagePath": "https://altered-prod-eu.s3.amazonaws.com/Art/ALIZE/CARDS/ALT_ALIZE_B_LY_38/UNIQUE/JPG/it_IT/aedc1d7a53dc8023d5cb5c49693d00da.jpg",
+            "isBanned": false,
+            "isErrated": false,
+            "isOwnerless": false,
+            "isParentSerialized": false,
+            "isSerialized": false,
+            "isSuspended": false,
+            "loreEntries": [],
+            "lowerPrice": 0,
+            "mainFaction": {
+                "@id": "/factions/LY",
+                "@type": "Faction",
+                "color": "#cf4171",
+                "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+                "name": "Lyra",
+                "reference": "LY"
+            },
+            "name": "Heimdall",
+            "qrUrlDetail": "https://qr.altered.gg/ALT_ALIZE_B_LY_38_U_19257",
+            "rarity": {
+                "@id": "/.well-known/genid/933bb986f872a09cadb8",
                 "@type": "Rarity",
                 "id": "01GE7AC9X35JXEQZJBBD6E4BKW",
                 "name": "Unique",
@@ -168,5 +428,6 @@
             },
             "reference": "ALT_ALIZE_B_LY_38_U_19257"
         }
-    }
+    },
+    "updated": "2026-04-09 06:08:49"
 }
